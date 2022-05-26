@@ -49,12 +49,13 @@ const GlobalFooter: NextPage = () => {
   function license(): void {
     open("License Of Agreement", <License1 />);
   }
+
   return (
     <GlobalFooterContainer>
       <BloomingContainer
         accent="#444"
         customStyles={{
-          margin: "5rem auto",
+          margin: "0rem 10rem",
           width: "100%",
           maxWidth: PAGE_MAX_WIDTH,
           position: "relative",
@@ -107,11 +108,11 @@ const GlobalFooter: NextPage = () => {
           <CyberApeRenderer
             size="325px"
             traits={{
-              ape: "Black",
-              head: "Bunny",
-              eyes: "Angry Visor",
-              ears: "Neon Earring",
-              mouth: "Green NT Mask",
+              ape: "Brown",
+              head: "Crown",
+              ears: "Nothing",
+              mouth: "Nothing",
+              eyes: "Rainbow Visor",
             }}
           />
         </CyberApeRendererWrapper>

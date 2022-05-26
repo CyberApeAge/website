@@ -1,5 +1,5 @@
 import { SingleApeData } from "../constants/cyberapeage-data";
-import { CartesianCoords, TokenData } from "../types";
+import { CartesianCoords } from "../types";
 
 export interface SuperModalContextProviderProps {
   children?: React.ReactNode;
@@ -49,7 +49,6 @@ export interface WalletTokensContextData {
   checkTokensAmount: () => void;
   apeAmount: number;
   cyberAmount: number;
-  apes: TokenData[]
 }
 
 export interface WalletProps {

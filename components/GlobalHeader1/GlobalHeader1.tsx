@@ -21,13 +21,12 @@ import {
 import SignatureButton from "../SignatureButton";
 import SuperModalContext from "../../contexts/SuperModal";
 import CyberApeSearch from "../CyberApeSearch";
-import HubComingSoon from "./HubComingSoon";
 import MobileMenuContext from "../../contexts/MobileMenu";
 import Link from "next/link";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import WalletTokensContext from "../../contexts/WalletTokens";
 
-const GlobalHeader: NextPage = () => {
+const GlobalHeader1: NextPage = () => {
   const { open } = useContext(SuperModalContext);
   const { openMobileMenu } = useContext(MobileMenuContext);
   const { apeAmount, cyberAmount } = useContext(WalletTokensContext);
@@ -43,9 +42,7 @@ const GlobalHeader: NextPage = () => {
     open("troop's explorer", <CyberApeSearch />);
   }
 
-  function openHub(): void {
-    open("troop's hub", <HubComingSoon />);
-  }
+
 
   useEffect(() => {
     const handleScroll = (event: any) => {
@@ -64,7 +61,7 @@ const GlobalHeader: NextPage = () => {
       <GlobalHeaderContentWrapper>
         <LeftArea>
           <Logo href="/">
-            CYBERAPEAGE <LogoFlag>BETA</LogoFlag>
+            CYBERAPEAGE
           </Logo>
         </LeftArea>
         <RightArea>
@@ -74,9 +71,7 @@ const GlobalHeader: NextPage = () => {
             </SignatureButton>
           ) : (
             <>
-             <Link href="/troops"> 
-              <MenuItem >Troop&apos;s Hub</MenuItem></Link>
-           
+              <MenuItem >Troop&apos;s Hub</MenuItem>
               <Link href={"/shop"}>
                 <MenuItem>bazar</MenuItem>
               </Link>
@@ -87,7 +82,7 @@ const GlobalHeader: NextPage = () => {
                   <span>{cyberAmount}</span>
                 </TokenBalanceWrapper>
               )}
-              <WalletMultiButton />
+
               <Socials />
             </>
           )}
@@ -97,4 +92,4 @@ const GlobalHeader: NextPage = () => {
   );
 };
 
-export default GlobalHeader;
+export default GlobalHeader1;

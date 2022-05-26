@@ -1,10 +1,6 @@
 import { NextPage } from "next/types";
 import { useEffect, useState, useMemo, useRef } from "react";
 import debounce from "lodash.debounce";
-import throttle from "lodash.throttle";
-import useSWR from "swr";
-import { CyberApe } from "../../types/ape-traits";
-import { fetcher } from "../../utils";
 import CyberApeRenderer from "../CyberApeRenderer";
 import {
   CyberApeSearchContainer,
@@ -22,7 +18,6 @@ import {
   CyberApeSearchResultTraitValue,
   CyberApeSearchWalletApeButton,
   CyberApeSearchWalletApeButtonSkeleton,
-  CyberApeSearchWalletApes,
   CyberApeSearchWalletApesContainer,
   CyberApeSearchWarningTitle,
   CyberSearchInputsContainer,
@@ -30,28 +25,34 @@ import {
 import { ApeData, CyberApeSearchProps } from "./types";
 import RaritySpan from "./RaritySpan";
 import SignatureButton from "../SignatureButton";
-import { publicKey } from "@project-serum/anchor/dist/cjs/utils";
-import axios from "axios";
 import { useWallet } from "@solana/wallet-adapter-react";
 import getWalletNfts from "./getWalletNfts";
 import { PublicKey } from "@solana/web3.js";
-import HorizontalSlider from "../HorizontalSlider";
-import BloomingContainer from "../BloomingContainer";
 import { TokenData } from "../../types";
 
-const CyberApeSearch: NextPage<CyberApeSearchProps> = ({ identifier = null }) => {
+const CyberApeSearch: NextPage<CyberApeSearchProps> = ({
+  identifier = null,
+}) => {
   const { publicKey, connected } = useWallet();
 
   const cyberApeSearchInputRef = useRef<HTMLInputElement>(null);
 
   const [apeData, setApeData] = useState<ApeData | null>(null);
-  const [inputIdentifier, setInputIdentifier] = useState<string>(identifier ? identifier : "");
-  const [currentWalletNFTList, setCurrentWalletNFTList] = useState<TokenData[] | null>(null);
-  const [isLoadingWalletNFTList, setIsLoadingWalletNFTList] = useState<boolean>(false);
+  const [inputIdentifier, setInputIdentifier] = useState<string>(
+    identifier ? identifier : ""
+  );
+  const [currentWalletNFTList, setCurrentWalletNFTList] = useState<
+    TokenData[] | null
+  >(null);
+  const [isLoadingWalletNFTList, setIsLoadingWalletNFTList] =
+    useState<boolean>(false);
   const [isLoadingResult, setIsLoadingResult] = useState<boolean>(false);
   const [errorFetchingNFT, setErrorFetchingNFT] = useState<boolean>(false);
 
-  const debouncedChangeHandler = useMemo(() => debounce(changeHandler, 300), []);
+  const debouncedChangeHandler = useMemo(
+    () => debounce(changeHandler, 300),
+    []
+  );
 
   function changeHandler(event: React.ChangeEvent<HTMLInputElement>) {
     setInputIdentifier(event.target.value);
@@ -98,7 +99,8 @@ const CyberApeSearch: NextPage<CyberApeSearchProps> = ({ identifier = null }) =>
   }, []);
 
   useEffect(() => {
-    if ((!identifier && !inputIdentifier) || !cyberApeSearchInputRef.current) return;
+    if ((!identifier && !inputIdentifier) || !cyberApeSearchInputRef.current)
+      return;
 
     cyberApeSearchInputRef.current.value = inputIdentifier;
 
@@ -184,7 +186,9 @@ const CyberApeSearch: NextPage<CyberApeSearchProps> = ({ identifier = null }) =>
         </CyberApeSearchWarningTitle>
       )}
       {!apeData && !isLoadingResult && (
-        <CyberApeSearchWarningTitle>Search for any Cyber Ape</CyberApeSearchWarningTitle>
+        <CyberApeSearchWarningTitle>
+          Search for any Cyber Ape
+        </CyberApeSearchWarningTitle>
       )}
       {apeData !== undefined && apeData !== null && inputIdentifier && (
         <CyberApeSearchResultContainer>
@@ -213,7 +217,9 @@ const CyberApeSearch: NextPage<CyberApeSearchProps> = ({ identifier = null }) =>
             <CyberApeSearchResultTraitsContainer>
               {Object.keys(apeData.traits).map((traitName: string, index) => (
                 <CyberApeSearchResultTrait key={index}>
-                  <CyberApeSearchResultTraitName>{traitName}</CyberApeSearchResultTraitName>
+                  <CyberApeSearchResultTraitName>
+                    {traitName}
+                  </CyberApeSearchResultTraitName>
                   <CyberApeSearchResultTraitValue>
                     {
                       // @ts-ignore
