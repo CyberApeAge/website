@@ -52,6 +52,7 @@
     "@types/twitter": "^1.7.1",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
+    "react-step-progress-bar": "^1.0.3",
     "typescript": "4.6.2"
   }
 }

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { SectionHeaderContainer, Description, Title } from "./styles";
 import { SectionHeaderProps, SpecialWordsMap } from "./types";
 
-const SectionHeader: NextPage<SectionHeaderProps> = ({ isBigTitle, title, description = "", append = null, ltr }) => {
+const SectionHeader: NextPage<SectionHeaderProps> = ({ isBigTitle, title, description = "" }) => {
   const SPECIAL_WORDS: SpecialWordsMap = {
     discord: {
       link: "https://discord.gg/CYbzZjy",
@@ -33,10 +33,9 @@ const SectionHeader: NextPage<SectionHeaderProps> = ({ isBigTitle, title, descri
   }, []);
 
   return (
-    <SectionHeaderContainer append={append}>
-      <Title ltr={!!ltr} isBigTitle={isBigTitle}>{title}</Title>
+    <SectionHeaderContainer>
+      <Title isBigTitle={isBigTitle}>{title}</Title>
       {description && <Description dangerouslySetInnerHTML={{ __html: descriptionHTML }} />}
-      {append}
     </SectionHeaderContainer>
   );
 };
