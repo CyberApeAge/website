@@ -43,10 +43,7 @@ const DerivativeSection: NextComponentType = () => {
           <DerivativeSectionTextWrapper>
             <h1>SOLANA&apos;S CYBER APES</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
-              luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
-              praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
-              etiam dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.
+            First Play-2-Earn (P2E) with SANDBOX metaverse integration on Solana. Cyber Ape Age is a troop of Apes scattered  around solana, living in a futuristic realm hosted by the SANDBOX metaverse. featuring a deflationary collection of 3333 Cyber Apes. Cyber Apes are composed of traits randomly combined from a pool of 52 unique accessories.
             </p>
           </DerivativeSectionTextWrapper>
           <DerivativeSectionButtonsWrapper>

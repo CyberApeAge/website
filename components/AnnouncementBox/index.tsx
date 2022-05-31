@@ -13,29 +13,29 @@ const TAB_COUNT = 5;
 
 const announcementData = [
   {
-    title: "DAO VOTE ON PRIZE POOL",
+    title: "value to our Cyber Apes",
     subTitle: "FEATURED ANNOUNCEMENT",
-    body: "A vote as taken place on the DAO to find the next move on the...",
+    body: "Fusion Chambers, Staking, Marketplace and the community providing value into our NFTs and $CYBER/$APE",
   },
   {
-    title: "DAO VOTE ON PRIZE POOL",
+    title: "Prizepool",
     subTitle: "ANNOUNCEMENT 2",
-    body: "A vote as taken place on the DAO to find the next move on the...",
+    body: "Following on from our DAO vote, 50% revenue sharing has been combined with the prizepool",
   },
   {
-    title: "DAO VOTE ON PRIZE POOL",
+    title: "First Cyber Ape Burnt",
     subTitle: "ANNOUNCEMENT 3",
-    body: "A vote as taken place on the DAO to find the next move on the...",
+    body: "Officially reducing supply to 3332",
   },
   {
-    title: "DAO VOTE ON PRIZE POOL",
+    title: "NFTs being moved over to the SHDW drive",
     subTitle: "ANNOUNCEMENT 4",
-    body: "A vote as taken place on the DAO to find the next move on the...",
+    body: "A vote will be taken about moving our Cyber Apes to the SHDW drive - created for Solana with Solana labs and the hardest working devs at GG",
   },
   {
-    title: "DAO VOTE ON PRIZE POOL",
-    subTitle: "ANNOUNCEMENT 5",
-    body: "A vote as taken place on the DAO to find the next move on the...",
+    title: "[REDACTED]",
+    subTitle: "ANNOUNCEMENT 3",
+    body: "1841480420100678 129898295706 7897089144 42675584288952 389470826946 0397707402 7911470913 33818940642 7475822 753402324",
   },
 ];
 

@@ -49,15 +49,15 @@ const Home: NextPage<any> = () => {
           <div className="flexdiv">
             <div className="div-item">
               <p>current prize pool</p>
-              <h1>134.5 SOL</h1>
+              <h1>115.5 SOL</h1>
             </div>
             <div className="div-item">
-              <p>next royalties airdrop</p>
-              <h1>05 february</h1>
+              <p>Royalties Contribution</p>
+              <h1>15.5SOL</h1>
             </div>
             <div className="div-item">
               <p>ending of p2e event</p>
-              <h1>22 february</h1>
+              <h1>Paused</h1>
             </div>
           </div>
           <div className="flexdiv">
@@ -69,7 +69,7 @@ const Home: NextPage<any> = () => {
               isContrast
               accent="#5865F2"
             >
-              claim all my $APE (240)
+              claim $APE airdrop (240)
             </SignatureButton>
           </div>
         </div>
@@ -134,8 +134,8 @@ const Home: NextPage<any> = () => {
                 border: "none",
               }}
             >
-              <h2>GENERAL STARTS</h2>
-              <p>last updated 24 january 12:00:00</p>
+              <h2>GENERAL STATS</h2>
+              <p>Last updated 01 June 00:00:00</p>
             </BloomingContainer>
             <BloomingContainer
               accent="#000000"
@@ -145,8 +145,8 @@ const Home: NextPage<any> = () => {
                 border: "none",
               }}
             >
-              <h2>LEADERBOARD FROM P2E EVENT</h2>
-              <p>last updated 24 january 12:00:00</p>
+              <h2>LEADERBOARD FROM MAP 5</h2>
+              <p>Last updated 01 June 00:00:00</p>
             </BloomingContainer>
           </div>
         </ShopItemsWrapper>
@@ -240,10 +240,9 @@ const Home: NextPage<any> = () => {
               </div>
 
               <div className="discord-sec">
-                <h2>WANT MORE STARTS?</h2>
+                <h2>WANT MORE STATS?</h2>
                 <div className="dis-content">
-                  <p> check our discord and leave us feedback on</p>
-                  <p>stats you’d like to see displayed in troop’s hub</p>
+                  <p>Tell us what stats you want to view in our discord server. </p>
                 </div>
                 <SignatureButton
                   onClick={() => {
@@ -269,12 +268,12 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">Millen</p>
+                      <p className="blue-badge">@Milan0o</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>2m 9s</p>
                   </div>
                   <div className="flexitems2">
                     <p>+2 SOL</p>
@@ -291,15 +290,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">Zhxr</p>
+                      <p className="blue-badge">@Zhxrax</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>2m 16s</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+1.5 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -313,15 +312,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">Kiz</p>
+                      <p className="blue-badge">@KizHowarth</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>2m 33s</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+1 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -335,15 +334,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">TomKev</p>
+                      <p className="blue-badge">@tomkev300</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>2m 54s</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+0.5 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -357,15 +356,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">Joshi</p>
+                      <p className="blue-badge">@CryptoJoshi93</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>3m 25s</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+0.5 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -379,15 +378,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">YitakFong</p>
+                      <p className="blue-badge">@YitakFong</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>3m 58s</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+0.5 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -401,15 +400,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">Xummer</p>
+                      <p className="blue-badge">@xummer666</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>4m 17s</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+0.5 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -423,15 +422,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">Packbulver</p>
+                      <p className="blue-badge">@Packbulver</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>4m 40s</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+0.5 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -445,15 +444,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">BigHang</p>
+                      <p className="blue-badge">@BigHang</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>A long time</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+0.5 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -467,15 +466,15 @@ const Home: NextPage<any> = () => {
                     </div>
 
                     <span>
-                      <p className="white-badge">SHAKRIO</p>
-                      <p className="blue-badge">@LOREMSUM</p>
+                      <p className="white-badge">LilianWong</p>
+                      <p className="blue-badge">@LilianWong</p>
                     </span>
                   </div>
                   <div className="flexitems2">
-                    <p>1m22s</p>
+                    <p>A long time</p>
                   </div>
                   <div className="flexitems2">
-                    <p>+2 SOL</p>
+                    <p>+0.5 SOL</p>
                   </div>
                 </div>
                 {/* list item end */}
@@ -489,7 +488,7 @@ const Home: NextPage<any> = () => {
             <div className="header-sec">
               <SectionHeader
                 title="LOOK FOR YOURSELF"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+                description="Keep up with the community on twitter. "
               />
             </div>
             <div className="griditems">

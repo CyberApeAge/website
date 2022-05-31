@@ -8,7 +8,7 @@ export const SHOP_ITEMS: any = [
     token: "ape",
     amount: 0,
   },
-  {
+   /*{
     title: "Beakers Pack",
     code: "beakers",
     type: "consumable",
@@ -16,7 +16,7 @@ export const SHOP_ITEMS: any = [
     price: "1200",
     token: "ape",
     amount: 3,
-  },
+  }, */
   {
     title: "Whitelist 5x",
     code: "WL",

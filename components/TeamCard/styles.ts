@@ -47,6 +47,6 @@ export const TeamExperienceSpan = styled.span`
 
   text-align: center;
 
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
 `;

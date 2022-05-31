@@ -14,7 +14,7 @@ const Socials = () => {
         <TwitterIcon />
       </SocialsAnchor>
       <SocialsAnchor
-        href="https://discord.gg/invite/cyberapeage"
+        href="https://discord.gg/invite/cCcvdG5WFy"
         target="_blank"
         rel="noreferrer"
         hoverColor="#5865F2"
