@@ -114,7 +114,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               icon={<SolanaIcon fill="#ACE9BD" stroke="#ACE9BD" />}
               title="huge earnings for holders"
               accent="#ACE9BD"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+              description="Owning a Cyber Ape grants you the access to the prize pool to earn SOL and $CYBER. To this day we’ve gotten x amount of sol. and x amount of ape.."
               pipeOrigin="right"
             />
             <ResumeItem
