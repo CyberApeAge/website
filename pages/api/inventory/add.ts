@@ -8,10 +8,12 @@ import axios from "axios";
 const ITEM_PRICE: any = {
   booster: 2,
   beakers: 5,
+  WL: 2,
+  Upgrade: 2,
 };
 
 function isOfTypeItem(item: Item): item is Item {
-  let validItems: Item[] = ["booster", "beakers"];
+  let validItems: Item[] = ["booster", "beakers", "WL", "Upgrade"];
   return validItems.includes(item);
 }
 

@@ -29,7 +29,7 @@ export interface ResponseJSON<T> {
   };
 }
 
-export type Item = "booster" | "beakers";
+export type Item = "booster" | "beakers" | "WL" | "Upgrade";
 
 export interface InventoryItemData {
   signature: string;
