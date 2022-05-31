@@ -142,16 +142,6 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
           </ResumeItems>
         </ResumeItemSection>
 
-        /<TestimonialsSection>
-          <SectionHeader
-            title="look for yourself."
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut twitter, purus sit amet luctus venenatis, lectus magna lorem urna, porttitor purus non enim praesent! Lourus sit amet luctus venenatis, lectus magna lorem urna, porttitor purus non enim praesent. Lourus sit amet luctus venenatis, lectus magna lorem urna, porttitor purus non enim praesent. Lourus sit amet luctus venenatis, lectus magna lorem urna, porttitor purus non enim praesent! Purus sit amet luctus venenatis, lectus magna discord urna, porttitor purus non enim praesent."
-          />
-          <HorizontalSlider hasControls>
-            <TestimonialsItems twitterData={twitterData} />
-          </HorizontalSlider>
-        </TestimonialsSection>
-
         <PlayToEarchCTA>
           <main>
             <SectionHeader
