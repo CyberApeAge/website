@@ -222,7 +222,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               <TeamCard
                 experience={10}
                 name="The Community"
-                role="Carrying the project hard on their shoulders, spreading the word"
+                role="Aping into everying, spreading the word and playing our P2E events"
                 traits={{
                   ape: "Blue",
                   head: "Crown",
