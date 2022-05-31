@@ -18,6 +18,15 @@ export const SHOP_ITEMS: any = [
     amount: 3,
   }, */
   {
+    title: "The Juice",
+    code: "Upgrade",
+    type: "consumable",
+    description: "The Juice.",
+    price: "666",
+    token: "ape",
+    amount: 5,
+  },
+  {
     title: "Whitelist 5x",
     code: "WL",
     type: "consumable",

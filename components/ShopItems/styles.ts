@@ -159,3 +159,4 @@ export const ShopItemBuyButton = styled.button<ShopItemBuyButtonProps>`
 export const BoostIconSVG = styled.svg``;
 export const BeakersIconSVG = styled.svg``;
 export const WLIconSVG = styled.svg``;
+export const UpgradeIconSVG = styled.svg``;
