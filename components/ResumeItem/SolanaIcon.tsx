@@ -1,7 +1,7 @@
 import { NextPage } from "next/types";
 import { ResumeIconProps } from "./types";
 
-const SolanaIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
+const SolanaIcon: NextPage<ResumeIconProps> = ({ fill }) => {
   return (
     <svg width={61} height={47} fill="none" xmlns="http://www.w3.org/2000/svg">
       <path

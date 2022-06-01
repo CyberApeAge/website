@@ -5,10 +5,9 @@ import { PAGE_MAX_WIDTH } from "../constants";
 export const HomeContainer = styled.div`
   width: 100%;
   .bttpai button {
-
     border: none !important;
   }
-  
+
   margin: 0 auto;
 
   display: flex;
@@ -19,11 +18,10 @@ export const HomeContainer = styled.div`
     width: 200%;
 
     margin: 0 auto;
-  
+
     display: flex;
     flex-direction: column;
   }
-  
 `;
 
 export const NotFoundContainer = styled.section`
@@ -70,7 +68,6 @@ export const LandingHeroButtonsWrapper = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
- 
 `;
 
 export const LandingHeroSection = styled.section`
@@ -104,7 +101,7 @@ export const RoadmapSection = styled.section`
   gap: 12.5rem;
 `;
 
-export const PlayToEarchCTA = styled.section`
+export const PlayToEarnCTA = styled.section`
   background: url("/thesandbox-map-aroll.gif") center center no-repeat;
   background-size: cover;
 
@@ -161,7 +158,7 @@ export const TeamSection = styled.section`
 export const TeamCardsWrapper = styled(motion.div)`
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
   align-items: stretch;
   gap: 4rem;
 `;

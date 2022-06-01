@@ -9,6 +9,7 @@ const ResumeItem: NextPage<ResumeItemProps> = ({
   accent,
   icon,
   title,
+  borderImageUrl,
   description,
   pipeOrigin,
 }) => {
@@ -24,6 +25,9 @@ const ResumeItem: NextPage<ResumeItemProps> = ({
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
+          border: "20px solid",
+          borderImage: `url(${borderImageUrl})`,
+          borderImageSlice: "20",
         }}
       >
         {icon}
@@ -34,6 +38,10 @@ const ResumeItem: NextPage<ResumeItemProps> = ({
         customStyles={{
           height: "auto",
           padding: "2.5rem",
+          width: "100%",
+          border: "20px solid",
+          borderImage: `url(${borderImageUrl})`,
+          borderImageSlice: "20",
         }}
       >
         <h1>{title}</h1>
