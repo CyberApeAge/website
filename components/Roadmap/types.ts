@@ -2,6 +2,7 @@ export interface RoadmapMilestoneProps {
   title: string;
   description: string;
   date: string;
+  buttonLinkUrl?: string;
 }
 
 export interface RoadmapMilestoneCenterSquareProps {
