@@ -3,8 +3,19 @@ import * as React from "react";
 import { ResumeIconProps } from "./types";
 
 const KeyIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
+  let css: React.CSSProperties = {
+    marginLeft: "20px",
+    marginRight: "20px",
+  };
+
   return (
-    <svg width={33} height={74} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      style={css}
+      height="110"
+      viewBox="0 0 33 74"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         fillRule="evenodd"
         clipRule="evenodd"

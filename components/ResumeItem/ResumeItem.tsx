@@ -20,7 +20,7 @@ const ResumeItem: NextPage<ResumeItemProps> = ({
         customStyles={{
           height: "auto",
           aspectRatio: "1",
-          padding: "0 2.5rem",
+          padding: "0 1rem",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
