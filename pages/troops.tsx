@@ -62,7 +62,7 @@ const Home: NextPage<any> = () => {
           </div>
           <div className="flexdiv">
             <div className="flex1">
-              <p>how can I win $ape</p>AnnoucementBox
+              <p>how can I win $ape</p>AnnouncementBox
             </div>
             <SignatureButton
               onClick={() => console.log("gg")}
@@ -242,7 +242,9 @@ const Home: NextPage<any> = () => {
               <div className="discord-sec">
                 <h2>WANT MORE STATS?</h2>
                 <div className="dis-content">
-                  <p>Tell us what stats you want to view in our discord server. </p>
+                  <p>
+                    Tell us what stats you want to view in our discord server.{" "}
+                  </p>
                 </div>
                 <SignatureButton
                   onClick={() => {

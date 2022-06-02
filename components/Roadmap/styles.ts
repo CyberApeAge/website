@@ -1,5 +1,8 @@
 import styled, { css } from "styled-components";
-import { RoadmapMilestoneCenterSquareProps, RoadmapTimelineProps } from "./types";
+import {
+  RoadmapMilestoneCenterSquareProps,
+  RoadmapTimelineProps,
+} from "./types";
 
 const ATIVATION_PERCENTAGE = "65%";
 
@@ -15,7 +18,11 @@ export const RoadmapContainer = styled.div`
 
   overflow-y: hidden;
 
-  background: linear-gradient(180deg, #fff ${ATIVATION_PERCENTAGE}, #222 ${ATIVATION_PERCENTAGE});
+  background: linear-gradient(
+    180deg,
+    #fff ${ATIVATION_PERCENTAGE},
+    #444 ${ATIVATION_PERCENTAGE}
+  );
 
   background-attachment: fixed;
   background-position: center;
@@ -69,7 +76,7 @@ export const RoadmapMilestoneTitle = styled.h2`
 export const RoadmapMilestoneCenterSquare = styled.div<RoadmapMilestoneCenterSquareProps>`
   width: 10px;
   height: 10px;
-  margin-right:16px;
+  margin-right: -10px;
   background: #222;
 
   transition: all 0.5s ease-in-out;
@@ -90,7 +97,7 @@ export const RoadmapMilestoneCenterSquare = styled.div<RoadmapMilestoneCenterSqu
         position: absolute;
         top: 0;
         left: 0;
-      
+
         width: 100%;
         height: 100%;
         background: white;
