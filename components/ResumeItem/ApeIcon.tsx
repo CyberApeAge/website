@@ -3,7 +3,12 @@ import { ResumeIconProps } from "./types";
 
 const ApeIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
   return (
-    <svg width={60} height={71} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      width="100"
+      viewBox="0 0 60 71"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M24.706 0H22.94v1.764h1.765V0zM15.882 1.764h-1.764V3.53h1.764V1.764zM22.94 1.764h-1.765V3.53h1.765V1.764zM24.706 1.764H22.94V3.53h1.765V1.764z"
         fill={fill}
@@ -523,7 +528,10 @@ const ApeIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
         d="M56.47 26.47h-1.764v1.765h1.764V26.47zM58.234 26.47H56.47v1.765h1.765V26.47z"
         fill={fill}
       />
-      <path d="M60 26.47h-1.765v1.765H60V26.47zM3.53 28.235H1.764V30h1.764v-1.765z" fill={stroke} />
+      <path
+        d="M60 26.47h-1.765v1.765H60V26.47zM3.53 28.235H1.764V30h1.764v-1.765z"
+        fill={stroke}
+      />
       <path d="M5.295 28.235H3.531V30h1.764v-1.765z" fill={fill} />
       <path d="M7.059 28.235H5.294V30H7.06v-1.765z" fill={fill} />
       <path d="M8.824 28.235H7.059V30h1.765v-1.765z" fill={stroke} />
@@ -563,26 +571,47 @@ const ApeIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
         fill={stroke}
       />
       <path d="M7.059 30H5.294v1.765H7.06V30z" fill={fill} />
-      <path d="M8.824 30H7.059v1.765h1.765V30zM10.588 30H8.824v1.765h1.764V30z" fill={fill} />
+      <path
+        d="M8.824 30H7.059v1.765h1.765V30zM10.588 30H8.824v1.765h1.764V30z"
+        fill={fill}
+      />
       <path d="M12.353 30h-1.765v1.765h1.765V30z" fill={stroke} />
       <path d="M14.117 30h-1.765v1.765h1.764V30z" fill={fill} />
       <path d="M15.882 30h-1.764v1.765h1.764V30z" fill={stroke} />
-      <path d="M17.647 30h-1.765v1.765h1.765V30zM19.412 30h-1.765v1.765h1.765V30z" fill={fill} />
+      <path
+        d="M17.647 30h-1.765v1.765h1.765V30zM19.412 30h-1.765v1.765h1.765V30z"
+        fill={fill}
+      />
       <path d="M21.176 30h-1.764v1.765h1.764V30z" fill={stroke} />
       <path d="M22.94 30h-1.765v1.765h1.765V30z" fill={stroke} />
       <path d="M24.706 30H22.94v1.765h1.765V30z" fill={fill} />
-      <path d="M26.47 30h-1.764v1.765h1.765V30zM28.235 30h-1.764v1.765h1.764V30z" fill={stroke} />
+      <path
+        d="M26.47 30h-1.764v1.765h1.765V30zM28.235 30h-1.764v1.765h1.764V30z"
+        fill={stroke}
+      />
       <path d="M30 30h-1.765v1.765H30V30z" fill={fill} />
-      <path d="M31.764 30h-1.765v1.765h1.765V30zM33.528 30h-1.764v1.765h1.764V30z" fill={fill} />
+      <path
+        d="M31.764 30h-1.765v1.765h1.765V30zM33.528 30h-1.764v1.765h1.764V30z"
+        fill={fill}
+      />
       <path d="M35.294 30H33.53v1.765h1.765V30z" fill={stroke} />
       <path
         d="M37.059 30h-1.765v1.765h1.765V30zM38.824 30h-1.765v1.765h1.765V30zM40.59 30h-1.765v1.765h1.764V30z"
         fill={fill}
       />
-      <path d="M42.353 30h-1.765v1.765h1.765V30zM44.118 30h-1.765v1.765h1.765V30z" fill={fill} />
-      <path d="M45.882 30h-1.764v1.765h1.764V30zM47.647 30h-1.765v1.765h1.765V30z" fill={fill} />
+      <path
+        d="M42.353 30h-1.765v1.765h1.765V30zM44.118 30h-1.765v1.765h1.765V30z"
+        fill={fill}
+      />
+      <path
+        d="M45.882 30h-1.764v1.765h1.764V30zM47.647 30h-1.765v1.765h1.765V30z"
+        fill={fill}
+      />
       <path d="M49.412 30h-1.765v1.765h1.765V30z" fill={stroke} />
-      <path d="M51.176 30h-1.764v1.765h1.764V30zM52.941 30h-1.765v1.765h1.765V30z" fill={fill} />
+      <path
+        d="M51.176 30h-1.764v1.765h1.764V30zM52.941 30h-1.765v1.765h1.765V30z"
+        fill={fill}
+      />
       <path d="M54.706 30H52.94v1.765h1.765V30z" fill={fill} />
       <path
         d="M56.47 30h-1.764v1.765h1.765V30zM7.059 31.764H5.294v1.765H7.06v-1.765z"
@@ -966,7 +995,10 @@ const ApeIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
         d="M42.353 56.47h-1.765v1.765h1.765V56.47zM26.47 58.235h-1.764V60h1.765v-1.765z"
         fill={stroke}
       />
-      <path d="M28.235 58.235h-1.764V60h1.764v-1.765zM30 58.235h-1.765V60H30v-1.765z" fill={fill} />
+      <path
+        d="M28.235 58.235h-1.764V60h1.764v-1.765zM30 58.235h-1.765V60H30v-1.765z"
+        fill={fill}
+      />
       <path
         d="M31.764 58.235h-1.765V60h1.765v-1.765zM33.528 58.235h-1.764V60h1.764v-1.765zM35.294 58.235H33.53V60h1.765v-1.765z"
         fill={fill}
@@ -979,7 +1011,10 @@ const ApeIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
         d="M42.353 58.235h-1.765V60h1.765v-1.765zM26.47 60h-1.764v1.764h1.765V60z"
         fill={stroke}
       />
-      <path d="M28.235 60h-1.764v1.764h1.764V60zM30 60h-1.765v1.764H30V60z" fill={fill} />
+      <path
+        d="M28.235 60h-1.764v1.764h1.764V60zM30 60h-1.765v1.764H30V60z"
+        fill={fill}
+      />
       <path
         d="M31.764 60h-1.765v1.764h1.765V60zM33.528 60h-1.764v1.764h1.764V60zM35.294 60H33.53v1.764h1.765V60z"
         fill={fill}
