@@ -14,7 +14,6 @@ import DerivativeSectionContext from "../../contexts/DerivativeSection";
 import SignatureButton from "../SignatureButton";
 import RerollIcon from "./RerollIcon";
 import RefreshButton from "./RefreshButton";
-import ApeExplainer from "../ApeExplainer";
 
 const DerivativeSection: NextComponentType = () => {
   const { currentApeData, rerollCurrentApe } = useContext(
@@ -90,7 +89,8 @@ const DerivativeSection: NextComponentType = () => {
           </DerivativeSectionButtonsWrapper>
         </DerivativeSectionTextColumn>
         <DerivativeSectionApeColumn>
-          <ApeExplainer
+          <CyberApeRenderer
+            size="500px"
             traits={{
               ape: currentApeData.traits.ape,
               eyes: currentApeData.traits.eyes,
