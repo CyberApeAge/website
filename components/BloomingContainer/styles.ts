@@ -2,11 +2,13 @@ import { motion } from "framer-motion";
 import styled, { css } from "styled-components";
 import { BloomingContainerDivProps } from "./types";
 
-export const BloomingContainerDiv = styled.div.attrs<BloomingContainerDivProps>((props) => ({
-  style: {
-    background: props.background,
-  },
-}))<BloomingContainerDivProps>`
+export const BloomingContainerDiv = styled.div.attrs<BloomingContainerDivProps>(
+  (props) => ({
+    style: {
+      background: props.background,
+    },
+  })
+)<BloomingContainerDivProps>`
   position: relative;
 
   display: flex;
