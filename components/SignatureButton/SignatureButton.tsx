@@ -17,8 +17,9 @@ const SignatureButton: NextPage<SignatureButtonProps> = ({
   onClick,
   isContrast,
   accent,
+  backgroundColor,
   children,
-  customStyle
+  customStyle,
 }) => {
   const [isHover, setIsHover] = useState<boolean>(false);
 
@@ -36,19 +37,29 @@ const SignatureButton: NextPage<SignatureButtonProps> = ({
     SignatureButtonContainerEl.addEventListener("mouseleave", setIsHoverFalse);
 
     return () => {
-      SignatureButtonContainerEl.removeEventListener("mouseenter", setIsHoverTrue);
-      SignatureButtonContainerEl.removeEventListener("mouseleave", setIsHoverFalse);
+      SignatureButtonContainerEl.removeEventListener(
+        "mouseenter",
+        setIsHoverTrue
+      );
+      SignatureButtonContainerEl.removeEventListener(
+        "mouseleave",
+        setIsHoverFalse
+      );
     };
   }, []);
 
   return (
-    <SignatureButtonContainer 
-      onClick={onClick} 
+    <SignatureButtonContainer
+      onClick={onClick}
       ref={SignatureButtonContainerRef}
       customStyle={customStyle}
     >
       <MovingBackground isHover={isHover} />
-      {isContrast ? <ContrastBaseBackground /> : <BaseBackground />}
+      {isContrast ? (
+        <ContrastBaseBackground />
+      ) : (
+        <BaseBackground backgroundColor={backgroundColor} />
+      )}
       {isHover && (
         <>
           <Sparks accent={accent} />
@@ -56,8 +67,12 @@ const SignatureButton: NextPage<SignatureButtonProps> = ({
           <ContrastBaseFilledBackground accent={accent} />
         </>
       )}
-      <SignatureButtonContentPlaceholder>{children}</SignatureButtonContentPlaceholder>
-      <SignatureButtonContentWrapper isHover={isHover}>{children}</SignatureButtonContentWrapper>
+      <SignatureButtonContentPlaceholder>
+        {children}
+      </SignatureButtonContentPlaceholder>
+      <SignatureButtonContentWrapper isHover={isHover}>
+        {children}
+      </SignatureButtonContentWrapper>
     </SignatureButtonContainer>
   );
 };
