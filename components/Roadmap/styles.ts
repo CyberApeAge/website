@@ -70,6 +70,7 @@ export const RoadmapMilestoneContainer = styled.div`
 
 export const RoadmapMilestoneTitle = styled.h2`
   text-transform: uppercase;
+  margin-bottom: 15px;
   font-size: 2.25rem;
 `;
 
@@ -119,7 +120,6 @@ export const RoadmapMilestoneCenterSquare = styled.div<RoadmapMilestoneCenterSqu
 `;
 
 export const RoadmapMilestoneDesc = styled.p`
-  text-transform: uppercase;
   font-size: 1.15rem;
   color: white;
   opacity: 0.5;

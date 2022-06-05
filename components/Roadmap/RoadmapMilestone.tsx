@@ -1,11 +1,13 @@
 import { NextPage } from "next";
 import { useRouter } from "next/router";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useContext, useEffect, useMemo, useRef, useState } from "react";
 import styled from "styled-components";
 import { APE_DATA } from "../../constants/cyberapeage-data";
+import SuperModalContext from "../../contexts/SuperModal";
 import { getRandomApeIndex } from "../../utils";
 import BloomingContainer from "../BloomingContainer";
 import CyberApeRenderer from "../CyberApeRenderer";
+import SignatureButton from "../SignatureButton";
 import {
   RoadmapMilestoneCenterSquare,
   RoadmapMilestoneContainer,
@@ -27,44 +29,21 @@ const BodyContainer = styled.div`
 const BottomContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   align-items: flex-end;
 `;
 
-const DetailsButton = styled.div`
-  height: 50px;
-  width: 165px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(
-    45deg,
-    transparent 6%,
-    rgba(255, 255, 255, 0.15) 2% 94%,
-    transparent 95%
-  );
-
-  &:hover {
-    background-image: linear-gradient(
-      45deg,
-      transparent 6%,
-      rgba(255, 255, 255, 0.3) 2% 94%,
-      transparent 95%
-    );
-    cursor: pointer;
-  }
-
-  &:active {
-    position: relative;
-    top: 2px;
-    left: 2px;
-  }
+const ApeContainer = styled.div`
+  position: relative;
+  top: 18px;
 `;
 
 const RoadmapMilestone: NextPage<RoadmapMilestoneProps> = ({
   title,
   description,
   date,
-  buttonLinkUrl,
+  detailsPopup,
+  popupTitle,
 }) => {
   const RANDOM_APE_TRAITS = useMemo(
     () => APE_DATA[getRandomApeIndex()].traits,
@@ -74,18 +53,14 @@ const RoadmapMilestone: NextPage<RoadmapMilestoneProps> = ({
   const RoadmapMilestoneContainerRef = useRef<HTMLDivElement>(null);
 
   const [isAboveMiddle, setIsAboveMiddle] = useState<boolean>(false);
-
+  const { open } = useContext(SuperModalContext);
   const router = useRouter();
 
-  const onClickLockdown = () => {
-    router.push("/cyberlockdown");
-  };
-
-  const onDetailsClick = () => {
-    if (buttonLinkUrl != null && buttonLinkUrl != "") {
-      router.push(buttonLinkUrl);
+  function license(): void {
+    if (popupTitle != null && detailsPopup != null) {
+      open(popupTitle, detailsPopup);
     }
-  };
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -111,20 +86,28 @@ const RoadmapMilestone: NextPage<RoadmapMilestoneProps> = ({
         <RoadmapMilestoneTitle>{title}</RoadmapMilestoneTitle>
         <RoadmapMilestoneDesc>{description}</RoadmapMilestoneDesc>
         <BottomContainer>
-          {buttonLinkUrl != null && buttonLinkUrl != "" && (
-            <DetailsButton onClick={onDetailsClick}>Details</DetailsButton>
+          <ApeContainer>
+            <CyberApeRenderer
+              isLookingRight
+              size="150px"
+              traits={{
+                ape: RANDOM_APE_TRAITS.ape,
+                head: RANDOM_APE_TRAITS.head,
+                ears: RANDOM_APE_TRAITS.ears,
+                eyes: RANDOM_APE_TRAITS.eyes,
+                mouth: RANDOM_APE_TRAITS.mouth,
+              }}
+            />
+          </ApeContainer>
+          {popupTitle != null && detailsPopup != null && (
+            <SignatureButton
+              backgroundColor={"#333"}
+              onClick={license}
+              accent="#111"
+            >
+              DETAILS
+            </SignatureButton>
           )}
-          <CyberApeRenderer
-            isLookingRight
-            size="150px"
-            traits={{
-              ape: RANDOM_APE_TRAITS.ape,
-              head: RANDOM_APE_TRAITS.head,
-              ears: RANDOM_APE_TRAITS.ears,
-              eyes: RANDOM_APE_TRAITS.eyes,
-              mouth: RANDOM_APE_TRAITS.mouth,
-            }}
-          />
         </BottomContainer>
       </BodyContainer>
       <RoadmapMilestoneCenterSquare isAboveMiddle={isAboveMiddle} />
