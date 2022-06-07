@@ -152,9 +152,7 @@ export const TeamSection = styled.section`
   display: flex;
   flex-direction: column;
   max-width: ${PAGE_MAX_WIDTH};
-
   margin: 0 auto 15rem auto;
-
   gap: 7rem;
 `;
 

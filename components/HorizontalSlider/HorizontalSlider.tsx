@@ -21,7 +21,6 @@ const HorizontalSlider: NextPage<HorizontalSliderProps> = ({ hasControls, childr
 
   function slideLeft() {
     const CURRENT_MOTION_VALUE = MOTION_VALUE.get();
-
     if (CURRENT_MOTION_VALUE >= 0) return;
     console.log("Slide to the left");
 

@@ -18,6 +18,7 @@ const SignatureButton: NextPage<SignatureButtonProps> = ({
   isContrast,
   accent,
   children,
+  customStyle
 }) => {
   const [isHover, setIsHover] = useState<boolean>(false);
 
@@ -41,7 +42,11 @@ const SignatureButton: NextPage<SignatureButtonProps> = ({
   }, []);
 
   return (
-    <SignatureButtonContainer onClick={onClick} ref={SignatureButtonContainerRef}>
+    <SignatureButtonContainer 
+      onClick={onClick} 
+      ref={SignatureButtonContainerRef}
+      customStyle={customStyle}
+    >
       <MovingBackground isHover={isHover} />
       {isContrast ? <ContrastBaseBackground /> : <BaseBackground />}
       {isHover && (

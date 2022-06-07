@@ -74,12 +74,12 @@ const GlobalHeader: NextPage = () => {
             </SignatureButton>
           ) : (
             <>
-             <Link href="/troops"> 
-              <MenuItem >Troop&apos;s Hub</MenuItem></Link>
+              <Link href="/troops"> 
+                <MenuItem >Troop&apos;s Hub</MenuItem></Link>
            
               <Link href={"/shop"}>
-                <MenuItem>bazar</MenuItem>
-              </Link>
+                <MenuItem>bazar</MenuItem></Link>
+                
               <MenuItem onClick={openExplorer}>explorer</MenuItem>
               {connected && publicKey && (
                 <TokenBalanceWrapper>

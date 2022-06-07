@@ -1,10 +1,16 @@
 import { CSSProperties } from "react";
+import { CSSObject } from "styled-components";
 
 export interface SignatureButtonProps {
   onClick: () => void;
   isContrast?: boolean;
   accent: CSSProperties["color"];
   children: React.ReactNode;
+  customStyle?: CSSObject;
+}
+
+export interface SignatureButtonContainerProps {
+  customStyle?: CSSObject;
 }
 
 export interface MovingBackgroundProps {

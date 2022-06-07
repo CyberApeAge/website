@@ -4,9 +4,10 @@ import {
   MovingBackgroundContainerProps,
   AccentSparkGroupProps,
   SignatureButtonContentWrapperProps,
+  SignatureButtonContainerProps,
 } from "./types";
 
-export const SignatureButtonContainer = styled.button`
+export const SignatureButtonContainer = styled.button<SignatureButtonContainerProps>`
   width: max-content;
 
   background: none;
@@ -30,6 +31,13 @@ export const SignatureButtonContainer = styled.button`
   font-weight: normal;
 
   cursor: pointer;
+
+  ${({customStyle}) => 
+    customStyle && 
+      css`
+        ${customStyle}
+      `
+  }
 `;
 
 export const SignatureButtonContentPlaceholder = styled.div`
