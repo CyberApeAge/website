@@ -85,7 +85,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
             <SectionHeader
               isBigTitle
               title="JOIN the troop"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel lorem est ullamcorper eget twitter facilisi etiam dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+              description="Developing the future and staging the potential of Web3 gaming by building experiences in the metaverse. We aim to show the potential of Play-2-Earn mechanics on the low-gas fee Solana blockchain, through building highly detailed intricate realms with complex mechanics whilst rewarding Solana (SOL) through our scaling prize pool. Changing the views of investors into Web3 gaming."
             />
             <LandingHeroButtonsWrapper>
               <SignatureButton onClick= {openHub} isContrast accent="#5865F2">
@@ -107,21 +107,22 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
         <ResumeItemSection>
           <SectionHeader
             title="why jump into cyber ape age?"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel lorem est ullamcorper eget discord facilisi etiam dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+            description="Need alpha? Need good art? Want to enjoy web3 with a strong community while growing your portfolio? Whether you are hopping in for an investment or the joy of our community, we have something tailored for everyone."
           />
           <ResumeItems>
             <ResumeItem
               icon={<SolanaIcon fill="#ACE9BD" stroke="#ACE9BD" />}
               title="huge earnings for holders"
               accent="#ACE9BD"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+              description="Owning a Cyber Ape grants you the access to the prize pool to earn SOL and $CYBER. To this day we’ve gotten x amount of sol. and x amount of ape.."
               pipeOrigin="right"
             />
             <ResumeItem
               icon={<ApeIcon fill="#FF9E9E" stroke="#FF8A8A" />}
-              title="cyber lockdown ⬩ ASTRAL BEAKERS"
+              title="CYBER LOCKDOWN ⬩ ASTRAL BEAKERS"
               accent="#FF9E9E"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+              description="Cyber Age metaverse is not an easy place to live in. Apes that want to be highly rewarded take shortcuts and end up in Cyber Lockdown. Juggle life behind bars and earn $CYBER.
+              You should also know that a group of brave Apes once stumbled upon a lake in the astral realm and brought back a strange liquid, take a sip and see its effects on your Cyber Apes. take note it doesn't come cheap"
               pipeOrigin="left"
             />
             <ResumeItem
@@ -141,21 +142,11 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
           </ResumeItems>
         </ResumeItemSection>
 
-        <TestimonialsSection>
-          <SectionHeader
-            title="look for yourself."
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut twitter, purus sit amet luctus venenatis, lectus magna lorem urna, porttitor purus non enim praesent! Lourus sit amet luctus venenatis, lectus magna lorem urna, porttitor purus non enim praesent. Lourus sit amet luctus venenatis, lectus magna lorem urna, porttitor purus non enim praesent. Lourus sit amet luctus venenatis, lectus magna lorem urna, porttitor purus non enim praesent! Purus sit amet luctus venenatis, lectus magna discord urna, porttitor purus non enim praesent."
-          />
-          <HorizontalSlider hasControls>
-            <TestimonialsItems twitterData={twitterData} />
-          </HorizontalSlider>
-        </TestimonialsSection>
-
         <PlayToEarchCTA>
           <main>
             <SectionHeader
               title="play on thesandbox™ metaverse"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+              description="Cyber Ape Age owns land on THESANBOX metaverse. Test your skills in fast paced competitive events to earn SOL. Check troop apos's hub for information about every week's event."
             />
             <div>
               <SignatureButton onClick={() => {}} isContrast accent="#5865F2">
@@ -183,9 +174,9 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
           <HorizontalSlider hasControls>
             <TeamCardsWrapper>
               <TeamCard
-                experience={10}
-                name="Cyber Ape King"
-                role="Co-Founder, Pixel Art Artist"
+                experience={3}
+                name="BR"
+                role="Co-Founder, Project Lead, Creative Lead"
                 traits={{
                   ape: "Brown",
                   head: "Crown",
@@ -195,7 +186,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
                 }}
               />
               <TeamCard
-                experience={10}
+                experience={4}
                 name="Ludic"
                 role="Co-Founder, Game Designer/Voxel Artist"
                 traits={{
@@ -207,7 +198,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
                 }}
               />
               <TeamCard
-                experience={10}
+                experience={2}
                 name="Radical"
                 role="Co-Founder, Pixel Art Artist, Game Designer/Voxel Artist"
                 traits={{
@@ -221,13 +212,13 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               <TeamCard
                 experience={10}
                 name="The Community"
-                role="Co-Founder, Pixel Art Artist"
+                role="Aping into everying, spreading the word and playing our P2E events"
                 traits={{
-                  ape: "Brown",
+                  ape: "Blue",
                   head: "Crown",
                   ears: "Nothing",
                   mouth: "Nothing",
-                  eyes: "Rainbow Visor",
+                  eyes: "Cyclowear",
                 }}
               />
              

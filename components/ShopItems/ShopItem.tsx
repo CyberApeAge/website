@@ -10,6 +10,8 @@ import WalletTokensContext from "../../contexts/WalletTokens";
 import BloomingContainer from "../BloomingContainer";
 import BeakersIcon from "./BeakersIcon";
 import BoostIcon from "./BoostIcon";
+import WLIcon from "./WLIcon";
+import UpgradeIcon from "./UpgradeIcon";
 import { createTransferInstruction } from "./createTransferInstructions";
 import { getOrCreateAssociatedTokenAccount } from "./getOrCreateAssociatedTokenAccount";
 import {
@@ -33,6 +35,8 @@ const ShopItem: NextPage<any> = ({ item }) => {
   const icons: any = {
     beakers: <BeakersIcon />,
     booster: <BoostIcon />,
+    WL: <WLIcon />,
+    Upgrade: <UpgradeIcon />,
   };
 
   function flickerItemAmountSpan() {
