@@ -7,6 +7,7 @@ export interface ResumeItemProps {
   accent: CSSProperties["color"];
   icon: React.ReactNode | null;
   title: string;
+  borderImageUrl: string;
   description: string;
   pipeOrigin: PipeOrigin;
 }

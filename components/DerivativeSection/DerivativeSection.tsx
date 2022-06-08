@@ -16,34 +16,67 @@ import RerollIcon from "./RerollIcon";
 import RefreshButton from "./RefreshButton";
 
 const DerivativeSection: NextComponentType = () => {
-  const { currentApeData, rerollCurrentApe } = useContext(DerivativeSectionContext);
+  const { currentApeData, rerollCurrentApe } = useContext(
+    DerivativeSectionContext
+  );
   const [rerollIconKey, setRerollIconKey] = useState<number>(0);
 
   function viewApeOnMagicEden() {
-    window.open(`https://magiceden.io/item-details/${currentApeData.token}`, "_blank");
+    window.open(
+      `https://magiceden.io/item-details/${currentApeData.token}`,
+      "_blank"
+    );
   }
 
-  useEffect(() => setRerollIconKey(Math.floor(Math.random() * 10)), [currentApeData]);
+  useEffect(
+    () => setRerollIconKey(Math.floor(Math.random() * 10)),
+    [currentApeData]
+  );
 
   return (
     <DerivativeSectionContainer>
       {currentApeData.traits.background === "Binary" && <Backgrounds.Binary />}
-      {currentApeData.traits.background === "Blue Plain" && <Backgrounds.Blue />}
-      {currentApeData.traits.background === "Blue Gradient" && <Backgrounds.BlueGradient />}
-      {currentApeData.traits.background === "Brown Gradient" && <Backgrounds.BrownGradient />}
-      {currentApeData.traits.background === "Purple Gradient" && <Backgrounds.PurpleGradient />}
-      {currentApeData.traits.background === "Red Gradient" && <Backgrounds.RedGradient />}
+      {currentApeData.traits.background === "Blue Plain" && (
+        <Backgrounds.Blue />
+      )}
+      {currentApeData.traits.background === "Blue Gradient" && (
+        <Backgrounds.BlueGradient />
+      )}
+      {currentApeData.traits.background === "Brown Gradient" && (
+        <Backgrounds.BrownGradient />
+      )}
+      {currentApeData.traits.background === "Purple Gradient" && (
+        <Backgrounds.PurpleGradient />
+      )}
+      {currentApeData.traits.background === "Red Gradient" && (
+        <Backgrounds.RedGradient />
+      )}
       {currentApeData.traits.background === "City" && <Backgrounds.City />}
-      {currentApeData.traits.background === "Cream Plain" && <Backgrounds.Cream />}
-      {currentApeData.traits.background === "Cyber Age" && <Backgrounds.CyberAge />}
-      {currentApeData.traits.background === "Psychedelic" && <Backgrounds.Psychedelic />}
-      {currentApeData.traits.background === "Violet Plain" && <Backgrounds.Violet />}
+      {currentApeData.traits.background === "Cream Plain" && (
+        <Backgrounds.Cream />
+      )}
+      {currentApeData.traits.background === "Cyber Age" && (
+        <Backgrounds.CyberAge />
+      )}
+      {currentApeData.traits.background === "Psychedelic" && (
+        <Backgrounds.Psychedelic />
+      )}
+      {currentApeData.traits.background === "Violet Plain" && (
+        <Backgrounds.Violet />
+      )}
       <DerivativeSectionContent>
-        <DerivativeSectionTextColumn currentBackground={currentApeData.traits.background}>
+        <DerivativeSectionTextColumn
+          currentBackground={currentApeData.traits.background}
+        >
           <DerivativeSectionTextWrapper>
             <h1>SOLANA&apos;S CYBER APES</h1>
             <p>
-            First Play-2-Earn (P2E) with SANDBOX metaverse integration on Solana. Cyber Ape Age is a troop of Apes scattered  around solana, living in a futuristic realm hosted by the SANDBOX metaverse. featuring a deflationary collection of 3333 Cyber Apes. Cyber Apes are composed of traits randomly combined from a pool of 52 unique accessories.
+              First Play-2-Earn (P2E) with SANDBOX metaverse integration on
+              Solana. Cyber Ape Age is a troop of Apes scattered around solana,
+              living in a futuristic realm hosted by the SANDBOX metaverse.
+              featuring a deflationary collection of 3333 Cyber Apes. Cyber Apes
+              are composed of traits randomly combined from a pool of 52 unique
+              accessories.
             </p>
           </DerivativeSectionTextWrapper>
           <DerivativeSectionButtonsWrapper>
