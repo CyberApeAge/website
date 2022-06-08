@@ -25,7 +25,7 @@ const Roadmap: NextPage = () => {
       />
       <RoadmapMilestone
         buttonLinkUrl="/"
-        title="?Staking?"
+        title="CYBER LOCKDOWN"
         description="Rolling out regular P2E games in thesandbox metaverse"
         date="PHASE 4"
       />

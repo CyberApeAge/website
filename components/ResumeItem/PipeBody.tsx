@@ -5,8 +5,8 @@ import Color from "color";
 
 const PipeBody: NextPage<PipeBodyProps> = ({ accent }) => {
   const MAIN_COLOR: Color = Color(accent);
-  const SECONDARY_COLOR: Color = Color(accent).lighten(0.1);
-  const TERTIARY_COLOR: Color = Color(accent).lighten(1);
+  const SECONDARY_COLOR: Color = Color(accent).lighten(0.09);
+  const TERTIARY_COLOR: Color = Color(accent).lighten(0.2);
 
   return (
     <svg width={50} height={68} fill="none" xmlns="http://www.w3.org/2000/svg">
