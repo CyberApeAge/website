@@ -5,6 +5,7 @@ export interface SignatureButtonProps {
   onClick: () => void;
   isContrast?: boolean;
   accent: CSSProperties["color"];
+  backgroundColor?: CSSProperties["color"];
   children: React.ReactNode;
   customStyle?: CSSObject;
 }

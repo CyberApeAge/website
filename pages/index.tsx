@@ -1,9 +1,6 @@
 import React, { useContext, useEffect } from "react";
-import Router , {useRouter}  from 'next/router';
 import type { GetServerSidePropsContext, NextPage } from "next";
-import Head from "next/head";
 import GlobalHeader from "../components/GlobalHeader";
-import ComingSoon from "../components/ComingSoon";
 //@ts-ignore
 import cookieCutter from "cookie-cutter";
 import HeroTroop from "../components/HeroTroop";
@@ -12,29 +9,23 @@ import {
   LandingHeroButtonsWrapper,
   LandingHeroSection,
   LandingHeroUpperContent,
-  PlayToEarchCTA,
+  PlayToEarnCTA,
   ResumeItems,
   ResumeItemSection,
   RoadmapSection,
   TeamCardsWrapper,
   TeamSection,
-  TestimonialsSection,
 } from "../styles/Home";
 import ResumeItem from "../components/ResumeItem";
 import SolanaIcon from "../components/ResumeItem/SolanaIcon";
 import SectionHeader from "../components/SectionHeader";
 import MagicEdenIcon from "../components/MagicEdenIcon";
 import SignatureButton from "../components/SignatureButton";
-import CyberApeRenderer from "../components/CyberApeRenderer";
-import useSWR from "swr";
-import { fetcher } from "../utils";
 import CyberApeSearch from "../components/CyberApeSearch";
 import SuperModalContext from "../contexts/SuperModal";
 import DerivativeSection from "../components/DerivativeSection";
-import TestimonialsItems from "../components/TestimonialsItems";
 import GlobalFAQ from "../components/GlobalFAQ";
 import GlobalFooter from "../components/GlobalFooter";
-import Twitter from "twitter";
 import HorizontalSlider from "../components/HorizontalSlider";
 import ApeIcon from "../components/ResumeItem/ApeIcon";
 import KeyIcon from "../components/ResumeItem/KeyIcon";
@@ -44,10 +35,8 @@ import DiscordIcon from "../components/DiscordIcon";
 import TeamCard from "../components/TeamCard";
 import HeadMetadata from "../components/HeadMetadata";
 import { DerivativeSectionContextProvider } from "../contexts/DerivativeSection";
-import PageTopSpacer from "../components/PageTopSpacer";
-import MobileMenuContext from "../contexts/MobileMenu";
 
-import HubComingSoon from "../components/GlobalHeader/HubComingSoon"
+import HubComingSoon from "../components/GlobalHeader/HubComingSoon";
 interface HomeProps {
   twitterData: any;
 }
@@ -58,7 +47,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
   function travelToMarketplace() {
     window.open("https://magiceden.io/marketplace/cyber_ape_age", "_blank");
   }
- function openHub(): void {
+  function openHub(): void {
     open("troop's hub", <HubComingSoon />);
   }
   function checkForApeData() {
@@ -66,14 +55,17 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
     const CYBERAPE_IDENTIFIER = cookieCutter.get(COOKIE_SEARCH_KEY);
 
     if (CYBERAPE_IDENTIFIER) {
-      open("troop's codex", <CyberApeSearch identifier={CYBERAPE_IDENTIFIER} />);
+      open(
+        "troop's codex",
+        <CyberApeSearch identifier={CYBERAPE_IDENTIFIER} />
+      );
       cookieCutter.set(COOKIE_SEARCH_KEY, "", { expires: new Date(0) });
       return;
     }
   }
 
-  useEffect(checkForApeData, []);
- 
+  useEffect(checkForApeData);
+
   return (
     <>
       <HeadMetadata />
@@ -88,7 +80,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               description="Developing the future and staging the potential of Web3 gaming by building experiences in the metaverse. We aim to show the potential of Play-2-Earn mechanics on the low-gas fee Solana blockchain, through building highly detailed intricate realms with complex mechanics whilst rewarding Solana (SOL) through our scaling prize pool. Changing the views of investors into Web3 gaming."
             />
             <LandingHeroButtonsWrapper>
-              <SignatureButton onClick= {openHub} isContrast accent="#5865F2">
+              <SignatureButton onClick={openHub} isContrast accent="#5865F2">
                 troop&apos;s hub
               </SignatureButton>
               <SignatureButton onClick={travelToMarketplace} accent="#E42575">
@@ -111,6 +103,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
           />
           <ResumeItems>
             <ResumeItem
+              borderImageUrl="stair-border-green.svg"
               icon={<SolanaIcon fill="#ACE9BD" stroke="#ACE9BD" />}
               title="huge earnings for holders"
               accent="#ACE9BD"
@@ -118,6 +111,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               pipeOrigin="right"
             />
             <ResumeItem
+              borderImageUrl="stair-border-red.svg"
               icon={<ApeIcon fill="#FF9E9E" stroke="#FF8A8A" />}
               title="CYBER LOCKDOWN ⬩ ASTRAL BEAKERS"
               accent="#FF9E9E"
@@ -126,6 +120,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               pipeOrigin="left"
             />
             <ResumeItem
+              borderImageUrl="stair-border-yellow.svg"
               icon={<KeyIcon fill="#FEFFDB" stroke="#FDFFB2" />}
               title="a key to the REAL metaverse"
               accent="#FDFFB2"
@@ -133,6 +128,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               pipeOrigin="right"
             />
             <ResumeItem
+              borderImageUrl="stair-border-blue.svg"
               icon={<CommunityIcon fill="#92F2FF" stroke="#5DCFFF" />}
               title="hiGH-OCTANE MOTILE COMMUNITY"
               accent="#5DCFFF"
@@ -142,7 +138,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
           </ResumeItems>
         </ResumeItemSection>
 
-        <PlayToEarchCTA>
+        <PlayToEarnCTA>
           <main>
             <SectionHeader
               title="play on thesandbox™ metaverse"
@@ -152,14 +148,18 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               <SignatureButton onClick={() => {}} isContrast accent="#5865F2">
                 troop&apos;s hub
               </SignatureButton>
-              <SignatureButton onClick={() => {window.location.href = "https://discord.gg/cyberapeage";}} accent="#5865F2">
-             
+              <SignatureButton
+                onClick={() => {
+                  window.location.href = "https://discord.gg/cyberapeage";
+                }}
+                accent="#5865F2"
+              >
                 <DiscordIcon fill="rgba(255, 255, 255, 0.35)" />
                 discord server
               </SignatureButton>
             </div>
           </main>
-        </PlayToEarchCTA>
+        </PlayToEarnCTA>
 
         <RoadmapSection>
           <SectionHeader title="what does the future behold?" />
@@ -221,7 +221,6 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
                   eyes: "Cyclowear",
                 }}
               />
-             
             </TeamCardsWrapper>
           </HorizontalSlider>
         </TeamSection>

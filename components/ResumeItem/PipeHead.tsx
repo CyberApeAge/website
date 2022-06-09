@@ -6,8 +6,8 @@ import Color from "color";
 
 const PipeHead: NextPage<PipeHeadProps> = ({ accent, pipeOrigin }) => {
   const MAIN_COLOR: Color = Color(accent);
-  const SECONDARY_COLOR: Color = Color(accent).lighten(0.1);
-  const TERTIARY_COLOR: Color = Color(accent).lighten(1);
+  const SECONDARY_COLOR: Color = Color(accent).lighten(0.09);
+  const TERTIARY_COLOR: Color = Color(accent).lighten(0.2);
 
   return (
     <PipeHeadSVGWrapper pipeOrigin={pipeOrigin}>

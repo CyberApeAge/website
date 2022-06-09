@@ -1,22 +1,27 @@
 import { NextPage } from "next/types";
+import { CSSProperties } from "styled-components";
 import { BaseBackgroundSVG } from "./styles";
 
-const BaseBackground: NextPage = () => {
+export interface BaseBackgroundProps {
+  backgroundColor: CSSProperties["color"];
+}
+//
+const BaseBackground: NextPage<BaseBackgroundProps> = ({ backgroundColor }) => {
   return (
     <BaseBackgroundSVG
       width={203}
       height={48}
       viewBox="0 0 203 48"
       preserveAspectRatio="none"
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M201.5 19.547L186.302 1.5H1.5v29.435L15.179 46.5H201.5V19.547zM14.5 48L0 31.5V0h187l16 19v29H14.5z"
-        fill="#fff"
-        fillOpacity={0.35}
+        d="M 14.5 48 L 0 31.5 V 0 h 187 l 16 19 v 29 H 14.5 z"
+        stroke="#fff"
+        strokeOpacity={0.35}
+        strokeWidth={3}
+        fill={backgroundColor || "#fff"}
+        fillOpacity={backgroundColor != null ? 0.35 : 0}
       />
     </BaseBackgroundSVG>
   );

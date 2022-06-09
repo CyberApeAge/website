@@ -13,7 +13,7 @@ const TAB_COUNT = 5;
 
 const announcementData = [
   {
-    title: "value to our Cyber Apes",
+    title: "Adding value to our Cyber Apes",
     subTitle: "FEATURED ANNOUNCEMENT",
     body: "Fusion Chambers, Staking, Marketplace and the community providing value into our NFTs and $CYBER/$APE",
   },

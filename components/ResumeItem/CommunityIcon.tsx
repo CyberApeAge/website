@@ -4,23 +4,52 @@ import { ResumeIconProps } from "./types";
 
 const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
   return (
-    <svg width="93" height="71" viewBox="0 0 93 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      width="100"
+      viewBox="0 0 93 71"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path d="M73.894 16H75.2587V17.3647H73.894V16Z" fill={stroke} />
       <path d="M80.718 17.3647H82.0827V18.7294H80.718V17.3647Z" fill={stroke} />
-      <path d="M75.2594 17.3647H76.6241V18.7294H75.2594V17.3647Z" fill={stroke} />
+      <path
+        d="M75.2594 17.3647H76.6241V18.7294H75.2594V17.3647Z"
+        fill={stroke}
+      />
       <path d="M73.894 17.3647H75.2587V18.7294H73.894V17.3647Z" fill={stroke} />
       <path d="M80.718 18.7292H82.0827V20.0939H80.718V18.7292Z" fill={stroke} />
-      <path d="M79.3526 18.7292H80.7173V20.0939H79.3526V18.7292Z" fill={stroke} />
-      <path d="M76.6233 18.7292H77.988V20.0939H76.6233V18.7292Z" fill={stroke} />
+      <path
+        d="M79.3526 18.7292H80.7173V20.0939H79.3526V18.7292Z"
+        fill={stroke}
+      />
+      <path
+        d="M76.6233 18.7292H77.988V20.0939H76.6233V18.7292Z"
+        fill={stroke}
+      />
       <path d="M75.2594 18.7292H76.6241V20.0939H75.2594V18.7292Z" fill={fill} />
       <path d="M73.894 18.7292H75.2587V20.0939H73.894V18.7292Z" fill={stroke} />
-      <path d="M72.5293 18.7292H73.894V20.0939H72.5293V18.7292Z" fill={stroke} />
-      <path d="M71.1646 18.7292H72.5293V20.0939H71.1646V18.7292Z" fill={stroke} />
+      <path
+        d="M72.5293 18.7292H73.894V20.0939H72.5293V18.7292Z"
+        fill={stroke}
+      />
+      <path
+        d="M71.1646 18.7292H72.5293V20.0939H71.1646V18.7292Z"
+        fill={stroke}
+      />
       <path d="M69.8 18.7292H71.1647V20.0939H69.8V18.7292Z" fill={stroke} />
-      <path d="M68.4361 18.7292H69.8008V20.0939H68.4361V18.7292Z" fill={stroke} />
-      <path d="M67.0714 18.7292H68.4361V20.0939H67.0714V18.7292Z" fill={stroke} />
+      <path
+        d="M68.4361 18.7292H69.8008V20.0939H68.4361V18.7292Z"
+        fill={stroke}
+      />
+      <path
+        d="M67.0714 18.7292H68.4361V20.0939H67.0714V18.7292Z"
+        fill={stroke}
+      />
       <path d="M65.706 18.7292H67.0707V20.0939H65.706V18.7292Z" fill={stroke} />
-      <path d="M64.3413 18.7292H65.706V20.0939H64.3413V18.7292Z" fill={stroke} />
+      <path
+        d="M64.3413 18.7292H65.706V20.0939H64.3413V18.7292Z"
+        fill={stroke}
+      />
       <path d="M80.718 20.094H82.0827V21.4587H80.718V20.094Z" fill={stroke} />
       <path d="M79.3526 20.094H80.7173V21.4587H79.3526V20.094Z" fill={fill} />
       <path d="M77.9879 20.094H79.3526V21.4587H77.9879V20.094Z" fill={stroke} />
@@ -38,7 +67,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M61.6113 20.094H62.976V21.4587H61.6113V20.094Z" fill={stroke} />
       <path d="M84.812 21.4583H86.1767V22.823H84.812V21.4583Z" fill={stroke} />
       <path d="M83.4473 21.4583H84.812V22.823H83.4473V21.4583Z" fill={stroke} />
-      <path d="M82.0834 21.4583H83.4481V22.823H82.0834V21.4583Z" fill={stroke} />
+      <path
+        d="M82.0834 21.4583H83.4481V22.823H82.0834V21.4583Z"
+        fill={stroke}
+      />
       <path d="M80.718 21.4583H82.0827V22.823H80.718V21.4583Z" fill={stroke} />
       <path d="M79.3526 21.4583H80.7173V22.823H79.3526V21.4583Z" fill={fill} />
       <path d="M77.9879 21.4583H79.3526V22.823H77.9879V21.4583Z" fill={fill} />
@@ -55,7 +87,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M62.9767 21.4583H64.3414V22.823H62.9767V21.4583Z" fill={fill} />
       <path d="M61.6113 21.4583H62.976V22.823H61.6113V21.4583Z" fill={fill} />
       <path d="M60.2473 21.4583H61.612V22.823H60.2473V21.4583Z" fill={stroke} />
-      <path d="M83.4473 22.8237H84.812V24.1884H83.4473V22.8237Z" fill={stroke} />
+      <path
+        d="M83.4473 22.8237H84.812V24.1884H83.4473V22.8237Z"
+        fill={stroke}
+      />
       <path d="M82.0834 22.8237H83.4481V24.1884H82.0834V22.8237Z" fill={fill} />
       <path d="M80.718 22.8237H82.0827V24.1884H80.718V22.8237Z" fill={fill} />
       <path d="M79.3526 22.8237H80.7173V24.1884H79.3526V22.8237Z" fill={fill} />
@@ -73,7 +108,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M62.9767 22.8237H64.3414V24.1884H62.9767V22.8237Z" fill={fill} />
       <path d="M61.6113 22.8237H62.976V24.1884H61.6113V22.8237Z" fill={fill} />
       <path d="M60.2473 22.8237H61.612V24.1884H60.2473V22.8237Z" fill={fill} />
-      <path d="M58.8827 22.8237H60.2474V24.1884H58.8827V22.8237Z" fill={stroke} />
+      <path
+        d="M58.8827 22.8237H60.2474V24.1884H58.8827V22.8237Z"
+        fill={stroke}
+      />
       <path d="M83.4473 24.188H84.812V25.5527H83.4473V24.188Z" fill={stroke} />
       <path d="M82.0834 24.188H83.4481V25.5527H82.0834V24.188Z" fill={stroke} />
       <path d="M80.718 24.188H82.0827V25.5527H80.718V24.188Z" fill={stroke} />
@@ -94,35 +132,74 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M60.2473 24.188H61.612V25.5527H60.2473V24.188Z" fill={fill} />
       <path d="M58.8827 24.188H60.2474V25.5527H58.8827V24.188Z" fill={fill} />
       <path d="M57.518 24.188H58.8827V25.5527H57.518V24.188Z" fill={stroke} />
-      <path d="M88.9052 25.5527H90.2699V26.9174H88.9052V25.5527Z" fill={stroke} />
-      <path d="M87.5413 25.5527H88.906V26.9174H87.5413V25.5527Z" fill={stroke} />
-      <path d="M86.1767 25.5527H87.5414V26.9174H86.1767V25.5527Z" fill={stroke} />
-      <path d="M83.4473 25.5527H84.812V26.9174H83.4473V25.5527Z" fill={stroke} />
+      <path
+        d="M88.9052 25.5527H90.2699V26.9174H88.9052V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M87.5413 25.5527H88.906V26.9174H87.5413V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M86.1767 25.5527H87.5414V26.9174H86.1767V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M83.4473 25.5527H84.812V26.9174H83.4473V25.5527Z"
+        fill={stroke}
+      />
       <path d="M82.0834 25.5527H83.4481V26.9174H82.0834V25.5527Z" fill={fill} />
       <path d="M80.7181 25.5527H82.0828V26.9174H80.7181V25.5527Z" fill={fill} />
       <path d="M79.3526 25.5527H80.7173V26.9174H79.3526V25.5527Z" fill={fill} />
       <path d="M77.988 25.5527H79.3527V26.9174H77.988V25.5527Z" fill={fill} />
       <path d="M76.6232 25.5527H77.9879V26.9174H76.6232V25.5527Z" fill={fill} />
-      <path d="M75.2593 25.5527H76.624V26.9174H75.2593V25.5527Z" fill={stroke} />
+      <path
+        d="M75.2593 25.5527H76.624V26.9174H75.2593V25.5527Z"
+        fill={stroke}
+      />
       <path d="M73.894 25.5527H75.2587V26.9174H73.894V25.5527Z" fill={fill} />
       <path d="M72.5293 25.5527H73.894V26.9174H72.5293V25.5527Z" fill={fill} />
-      <path d="M71.1646 25.5527H72.5293V26.9174H71.1646V25.5527Z" fill={stroke} />
+      <path
+        d="M71.1646 25.5527H72.5293V26.9174H71.1646V25.5527Z"
+        fill={stroke}
+      />
       <path d="M69.8 25.5527H71.1647V26.9174H69.8V25.5527Z" fill={fill} />
       <path d="M68.4361 25.5527H69.8008V26.9174H68.4361V25.5527Z" fill={fill} />
       <path d="M67.0715 25.5527H68.4362V26.9174H67.0715V25.5527Z" fill={fill} />
       <path d="M65.706 25.5527H67.0707V26.9174H65.706V25.5527Z" fill={fill} />
       <path d="M64.3414 25.5527H65.7061V26.9174H64.3414V25.5527Z" fill={fill} />
-      <path d="M62.9766 25.5527H64.3413V26.9174H62.9766V25.5527Z" fill={stroke} />
+      <path
+        d="M62.9766 25.5527H64.3413V26.9174H62.9766V25.5527Z"
+        fill={stroke}
+      />
       <path d="M61.6113 25.5527H62.976V26.9174H61.6113V25.5527Z" fill={fill} />
       <path d="M60.2474 25.5527H61.6121V26.9174H60.2474V25.5527Z" fill={fill} />
       <path d="M58.8826 25.5527H60.2473V26.9174H58.8826V25.5527Z" fill={fill} />
       <path d="M57.518 25.5527H58.8827V26.9174H57.518V25.5527Z" fill={stroke} />
-      <path d="M54.7879 25.5527H56.1526V26.9174H54.7879V25.5527Z" fill={stroke} />
-      <path d="M53.4233 25.5527H54.788V26.9174H53.4233V25.5527Z" fill={stroke} />
-      <path d="M52.0586 25.5527H53.4233V26.9174H52.0586V25.5527Z" fill={stroke} />
-      <path d="M50.6939 25.5527H52.0586V26.9174H50.6939V25.5527Z" fill={stroke} />
-      <path d="M49.3293 25.5527H50.694V26.9174H49.3293V25.5527Z" fill={stroke} />
-      <path d="M90.2706 26.9177H91.6353V28.2824H90.2706V26.9177Z" fill={stroke} />
+      <path
+        d="M54.7879 25.5527H56.1526V26.9174H54.7879V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M53.4233 25.5527H54.788V26.9174H53.4233V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M52.0586 25.5527H53.4233V26.9174H52.0586V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M50.6939 25.5527H52.0586V26.9174H50.6939V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M49.3293 25.5527H50.694V26.9174H49.3293V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M90.2706 26.9177H91.6353V28.2824H90.2706V26.9177Z"
+        fill={stroke}
+      />
       <path d="M88.9052 26.9177H90.2699V28.2824H88.9052V26.9177Z" fill={fill} />
       <path d="M87.5413 26.9177H88.906V28.2824H87.5413V26.9177Z" fill={fill} />
       <path d="M86.1767 26.9177H87.5414V28.2824H86.1767V26.9177Z" fill={fill} />
@@ -135,7 +212,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M76.6233 26.9177H77.988V28.2824H76.6233V26.9177Z" fill={fill} />
       <path d="M75.2594 26.9177H76.6241V28.2824H75.2594V26.9177Z" fill={fill} />
       <path d="M73.894 26.9177H75.2587V28.2824H73.894V26.9177Z" fill={stroke} />
-      <path d="M72.5293 26.9177H73.894V28.2824H72.5293V26.9177Z" fill={stroke} />
+      <path
+        d="M72.5293 26.9177H73.894V28.2824H72.5293V26.9177Z"
+        fill={stroke}
+      />
       <path d="M71.1646 26.9177H72.5293V28.2824H71.1646V26.9177Z" fill={fill} />
       <path d="M69.8 26.9177H71.1647V28.2824H69.8V26.9177Z" fill={fill} />
       <path d="M68.4361 26.9177H69.8008V28.2824H68.4361V26.9177Z" fill={fill} />
@@ -143,17 +223,26 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M65.706 26.9177H67.0707V28.2824H65.706V26.9177Z" fill={fill} />
       <path d="M64.3413 26.9177H65.706V28.2824H64.3413V26.9177Z" fill={fill} />
       <path d="M62.9767 26.9177H64.3414V28.2824H62.9767V26.9177Z" fill={fill} />
-      <path d="M61.6113 26.9177H62.976V28.2824H61.6113V26.9177Z" fill={stroke} />
+      <path
+        d="M61.6113 26.9177H62.976V28.2824H61.6113V26.9177Z"
+        fill={stroke}
+      />
       <path d="M60.2473 26.9177H61.612V28.2824H60.2473V26.9177Z" fill={fill} />
       <path d="M58.8827 26.9177H60.2474V28.2824H58.8827V26.9177Z" fill={fill} />
       <path d="M57.518 26.9177H58.8827V28.2824H57.518V26.9177Z" fill={stroke} />
-      <path d="M56.1526 26.9177H57.5173V28.2824H56.1526V26.9177Z" fill={stroke} />
+      <path
+        d="M56.1526 26.9177H57.5173V28.2824H56.1526V26.9177Z"
+        fill={stroke}
+      />
       <path d="M54.7879 26.9177H56.1526V28.2824H54.7879V26.9177Z" fill={fill} />
       <path d="M53.4233 26.9177H54.788V28.2824H53.4233V26.9177Z" fill={fill} />
       <path d="M52.0586 26.9177H53.4233V28.2824H52.0586V26.9177Z" fill={fill} />
       <path d="M50.694 26.9177H52.0587V28.2824H50.694V26.9177Z" fill={fill} />
       <path d="M49.3293 26.9177H50.694V28.2824H49.3293V26.9177Z" fill={fill} />
-      <path d="M47.9654 26.9177H49.3301V28.2824H47.9654V26.9177Z" fill={stroke} />
+      <path
+        d="M47.9654 26.9177H49.3301V28.2824H47.9654V26.9177Z"
+        fill={stroke}
+      />
       <path d="M91.6353 28.282H93V29.6467H91.6353V28.282Z" fill={stroke} />
       <path d="M90.2706 28.282H91.6353V29.6467H90.2706V28.282Z" fill={stroke} />
       <path d="M88.9052 28.282H90.2699V29.6467H88.9052V28.282Z" fill={stroke} />
@@ -192,7 +281,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M90.2706 29.6475H91.6353V31.0122H90.2706V29.6475Z" fill={fill} />
       <path d="M88.9052 29.6475H90.2699V31.0122H88.9052V29.6475Z" fill={fill} />
       <path d="M87.5413 29.6475H88.906V31.0122H87.5413V29.6475Z" fill={fill} />
-      <path d="M86.1767 29.6475H87.5414V31.0122H86.1767V29.6475Z" fill={stroke} />
+      <path
+        d="M86.1767 29.6475H87.5414V31.0122H86.1767V29.6475Z"
+        fill={stroke}
+      />
       <path d="M84.812 29.6475H86.1767V31.0122H84.812V29.6475Z" fill={stroke} />
       <path d="M83.4473 29.6475H84.812V31.0122H83.4473V29.6475Z" fill={fill} />
       <path d="M82.0834 29.6475H83.4481V31.0122H82.0834V29.6475Z" fill={fill} />
@@ -211,11 +303,17 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 29.6475H65.706V31.0122H64.3413V29.6475Z" fill={fill} />
       <path d="M62.9767 29.6475H64.3414V31.0122H62.9767V29.6475Z" fill={fill} />
       <path d="M61.6113 29.6475H62.976V31.0122H61.6113V29.6475Z" fill={fill} />
-      <path d="M60.2473 29.6475H61.612V31.0122H60.2473V29.6475Z" fill={stroke} />
+      <path
+        d="M60.2473 29.6475H61.612V31.0122H60.2473V29.6475Z"
+        fill={stroke}
+      />
       <path d="M58.8827 29.6475H60.2474V31.0122H58.8827V29.6475Z" fill={fill} />
       <path d="M57.518 29.6475H58.8827V31.0122H57.518V29.6475Z" fill={fill} />
       <path d="M56.1526 29.6475H57.5173V31.0122H56.1526V29.6475Z" fill={fill} />
-      <path d="M54.7879 29.6475H56.1526V31.0122H54.7879V29.6475Z" fill={stroke} />
+      <path
+        d="M54.7879 29.6475H56.1526V31.0122H54.7879V29.6475Z"
+        fill={stroke}
+      />
       <path d="M53.4233 29.6475H54.788V31.0122H53.4233V29.6475Z" fill={fill} />
       <path d="M52.0586 29.6475H53.4233V31.0122H52.0586V29.6475Z" fill={fill} />
       <path d="M50.694 29.6475H52.0587V31.0122H50.694V29.6475Z" fill={fill} />
@@ -259,33 +357,66 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M91.6353 32.3762H93V33.7409H91.6353V32.3762Z" fill={stroke} />
       <path d="M90.2706 32.3762H91.6353V33.7409H90.2706V32.3762Z" fill={fill} />
       <path d="M88.9052 32.3762H90.2699V33.7409H88.9052V32.3762Z" fill={fill} />
-      <path d="M87.5413 32.3762H88.906V33.7409H87.5413V32.3762Z" fill={stroke} />
-      <path d="M86.1767 32.3762H87.5414V33.7409H86.1767V32.3762Z" fill={stroke} />
+      <path
+        d="M87.5413 32.3762H88.906V33.7409H87.5413V32.3762Z"
+        fill={stroke}
+      />
+      <path
+        d="M86.1767 32.3762H87.5414V33.7409H86.1767V32.3762Z"
+        fill={stroke}
+      />
       <path d="M84.812 32.3762H86.1767V33.7409H84.812V32.3762Z" fill={fill} />
-      <path d="M83.4473 32.3762H84.812V33.7409H83.4473V32.3762Z" fill={stroke} />
+      <path
+        d="M83.4473 32.3762H84.812V33.7409H83.4473V32.3762Z"
+        fill={stroke}
+      />
       <path d="M82.0834 32.3762H83.4481V33.7409H82.0834V32.3762Z" fill={fill} />
       <path d="M80.718 32.3762H82.0827V33.7409H80.718V32.3762Z" fill={stroke} />
-      <path d="M79.3526 32.3762H80.7173V33.7409H79.3526V32.3762Z" fill={stroke} />
-      <path d="M77.9879 32.3762H79.3526V33.7409H77.9879V32.3762Z" fill={stroke} />
-      <path d="M76.6233 32.3762H77.988V33.7409H76.6233V32.3762Z" fill={stroke} />
+      <path
+        d="M79.3526 32.3762H80.7173V33.7409H79.3526V32.3762Z"
+        fill={stroke}
+      />
+      <path
+        d="M77.9879 32.3762H79.3526V33.7409H77.9879V32.3762Z"
+        fill={stroke}
+      />
+      <path
+        d="M76.6233 32.3762H77.988V33.7409H76.6233V32.3762Z"
+        fill={stroke}
+      />
       <path d="M75.2594 32.3762H76.6241V33.7409H75.2594V32.3762Z" fill={fill} />
       <path d="M73.894 32.3762H75.2587V33.7409H73.894V32.3762Z" fill={fill} />
       <path d="M72.5293 32.3762H73.894V33.7409H72.5293V32.3762Z" fill={fill} />
       <path d="M71.1646 32.3762H72.5293V33.7409H71.1646V32.3762Z" fill={fill} />
       <path d="M69.8 32.3762H71.1647V33.7409H69.8V32.3762Z" fill={stroke} />
-      <path d="M68.4361 32.3762H69.8008V33.7409H68.4361V32.3762Z" fill={stroke} />
-      <path d="M67.0714 32.3762H68.4361V33.7409H67.0714V32.3762Z" fill={stroke} />
+      <path
+        d="M68.4361 32.3762H69.8008V33.7409H68.4361V32.3762Z"
+        fill={stroke}
+      />
+      <path
+        d="M67.0714 32.3762H68.4361V33.7409H67.0714V32.3762Z"
+        fill={stroke}
+      />
       <path d="M65.706 32.3762H67.0707V33.7409H65.706V32.3762Z" fill={stroke} />
       <path d="M64.3413 32.3762H65.706V33.7409H64.3413V32.3762Z" fill={fill} />
       <path d="M62.9767 32.3762H64.3414V33.7409H62.9767V32.3762Z" fill={fill} />
       <path d="M61.6113 32.3762H62.976V33.7409H61.6113V32.3762Z" fill={fill} />
-      <path d="M60.2473 32.3762H61.612V33.7409H60.2473V32.3762Z" fill={stroke} />
+      <path
+        d="M60.2473 32.3762H61.612V33.7409H60.2473V32.3762Z"
+        fill={stroke}
+      />
       <path d="M58.8827 32.3762H60.2474V33.7409H58.8827V32.3762Z" fill={fill} />
       <path d="M57.518 32.3762H58.8827V33.7409H57.518V32.3762Z" fill={fill} />
-      <path d="M56.1526 32.3762H57.5173V33.7409H56.1526V32.3762Z" fill={stroke} />
+      <path
+        d="M56.1526 32.3762H57.5173V33.7409H56.1526V32.3762Z"
+        fill={stroke}
+      />
       <path d="M54.7879 32.3762H56.1526V33.7409H54.7879V32.3762Z" fill={fill} />
       <path d="M53.4233 32.3762H54.788V33.7409H53.4233V32.3762Z" fill={fill} />
-      <path d="M52.0586 32.3762H53.4233V33.7409H52.0586V32.3762Z" fill={stroke} />
+      <path
+        d="M52.0586 32.3762H53.4233V33.7409H52.0586V32.3762Z"
+        fill={stroke}
+      />
       <path d="M50.694 32.3762H52.0587V33.7409H50.694V32.3762Z" fill={stroke} />
       <path d="M49.3293 32.3762H50.694V33.7409H49.3293V32.3762Z" fill={fill} />
       <path d="M47.9654 32.3762H49.3301V33.7409H47.9654V32.3762Z" fill={fill} />
@@ -294,34 +425,70 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M90.2706 33.7417H91.6353V35.1064H90.2706V33.7417Z" fill={fill} />
       <path d="M88.9052 33.7417H90.2699V35.1064H88.9052V33.7417Z" fill={fill} />
       <path d="M87.5413 33.7417H88.906V35.1064H87.5413V33.7417Z" fill={fill} />
-      <path d="M86.1767 33.7417H87.5414V35.1064H86.1767V33.7417Z" fill={stroke} />
+      <path
+        d="M86.1767 33.7417H87.5414V35.1064H86.1767V33.7417Z"
+        fill={stroke}
+      />
       <path d="M84.812 33.7417H86.1767V35.1064H84.812V33.7417Z" fill={stroke} />
-      <path d="M83.4473 33.7417H84.812V35.1064H83.4473V33.7417Z" fill={stroke} />
-      <path d="M82.0834 33.7417H83.4481V35.1064H82.0834V33.7417Z" fill={stroke} />
+      <path
+        d="M83.4473 33.7417H84.812V35.1064H83.4473V33.7417Z"
+        fill={stroke}
+      />
+      <path
+        d="M82.0834 33.7417H83.4481V35.1064H82.0834V33.7417Z"
+        fill={stroke}
+      />
       <path d="M80.718 33.7417H82.0827V35.1064H80.718V33.7417Z" fill={fill} />
-      <path d="M79.3526 33.7417H80.7173V35.1064H79.3526V33.7417Z" fill={stroke} />
-      <path d="M77.9879 33.7417H79.3526V35.1064H77.9879V33.7417Z" fill={stroke} />
+      <path
+        d="M79.3526 33.7417H80.7173V35.1064H79.3526V33.7417Z"
+        fill={stroke}
+      />
+      <path
+        d="M77.9879 33.7417H79.3526V35.1064H77.9879V33.7417Z"
+        fill={stroke}
+      />
       <path d="M76.6233 33.7417H77.988V35.1064H76.6233V33.7417Z" fill={fill} />
       <path d="M75.2594 33.7417H76.6241V35.1064H75.2594V33.7417Z" fill={fill} />
       <path d="M73.894 33.7417H75.2587V35.1064H73.894V33.7417Z" fill={fill} />
       <path d="M72.5293 33.7417H73.894V35.1064H72.5293V33.7417Z" fill={fill} />
       <path d="M71.1646 33.7417H72.5293V35.1064H71.1646V33.7417Z" fill={fill} />
       <path d="M69.8 33.7417H71.1647V35.1064H69.8V33.7417Z" fill={fill} />
-      <path d="M68.4361 33.7417H69.8008V35.1064H68.4361V33.7417Z" fill={stroke} />
-      <path d="M67.0714 33.7417H68.4361V35.1064H67.0714V33.7417Z" fill={stroke} />
+      <path
+        d="M68.4361 33.7417H69.8008V35.1064H68.4361V33.7417Z"
+        fill={stroke}
+      />
+      <path
+        d="M67.0714 33.7417H68.4361V35.1064H67.0714V33.7417Z"
+        fill={stroke}
+      />
       <path d="M65.706 33.7417H67.0707V35.1064H65.706V33.7417Z" fill={fill} />
-      <path d="M64.3413 33.7417H65.706V35.1064H64.3413V33.7417Z" fill={stroke} />
+      <path
+        d="M64.3413 33.7417H65.706V35.1064H64.3413V33.7417Z"
+        fill={stroke}
+      />
       <path d="M62.9767 33.7417H64.3414V35.1064H62.9767V33.7417Z" fill={fill} />
       <path d="M61.6113 33.7417H62.976V35.1064H61.6113V33.7417Z" fill={fill} />
-      <path d="M60.2473 33.7417H61.612V35.1064H60.2473V33.7417Z" fill={stroke} />
+      <path
+        d="M60.2473 33.7417H61.612V35.1064H60.2473V33.7417Z"
+        fill={stroke}
+      />
       <path d="M58.8827 33.7417H60.2474V35.1064H58.8827V33.7417Z" fill={fill} />
       <path d="M57.518 33.7417H58.8827V35.1064H57.518V33.7417Z" fill={fill} />
-      <path d="M56.1526 33.7417H57.5173V35.1064H56.1526V33.7417Z" fill={stroke} />
+      <path
+        d="M56.1526 33.7417H57.5173V35.1064H56.1526V33.7417Z"
+        fill={stroke}
+      />
       <path d="M54.7879 33.7417H56.1526V35.1064H54.7879V33.7417Z" fill={fill} />
-      <path d="M53.4233 33.7417H54.788V35.1064H53.4233V33.7417Z" fill={stroke} />
+      <path
+        d="M53.4233 33.7417H54.788V35.1064H53.4233V33.7417Z"
+        fill={stroke}
+      />
       <path d="M52.0586 33.7417H53.4233V35.1064H52.0586V33.7417Z" fill={fill} />
       <path d="M50.694 33.7417H52.0587V35.1064H50.694V33.7417Z" fill={fill} />
-      <path d="M49.3293 33.7417H50.694V35.1064H49.3293V33.7417Z" fill={stroke} />
+      <path
+        d="M49.3293 33.7417H50.694V35.1064H49.3293V33.7417Z"
+        fill={stroke}
+      />
       <path d="M47.9654 33.7417H49.3301V35.1064H47.9654V33.7417Z" fill={fill} />
       <path d="M46.6 33.7417H47.9647V35.1064H46.6V33.7417Z" fill={stroke} />
       <path d="M91.6353 35.106H93V36.4707H91.6353V35.106Z" fill={stroke} />
@@ -358,47 +525,92 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M49.3293 35.106H50.694V36.4707H49.3293V35.106Z" fill={fill} />
       <path d="M47.9654 35.106H49.3301V36.4707H47.9654V35.106Z" fill={fill} />
       <path d="M46.6 35.106H47.9647V36.4707H46.6V35.106Z" fill={stroke} />
-      <path d="M90.2706 36.4707H91.6353V37.8354H90.2706V36.4707Z" fill={stroke} />
+      <path
+        d="M90.2706 36.4707H91.6353V37.8354H90.2706V36.4707Z"
+        fill={stroke}
+      />
       <path d="M88.9052 36.4707H90.2699V37.8354H88.9052V36.4707Z" fill={fill} />
-      <path d="M87.5413 36.4707H88.906V37.8354H87.5413V36.4707Z" fill={stroke} />
+      <path
+        d="M87.5413 36.4707H88.906V37.8354H87.5413V36.4707Z"
+        fill={stroke}
+      />
       <path d="M86.1767 36.4707H87.5414V37.8354H86.1767V36.4707Z" fill={fill} />
       <path d="M84.812 36.4707H86.1767V37.8354H84.812V36.4707Z" fill={fill} />
-      <path d="M83.4473 36.4707H84.812V37.8354H83.4473V36.4707Z" fill={stroke} />
-      <path d="M82.0834 36.4707H83.4481V37.8354H82.0834V36.4707Z" fill={stroke} />
+      <path
+        d="M83.4473 36.4707H84.812V37.8354H83.4473V36.4707Z"
+        fill={stroke}
+      />
+      <path
+        d="M82.0834 36.4707H83.4481V37.8354H82.0834V36.4707Z"
+        fill={stroke}
+      />
       <path d="M80.718 36.4707H82.0827V37.8354H80.718V36.4707Z" fill={fill} />
       <path d="M79.3526 36.4707H80.7173V37.8354H79.3526V36.4707Z" fill={fill} />
       <path d="M77.9879 36.4707H79.3526V37.8354H77.9879V36.4707Z" fill={fill} />
-      <path d="M76.6233 36.4707H77.988V37.8354H76.6233V36.4707Z" fill={stroke} />
-      <path d="M75.2594 36.4707H76.6241V37.8354H75.2594V36.4707Z" fill={stroke} />
+      <path
+        d="M76.6233 36.4707H77.988V37.8354H76.6233V36.4707Z"
+        fill={stroke}
+      />
+      <path
+        d="M75.2594 36.4707H76.6241V37.8354H75.2594V36.4707Z"
+        fill={stroke}
+      />
       <path d="M73.894 36.4707H75.2587V37.8354H73.894V36.4707Z" fill={stroke} />
-      <path d="M72.5293 36.4707H73.894V37.8354H72.5293V36.4707Z" fill={stroke} />
-      <path d="M71.1646 36.4707H72.5293V37.8354H71.1646V36.4707Z" fill={stroke} />
+      <path
+        d="M72.5293 36.4707H73.894V37.8354H72.5293V36.4707Z"
+        fill={stroke}
+      />
+      <path
+        d="M71.1646 36.4707H72.5293V37.8354H71.1646V36.4707Z"
+        fill={stroke}
+      />
       <path d="M69.8 36.4707H71.1647V37.8354H69.8V36.4707Z" fill={stroke} />
       <path d="M68.4361 36.4707H69.8008V37.8354H68.4361V36.4707Z" fill={fill} />
       <path d="M67.0714 36.4707H68.4361V37.8354H67.0714V36.4707Z" fill={fill} />
       <path d="M65.706 36.4707H67.0707V37.8354H65.706V36.4707Z" fill={fill} />
       <path d="M64.3413 36.4707H65.706V37.8354H64.3413V36.4707Z" fill={fill} />
-      <path d="M62.9767 36.4707H64.3414V37.8354H62.9767V36.4707Z" fill={stroke} />
+      <path
+        d="M62.9767 36.4707H64.3414V37.8354H62.9767V36.4707Z"
+        fill={stroke}
+      />
       <path d="M61.6113 36.4707H62.976V37.8354H61.6113V36.4707Z" fill={fill} />
       <path d="M60.2473 36.4707H61.612V37.8354H60.2473V36.4707Z" fill={fill} />
       <path d="M58.8827 36.4707H60.2474V37.8354H58.8827V36.4707Z" fill={fill} />
       <path d="M57.518 36.4707H58.8827V37.8354H57.518V36.4707Z" fill={fill} />
-      <path d="M56.1526 36.4707H57.5173V37.8354H56.1526V36.4707Z" fill={stroke} />
+      <path
+        d="M56.1526 36.4707H57.5173V37.8354H56.1526V36.4707Z"
+        fill={stroke}
+      />
       <path d="M54.7879 36.4707H56.1526V37.8354H54.7879V36.4707Z" fill={fill} />
       <path d="M53.4233 36.4707H54.788V37.8354H53.4233V36.4707Z" fill={fill} />
-      <path d="M52.0586 36.4707H53.4233V37.8354H52.0586V36.4707Z" fill={stroke} />
+      <path
+        d="M52.0586 36.4707H53.4233V37.8354H52.0586V36.4707Z"
+        fill={stroke}
+      />
       <path d="M50.694 36.4707H52.0587V37.8354H50.694V36.4707Z" fill={fill} />
       <path d="M49.3293 36.4707H50.694V37.8354H49.3293V36.4707Z" fill={fill} />
       <path d="M47.9654 36.4707H49.3301V37.8354H47.9654V36.4707Z" fill={fill} />
       <path d="M46.6 36.4707H47.9647V37.8354H46.6V36.4707Z" fill={stroke} />
-      <path d="M90.2707 37.8354H91.6354V39.2001H90.2707V37.8354Z" fill={stroke} />
+      <path
+        d="M90.2707 37.8354H91.6354V39.2001H90.2707V37.8354Z"
+        fill={stroke}
+      />
       <path d="M88.9052 37.8354H90.2699V39.2001H88.9052V37.8354Z" fill={fill} />
       <path d="M87.5413 37.8354H88.906V39.2001H87.5413V37.8354Z" fill={fill} />
-      <path d="M86.1767 37.8354H87.5414V39.2001H86.1767V37.8354Z" fill={stroke} />
+      <path
+        d="M86.1767 37.8354H87.5414V39.2001H86.1767V37.8354Z"
+        fill={stroke}
+      />
       <path d="M84.8119 37.8354H86.1766V39.2001H84.8119V37.8354Z" fill={fill} />
-      <path d="M83.4473 37.8354H84.812V39.2001H83.4473V37.8354Z" fill={stroke} />
+      <path
+        d="M83.4473 37.8354H84.812V39.2001H83.4473V37.8354Z"
+        fill={stroke}
+      />
       <path d="M82.0834 37.8354H83.4481V39.2001H82.0834V37.8354Z" fill={fill} />
-      <path d="M80.7181 37.8354H82.0828V39.2001H80.7181V37.8354Z" fill={stroke} />
+      <path
+        d="M80.7181 37.8354H82.0828V39.2001H80.7181V37.8354Z"
+        fill={stroke}
+      />
       <path d="M79.3526 37.8354H80.7173V39.2001H79.3526V37.8354Z" fill={fill} />
       <path d="M77.988 37.8354H79.3527V39.2001H77.988V37.8354Z" fill={stroke} />
       <path d="M76.6232 37.8354H77.9879V39.2001H76.6232V37.8354Z" fill={fill} />
@@ -407,22 +619,34 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M72.5293 37.8354H73.894V39.2001H72.5293V37.8354Z" fill={fill} />
       <path d="M71.1646 37.8354H72.5293V39.2001H71.1646V37.8354Z" fill={fill} />
       <path d="M69.8 37.8354H71.1647V39.2001H69.8V37.8354Z" fill={fill} />
-      <path d="M68.4361 37.8354H69.8008V39.2001H68.4361V37.8354Z" fill={stroke} />
+      <path
+        d="M68.4361 37.8354H69.8008V39.2001H68.4361V37.8354Z"
+        fill={stroke}
+      />
       <path d="M67.0715 37.8354H68.4362V39.2001H67.0715V37.8354Z" fill={fill} />
       <path d="M65.706 37.8354H67.0707V39.2001H65.706V37.8354Z" fill={stroke} />
-      <path d="M64.3414 37.8354H65.7061V39.2001H64.3414V37.8354Z" fill={stroke} />
+      <path
+        d="M64.3414 37.8354H65.7061V39.2001H64.3414V37.8354Z"
+        fill={stroke}
+      />
       <path d="M62.9766 37.8354H64.3413V39.2001H62.9766V37.8354Z" fill={fill} />
       <path d="M61.6113 37.8354H62.976V39.2001H61.6113V37.8354Z" fill={fill} />
       <path d="M60.2474 37.8354H61.6121V39.2001H60.2474V37.8354Z" fill={fill} />
       <path d="M58.8826 37.8354H60.2473V39.2001H58.8826V37.8354Z" fill={fill} />
       <path d="M57.518 37.8354H58.8827V39.2001H57.518V37.8354Z" fill={fill} />
-      <path d="M56.1526 37.8354H57.5173V39.2001H56.1526V37.8354Z" fill={stroke} />
+      <path
+        d="M56.1526 37.8354H57.5173V39.2001H56.1526V37.8354Z"
+        fill={stroke}
+      />
       <path d="M54.7879 37.8354H56.1526V39.2001H54.7879V37.8354Z" fill={fill} />
       <path d="M53.4233 37.8354H54.788V39.2001H53.4233V37.8354Z" fill={fill} />
       <path d="M52.0586 37.8354H53.4233V39.2001H52.0586V37.8354Z" fill={fill} />
       <path d="M50.6939 37.8354H52.0586V39.2001H50.6939V37.8354Z" fill={fill} />
       <path d="M49.3293 37.8354H50.694V39.2001H49.3293V37.8354Z" fill={fill} />
-      <path d="M47.9654 37.8354H49.3301V39.2001H47.9654V37.8354Z" fill={stroke} />
+      <path
+        d="M47.9654 37.8354H49.3301V39.2001H47.9654V37.8354Z"
+        fill={stroke}
+      />
       <path d="M88.9052 39.2H90.2699V40.5647H88.9052V39.2Z" fill={stroke} />
       <path d="M87.5413 39.2H88.906V40.5647H87.5413V39.2Z" fill={fill} />
       <path d="M86.1767 39.2H87.5414V40.5647H86.1767V39.2Z" fill={fill} />
@@ -453,16 +677,31 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M52.0586 39.2H53.4233V40.5647H52.0586V39.2Z" fill={fill} />
       <path d="M50.694 39.2H52.0587V40.5647H50.694V39.2Z" fill={fill} />
       <path d="M49.3293 39.2H50.694V40.5647H49.3293V39.2Z" fill={stroke} />
-      <path d="M87.5413 40.5642H88.906V41.9289H87.5413V40.5642Z" fill={stroke} />
-      <path d="M86.1767 40.5642H87.5414V41.9289H86.1767V40.5642Z" fill={stroke} />
+      <path
+        d="M87.5413 40.5642H88.906V41.9289H87.5413V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M86.1767 40.5642H87.5414V41.9289H86.1767V40.5642Z"
+        fill={stroke}
+      />
       <path d="M84.812 40.5642H86.1767V41.9289H84.812V40.5642Z" fill={stroke} />
-      <path d="M83.4473 40.5642H84.812V41.9289H83.4473V40.5642Z" fill={stroke} />
-      <path d="M82.0834 40.5642H83.4481V41.9289H82.0834V40.5642Z" fill={stroke} />
+      <path
+        d="M83.4473 40.5642H84.812V41.9289H83.4473V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M82.0834 40.5642H83.4481V41.9289H82.0834V40.5642Z"
+        fill={stroke}
+      />
       <path d="M80.718 40.5642H82.0827V41.9289H80.718V40.5642Z" fill={fill} />
       <path d="M79.3526 40.5642H80.7173V41.9289H79.3526V40.5642Z" fill={fill} />
       <path d="M77.9879 40.5642H79.3526V41.9289H77.9879V40.5642Z" fill={fill} />
       <path d="M76.6233 40.5642H77.988V41.9289H76.6233V40.5642Z" fill={fill} />
-      <path d="M75.2594 40.5642H76.6241V41.9289H75.2594V40.5642Z" fill={stroke} />
+      <path
+        d="M75.2594 40.5642H76.6241V41.9289H75.2594V40.5642Z"
+        fill={stroke}
+      />
       <path d="M73.894 40.5642H75.2587V41.9289H73.894V40.5642Z" fill={fill} />
       <path d="M72.5293 40.5642H73.894V41.9289H72.5293V40.5642Z" fill={fill} />
       <path d="M71.1646 40.5642H72.5293V41.9289H71.1646V40.5642Z" fill={fill} />
@@ -470,18 +709,36 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M68.4361 40.5642H69.8008V41.9289H68.4361V40.5642Z" fill={fill} />
       <path d="M67.0714 40.5642H68.4361V41.9289H67.0714V40.5642Z" fill={fill} />
       <path d="M65.706 40.5642H67.0707V41.9289H65.706V40.5642Z" fill={fill} />
-      <path d="M64.3413 40.5642H65.706V41.9289H64.3413V40.5642Z" fill={stroke} />
+      <path
+        d="M64.3413 40.5642H65.706V41.9289H64.3413V40.5642Z"
+        fill={stroke}
+      />
       <path d="M62.9767 40.5642H64.3414V41.9289H62.9767V40.5642Z" fill={fill} />
       <path d="M61.6113 40.5642H62.976V41.9289H61.6113V40.5642Z" fill={fill} />
       <path d="M60.2473 40.5642H61.612V41.9289H60.2473V40.5642Z" fill={fill} />
       <path d="M58.8827 40.5642H60.2474V41.9289H58.8827V40.5642Z" fill={fill} />
       <path d="M57.518 40.5642H58.8827V41.9289H57.518V40.5642Z" fill={fill} />
-      <path d="M56.1526 40.5642H57.5173V41.9289H56.1526V40.5642Z" fill={stroke} />
-      <path d="M54.7879 40.5642H56.1526V41.9289H54.7879V40.5642Z" fill={stroke} />
-      <path d="M53.4233 40.5642H54.788V41.9289H53.4233V40.5642Z" fill={stroke} />
-      <path d="M52.0586 40.5642H53.4233V41.9289H52.0586V40.5642Z" fill={stroke} />
+      <path
+        d="M56.1526 40.5642H57.5173V41.9289H56.1526V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M54.7879 40.5642H56.1526V41.9289H54.7879V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M53.4233 40.5642H54.788V41.9289H53.4233V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M52.0586 40.5642H53.4233V41.9289H52.0586V40.5642Z"
+        fill={stroke}
+      />
       <path d="M50.694 40.5642H52.0587V41.9289H50.694V40.5642Z" fill={stroke} />
-      <path d="M83.4473 41.9292H84.812V43.2939H83.4473V41.9292Z" fill={stroke} />
+      <path
+        d="M83.4473 41.9292H84.812V43.2939H83.4473V41.9292Z"
+        fill={stroke}
+      />
       <path d="M82.0834 41.9292H83.4481V43.2939H82.0834V41.9292Z" fill={fill} />
       <path d="M80.718 41.9292H82.0827V43.2939H80.718V41.9292Z" fill={fill} />
       <path d="M79.3526 41.9292H80.7173V43.2939H79.3526V41.9292Z" fill={fill} />
@@ -496,12 +753,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M67.0714 41.9292H68.4361V43.2939H67.0714V41.9292Z" fill={fill} />
       <path d="M65.706 41.9292H67.0707V43.2939H65.706V41.9292Z" fill={fill} />
       <path d="M64.3413 41.9292H65.706V43.2939H64.3413V41.9292Z" fill={fill} />
-      <path d="M62.9767 41.9292H64.3414V43.2939H62.9767V41.9292Z" fill={stroke} />
+      <path
+        d="M62.9767 41.9292H64.3414V43.2939H62.9767V41.9292Z"
+        fill={stroke}
+      />
       <path d="M61.6113 41.9292H62.976V43.2939H61.6113V41.9292Z" fill={fill} />
       <path d="M60.2473 41.9292H61.612V43.2939H60.2473V41.9292Z" fill={fill} />
       <path d="M58.8827 41.9292H60.2474V43.2939H58.8827V41.9292Z" fill={fill} />
       <path d="M57.518 41.9292H58.8827V43.2939H57.518V41.9292Z" fill={fill} />
-      <path d="M56.1526 41.9292H57.5173V43.2939H56.1526V41.9292Z" fill={stroke} />
+      <path
+        d="M56.1526 41.9292H57.5173V43.2939H56.1526V41.9292Z"
+        fill={stroke}
+      />
       <path d="M84.812 43.2939H86.1767V44.6586H84.812V43.2939Z" fill={stroke} />
       <path d="M83.4473 43.2939H84.812V44.6586H83.4473V43.2939Z" fill={fill} />
       <path d="M82.0834 43.2939H83.4481V44.6586H82.0834V43.2939Z" fill={fill} />
@@ -519,11 +782,17 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M65.706 43.2939H67.0707V44.6586H65.706V43.2939Z" fill={fill} />
       <path d="M64.3413 43.2939H65.706V44.6586H64.3413V43.2939Z" fill={fill} />
       <path d="M62.9767 43.2939H64.3414V44.6586H62.9767V43.2939Z" fill={fill} />
-      <path d="M61.6113 43.2939H62.976V44.6586H61.6113V43.2939Z" fill={stroke} />
+      <path
+        d="M61.6113 43.2939H62.976V44.6586H61.6113V43.2939Z"
+        fill={stroke}
+      />
       <path d="M60.2473 43.2939H61.612V44.6586H60.2473V43.2939Z" fill={fill} />
       <path d="M58.8827 43.2939H60.2474V44.6586H58.8827V43.2939Z" fill={fill} />
       <path d="M57.518 43.2939H58.8827V44.6586H57.518V43.2939Z" fill={fill} />
-      <path d="M56.1526 43.2939H57.5173V44.6586H56.1526V43.2939Z" fill={stroke} />
+      <path
+        d="M56.1526 43.2939H57.5173V44.6586H56.1526V43.2939Z"
+        fill={stroke}
+      />
       <path d="M84.812 44.6582H86.1767V46.0229H84.812V44.6582Z" fill={stroke} />
       <path d="M83.4473 44.6582H84.812V46.0229H83.4473V44.6582Z" fill={fill} />
       <path d="M82.0834 44.6582H83.4481V46.0229H82.0834V44.6582Z" fill={fill} />
@@ -541,11 +810,17 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M65.706 44.6582H67.0707V46.0229H65.706V44.6582Z" fill={fill} />
       <path d="M64.3413 44.6582H65.706V46.0229H64.3413V44.6582Z" fill={fill} />
       <path d="M62.9767 44.6582H64.3414V46.0229H62.9767V44.6582Z" fill={fill} />
-      <path d="M61.6113 44.6582H62.976V46.0229H61.6113V44.6582Z" fill={stroke} />
+      <path
+        d="M61.6113 44.6582H62.976V46.0229H61.6113V44.6582Z"
+        fill={stroke}
+      />
       <path d="M60.2473 44.6582H61.612V46.0229H60.2473V44.6582Z" fill={fill} />
       <path d="M58.8827 44.6582H60.2474V46.0229H58.8827V44.6582Z" fill={fill} />
       <path d="M57.518 44.6582H58.8827V46.0229H57.518V44.6582Z" fill={fill} />
-      <path d="M56.1526 44.6582H57.5173V46.0229H56.1526V44.6582Z" fill={stroke} />
+      <path
+        d="M56.1526 44.6582H57.5173V46.0229H56.1526V44.6582Z"
+        fill={stroke}
+      />
       <path d="M84.812 46.0237H86.1767V47.3884H84.812V46.0237Z" fill={stroke} />
       <path d="M83.4473 46.0237H84.812V47.3884H83.4473V46.0237Z" fill={fill} />
       <path d="M82.0834 46.0237H83.4481V47.3884H82.0834V46.0237Z" fill={fill} />
@@ -564,10 +839,16 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 46.0237H65.706V47.3884H64.3413V46.0237Z" fill={fill} />
       <path d="M62.9767 46.0237H64.3414V47.3884H62.9767V46.0237Z" fill={fill} />
       <path d="M61.6113 46.0237H62.976V47.3884H61.6113V46.0237Z" fill={fill} />
-      <path d="M60.2473 46.0237H61.612V47.3884H60.2473V46.0237Z" fill={stroke} />
+      <path
+        d="M60.2473 46.0237H61.612V47.3884H60.2473V46.0237Z"
+        fill={stroke}
+      />
       <path d="M58.8827 46.0237H60.2474V47.3884H58.8827V46.0237Z" fill={fill} />
       <path d="M57.518 46.0237H58.8827V47.3884H57.518V46.0237Z" fill={stroke} />
-      <path d="M84.8119 47.3877H86.1766V48.7524H84.8119V47.3877Z" fill={stroke} />
+      <path
+        d="M84.8119 47.3877H86.1766V48.7524H84.8119V47.3877Z"
+        fill={stroke}
+      />
       <path d="M83.4473 47.3877H84.812V48.7524H83.4473V47.3877Z" fill={fill} />
       <path d="M82.0834 47.3877H83.4481V48.7524H82.0834V47.3877Z" fill={fill} />
       <path d="M80.7181 47.3877H82.0828V48.7524H80.7181V47.3877Z" fill={fill} />
@@ -585,7 +866,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3414 47.3877H65.7061V48.7524H64.3414V47.3877Z" fill={fill} />
       <path d="M62.9766 47.3877H64.3413V48.7524H62.9766V47.3877Z" fill={fill} />
       <path d="M61.6113 47.3877H62.976V48.7524H61.6113V47.3877Z" fill={fill} />
-      <path d="M60.2474 47.3877H61.6121V48.7524H60.2474V47.3877Z" fill={stroke} />
+      <path
+        d="M60.2474 47.3877H61.6121V48.7524H60.2474V47.3877Z"
+        fill={stroke}
+      />
       <path d="M58.8826 47.3877H60.2473V48.7524H58.8826V47.3877Z" fill={fill} />
       <path d="M57.518 47.3877H58.8827V48.7524H57.518V47.3877Z" fill={stroke} />
       <path d="M84.812 48.7527H86.1767V50.1174H84.812V48.7527Z" fill={stroke} />
@@ -593,12 +877,27 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M82.0834 48.7527H83.4481V50.1174H82.0834V48.7527Z" fill={fill} />
       <path d="M80.718 48.7527H82.0827V50.1174H80.718V48.7527Z" fill={fill} />
       <path d="M79.3526 48.7527H80.7173V50.1174H79.3526V48.7527Z" fill={fill} />
-      <path d="M77.9879 48.7527H79.3526V50.1174H77.9879V48.7527Z" fill={stroke} />
-      <path d="M76.6233 48.7527H77.988V50.1174H76.6233V48.7527Z" fill={stroke} />
-      <path d="M75.2594 48.7527H76.6241V50.1174H75.2594V48.7527Z" fill={stroke} />
+      <path
+        d="M77.9879 48.7527H79.3526V50.1174H77.9879V48.7527Z"
+        fill={stroke}
+      />
+      <path
+        d="M76.6233 48.7527H77.988V50.1174H76.6233V48.7527Z"
+        fill={stroke}
+      />
+      <path
+        d="M75.2594 48.7527H76.6241V50.1174H75.2594V48.7527Z"
+        fill={stroke}
+      />
       <path d="M73.894 48.7527H75.2587V50.1174H73.894V48.7527Z" fill={stroke} />
-      <path d="M72.5293 48.7527H73.894V50.1174H72.5293V48.7527Z" fill={stroke} />
-      <path d="M71.1646 48.7527H72.5293V50.1174H71.1646V48.7527Z" fill={stroke} />
+      <path
+        d="M72.5293 48.7527H73.894V50.1174H72.5293V48.7527Z"
+        fill={stroke}
+      />
+      <path
+        d="M71.1646 48.7527H72.5293V50.1174H71.1646V48.7527Z"
+        fill={stroke}
+      />
       <path d="M69.8 48.7527H71.1647V50.1174H69.8V48.7527Z" fill={stroke} />
       <path d="M68.4361 48.7527H69.8008V50.1174H68.4361V48.7527Z" fill={fill} />
       <path d="M67.0714 48.7527H68.4361V50.1174H67.0714V48.7527Z" fill={fill} />
@@ -606,14 +905,20 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 48.7527H65.706V50.1174H64.3413V48.7527Z" fill={fill} />
       <path d="M62.9767 48.7527H64.3414V50.1174H62.9767V48.7527Z" fill={fill} />
       <path d="M61.6113 48.7527H62.976V50.1174H61.6113V48.7527Z" fill={fill} />
-      <path d="M60.2473 48.7527H61.612V50.1174H60.2473V48.7527Z" fill={stroke} />
+      <path
+        d="M60.2473 48.7527H61.612V50.1174H60.2473V48.7527Z"
+        fill={stroke}
+      />
       <path d="M58.8827 48.7527H60.2474V50.1174H58.8827V48.7527Z" fill={fill} />
       <path d="M57.518 48.7527H58.8827V50.1174H57.518V48.7527Z" fill={stroke} />
       <path d="M84.812 50.1177H86.1767V51.4824H84.812V50.1177Z" fill={stroke} />
       <path d="M83.4473 50.1177H84.812V51.4824H83.4473V50.1177Z" fill={fill} />
       <path d="M82.0834 50.1177H83.4481V51.4824H82.0834V50.1177Z" fill={fill} />
       <path d="M80.718 50.1177H82.0827V51.4824H80.718V50.1177Z" fill={stroke} />
-      <path d="M79.3526 50.1177H80.7173V51.4824H79.3526V50.1177Z" fill={stroke} />
+      <path
+        d="M79.3526 50.1177H80.7173V51.4824H79.3526V50.1177Z"
+        fill={stroke}
+      />
       <path d="M77.9879 50.1177H79.3526V51.4824H77.9879V50.1177Z" fill={fill} />
       <path d="M76.6233 50.1177H77.988V51.4824H76.6233V50.1177Z" fill={fill} />
       <path d="M75.2594 50.1177H76.6241V51.4824H75.2594V50.1177Z" fill={fill} />
@@ -621,16 +926,31 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M72.5293 50.1177H73.894V51.4824H72.5293V50.1177Z" fill={fill} />
       <path d="M71.1646 50.1177H72.5293V51.4824H71.1646V50.1177Z" fill={fill} />
       <path d="M69.8 50.1177H71.1647V51.4824H69.8V50.1177Z" fill={fill} />
-      <path d="M68.4361 50.1177H69.8008V51.4824H68.4361V50.1177Z" fill={stroke} />
-      <path d="M67.0714 50.1177H68.4361V51.4824H67.0714V50.1177Z" fill={stroke} />
+      <path
+        d="M68.4361 50.1177H69.8008V51.4824H68.4361V50.1177Z"
+        fill={stroke}
+      />
+      <path
+        d="M67.0714 50.1177H68.4361V51.4824H67.0714V50.1177Z"
+        fill={stroke}
+      />
       <path d="M65.706 50.1177H67.0707V51.4824H65.706V50.1177Z" fill={stroke} />
-      <path d="M64.3413 50.1177H65.706V51.4824H64.3413V50.1177Z" fill={stroke} />
+      <path
+        d="M64.3413 50.1177H65.706V51.4824H64.3413V50.1177Z"
+        fill={stroke}
+      />
       <path d="M62.9767 50.1177H64.3414V51.4824H62.9767V50.1177Z" fill={fill} />
       <path d="M61.6113 50.1177H62.976V51.4824H61.6113V50.1177Z" fill={fill} />
-      <path d="M60.2473 50.1177H61.612V51.4824H60.2473V50.1177Z" fill={stroke} />
+      <path
+        d="M60.2473 50.1177H61.612V51.4824H60.2473V50.1177Z"
+        fill={stroke}
+      />
       <path d="M58.8827 50.1177H60.2474V51.4824H58.8827V50.1177Z" fill={fill} />
       <path d="M57.518 50.1177H58.8827V51.4824H57.518V50.1177Z" fill={stroke} />
-      <path d="M83.4473 51.4819H84.812V52.8466H83.4473V51.4819Z" fill={stroke} />
+      <path
+        d="M83.4473 51.4819H84.812V52.8466H83.4473V51.4819Z"
+        fill={stroke}
+      />
       <path d="M82.0834 51.4819H83.4481V52.8466H82.0834V51.4819Z" fill={fill} />
       <path d="M80.718 51.4819H82.0827V52.8466H80.718V51.4819Z" fill={fill} />
       <path d="M79.3526 51.4819H80.7173V52.8466H79.3526V51.4819Z" fill={fill} />
@@ -647,9 +967,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 51.4819H65.706V52.8466H64.3413V51.4819Z" fill={fill} />
       <path d="M62.9767 51.4819H64.3414V52.8466H62.9767V51.4819Z" fill={fill} />
       <path d="M61.6113 51.4819H62.976V52.8466H61.6113V51.4819Z" fill={fill} />
-      <path d="M60.2473 51.4819H61.612V52.8466H60.2473V51.4819Z" fill={stroke} />
-      <path d="M58.8827 51.4819H60.2474V52.8466H58.8827V51.4819Z" fill={stroke} />
-      <path d="M83.4473 52.8469H84.812V54.2116H83.4473V52.8469Z" fill={stroke} />
+      <path
+        d="M60.2473 51.4819H61.612V52.8466H60.2473V51.4819Z"
+        fill={stroke}
+      />
+      <path
+        d="M58.8827 51.4819H60.2474V52.8466H58.8827V51.4819Z"
+        fill={stroke}
+      />
+      <path
+        d="M83.4473 52.8469H84.812V54.2116H83.4473V52.8469Z"
+        fill={stroke}
+      />
       <path d="M82.0834 52.8469H83.4481V54.2116H82.0834V52.8469Z" fill={fill} />
       <path d="M80.718 52.8469H82.0827V54.2116H80.718V52.8469Z" fill={fill} />
       <path d="M79.3526 52.8469H80.7173V54.2116H79.3526V52.8469Z" fill={fill} />
@@ -666,8 +995,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 52.8469H65.706V54.2116H64.3413V52.8469Z" fill={fill} />
       <path d="M62.9767 52.8469H64.3414V54.2116H62.9767V52.8469Z" fill={fill} />
       <path d="M61.6113 52.8469H62.976V54.2116H61.6113V52.8469Z" fill={fill} />
-      <path d="M60.2473 52.8469H61.612V54.2116H60.2473V52.8469Z" fill={stroke} />
-      <path d="M82.0834 54.2112H83.4481V55.5759H82.0834V54.2112Z" fill={stroke} />
+      <path
+        d="M60.2473 52.8469H61.612V54.2116H60.2473V52.8469Z"
+        fill={stroke}
+      />
+      <path
+        d="M82.0834 54.2112H83.4481V55.5759H82.0834V54.2112Z"
+        fill={stroke}
+      />
       <path d="M80.718 54.2112H82.0827V55.5759H80.718V54.2112Z" fill={fill} />
       <path d="M79.3526 54.2112H80.7173V55.5759H79.3526V54.2112Z" fill={fill} />
       <path d="M77.9879 54.2112H79.3526V55.5759H77.9879V54.2112Z" fill={fill} />
@@ -682,8 +1017,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M65.706 54.2112H67.0707V55.5759H65.706V54.2112Z" fill={fill} />
       <path d="M64.3413 54.2112H65.706V55.5759H64.3413V54.2112Z" fill={fill} />
       <path d="M62.9767 54.2112H64.3414V55.5759H62.9767V54.2112Z" fill={fill} />
-      <path d="M61.6113 54.2112H62.976V55.5759H61.6113V54.2112Z" fill={stroke} />
-      <path d="M60.2473 54.2112H61.612V55.5759H60.2473V54.2112Z" fill={stroke} />
+      <path
+        d="M61.6113 54.2112H62.976V55.5759H61.6113V54.2112Z"
+        fill={stroke}
+      />
+      <path
+        d="M60.2473 54.2112H61.612V55.5759H60.2473V54.2112Z"
+        fill={stroke}
+      />
       <path d="M80.718 55.5759H82.0827V56.9406H80.718V55.5759Z" fill={stroke} />
       <path d="M79.3526 55.5759H80.7173V56.9406H79.3526V55.5759Z" fill={fill} />
       <path d="M77.9879 55.5759H79.3526V56.9406H77.9879V55.5759Z" fill={fill} />
@@ -696,12 +1037,27 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M68.4361 55.5759H69.8008V56.9406H68.4361V55.5759Z" fill={fill} />
       <path d="M67.0714 55.5759H68.4361V56.9406H67.0714V55.5759Z" fill={fill} />
       <path d="M65.706 55.5759H67.0707V56.9406H65.706V55.5759Z" fill={fill} />
-      <path d="M64.3413 55.5759H65.706V56.9406H64.3413V55.5759Z" fill={stroke} />
-      <path d="M62.9767 55.5759H64.3414V56.9406H62.9767V55.5759Z" fill={stroke} />
+      <path
+        d="M64.3413 55.5759H65.706V56.9406H64.3413V55.5759Z"
+        fill={stroke}
+      />
+      <path
+        d="M62.9767 55.5759H64.3414V56.9406H62.9767V55.5759Z"
+        fill={stroke}
+      />
       <path d="M61.6113 55.5759H62.976V56.9406H61.6113V55.5759Z" fill={fill} />
-      <path d="M60.2473 55.5759H61.612V56.9406H60.2473V55.5759Z" fill={stroke} />
-      <path d="M79.3526 56.9409H80.7173V58.3056H79.3526V56.9409Z" fill={stroke} />
-      <path d="M77.9879 56.9409H79.3526V58.3056H77.9879V56.9409Z" fill={stroke} />
+      <path
+        d="M60.2473 55.5759H61.612V56.9406H60.2473V55.5759Z"
+        fill={stroke}
+      />
+      <path
+        d="M79.3526 56.9409H80.7173V58.3056H79.3526V56.9409Z"
+        fill={stroke}
+      />
+      <path
+        d="M77.9879 56.9409H79.3526V58.3056H77.9879V56.9409Z"
+        fill={stroke}
+      />
       <path d="M76.6233 56.9409H77.988V58.3056H76.6233V56.9409Z" fill={fill} />
       <path d="M75.2594 56.9409H76.6241V58.3056H75.2594V56.9409Z" fill={fill} />
       <path d="M73.894 56.9409H75.2587V58.3056H73.894V56.9409Z" fill={fill} />
@@ -709,26 +1065,53 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M71.1646 56.9409H72.5293V58.3056H71.1646V56.9409Z" fill={fill} />
       <path d="M69.8 56.9409H71.1647V58.3056H69.8V56.9409Z" fill={fill} />
       <path d="M68.4361 56.9409H69.8008V58.3056H68.4361V56.9409Z" fill={fill} />
-      <path d="M67.0714 56.9409H68.4361V58.3056H67.0714V56.9409Z" fill={stroke} />
+      <path
+        d="M67.0714 56.9409H68.4361V58.3056H67.0714V56.9409Z"
+        fill={stroke}
+      />
       <path d="M65.706 56.9409H67.0707V58.3056H65.706V56.9409Z" fill={stroke} />
       <path d="M64.3413 56.9409H65.706V58.3056H64.3413V56.9409Z" fill={fill} />
       <path d="M62.9767 56.9409H64.3414V58.3056H62.9767V56.9409Z" fill={fill} />
       <path d="M61.6113 56.9409H62.976V58.3056H61.6113V56.9409Z" fill={fill} />
-      <path d="M60.2473 56.9409H61.612V58.3056H60.2473V56.9409Z" fill={stroke} />
-      <path d="M76.6233 58.3059H77.988V59.6706H76.6233V58.3059Z" fill={stroke} />
-      <path d="M75.2594 58.3059H76.6241V59.6706H75.2594V58.3059Z" fill={stroke} />
+      <path
+        d="M60.2473 56.9409H61.612V58.3056H60.2473V56.9409Z"
+        fill={stroke}
+      />
+      <path
+        d="M76.6233 58.3059H77.988V59.6706H76.6233V58.3059Z"
+        fill={stroke}
+      />
+      <path
+        d="M75.2594 58.3059H76.6241V59.6706H75.2594V58.3059Z"
+        fill={stroke}
+      />
       <path d="M73.894 58.3059H75.2587V59.6706H73.894V58.3059Z" fill={stroke} />
-      <path d="M72.5293 58.3059H73.894V59.6706H72.5293V58.3059Z" fill={stroke} />
-      <path d="M71.1646 58.3059H72.5293V59.6706H71.1646V58.3059Z" fill={stroke} />
+      <path
+        d="M72.5293 58.3059H73.894V59.6706H72.5293V58.3059Z"
+        fill={stroke}
+      />
+      <path
+        d="M71.1646 58.3059H72.5293V59.6706H71.1646V58.3059Z"
+        fill={stroke}
+      />
       <path d="M69.8 58.3059H71.1647V59.6706H69.8V58.3059Z" fill={stroke} />
-      <path d="M68.4361 58.3059H69.8008V59.6706H68.4361V58.3059Z" fill={stroke} />
+      <path
+        d="M68.4361 58.3059H69.8008V59.6706H68.4361V58.3059Z"
+        fill={stroke}
+      />
       <path d="M67.0714 58.3059H68.4361V59.6706H67.0714V58.3059Z" fill={fill} />
       <path d="M65.706 58.3059H67.0707V59.6706H65.706V58.3059Z" fill={fill} />
       <path d="M64.3413 58.3059H65.706V59.6706H64.3413V58.3059Z" fill={fill} />
       <path d="M62.9767 58.3059H64.3414V59.6706H62.9767V58.3059Z" fill={fill} />
       <path d="M61.6113 58.3059H62.976V59.6706H61.6113V58.3059Z" fill={fill} />
-      <path d="M60.2473 58.3059H61.612V59.6706H60.2473V58.3059Z" fill={stroke} />
-      <path d="M72.5293 59.6707H73.894V61.0354H72.5293V59.6707Z" fill={stroke} />
+      <path
+        d="M60.2473 58.3059H61.612V59.6706H60.2473V58.3059Z"
+        fill={stroke}
+      />
+      <path
+        d="M72.5293 59.6707H73.894V61.0354H72.5293V59.6707Z"
+        fill={stroke}
+      />
       <path d="M71.1646 59.6707H72.5293V61.0354H71.1646V59.6707Z" fill={fill} />
       <path d="M69.8 59.6707H71.1647V61.0354H69.8V59.6707Z" fill={fill} />
       <path d="M68.4361 59.6707H69.8008V61.0354H68.4361V59.6707Z" fill={fill} />
@@ -737,8 +1120,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 59.6707H65.706V61.0354H64.3413V59.6707Z" fill={fill} />
       <path d="M62.9767 59.6707H64.3414V61.0354H62.9767V59.6707Z" fill={fill} />
       <path d="M61.6113 59.6707H62.976V61.0354H61.6113V59.6707Z" fill={fill} />
-      <path d="M60.2473 59.6707H61.612V61.0354H60.2473V59.6707Z" fill={stroke} />
-      <path d="M72.5293 61.0354H73.894V62.4001H72.5293V61.0354Z" fill={stroke} />
+      <path
+        d="M60.2473 59.6707H61.612V61.0354H60.2473V59.6707Z"
+        fill={stroke}
+      />
+      <path
+        d="M72.5293 61.0354H73.894V62.4001H72.5293V61.0354Z"
+        fill={stroke}
+      />
       <path d="M71.1646 61.0354H72.5293V62.4001H71.1646V61.0354Z" fill={fill} />
       <path d="M69.8 61.0354H71.1647V62.4001H69.8V61.0354Z" fill={fill} />
       <path d="M68.4361 61.0354H69.8008V62.4001H68.4361V61.0354Z" fill={fill} />
@@ -747,8 +1136,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 61.0354H65.706V62.4001H64.3413V61.0354Z" fill={fill} />
       <path d="M62.9767 61.0354H64.3414V62.4001H62.9767V61.0354Z" fill={fill} />
       <path d="M61.6113 61.0354H62.976V62.4001H61.6113V61.0354Z" fill={fill} />
-      <path d="M60.2473 61.0354H61.612V62.4001H60.2473V61.0354Z" fill={stroke} />
-      <path d="M72.5293 62.3999H73.894V63.7646H72.5293V62.3999Z" fill={stroke} />
+      <path
+        d="M60.2473 61.0354H61.612V62.4001H60.2473V61.0354Z"
+        fill={stroke}
+      />
+      <path
+        d="M72.5293 62.3999H73.894V63.7646H72.5293V62.3999Z"
+        fill={stroke}
+      />
       <path d="M71.1646 62.3999H72.5293V63.7646H71.1646V62.3999Z" fill={fill} />
       <path d="M69.8 62.3999H71.1647V63.7646H69.8V62.3999Z" fill={fill} />
       <path d="M68.4361 62.3999H69.8008V63.7646H68.4361V62.3999Z" fill={fill} />
@@ -757,8 +1152,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 62.3999H65.706V63.7646H64.3413V62.3999Z" fill={fill} />
       <path d="M62.9767 62.3999H64.3414V63.7646H62.9767V62.3999Z" fill={fill} />
       <path d="M61.6113 62.3999H62.976V63.7646H61.6113V62.3999Z" fill={fill} />
-      <path d="M60.2473 62.3999H61.612V63.7646H60.2473V62.3999Z" fill={stroke} />
-      <path d="M72.5293 63.7642H73.894V65.1289H72.5293V63.7642Z" fill={stroke} />
+      <path
+        d="M60.2473 62.3999H61.612V63.7646H60.2473V62.3999Z"
+        fill={stroke}
+      />
+      <path
+        d="M72.5293 63.7642H73.894V65.1289H72.5293V63.7642Z"
+        fill={stroke}
+      />
       <path d="M71.1646 63.7642H72.5293V65.1289H71.1646V63.7642Z" fill={fill} />
       <path d="M69.8 63.7642H71.1647V65.1289H69.8V63.7642Z" fill={fill} />
       <path d="M68.4361 63.7642H69.8008V65.1289H68.4361V63.7642Z" fill={fill} />
@@ -767,7 +1168,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M64.3413 63.7642H65.706V65.1289H64.3413V63.7642Z" fill={fill} />
       <path d="M62.9767 63.7642H64.3414V65.1289H62.9767V63.7642Z" fill={fill} />
       <path d="M61.6113 63.7642H62.976V65.1289H61.6113V63.7642Z" fill={fill} />
-      <path d="M60.2473 63.7642H61.612V65.1289H60.2473V63.7642Z" fill={stroke} />
+      <path
+        d="M60.2473 63.7642H61.612V65.1289H60.2473V63.7642Z"
+        fill={stroke}
+      />
       <path d="M73.894 65.1294H75.2587V66.4941H73.894V65.1294Z" fill={stroke} />
       <path d="M72.5293 65.1294H73.894V66.4941H72.5293V65.1294Z" fill={fill} />
       <path d="M71.1646 65.1294H72.5293V66.4941H71.1646V65.1294Z" fill={fill} />
@@ -779,7 +1183,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M62.9767 65.1294H64.3414V66.4941H62.9767V65.1294Z" fill={fill} />
       <path d="M61.6113 65.1294H62.976V66.4941H61.6113V65.1294Z" fill={fill} />
       <path d="M60.2473 65.1294H61.612V66.4941H60.2473V65.1294Z" fill={fill} />
-      <path d="M58.8827 65.1294H60.2474V66.4941H58.8827V65.1294Z" fill={stroke} />
+      <path
+        d="M58.8827 65.1294H60.2474V66.4941H58.8827V65.1294Z"
+        fill={stroke}
+      />
       <path d="M73.894 66.4939H75.2587V67.8586H73.894V66.4939Z" fill={stroke} />
       <path d="M72.5293 66.4939H73.894V67.8586H72.5293V66.4939Z" fill={fill} />
       <path d="M71.1646 66.4939H72.5293V67.8586H71.1646V66.4939Z" fill={fill} />
@@ -791,9 +1198,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M62.9767 66.4939H64.3414V67.8586H62.9767V66.4939Z" fill={fill} />
       <path d="M61.6113 66.4939H62.976V67.8586H61.6113V66.4939Z" fill={fill} />
       <path d="M60.2473 66.4939H61.612V67.8586H60.2473V66.4939Z" fill={fill} />
-      <path d="M58.8827 66.4939H60.2474V67.8586H58.8827V66.4939Z" fill={stroke} />
-      <path d="M76.6233 67.8582H77.988V69.2229H76.6233V67.8582Z" fill={stroke} />
-      <path d="M75.2594 67.8582H76.6241V69.2229H75.2594V67.8582Z" fill={stroke} />
+      <path
+        d="M58.8827 66.4939H60.2474V67.8586H58.8827V66.4939Z"
+        fill={stroke}
+      />
+      <path
+        d="M76.6233 67.8582H77.988V69.2229H76.6233V67.8582Z"
+        fill={stroke}
+      />
+      <path
+        d="M75.2594 67.8582H76.6241V69.2229H75.2594V67.8582Z"
+        fill={stroke}
+      />
       <path d="M73.894 67.8582H75.2587V69.2229H73.894V67.8582Z" fill={fill} />
       <path d="M72.5293 67.8582H73.894V69.2229H72.5293V67.8582Z" fill={fill} />
       <path d="M71.1646 67.8582H72.5293V69.2229H71.1646V67.8582Z" fill={fill} />
@@ -807,10 +1223,19 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M60.2473 67.8582H61.612V69.2229H60.2473V67.8582Z" fill={fill} />
       <path d="M58.8827 67.8582H60.2474V69.2229H58.8827V67.8582Z" fill={fill} />
       <path d="M57.518 67.8582H58.8827V69.2229H57.518V67.8582Z" fill={stroke} />
-      <path d="M56.1526 67.8582H57.5173V69.2229H56.1526V67.8582Z" fill={stroke} />
+      <path
+        d="M56.1526 67.8582H57.5173V69.2229H56.1526V67.8582Z"
+        fill={stroke}
+      />
       <path d="M80.718 69.2234H82.0827V70.5881H80.718V69.2234Z" fill={stroke} />
-      <path d="M79.3526 69.2234H80.7173V70.5881H79.3526V69.2234Z" fill={stroke} />
-      <path d="M77.9879 69.2234H79.3526V70.5881H77.9879V69.2234Z" fill={stroke} />
+      <path
+        d="M79.3526 69.2234H80.7173V70.5881H79.3526V69.2234Z"
+        fill={stroke}
+      />
+      <path
+        d="M77.9879 69.2234H79.3526V70.5881H77.9879V69.2234Z"
+        fill={stroke}
+      />
       <path d="M76.6233 69.2234H77.988V70.5881H76.6233V69.2234Z" fill={fill} />
       <path d="M75.2594 69.2234H76.6241V70.5881H75.2594V69.2234Z" fill={fill} />
       <path d="M73.894 69.2234H75.2587V70.5881H73.894V69.2234Z" fill={fill} />
@@ -827,25 +1252,58 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M58.8827 69.2234H60.2474V70.5881H58.8827V69.2234Z" fill={fill} />
       <path d="M57.518 69.2234H58.8827V70.5881H57.518V69.2234Z" fill={fill} />
       <path d="M56.1526 69.2234H57.5173V70.5881H56.1526V69.2234Z" fill={fill} />
-      <path d="M54.7879 69.2234H56.1526V70.5881H54.7879V69.2234Z" fill={stroke} />
-      <path d="M53.4233 69.2234H54.788V70.5881H53.4233V69.2234Z" fill={stroke} />
-      <path d="M52.0586 69.2234H53.4233V70.5881H52.0586V69.2234Z" fill={stroke} />
+      <path
+        d="M54.7879 69.2234H56.1526V70.5881H54.7879V69.2234Z"
+        fill={stroke}
+      />
+      <path
+        d="M53.4233 69.2234H54.788V70.5881H53.4233V69.2234Z"
+        fill={stroke}
+      />
+      <path
+        d="M52.0586 69.2234H53.4233V70.5881H52.0586V69.2234Z"
+        fill={stroke}
+      />
       <path d="M19.106 16H17.7413V17.3647H19.106V16Z" fill={stroke} />
       <path d="M12.282 17.3647H10.9173V18.7294H12.282V17.3647Z" fill={stroke} />
-      <path d="M17.7406 17.3647H16.3759V18.7294H17.7406V17.3647Z" fill={stroke} />
+      <path
+        d="M17.7406 17.3647H16.3759V18.7294H17.7406V17.3647Z"
+        fill={stroke}
+      />
       <path d="M19.106 17.3647H17.7413V18.7294H19.106V17.3647Z" fill={stroke} />
       <path d="M12.282 18.7292H10.9173V20.0939H12.282V18.7292Z" fill={stroke} />
-      <path d="M13.6474 18.7292H12.2827V20.0939H13.6474V18.7292Z" fill={stroke} />
-      <path d="M16.3767 18.7292H15.012V20.0939H16.3767V18.7292Z" fill={stroke} />
+      <path
+        d="M13.6474 18.7292H12.2827V20.0939H13.6474V18.7292Z"
+        fill={stroke}
+      />
+      <path
+        d="M16.3767 18.7292H15.012V20.0939H16.3767V18.7292Z"
+        fill={stroke}
+      />
       <path d="M17.7406 18.7292H16.3759V20.0939H17.7406V18.7292Z" fill={fill} />
       <path d="M19.106 18.7292H17.7413V20.0939H19.106V18.7292Z" fill={stroke} />
-      <path d="M20.4707 18.7292H19.106V20.0939H20.4707V18.7292Z" fill={stroke} />
-      <path d="M21.8354 18.7292H20.4707V20.0939H21.8354V18.7292Z" fill={stroke} />
+      <path
+        d="M20.4707 18.7292H19.106V20.0939H20.4707V18.7292Z"
+        fill={stroke}
+      />
+      <path
+        d="M21.8354 18.7292H20.4707V20.0939H21.8354V18.7292Z"
+        fill={stroke}
+      />
       <path d="M23.2 18.7292H21.8353V20.0939H23.2V18.7292Z" fill={stroke} />
-      <path d="M24.5639 18.7292H23.1992V20.0939H24.5639V18.7292Z" fill={stroke} />
-      <path d="M25.9286 18.7292H24.5639V20.0939H25.9286V18.7292Z" fill={stroke} />
+      <path
+        d="M24.5639 18.7292H23.1992V20.0939H24.5639V18.7292Z"
+        fill={stroke}
+      />
+      <path
+        d="M25.9286 18.7292H24.5639V20.0939H25.9286V18.7292Z"
+        fill={stroke}
+      />
       <path d="M27.294 18.7292H25.9293V20.0939H27.294V18.7292Z" fill={stroke} />
-      <path d="M28.6587 18.7292H27.294V20.0939H28.6587V18.7292Z" fill={stroke} />
+      <path
+        d="M28.6587 18.7292H27.294V20.0939H28.6587V18.7292Z"
+        fill={stroke}
+      />
       <path d="M12.282 20.094H10.9173V21.4587H12.282V20.094Z" fill={stroke} />
       <path d="M13.6474 20.094H12.2827V21.4587H13.6474V20.094Z" fill={fill} />
       <path d="M15.0121 20.094H13.6474V21.4587H15.0121V20.094Z" fill={stroke} />
@@ -862,8 +1320,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M30.0233 20.094H28.6586V21.4587H30.0233V20.094Z" fill={stroke} />
       <path d="M31.3888 20.094H30.0241V21.4587H31.3888V20.094Z" fill={stroke} />
       <path d="M8.188 21.4583H6.8233V22.823H8.188V21.4583Z" fill={stroke} />
-      <path d="M9.55266 21.4583H8.18797V22.823H9.55266V21.4583Z" fill={stroke} />
-      <path d="M10.9166 21.4583H9.55187V22.823H10.9166V21.4583Z" fill={stroke} />
+      <path
+        d="M9.55266 21.4583H8.18797V22.823H9.55266V21.4583Z"
+        fill={stroke}
+      />
+      <path
+        d="M10.9166 21.4583H9.55187V22.823H10.9166V21.4583Z"
+        fill={stroke}
+      />
       <path d="M12.282 21.4583H10.9173V22.823H12.282V21.4583Z" fill={stroke} />
       <path d="M13.6474 21.4583H12.2827V22.823H13.6474V21.4583Z" fill={fill} />
       <path d="M15.0121 21.4583H13.6474V22.823H15.0121V21.4583Z" fill={fill} />
@@ -880,7 +1344,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M30.0233 21.4583H28.6586V22.823H30.0233V21.4583Z" fill={fill} />
       <path d="M31.3888 21.4583H30.0241V22.823H31.3888V21.4583Z" fill={fill} />
       <path d="M32.7527 21.4583H31.388V22.823H32.7527V21.4583Z" fill={stroke} />
-      <path d="M9.55266 22.8237H8.18797V24.1884H9.55266V22.8237Z" fill={stroke} />
+      <path
+        d="M9.55266 22.8237H8.18797V24.1884H9.55266V22.8237Z"
+        fill={stroke}
+      />
       <path d="M10.9166 22.8237H9.55187V24.1884H10.9166V22.8237Z" fill={fill} />
       <path d="M12.282 22.8237H10.9173V24.1884H12.282V22.8237Z" fill={fill} />
       <path d="M13.6474 22.8237H12.2827V24.1884H13.6474V22.8237Z" fill={fill} />
@@ -898,7 +1365,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M30.0233 22.8237H28.6586V24.1884H30.0233V22.8237Z" fill={fill} />
       <path d="M31.3888 22.8237H30.0241V24.1884H31.3888V22.8237Z" fill={fill} />
       <path d="M32.7527 22.8237H31.388V24.1884H32.7527V22.8237Z" fill={fill} />
-      <path d="M34.1173 22.8237H32.7526V24.1884H34.1173V22.8237Z" fill={stroke} />
+      <path
+        d="M34.1173 22.8237H32.7526V24.1884H34.1173V22.8237Z"
+        fill={stroke}
+      />
       <path d="M9.55266 24.188H8.18797V25.5527H9.55266V24.188Z" fill={stroke} />
       <path d="M10.9166 24.188H9.55187V25.5527H10.9166V24.188Z" fill={stroke} />
       <path d="M12.282 24.188H10.9173V25.5527H12.282V24.188Z" fill={stroke} />
@@ -920,34 +1390,70 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M34.1173 24.188H32.7526V25.5527H34.1173V24.188Z" fill={fill} />
       <path d="M35.482 24.188H34.1173V25.5527H35.482V24.188Z" fill={stroke} />
       <path d="M4.0948 25.5527H2.7301V26.9174H4.0948V25.5527Z" fill={stroke} />
-      <path d="M5.45869 25.5527H4.09399V26.9174H5.45869V25.5527Z" fill={stroke} />
-      <path d="M6.82332 25.5527H5.45862V26.9174H6.82332V25.5527Z" fill={stroke} />
-      <path d="M9.55269 25.5527H8.18799V26.9174H9.55269V25.5527Z" fill={stroke} />
+      <path
+        d="M5.45869 25.5527H4.09399V26.9174H5.45869V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M6.82332 25.5527H5.45862V26.9174H6.82332V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M9.55269 25.5527H8.18799V26.9174H9.55269V25.5527Z"
+        fill={stroke}
+      />
       <path d="M10.9166 25.5527H9.55188V26.9174H10.9166V25.5527Z" fill={fill} />
       <path d="M12.2819 25.5527H10.9172V26.9174H12.2819V25.5527Z" fill={fill} />
       <path d="M13.6474 25.5527H12.2827V26.9174H13.6474V25.5527Z" fill={fill} />
       <path d="M15.012 25.5527H13.6473V26.9174H15.012V25.5527Z" fill={fill} />
       <path d="M16.3768 25.5527H15.0121V26.9174H16.3768V25.5527Z" fill={fill} />
-      <path d="M17.7407 25.5527H16.376V26.9174H17.7407V25.5527Z" fill={stroke} />
+      <path
+        d="M17.7407 25.5527H16.376V26.9174H17.7407V25.5527Z"
+        fill={stroke}
+      />
       <path d="M19.106 25.5527H17.7413V26.9174H19.106V25.5527Z" fill={fill} />
       <path d="M20.4707 25.5527H19.106V26.9174H20.4707V25.5527Z" fill={fill} />
-      <path d="M21.8354 25.5527H20.4707V26.9174H21.8354V25.5527Z" fill={stroke} />
+      <path
+        d="M21.8354 25.5527H20.4707V26.9174H21.8354V25.5527Z"
+        fill={stroke}
+      />
       <path d="M23.2 25.5527H21.8353V26.9174H23.2V25.5527Z" fill={fill} />
       <path d="M24.5639 25.5527H23.1992V26.9174H24.5639V25.5527Z" fill={fill} />
       <path d="M25.9285 25.5527H24.5638V26.9174H25.9285V25.5527Z" fill={fill} />
       <path d="M27.294 25.5527H25.9293V26.9174H27.294V25.5527Z" fill={fill} />
       <path d="M28.6586 25.5527H27.2939V26.9174H28.6586V25.5527Z" fill={fill} />
-      <path d="M30.0234 25.5527H28.6587V26.9174H30.0234V25.5527Z" fill={stroke} />
+      <path
+        d="M30.0234 25.5527H28.6587V26.9174H30.0234V25.5527Z"
+        fill={stroke}
+      />
       <path d="M31.3887 25.5527H30.024V26.9174H31.3887V25.5527Z" fill={fill} />
       <path d="M32.7526 25.5527H31.3879V26.9174H32.7526V25.5527Z" fill={fill} />
       <path d="M34.1174 25.5527H32.7527V26.9174H34.1174V25.5527Z" fill={fill} />
       <path d="M35.482 25.5527H34.1173V26.9174H35.482V25.5527Z" fill={stroke} />
-      <path d="M38.2121 25.5527H36.8474V26.9174H38.2121V25.5527Z" fill={stroke} />
-      <path d="M39.5767 25.5527H38.212V26.9174H39.5767V25.5527Z" fill={stroke} />
-      <path d="M40.9414 25.5527H39.5767V26.9174H40.9414V25.5527Z" fill={stroke} />
-      <path d="M42.3061 25.5527H40.9414V26.9174H42.3061V25.5527Z" fill={stroke} />
-      <path d="M43.6707 25.5527H42.306V26.9174H43.6707V25.5527Z" fill={stroke} />
-      <path d="M2.72936 26.9177H1.36466V28.2824H2.72936V26.9177Z" fill={stroke} />
+      <path
+        d="M38.2121 25.5527H36.8474V26.9174H38.2121V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M39.5767 25.5527H38.212V26.9174H39.5767V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M40.9414 25.5527H39.5767V26.9174H40.9414V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M42.3061 25.5527H40.9414V26.9174H42.3061V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M43.6707 25.5527H42.306V26.9174H43.6707V25.5527Z"
+        fill={stroke}
+      />
+      <path
+        d="M2.72936 26.9177H1.36466V28.2824H2.72936V26.9177Z"
+        fill={stroke}
+      />
       <path d="M4.09478 26.9177H2.73008V28.2824H4.09478V26.9177Z" fill={fill} />
       <path d="M5.45869 26.9177H4.09399V28.2824H5.45869V26.9177Z" fill={fill} />
       <path d="M6.82335 26.9177H5.45865V28.2824H6.82335V26.9177Z" fill={fill} />
@@ -960,7 +1466,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M16.3767 26.9177H15.012V28.2824H16.3767V26.9177Z" fill={fill} />
       <path d="M17.7406 26.9177H16.3759V28.2824H17.7406V26.9177Z" fill={fill} />
       <path d="M19.106 26.9177H17.7413V28.2824H19.106V26.9177Z" fill={stroke} />
-      <path d="M20.4707 26.9177H19.106V28.2824H20.4707V26.9177Z" fill={stroke} />
+      <path
+        d="M20.4707 26.9177H19.106V28.2824H20.4707V26.9177Z"
+        fill={stroke}
+      />
       <path d="M21.8354 26.9177H20.4707V28.2824H21.8354V26.9177Z" fill={fill} />
       <path d="M23.2 26.9177H21.8353V28.2824H23.2V26.9177Z" fill={fill} />
       <path d="M24.5639 26.9177H23.1992V28.2824H24.5639V26.9177Z" fill={fill} />
@@ -968,17 +1477,26 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M27.294 26.9177H25.9293V28.2824H27.294V26.9177Z" fill={fill} />
       <path d="M28.6587 26.9177H27.294V28.2824H28.6587V26.9177Z" fill={fill} />
       <path d="M30.0233 26.9177H28.6586V28.2824H30.0233V26.9177Z" fill={fill} />
-      <path d="M31.3888 26.9177H30.0241V28.2824H31.3888V26.9177Z" fill={stroke} />
+      <path
+        d="M31.3888 26.9177H30.0241V28.2824H31.3888V26.9177Z"
+        fill={stroke}
+      />
       <path d="M32.7527 26.9177H31.388V28.2824H32.7527V26.9177Z" fill={fill} />
       <path d="M34.1173 26.9177H32.7526V28.2824H34.1173V26.9177Z" fill={fill} />
       <path d="M35.482 26.9177H34.1173V28.2824H35.482V26.9177Z" fill={stroke} />
-      <path d="M36.8474 26.9177H35.4827V28.2824H36.8474V26.9177Z" fill={stroke} />
+      <path
+        d="M36.8474 26.9177H35.4827V28.2824H36.8474V26.9177Z"
+        fill={stroke}
+      />
       <path d="M38.2121 26.9177H36.8474V28.2824H38.2121V26.9177Z" fill={fill} />
       <path d="M39.5767 26.9177H38.212V28.2824H39.5767V26.9177Z" fill={fill} />
       <path d="M40.9414 26.9177H39.5767V28.2824H40.9414V26.9177Z" fill={fill} />
       <path d="M42.306 26.9177H40.9413V28.2824H42.306V26.9177Z" fill={fill} />
       <path d="M43.6707 26.9177H42.306V28.2824H43.6707V26.9177Z" fill={fill} />
-      <path d="M45.0346 26.9177H43.6699V28.2824H45.0346V26.9177Z" fill={stroke} />
+      <path
+        d="M45.0346 26.9177H43.6699V28.2824H45.0346V26.9177Z"
+        fill={stroke}
+      />
       <path d="M1.3647 28.282H0V29.6467H1.3647V28.282Z" fill={stroke} />
       <path d="M2.72936 28.282H1.36466V29.6467H2.72936V28.282Z" fill={stroke} />
       <path d="M4.09478 28.282H2.73008V29.6467H4.09478V28.282Z" fill={stroke} />
@@ -1017,7 +1535,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M2.72936 29.6475H1.36466V31.0122H2.72936V29.6475Z" fill={fill} />
       <path d="M4.09478 29.6475H2.73008V31.0122H4.09478V29.6475Z" fill={fill} />
       <path d="M5.45869 29.6475H4.09399V31.0122H5.45869V29.6475Z" fill={fill} />
-      <path d="M6.82335 29.6475H5.45865V31.0122H6.82335V29.6475Z" fill={stroke} />
+      <path
+        d="M6.82335 29.6475H5.45865V31.0122H6.82335V29.6475Z"
+        fill={stroke}
+      />
       <path d="M8.188 29.6475H6.8233V31.0122H8.188V29.6475Z" fill={stroke} />
       <path d="M9.55266 29.6475H8.18797V31.0122H9.55266V29.6475Z" fill={fill} />
       <path d="M10.9166 29.6475H9.55187V31.0122H10.9166V29.6475Z" fill={fill} />
@@ -1036,11 +1557,17 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 29.6475H27.294V31.0122H28.6587V29.6475Z" fill={fill} />
       <path d="M30.0233 29.6475H28.6586V31.0122H30.0233V29.6475Z" fill={fill} />
       <path d="M31.3888 29.6475H30.0241V31.0122H31.3888V29.6475Z" fill={fill} />
-      <path d="M32.7527 29.6475H31.388V31.0122H32.7527V29.6475Z" fill={stroke} />
+      <path
+        d="M32.7527 29.6475H31.388V31.0122H32.7527V29.6475Z"
+        fill={stroke}
+      />
       <path d="M34.1173 29.6475H32.7526V31.0122H34.1173V29.6475Z" fill={fill} />
       <path d="M35.482 29.6475H34.1173V31.0122H35.482V29.6475Z" fill={fill} />
       <path d="M36.8474 29.6475H35.4827V31.0122H36.8474V29.6475Z" fill={fill} />
-      <path d="M38.2121 29.6475H36.8474V31.0122H38.2121V29.6475Z" fill={stroke} />
+      <path
+        d="M38.2121 29.6475H36.8474V31.0122H38.2121V29.6475Z"
+        fill={stroke}
+      />
       <path d="M39.5767 29.6475H38.212V31.0122H39.5767V29.6475Z" fill={fill} />
       <path d="M40.9414 29.6475H39.5767V31.0122H40.9414V29.6475Z" fill={fill} />
       <path d="M42.306 29.6475H40.9413V31.0122H42.306V29.6475Z" fill={fill} />
@@ -1084,33 +1611,66 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M1.3647 32.3762H0V33.7409H1.3647V32.3762Z" fill={stroke} />
       <path d="M2.72936 32.3762H1.36466V33.7409H2.72936V32.3762Z" fill={fill} />
       <path d="M4.09478 32.3762H2.73008V33.7409H4.09478V32.3762Z" fill={fill} />
-      <path d="M5.45869 32.3762H4.09399V33.7409H5.45869V32.3762Z" fill={stroke} />
-      <path d="M6.82335 32.3762H5.45865V33.7409H6.82335V32.3762Z" fill={stroke} />
+      <path
+        d="M5.45869 32.3762H4.09399V33.7409H5.45869V32.3762Z"
+        fill={stroke}
+      />
+      <path
+        d="M6.82335 32.3762H5.45865V33.7409H6.82335V32.3762Z"
+        fill={stroke}
+      />
       <path d="M8.188 32.3762H6.8233V33.7409H8.188V32.3762Z" fill={fill} />
-      <path d="M9.55266 32.3762H8.18797V33.7409H9.55266V32.3762Z" fill={stroke} />
+      <path
+        d="M9.55266 32.3762H8.18797V33.7409H9.55266V32.3762Z"
+        fill={stroke}
+      />
       <path d="M10.9166 32.3762H9.55187V33.7409H10.9166V32.3762Z" fill={fill} />
       <path d="M12.282 32.3762H10.9173V33.7409H12.282V32.3762Z" fill={stroke} />
-      <path d="M13.6474 32.3762H12.2827V33.7409H13.6474V32.3762Z" fill={stroke} />
-      <path d="M15.0121 32.3762H13.6474V33.7409H15.0121V32.3762Z" fill={stroke} />
-      <path d="M16.3767 32.3762H15.012V33.7409H16.3767V32.3762Z" fill={stroke} />
+      <path
+        d="M13.6474 32.3762H12.2827V33.7409H13.6474V32.3762Z"
+        fill={stroke}
+      />
+      <path
+        d="M15.0121 32.3762H13.6474V33.7409H15.0121V32.3762Z"
+        fill={stroke}
+      />
+      <path
+        d="M16.3767 32.3762H15.012V33.7409H16.3767V32.3762Z"
+        fill={stroke}
+      />
       <path d="M17.7406 32.3762H16.3759V33.7409H17.7406V32.3762Z" fill={fill} />
       <path d="M19.106 32.3762H17.7413V33.7409H19.106V32.3762Z" fill={fill} />
       <path d="M20.4707 32.3762H19.106V33.7409H20.4707V32.3762Z" fill={fill} />
       <path d="M21.8354 32.3762H20.4707V33.7409H21.8354V32.3762Z" fill={fill} />
       <path d="M23.2 32.3762H21.8353V33.7409H23.2V32.3762Z" fill={stroke} />
-      <path d="M24.5639 32.3762H23.1992V33.7409H24.5639V32.3762Z" fill={stroke} />
-      <path d="M25.9286 32.3762H24.5639V33.7409H25.9286V32.3762Z" fill={stroke} />
+      <path
+        d="M24.5639 32.3762H23.1992V33.7409H24.5639V32.3762Z"
+        fill={stroke}
+      />
+      <path
+        d="M25.9286 32.3762H24.5639V33.7409H25.9286V32.3762Z"
+        fill={stroke}
+      />
       <path d="M27.294 32.3762H25.9293V33.7409H27.294V32.3762Z" fill={stroke} />
       <path d="M28.6587 32.3762H27.294V33.7409H28.6587V32.3762Z" fill={fill} />
       <path d="M30.0233 32.3762H28.6586V33.7409H30.0233V32.3762Z" fill={fill} />
       <path d="M31.3888 32.3762H30.0241V33.7409H31.3888V32.3762Z" fill={fill} />
-      <path d="M32.7527 32.3762H31.388V33.7409H32.7527V32.3762Z" fill={stroke} />
+      <path
+        d="M32.7527 32.3762H31.388V33.7409H32.7527V32.3762Z"
+        fill={stroke}
+      />
       <path d="M34.1173 32.3762H32.7526V33.7409H34.1173V32.3762Z" fill={fill} />
       <path d="M35.482 32.3762H34.1173V33.7409H35.482V32.3762Z" fill={fill} />
-      <path d="M36.8474 32.3762H35.4827V33.7409H36.8474V32.3762Z" fill={stroke} />
+      <path
+        d="M36.8474 32.3762H35.4827V33.7409H36.8474V32.3762Z"
+        fill={stroke}
+      />
       <path d="M38.2121 32.3762H36.8474V33.7409H38.2121V32.3762Z" fill={fill} />
       <path d="M39.5767 32.3762H38.212V33.7409H39.5767V32.3762Z" fill={fill} />
-      <path d="M40.9414 32.3762H39.5767V33.7409H40.9414V32.3762Z" fill={stroke} />
+      <path
+        d="M40.9414 32.3762H39.5767V33.7409H40.9414V32.3762Z"
+        fill={stroke}
+      />
       <path d="M42.306 32.3762H40.9413V33.7409H42.306V32.3762Z" fill={stroke} />
       <path d="M43.6707 32.3762H42.306V33.7409H43.6707V32.3762Z" fill={fill} />
       <path d="M45.0346 32.3762H43.6699V33.7409H45.0346V32.3762Z" fill={fill} />
@@ -1119,34 +1679,70 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M2.72936 33.7417H1.36466V35.1064H2.72936V33.7417Z" fill={fill} />
       <path d="M4.09478 33.7417H2.73008V35.1064H4.09478V33.7417Z" fill={fill} />
       <path d="M5.45869 33.7417H4.09399V35.1064H5.45869V33.7417Z" fill={fill} />
-      <path d="M6.82335 33.7417H5.45865V35.1064H6.82335V33.7417Z" fill={stroke} />
+      <path
+        d="M6.82335 33.7417H5.45865V35.1064H6.82335V33.7417Z"
+        fill={stroke}
+      />
       <path d="M8.188 33.7417H6.8233V35.1064H8.188V33.7417Z" fill={stroke} />
-      <path d="M9.55266 33.7417H8.18797V35.1064H9.55266V33.7417Z" fill={stroke} />
-      <path d="M10.9166 33.7417H9.55187V35.1064H10.9166V33.7417Z" fill={stroke} />
+      <path
+        d="M9.55266 33.7417H8.18797V35.1064H9.55266V33.7417Z"
+        fill={stroke}
+      />
+      <path
+        d="M10.9166 33.7417H9.55187V35.1064H10.9166V33.7417Z"
+        fill={stroke}
+      />
       <path d="M12.282 33.7417H10.9173V35.1064H12.282V33.7417Z" fill={fill} />
-      <path d="M13.6474 33.7417H12.2827V35.1064H13.6474V33.7417Z" fill={stroke} />
-      <path d="M15.0121 33.7417H13.6474V35.1064H15.0121V33.7417Z" fill={stroke} />
+      <path
+        d="M13.6474 33.7417H12.2827V35.1064H13.6474V33.7417Z"
+        fill={stroke}
+      />
+      <path
+        d="M15.0121 33.7417H13.6474V35.1064H15.0121V33.7417Z"
+        fill={stroke}
+      />
       <path d="M16.3767 33.7417H15.012V35.1064H16.3767V33.7417Z" fill={fill} />
       <path d="M17.7406 33.7417H16.3759V35.1064H17.7406V33.7417Z" fill={fill} />
       <path d="M19.106 33.7417H17.7413V35.1064H19.106V33.7417Z" fill={fill} />
       <path d="M20.4707 33.7417H19.106V35.1064H20.4707V33.7417Z" fill={fill} />
       <path d="M21.8354 33.7417H20.4707V35.1064H21.8354V33.7417Z" fill={fill} />
       <path d="M23.2 33.7417H21.8353V35.1064H23.2V33.7417Z" fill={fill} />
-      <path d="M24.5639 33.7417H23.1992V35.1064H24.5639V33.7417Z" fill={stroke} />
-      <path d="M25.9286 33.7417H24.5639V35.1064H25.9286V33.7417Z" fill={stroke} />
+      <path
+        d="M24.5639 33.7417H23.1992V35.1064H24.5639V33.7417Z"
+        fill={stroke}
+      />
+      <path
+        d="M25.9286 33.7417H24.5639V35.1064H25.9286V33.7417Z"
+        fill={stroke}
+      />
       <path d="M27.294 33.7417H25.9293V35.1064H27.294V33.7417Z" fill={fill} />
-      <path d="M28.6587 33.7417H27.294V35.1064H28.6587V33.7417Z" fill={stroke} />
+      <path
+        d="M28.6587 33.7417H27.294V35.1064H28.6587V33.7417Z"
+        fill={stroke}
+      />
       <path d="M30.0233 33.7417H28.6586V35.1064H30.0233V33.7417Z" fill={fill} />
       <path d="M31.3888 33.7417H30.0241V35.1064H31.3888V33.7417Z" fill={fill} />
-      <path d="M32.7527 33.7417H31.388V35.1064H32.7527V33.7417Z" fill={stroke} />
+      <path
+        d="M32.7527 33.7417H31.388V35.1064H32.7527V33.7417Z"
+        fill={stroke}
+      />
       <path d="M34.1173 33.7417H32.7526V35.1064H34.1173V33.7417Z" fill={fill} />
       <path d="M35.482 33.7417H34.1173V35.1064H35.482V33.7417Z" fill={fill} />
-      <path d="M36.8474 33.7417H35.4827V35.1064H36.8474V33.7417Z" fill={stroke} />
+      <path
+        d="M36.8474 33.7417H35.4827V35.1064H36.8474V33.7417Z"
+        fill={stroke}
+      />
       <path d="M38.2121 33.7417H36.8474V35.1064H38.2121V33.7417Z" fill={fill} />
-      <path d="M39.5767 33.7417H38.212V35.1064H39.5767V33.7417Z" fill={stroke} />
+      <path
+        d="M39.5767 33.7417H38.212V35.1064H39.5767V33.7417Z"
+        fill={stroke}
+      />
       <path d="M40.9414 33.7417H39.5767V35.1064H40.9414V33.7417Z" fill={fill} />
       <path d="M42.306 33.7417H40.9413V35.1064H42.306V33.7417Z" fill={fill} />
-      <path d="M43.6707 33.7417H42.306V35.1064H43.6707V33.7417Z" fill={stroke} />
+      <path
+        d="M43.6707 33.7417H42.306V35.1064H43.6707V33.7417Z"
+        fill={stroke}
+      />
       <path d="M45.0346 33.7417H43.6699V35.1064H45.0346V33.7417Z" fill={fill} />
       <path d="M46.4 33.7417H45.0353V35.1064H46.4V33.7417Z" fill={stroke} />
       <path d="M1.3647 35.106H0V36.4707H1.3647V35.106Z" fill={stroke} />
@@ -1183,47 +1779,92 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M43.6707 35.106H42.306V36.4707H43.6707V35.106Z" fill={fill} />
       <path d="M45.0346 35.106H43.6699V36.4707H45.0346V35.106Z" fill={fill} />
       <path d="M46.4 35.106H45.0353V36.4707H46.4V35.106Z" fill={stroke} />
-      <path d="M2.72936 36.4707H1.36466V37.8354H2.72936V36.4707Z" fill={stroke} />
+      <path
+        d="M2.72936 36.4707H1.36466V37.8354H2.72936V36.4707Z"
+        fill={stroke}
+      />
       <path d="M4.09478 36.4707H2.73008V37.8354H4.09478V36.4707Z" fill={fill} />
-      <path d="M5.45869 36.4707H4.09399V37.8354H5.45869V36.4707Z" fill={stroke} />
+      <path
+        d="M5.45869 36.4707H4.09399V37.8354H5.45869V36.4707Z"
+        fill={stroke}
+      />
       <path d="M6.82335 36.4707H5.45865V37.8354H6.82335V36.4707Z" fill={fill} />
       <path d="M8.188 36.4707H6.8233V37.8354H8.188V36.4707Z" fill={fill} />
-      <path d="M9.55266 36.4707H8.18797V37.8354H9.55266V36.4707Z" fill={stroke} />
-      <path d="M10.9166 36.4707H9.55187V37.8354H10.9166V36.4707Z" fill={stroke} />
+      <path
+        d="M9.55266 36.4707H8.18797V37.8354H9.55266V36.4707Z"
+        fill={stroke}
+      />
+      <path
+        d="M10.9166 36.4707H9.55187V37.8354H10.9166V36.4707Z"
+        fill={stroke}
+      />
       <path d="M12.282 36.4707H10.9173V37.8354H12.282V36.4707Z" fill={fill} />
       <path d="M13.6474 36.4707H12.2827V37.8354H13.6474V36.4707Z" fill={fill} />
       <path d="M15.0121 36.4707H13.6474V37.8354H15.0121V36.4707Z" fill={fill} />
-      <path d="M16.3767 36.4707H15.012V37.8354H16.3767V36.4707Z" fill={stroke} />
-      <path d="M17.7406 36.4707H16.3759V37.8354H17.7406V36.4707Z" fill={stroke} />
+      <path
+        d="M16.3767 36.4707H15.012V37.8354H16.3767V36.4707Z"
+        fill={stroke}
+      />
+      <path
+        d="M17.7406 36.4707H16.3759V37.8354H17.7406V36.4707Z"
+        fill={stroke}
+      />
       <path d="M19.106 36.4707H17.7413V37.8354H19.106V36.4707Z" fill={stroke} />
-      <path d="M20.4707 36.4707H19.106V37.8354H20.4707V36.4707Z" fill={stroke} />
-      <path d="M21.8354 36.4707H20.4707V37.8354H21.8354V36.4707Z" fill={stroke} />
+      <path
+        d="M20.4707 36.4707H19.106V37.8354H20.4707V36.4707Z"
+        fill={stroke}
+      />
+      <path
+        d="M21.8354 36.4707H20.4707V37.8354H21.8354V36.4707Z"
+        fill={stroke}
+      />
       <path d="M23.2 36.4707H21.8353V37.8354H23.2V36.4707Z" fill={stroke} />
       <path d="M24.5639 36.4707H23.1992V37.8354H24.5639V36.4707Z" fill={fill} />
       <path d="M25.9286 36.4707H24.5639V37.8354H25.9286V36.4707Z" fill={fill} />
       <path d="M27.294 36.4707H25.9293V37.8354H27.294V36.4707Z" fill={fill} />
       <path d="M28.6587 36.4707H27.294V37.8354H28.6587V36.4707Z" fill={fill} />
-      <path d="M30.0233 36.4707H28.6586V37.8354H30.0233V36.4707Z" fill={stroke} />
+      <path
+        d="M30.0233 36.4707H28.6586V37.8354H30.0233V36.4707Z"
+        fill={stroke}
+      />
       <path d="M31.3888 36.4707H30.0241V37.8354H31.3888V36.4707Z" fill={fill} />
       <path d="M32.7527 36.4707H31.388V37.8354H32.7527V36.4707Z" fill={fill} />
       <path d="M34.1173 36.4707H32.7526V37.8354H34.1173V36.4707Z" fill={fill} />
       <path d="M35.482 36.4707H34.1173V37.8354H35.482V36.4707Z" fill={fill} />
-      <path d="M36.8474 36.4707H35.4827V37.8354H36.8474V36.4707Z" fill={stroke} />
+      <path
+        d="M36.8474 36.4707H35.4827V37.8354H36.8474V36.4707Z"
+        fill={stroke}
+      />
       <path d="M38.2121 36.4707H36.8474V37.8354H38.2121V36.4707Z" fill={fill} />
       <path d="M39.5767 36.4707H38.212V37.8354H39.5767V36.4707Z" fill={fill} />
-      <path d="M40.9414 36.4707H39.5767V37.8354H40.9414V36.4707Z" fill={stroke} />
+      <path
+        d="M40.9414 36.4707H39.5767V37.8354H40.9414V36.4707Z"
+        fill={stroke}
+      />
       <path d="M42.306 36.4707H40.9413V37.8354H42.306V36.4707Z" fill={fill} />
       <path d="M43.6707 36.4707H42.306V37.8354H43.6707V36.4707Z" fill={fill} />
       <path d="M45.0346 36.4707H43.6699V37.8354H45.0346V36.4707Z" fill={fill} />
       <path d="M46.4 36.4707H45.0353V37.8354H46.4V36.4707Z" fill={stroke} />
-      <path d="M2.72932 37.8354H1.36462V39.2001H2.72932V37.8354Z" fill={stroke} />
+      <path
+        d="M2.72932 37.8354H1.36462V39.2001H2.72932V37.8354Z"
+        fill={stroke}
+      />
       <path d="M4.0948 37.8354H2.7301V39.2001H4.0948V37.8354Z" fill={fill} />
       <path d="M5.45869 37.8354H4.09399V39.2001H5.45869V37.8354Z" fill={fill} />
-      <path d="M6.82332 37.8354H5.45862V39.2001H6.82332V37.8354Z" fill={stroke} />
+      <path
+        d="M6.82332 37.8354H5.45862V39.2001H6.82332V37.8354Z"
+        fill={stroke}
+      />
       <path d="M8.18806 37.8354H6.82336V39.2001H8.18806V37.8354Z" fill={fill} />
-      <path d="M9.55269 37.8354H8.18799V39.2001H9.55269V37.8354Z" fill={stroke} />
+      <path
+        d="M9.55269 37.8354H8.18799V39.2001H9.55269V37.8354Z"
+        fill={stroke}
+      />
       <path d="M10.9166 37.8354H9.55188V39.2001H10.9166V37.8354Z" fill={fill} />
-      <path d="M12.2819 37.8354H10.9172V39.2001H12.2819V37.8354Z" fill={stroke} />
+      <path
+        d="M12.2819 37.8354H10.9172V39.2001H12.2819V37.8354Z"
+        fill={stroke}
+      />
       <path d="M13.6474 37.8354H12.2827V39.2001H13.6474V37.8354Z" fill={fill} />
       <path d="M15.012 37.8354H13.6473V39.2001H15.012V37.8354Z" fill={stroke} />
       <path d="M16.3768 37.8354H15.0121V39.2001H16.3768V37.8354Z" fill={fill} />
@@ -1232,22 +1873,34 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M20.4707 37.8354H19.106V39.2001H20.4707V37.8354Z" fill={fill} />
       <path d="M21.8354 37.8354H20.4707V39.2001H21.8354V37.8354Z" fill={fill} />
       <path d="M23.2 37.8354H21.8353V39.2001H23.2V37.8354Z" fill={fill} />
-      <path d="M24.5639 37.8354H23.1992V39.2001H24.5639V37.8354Z" fill={stroke} />
+      <path
+        d="M24.5639 37.8354H23.1992V39.2001H24.5639V37.8354Z"
+        fill={stroke}
+      />
       <path d="M25.9285 37.8354H24.5638V39.2001H25.9285V37.8354Z" fill={fill} />
       <path d="M27.294 37.8354H25.9293V39.2001H27.294V37.8354Z" fill={stroke} />
-      <path d="M28.6586 37.8354H27.2939V39.2001H28.6586V37.8354Z" fill={stroke} />
+      <path
+        d="M28.6586 37.8354H27.2939V39.2001H28.6586V37.8354Z"
+        fill={stroke}
+      />
       <path d="M30.0234 37.8354H28.6587V39.2001H30.0234V37.8354Z" fill={fill} />
       <path d="M31.3887 37.8354H30.024V39.2001H31.3887V37.8354Z" fill={fill} />
       <path d="M32.7526 37.8354H31.3879V39.2001H32.7526V37.8354Z" fill={fill} />
       <path d="M34.1174 37.8354H32.7527V39.2001H34.1174V37.8354Z" fill={fill} />
       <path d="M35.482 37.8354H34.1173V39.2001H35.482V37.8354Z" fill={fill} />
-      <path d="M36.8474 37.8354H35.4827V39.2001H36.8474V37.8354Z" fill={stroke} />
+      <path
+        d="M36.8474 37.8354H35.4827V39.2001H36.8474V37.8354Z"
+        fill={stroke}
+      />
       <path d="M38.2121 37.8354H36.8474V39.2001H38.2121V37.8354Z" fill={fill} />
       <path d="M39.5767 37.8354H38.212V39.2001H39.5767V37.8354Z" fill={fill} />
       <path d="M40.9414 37.8354H39.5767V39.2001H40.9414V37.8354Z" fill={fill} />
       <path d="M42.3061 37.8354H40.9414V39.2001H42.3061V37.8354Z" fill={fill} />
       <path d="M43.6707 37.8354H42.306V39.2001H43.6707V37.8354Z" fill={fill} />
-      <path d="M45.0346 37.8354H43.6699V39.2001H45.0346V37.8354Z" fill={stroke} />
+      <path
+        d="M45.0346 37.8354H43.6699V39.2001H45.0346V37.8354Z"
+        fill={stroke}
+      />
       <path d="M4.09478 39.2H2.73008V40.5647H4.09478V39.2Z" fill={stroke} />
       <path d="M5.45869 39.2H4.09399V40.5647H5.45869V39.2Z" fill={fill} />
       <path d="M6.82335 39.2H5.45865V40.5647H6.82335V39.2Z" fill={fill} />
@@ -1278,16 +1931,31 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M40.9414 39.2H39.5767V40.5647H40.9414V39.2Z" fill={fill} />
       <path d="M42.306 39.2H40.9413V40.5647H42.306V39.2Z" fill={fill} />
       <path d="M43.6707 39.2H42.306V40.5647H43.6707V39.2Z" fill={stroke} />
-      <path d="M5.45869 40.5642H4.09399V41.9289H5.45869V40.5642Z" fill={stroke} />
-      <path d="M6.82335 40.5642H5.45865V41.9289H6.82335V40.5642Z" fill={stroke} />
+      <path
+        d="M5.45869 40.5642H4.09399V41.9289H5.45869V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M6.82335 40.5642H5.45865V41.9289H6.82335V40.5642Z"
+        fill={stroke}
+      />
       <path d="M8.188 40.5642H6.8233V41.9289H8.188V40.5642Z" fill={stroke} />
-      <path d="M9.55266 40.5642H8.18797V41.9289H9.55266V40.5642Z" fill={stroke} />
-      <path d="M10.9166 40.5642H9.55187V41.9289H10.9166V40.5642Z" fill={stroke} />
+      <path
+        d="M9.55266 40.5642H8.18797V41.9289H9.55266V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M10.9166 40.5642H9.55187V41.9289H10.9166V40.5642Z"
+        fill={stroke}
+      />
       <path d="M12.282 40.5642H10.9173V41.9289H12.282V40.5642Z" fill={fill} />
       <path d="M13.6474 40.5642H12.2827V41.9289H13.6474V40.5642Z" fill={fill} />
       <path d="M15.0121 40.5642H13.6474V41.9289H15.0121V40.5642Z" fill={fill} />
       <path d="M16.3767 40.5642H15.012V41.9289H16.3767V40.5642Z" fill={fill} />
-      <path d="M17.7406 40.5642H16.3759V41.9289H17.7406V40.5642Z" fill={stroke} />
+      <path
+        d="M17.7406 40.5642H16.3759V41.9289H17.7406V40.5642Z"
+        fill={stroke}
+      />
       <path d="M19.106 40.5642H17.7413V41.9289H19.106V40.5642Z" fill={fill} />
       <path d="M20.4707 40.5642H19.106V41.9289H20.4707V40.5642Z" fill={fill} />
       <path d="M21.8354 40.5642H20.4707V41.9289H21.8354V40.5642Z" fill={fill} />
@@ -1295,18 +1963,36 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M24.5639 40.5642H23.1992V41.9289H24.5639V40.5642Z" fill={fill} />
       <path d="M25.9286 40.5642H24.5639V41.9289H25.9286V40.5642Z" fill={fill} />
       <path d="M27.294 40.5642H25.9293V41.9289H27.294V40.5642Z" fill={fill} />
-      <path d="M28.6587 40.5642H27.294V41.9289H28.6587V40.5642Z" fill={stroke} />
+      <path
+        d="M28.6587 40.5642H27.294V41.9289H28.6587V40.5642Z"
+        fill={stroke}
+      />
       <path d="M30.0233 40.5642H28.6586V41.9289H30.0233V40.5642Z" fill={fill} />
       <path d="M31.3888 40.5642H30.0241V41.9289H31.3888V40.5642Z" fill={fill} />
       <path d="M32.7527 40.5642H31.388V41.9289H32.7527V40.5642Z" fill={fill} />
       <path d="M34.1173 40.5642H32.7526V41.9289H34.1173V40.5642Z" fill={fill} />
       <path d="M35.482 40.5642H34.1173V41.9289H35.482V40.5642Z" fill={fill} />
-      <path d="M36.8474 40.5642H35.4827V41.9289H36.8474V40.5642Z" fill={stroke} />
-      <path d="M38.2121 40.5642H36.8474V41.9289H38.2121V40.5642Z" fill={stroke} />
-      <path d="M39.5767 40.5642H38.212V41.9289H39.5767V40.5642Z" fill={stroke} />
-      <path d="M40.9414 40.5642H39.5767V41.9289H40.9414V40.5642Z" fill={stroke} />
+      <path
+        d="M36.8474 40.5642H35.4827V41.9289H36.8474V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M38.2121 40.5642H36.8474V41.9289H38.2121V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M39.5767 40.5642H38.212V41.9289H39.5767V40.5642Z"
+        fill={stroke}
+      />
+      <path
+        d="M40.9414 40.5642H39.5767V41.9289H40.9414V40.5642Z"
+        fill={stroke}
+      />
       <path d="M42.306 40.5642H40.9413V41.9289H42.306V40.5642Z" fill={stroke} />
-      <path d="M9.55266 41.9292H8.18797V43.2939H9.55266V41.9292Z" fill={stroke} />
+      <path
+        d="M9.55266 41.9292H8.18797V43.2939H9.55266V41.9292Z"
+        fill={stroke}
+      />
       <path d="M10.9166 41.9292H9.55187V43.2939H10.9166V41.9292Z" fill={fill} />
       <path d="M12.282 41.9292H10.9173V43.2939H12.282V41.9292Z" fill={fill} />
       <path d="M13.6474 41.9292H12.2827V43.2939H13.6474V41.9292Z" fill={fill} />
@@ -1321,12 +2007,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M25.9286 41.9292H24.5639V43.2939H25.9286V41.9292Z" fill={fill} />
       <path d="M27.294 41.9292H25.9293V43.2939H27.294V41.9292Z" fill={fill} />
       <path d="M28.6587 41.9292H27.294V43.2939H28.6587V41.9292Z" fill={fill} />
-      <path d="M30.0233 41.9292H28.6586V43.2939H30.0233V41.9292Z" fill={stroke} />
+      <path
+        d="M30.0233 41.9292H28.6586V43.2939H30.0233V41.9292Z"
+        fill={stroke}
+      />
       <path d="M31.3888 41.9292H30.0241V43.2939H31.3888V41.9292Z" fill={fill} />
       <path d="M32.7527 41.9292H31.388V43.2939H32.7527V41.9292Z" fill={fill} />
       <path d="M34.1173 41.9292H32.7526V43.2939H34.1173V41.9292Z" fill={fill} />
       <path d="M35.482 41.9292H34.1173V43.2939H35.482V41.9292Z" fill={fill} />
-      <path d="M36.8474 41.9292H35.4827V43.2939H36.8474V41.9292Z" fill={stroke} />
+      <path
+        d="M36.8474 41.9292H35.4827V43.2939H36.8474V41.9292Z"
+        fill={stroke}
+      />
       <path d="M8.188 43.2939H6.8233V44.6586H8.188V43.2939Z" fill={stroke} />
       <path d="M9.55266 43.2939H8.18797V44.6586H9.55266V43.2939Z" fill={fill} />
       <path d="M10.9166 43.2939H9.55187V44.6586H10.9166V43.2939Z" fill={fill} />
@@ -1344,11 +2036,17 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M27.294 43.2939H25.9293V44.6586H27.294V43.2939Z" fill={fill} />
       <path d="M28.6587 43.2939H27.294V44.6586H28.6587V43.2939Z" fill={fill} />
       <path d="M30.0233 43.2939H28.6586V44.6586H30.0233V43.2939Z" fill={fill} />
-      <path d="M31.3888 43.2939H30.0241V44.6586H31.3888V43.2939Z" fill={stroke} />
+      <path
+        d="M31.3888 43.2939H30.0241V44.6586H31.3888V43.2939Z"
+        fill={stroke}
+      />
       <path d="M32.7527 43.2939H31.388V44.6586H32.7527V43.2939Z" fill={fill} />
       <path d="M34.1173 43.2939H32.7526V44.6586H34.1173V43.2939Z" fill={fill} />
       <path d="M35.482 43.2939H34.1173V44.6586H35.482V43.2939Z" fill={fill} />
-      <path d="M36.8474 43.2939H35.4827V44.6586H36.8474V43.2939Z" fill={stroke} />
+      <path
+        d="M36.8474 43.2939H35.4827V44.6586H36.8474V43.2939Z"
+        fill={stroke}
+      />
       <path d="M8.188 44.6582H6.8233V46.0229H8.188V44.6582Z" fill={stroke} />
       <path d="M9.55266 44.6582H8.18797V46.0229H9.55266V44.6582Z" fill={fill} />
       <path d="M10.9166 44.6582H9.55187V46.0229H10.9166V44.6582Z" fill={fill} />
@@ -1366,11 +2064,17 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M27.294 44.6582H25.9293V46.0229H27.294V44.6582Z" fill={fill} />
       <path d="M28.6587 44.6582H27.294V46.0229H28.6587V44.6582Z" fill={fill} />
       <path d="M30.0233 44.6582H28.6586V46.0229H30.0233V44.6582Z" fill={fill} />
-      <path d="M31.3888 44.6582H30.0241V46.0229H31.3888V44.6582Z" fill={stroke} />
+      <path
+        d="M31.3888 44.6582H30.0241V46.0229H31.3888V44.6582Z"
+        fill={stroke}
+      />
       <path d="M32.7527 44.6582H31.388V46.0229H32.7527V44.6582Z" fill={fill} />
       <path d="M34.1173 44.6582H32.7526V46.0229H34.1173V44.6582Z" fill={fill} />
       <path d="M35.482 44.6582H34.1173V46.0229H35.482V44.6582Z" fill={fill} />
-      <path d="M36.8474 44.6582H35.4827V46.0229H36.8474V44.6582Z" fill={stroke} />
+      <path
+        d="M36.8474 44.6582H35.4827V46.0229H36.8474V44.6582Z"
+        fill={stroke}
+      />
       <path d="M8.188 46.0237H6.8233V47.3884H8.188V46.0237Z" fill={stroke} />
       <path d="M9.55266 46.0237H8.18797V47.3884H9.55266V46.0237Z" fill={fill} />
       <path d="M10.9166 46.0237H9.55187V47.3884H10.9166V46.0237Z" fill={fill} />
@@ -1389,10 +2093,16 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 46.0237H27.294V47.3884H28.6587V46.0237Z" fill={fill} />
       <path d="M30.0233 46.0237H28.6586V47.3884H30.0233V46.0237Z" fill={fill} />
       <path d="M31.3888 46.0237H30.0241V47.3884H31.3888V46.0237Z" fill={fill} />
-      <path d="M32.7527 46.0237H31.388V47.3884H32.7527V46.0237Z" fill={stroke} />
+      <path
+        d="M32.7527 46.0237H31.388V47.3884H32.7527V46.0237Z"
+        fill={stroke}
+      />
       <path d="M34.1173 46.0237H32.7526V47.3884H34.1173V46.0237Z" fill={fill} />
       <path d="M35.482 46.0237H34.1173V47.3884H35.482V46.0237Z" fill={stroke} />
-      <path d="M8.18806 47.3877H6.82336V48.7524H8.18806V47.3877Z" fill={stroke} />
+      <path
+        d="M8.18806 47.3877H6.82336V48.7524H8.18806V47.3877Z"
+        fill={stroke}
+      />
       <path d="M9.55269 47.3877H8.18799V48.7524H9.55269V47.3877Z" fill={fill} />
       <path d="M10.9166 47.3877H9.55188V48.7524H10.9166V47.3877Z" fill={fill} />
       <path d="M12.2819 47.3877H10.9172V48.7524H12.2819V47.3877Z" fill={fill} />
@@ -1410,7 +2120,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6586 47.3877H27.2939V48.7524H28.6586V47.3877Z" fill={fill} />
       <path d="M30.0234 47.3877H28.6587V48.7524H30.0234V47.3877Z" fill={fill} />
       <path d="M31.3887 47.3877H30.024V48.7524H31.3887V47.3877Z" fill={fill} />
-      <path d="M32.7526 47.3877H31.3879V48.7524H32.7526V47.3877Z" fill={stroke} />
+      <path
+        d="M32.7526 47.3877H31.3879V48.7524H32.7526V47.3877Z"
+        fill={stroke}
+      />
       <path d="M34.1174 47.3877H32.7527V48.7524H34.1174V47.3877Z" fill={fill} />
       <path d="M35.482 47.3877H34.1173V48.7524H35.482V47.3877Z" fill={stroke} />
       <path d="M8.188 48.7527H6.8233V50.1174H8.188V48.7527Z" fill={stroke} />
@@ -1418,12 +2131,27 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M10.9166 48.7527H9.55187V50.1174H10.9166V48.7527Z" fill={fill} />
       <path d="M12.282 48.7527H10.9173V50.1174H12.282V48.7527Z" fill={fill} />
       <path d="M13.6474 48.7527H12.2827V50.1174H13.6474V48.7527Z" fill={fill} />
-      <path d="M15.0121 48.7527H13.6474V50.1174H15.0121V48.7527Z" fill={stroke} />
-      <path d="M16.3767 48.7527H15.012V50.1174H16.3767V48.7527Z" fill={stroke} />
-      <path d="M17.7406 48.7527H16.3759V50.1174H17.7406V48.7527Z" fill={stroke} />
+      <path
+        d="M15.0121 48.7527H13.6474V50.1174H15.0121V48.7527Z"
+        fill={stroke}
+      />
+      <path
+        d="M16.3767 48.7527H15.012V50.1174H16.3767V48.7527Z"
+        fill={stroke}
+      />
+      <path
+        d="M17.7406 48.7527H16.3759V50.1174H17.7406V48.7527Z"
+        fill={stroke}
+      />
       <path d="M19.106 48.7527H17.7413V50.1174H19.106V48.7527Z" fill={stroke} />
-      <path d="M20.4707 48.7527H19.106V50.1174H20.4707V48.7527Z" fill={stroke} />
-      <path d="M21.8354 48.7527H20.4707V50.1174H21.8354V48.7527Z" fill={stroke} />
+      <path
+        d="M20.4707 48.7527H19.106V50.1174H20.4707V48.7527Z"
+        fill={stroke}
+      />
+      <path
+        d="M21.8354 48.7527H20.4707V50.1174H21.8354V48.7527Z"
+        fill={stroke}
+      />
       <path d="M23.2 48.7527H21.8353V50.1174H23.2V48.7527Z" fill={stroke} />
       <path d="M24.5639 48.7527H23.1992V50.1174H24.5639V48.7527Z" fill={fill} />
       <path d="M25.9286 48.7527H24.5639V50.1174H25.9286V48.7527Z" fill={fill} />
@@ -1431,14 +2159,20 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 48.7527H27.294V50.1174H28.6587V48.7527Z" fill={fill} />
       <path d="M30.0233 48.7527H28.6586V50.1174H30.0233V48.7527Z" fill={fill} />
       <path d="M31.3888 48.7527H30.0241V50.1174H31.3888V48.7527Z" fill={fill} />
-      <path d="M32.7527 48.7527H31.388V50.1174H32.7527V48.7527Z" fill={stroke} />
+      <path
+        d="M32.7527 48.7527H31.388V50.1174H32.7527V48.7527Z"
+        fill={stroke}
+      />
       <path d="M34.1173 48.7527H32.7526V50.1174H34.1173V48.7527Z" fill={fill} />
       <path d="M35.482 48.7527H34.1173V50.1174H35.482V48.7527Z" fill={stroke} />
       <path d="M8.188 50.1177H6.8233V51.4824H8.188V50.1177Z" fill={stroke} />
       <path d="M9.55266 50.1177H8.18797V51.4824H9.55266V50.1177Z" fill={fill} />
       <path d="M10.9166 50.1177H9.55187V51.4824H10.9166V50.1177Z" fill={fill} />
       <path d="M12.282 50.1177H10.9173V51.4824H12.282V50.1177Z" fill={stroke} />
-      <path d="M13.6474 50.1177H12.2827V51.4824H13.6474V50.1177Z" fill={stroke} />
+      <path
+        d="M13.6474 50.1177H12.2827V51.4824H13.6474V50.1177Z"
+        fill={stroke}
+      />
       <path d="M15.0121 50.1177H13.6474V51.4824H15.0121V50.1177Z" fill={fill} />
       <path d="M16.3767 50.1177H15.012V51.4824H16.3767V50.1177Z" fill={fill} />
       <path d="M17.7406 50.1177H16.3759V51.4824H17.7406V50.1177Z" fill={fill} />
@@ -1446,16 +2180,31 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M20.4707 50.1177H19.106V51.4824H20.4707V50.1177Z" fill={fill} />
       <path d="M21.8354 50.1177H20.4707V51.4824H21.8354V50.1177Z" fill={fill} />
       <path d="M23.2 50.1177H21.8353V51.4824H23.2V50.1177Z" fill={fill} />
-      <path d="M24.5639 50.1177H23.1992V51.4824H24.5639V50.1177Z" fill={stroke} />
-      <path d="M25.9286 50.1177H24.5639V51.4824H25.9286V50.1177Z" fill={stroke} />
+      <path
+        d="M24.5639 50.1177H23.1992V51.4824H24.5639V50.1177Z"
+        fill={stroke}
+      />
+      <path
+        d="M25.9286 50.1177H24.5639V51.4824H25.9286V50.1177Z"
+        fill={stroke}
+      />
       <path d="M27.294 50.1177H25.9293V51.4824H27.294V50.1177Z" fill={stroke} />
-      <path d="M28.6587 50.1177H27.294V51.4824H28.6587V50.1177Z" fill={stroke} />
+      <path
+        d="M28.6587 50.1177H27.294V51.4824H28.6587V50.1177Z"
+        fill={stroke}
+      />
       <path d="M30.0233 50.1177H28.6586V51.4824H30.0233V50.1177Z" fill={fill} />
       <path d="M31.3888 50.1177H30.0241V51.4824H31.3888V50.1177Z" fill={fill} />
-      <path d="M32.7527 50.1177H31.388V51.4824H32.7527V50.1177Z" fill={stroke} />
+      <path
+        d="M32.7527 50.1177H31.388V51.4824H32.7527V50.1177Z"
+        fill={stroke}
+      />
       <path d="M34.1173 50.1177H32.7526V51.4824H34.1173V50.1177Z" fill={fill} />
       <path d="M35.482 50.1177H34.1173V51.4824H35.482V50.1177Z" fill={stroke} />
-      <path d="M9.55266 51.4819H8.18797V52.8466H9.55266V51.4819Z" fill={stroke} />
+      <path
+        d="M9.55266 51.4819H8.18797V52.8466H9.55266V51.4819Z"
+        fill={stroke}
+      />
       <path d="M10.9166 51.4819H9.55187V52.8466H10.9166V51.4819Z" fill={fill} />
       <path d="M12.282 51.4819H10.9173V52.8466H12.282V51.4819Z" fill={fill} />
       <path d="M13.6474 51.4819H12.2827V52.8466H13.6474V51.4819Z" fill={fill} />
@@ -1472,9 +2221,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 51.4819H27.294V52.8466H28.6587V51.4819Z" fill={fill} />
       <path d="M30.0233 51.4819H28.6586V52.8466H30.0233V51.4819Z" fill={fill} />
       <path d="M31.3888 51.4819H30.0241V52.8466H31.3888V51.4819Z" fill={fill} />
-      <path d="M32.7527 51.4819H31.388V52.8466H32.7527V51.4819Z" fill={stroke} />
-      <path d="M34.1173 51.4819H32.7526V52.8466H34.1173V51.4819Z" fill={stroke} />
-      <path d="M9.55266 52.8469H8.18797V54.2116H9.55266V52.8469Z" fill={stroke} />
+      <path
+        d="M32.7527 51.4819H31.388V52.8466H32.7527V51.4819Z"
+        fill={stroke}
+      />
+      <path
+        d="M34.1173 51.4819H32.7526V52.8466H34.1173V51.4819Z"
+        fill={stroke}
+      />
+      <path
+        d="M9.55266 52.8469H8.18797V54.2116H9.55266V52.8469Z"
+        fill={stroke}
+      />
       <path d="M10.9166 52.8469H9.55187V54.2116H10.9166V52.8469Z" fill={fill} />
       <path d="M12.282 52.8469H10.9173V54.2116H12.282V52.8469Z" fill={fill} />
       <path d="M13.6474 52.8469H12.2827V54.2116H13.6474V52.8469Z" fill={fill} />
@@ -1491,8 +2249,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 52.8469H27.294V54.2116H28.6587V52.8469Z" fill={fill} />
       <path d="M30.0233 52.8469H28.6586V54.2116H30.0233V52.8469Z" fill={fill} />
       <path d="M31.3888 52.8469H30.0241V54.2116H31.3888V52.8469Z" fill={fill} />
-      <path d="M32.7527 52.8469H31.388V54.2116H32.7527V52.8469Z" fill={stroke} />
-      <path d="M10.9166 54.2112H9.55187V55.5759H10.9166V54.2112Z" fill={stroke} />
+      <path
+        d="M32.7527 52.8469H31.388V54.2116H32.7527V52.8469Z"
+        fill={stroke}
+      />
+      <path
+        d="M10.9166 54.2112H9.55187V55.5759H10.9166V54.2112Z"
+        fill={stroke}
+      />
       <path d="M12.282 54.2112H10.9173V55.5759H12.282V54.2112Z" fill={fill} />
       <path d="M13.6474 54.2112H12.2827V55.5759H13.6474V54.2112Z" fill={fill} />
       <path d="M15.0121 54.2112H13.6474V55.5759H15.0121V54.2112Z" fill={fill} />
@@ -1507,8 +2271,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M27.294 54.2112H25.9293V55.5759H27.294V54.2112Z" fill={fill} />
       <path d="M28.6587 54.2112H27.294V55.5759H28.6587V54.2112Z" fill={fill} />
       <path d="M30.0233 54.2112H28.6586V55.5759H30.0233V54.2112Z" fill={fill} />
-      <path d="M31.3888 54.2112H30.0241V55.5759H31.3888V54.2112Z" fill={stroke} />
-      <path d="M32.7527 54.2112H31.388V55.5759H32.7527V54.2112Z" fill={stroke} />
+      <path
+        d="M31.3888 54.2112H30.0241V55.5759H31.3888V54.2112Z"
+        fill={stroke}
+      />
+      <path
+        d="M32.7527 54.2112H31.388V55.5759H32.7527V54.2112Z"
+        fill={stroke}
+      />
       <path d="M12.282 55.5759H10.9173V56.9406H12.282V55.5759Z" fill={stroke} />
       <path d="M13.6474 55.5759H12.2827V56.9406H13.6474V55.5759Z" fill={fill} />
       <path d="M15.0121 55.5759H13.6474V56.9406H15.0121V55.5759Z" fill={fill} />
@@ -1521,12 +2291,27 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M24.5639 55.5759H23.1992V56.9406H24.5639V55.5759Z" fill={fill} />
       <path d="M25.9286 55.5759H24.5639V56.9406H25.9286V55.5759Z" fill={fill} />
       <path d="M27.294 55.5759H25.9293V56.9406H27.294V55.5759Z" fill={fill} />
-      <path d="M28.6587 55.5759H27.294V56.9406H28.6587V55.5759Z" fill={stroke} />
-      <path d="M30.0233 55.5759H28.6586V56.9406H30.0233V55.5759Z" fill={stroke} />
+      <path
+        d="M28.6587 55.5759H27.294V56.9406H28.6587V55.5759Z"
+        fill={stroke}
+      />
+      <path
+        d="M30.0233 55.5759H28.6586V56.9406H30.0233V55.5759Z"
+        fill={stroke}
+      />
       <path d="M31.3888 55.5759H30.0241V56.9406H31.3888V55.5759Z" fill={fill} />
-      <path d="M32.7527 55.5759H31.388V56.9406H32.7527V55.5759Z" fill={stroke} />
-      <path d="M13.6474 56.9409H12.2827V58.3056H13.6474V56.9409Z" fill={stroke} />
-      <path d="M15.0121 56.9409H13.6474V58.3056H15.0121V56.9409Z" fill={stroke} />
+      <path
+        d="M32.7527 55.5759H31.388V56.9406H32.7527V55.5759Z"
+        fill={stroke}
+      />
+      <path
+        d="M13.6474 56.9409H12.2827V58.3056H13.6474V56.9409Z"
+        fill={stroke}
+      />
+      <path
+        d="M15.0121 56.9409H13.6474V58.3056H15.0121V56.9409Z"
+        fill={stroke}
+      />
       <path d="M16.3767 56.9409H15.012V58.3056H16.3767V56.9409Z" fill={fill} />
       <path d="M17.7406 56.9409H16.3759V58.3056H17.7406V56.9409Z" fill={fill} />
       <path d="M19.106 56.9409H17.7413V58.3056H19.106V56.9409Z" fill={fill} />
@@ -1534,26 +2319,53 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M21.8354 56.9409H20.4707V58.3056H21.8354V56.9409Z" fill={fill} />
       <path d="M23.2 56.9409H21.8353V58.3056H23.2V56.9409Z" fill={fill} />
       <path d="M24.5639 56.9409H23.1992V58.3056H24.5639V56.9409Z" fill={fill} />
-      <path d="M25.9286 56.9409H24.5639V58.3056H25.9286V56.9409Z" fill={stroke} />
+      <path
+        d="M25.9286 56.9409H24.5639V58.3056H25.9286V56.9409Z"
+        fill={stroke}
+      />
       <path d="M27.294 56.9409H25.9293V58.3056H27.294V56.9409Z" fill={stroke} />
       <path d="M28.6587 56.9409H27.294V58.3056H28.6587V56.9409Z" fill={fill} />
       <path d="M30.0233 56.9409H28.6586V58.3056H30.0233V56.9409Z" fill={fill} />
       <path d="M31.3888 56.9409H30.0241V58.3056H31.3888V56.9409Z" fill={fill} />
-      <path d="M32.7527 56.9409H31.388V58.3056H32.7527V56.9409Z" fill={stroke} />
-      <path d="M16.3767 58.3059H15.012V59.6706H16.3767V58.3059Z" fill={stroke} />
-      <path d="M17.7406 58.3059H16.3759V59.6706H17.7406V58.3059Z" fill={stroke} />
+      <path
+        d="M32.7527 56.9409H31.388V58.3056H32.7527V56.9409Z"
+        fill={stroke}
+      />
+      <path
+        d="M16.3767 58.3059H15.012V59.6706H16.3767V58.3059Z"
+        fill={stroke}
+      />
+      <path
+        d="M17.7406 58.3059H16.3759V59.6706H17.7406V58.3059Z"
+        fill={stroke}
+      />
       <path d="M19.106 58.3059H17.7413V59.6706H19.106V58.3059Z" fill={stroke} />
-      <path d="M20.4707 58.3059H19.106V59.6706H20.4707V58.3059Z" fill={stroke} />
-      <path d="M21.8354 58.3059H20.4707V59.6706H21.8354V58.3059Z" fill={stroke} />
+      <path
+        d="M20.4707 58.3059H19.106V59.6706H20.4707V58.3059Z"
+        fill={stroke}
+      />
+      <path
+        d="M21.8354 58.3059H20.4707V59.6706H21.8354V58.3059Z"
+        fill={stroke}
+      />
       <path d="M23.2 58.3059H21.8353V59.6706H23.2V58.3059Z" fill={stroke} />
-      <path d="M24.5639 58.3059H23.1992V59.6706H24.5639V58.3059Z" fill={stroke} />
+      <path
+        d="M24.5639 58.3059H23.1992V59.6706H24.5639V58.3059Z"
+        fill={stroke}
+      />
       <path d="M25.9286 58.3059H24.5639V59.6706H25.9286V58.3059Z" fill={fill} />
       <path d="M27.294 58.3059H25.9293V59.6706H27.294V58.3059Z" fill={fill} />
       <path d="M28.6587 58.3059H27.294V59.6706H28.6587V58.3059Z" fill={fill} />
       <path d="M30.0233 58.3059H28.6586V59.6706H30.0233V58.3059Z" fill={fill} />
       <path d="M31.3888 58.3059H30.0241V59.6706H31.3888V58.3059Z" fill={fill} />
-      <path d="M32.7527 58.3059H31.388V59.6706H32.7527V58.3059Z" fill={stroke} />
-      <path d="M20.4707 59.6707H19.106V61.0354H20.4707V59.6707Z" fill={stroke} />
+      <path
+        d="M32.7527 58.3059H31.388V59.6706H32.7527V58.3059Z"
+        fill={stroke}
+      />
+      <path
+        d="M20.4707 59.6707H19.106V61.0354H20.4707V59.6707Z"
+        fill={stroke}
+      />
       <path d="M21.8354 59.6707H20.4707V61.0354H21.8354V59.6707Z" fill={fill} />
       <path d="M23.2 59.6707H21.8353V61.0354H23.2V59.6707Z" fill={fill} />
       <path d="M24.5639 59.6707H23.1992V61.0354H24.5639V59.6707Z" fill={fill} />
@@ -1562,8 +2374,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 59.6707H27.294V61.0354H28.6587V59.6707Z" fill={fill} />
       <path d="M30.0233 59.6707H28.6586V61.0354H30.0233V59.6707Z" fill={fill} />
       <path d="M31.3888 59.6707H30.0241V61.0354H31.3888V59.6707Z" fill={fill} />
-      <path d="M32.7527 59.6707H31.388V61.0354H32.7527V59.6707Z" fill={stroke} />
-      <path d="M20.4707 61.0354H19.106V62.4001H20.4707V61.0354Z" fill={stroke} />
+      <path
+        d="M32.7527 59.6707H31.388V61.0354H32.7527V59.6707Z"
+        fill={stroke}
+      />
+      <path
+        d="M20.4707 61.0354H19.106V62.4001H20.4707V61.0354Z"
+        fill={stroke}
+      />
       <path d="M21.8354 61.0354H20.4707V62.4001H21.8354V61.0354Z" fill={fill} />
       <path d="M23.2 61.0354H21.8353V62.4001H23.2V61.0354Z" fill={fill} />
       <path d="M24.5639 61.0354H23.1992V62.4001H24.5639V61.0354Z" fill={fill} />
@@ -1572,8 +2390,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 61.0354H27.294V62.4001H28.6587V61.0354Z" fill={fill} />
       <path d="M30.0233 61.0354H28.6586V62.4001H30.0233V61.0354Z" fill={fill} />
       <path d="M31.3888 61.0354H30.0241V62.4001H31.3888V61.0354Z" fill={fill} />
-      <path d="M32.7527 61.0354H31.388V62.4001H32.7527V61.0354Z" fill={stroke} />
-      <path d="M20.4707 62.3999H19.106V63.7646H20.4707V62.3999Z" fill={stroke} />
+      <path
+        d="M32.7527 61.0354H31.388V62.4001H32.7527V61.0354Z"
+        fill={stroke}
+      />
+      <path
+        d="M20.4707 62.3999H19.106V63.7646H20.4707V62.3999Z"
+        fill={stroke}
+      />
       <path d="M21.8354 62.3999H20.4707V63.7646H21.8354V62.3999Z" fill={fill} />
       <path d="M23.2 62.3999H21.8353V63.7646H23.2V62.3999Z" fill={fill} />
       <path d="M24.5639 62.3999H23.1992V63.7646H24.5639V62.3999Z" fill={fill} />
@@ -1582,8 +2406,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 62.3999H27.294V63.7646H28.6587V62.3999Z" fill={fill} />
       <path d="M30.0233 62.3999H28.6586V63.7646H30.0233V62.3999Z" fill={fill} />
       <path d="M31.3888 62.3999H30.0241V63.7646H31.3888V62.3999Z" fill={fill} />
-      <path d="M32.7527 62.3999H31.388V63.7646H32.7527V62.3999Z" fill={stroke} />
-      <path d="M20.4707 63.7642H19.106V65.1289H20.4707V63.7642Z" fill={stroke} />
+      <path
+        d="M32.7527 62.3999H31.388V63.7646H32.7527V62.3999Z"
+        fill={stroke}
+      />
+      <path
+        d="M20.4707 63.7642H19.106V65.1289H20.4707V63.7642Z"
+        fill={stroke}
+      />
       <path d="M21.8354 63.7642H20.4707V65.1289H21.8354V63.7642Z" fill={fill} />
       <path d="M23.2 63.7642H21.8353V65.1289H23.2V63.7642Z" fill={fill} />
       <path d="M24.5639 63.7642H23.1992V65.1289H24.5639V63.7642Z" fill={fill} />
@@ -1592,7 +2422,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M28.6587 63.7642H27.294V65.1289H28.6587V63.7642Z" fill={fill} />
       <path d="M30.0233 63.7642H28.6586V65.1289H30.0233V63.7642Z" fill={fill} />
       <path d="M31.3888 63.7642H30.0241V65.1289H31.3888V63.7642Z" fill={fill} />
-      <path d="M32.7527 63.7642H31.388V65.1289H32.7527V63.7642Z" fill={stroke} />
+      <path
+        d="M32.7527 63.7642H31.388V65.1289H32.7527V63.7642Z"
+        fill={stroke}
+      />
       <path d="M19.106 65.1294H17.7413V66.4941H19.106V65.1294Z" fill={stroke} />
       <path d="M20.4707 65.1294H19.106V66.4941H20.4707V65.1294Z" fill={fill} />
       <path d="M21.8354 65.1294H20.4707V66.4941H21.8354V65.1294Z" fill={fill} />
@@ -1604,7 +2437,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M30.0233 65.1294H28.6586V66.4941H30.0233V65.1294Z" fill={fill} />
       <path d="M31.3888 65.1294H30.0241V66.4941H31.3888V65.1294Z" fill={fill} />
       <path d="M32.7527 65.1294H31.388V66.4941H32.7527V65.1294Z" fill={fill} />
-      <path d="M34.1173 65.1294H32.7526V66.4941H34.1173V65.1294Z" fill={stroke} />
+      <path
+        d="M34.1173 65.1294H32.7526V66.4941H34.1173V65.1294Z"
+        fill={stroke}
+      />
       <path d="M19.106 66.4939H17.7413V67.8586H19.106V66.4939Z" fill={stroke} />
       <path d="M20.4707 66.4939H19.106V67.8586H20.4707V66.4939Z" fill={fill} />
       <path d="M21.8354 66.4939H20.4707V67.8586H21.8354V66.4939Z" fill={fill} />
@@ -1616,9 +2452,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M30.0233 66.4939H28.6586V67.8586H30.0233V66.4939Z" fill={fill} />
       <path d="M31.3888 66.4939H30.0241V67.8586H31.3888V66.4939Z" fill={fill} />
       <path d="M32.7527 66.4939H31.388V67.8586H32.7527V66.4939Z" fill={fill} />
-      <path d="M34.1173 66.4939H32.7526V67.8586H34.1173V66.4939Z" fill={stroke} />
-      <path d="M16.3767 67.8582H15.012V69.2229H16.3767V67.8582Z" fill={stroke} />
-      <path d="M17.7406 67.8582H16.3759V69.2229H17.7406V67.8582Z" fill={stroke} />
+      <path
+        d="M34.1173 66.4939H32.7526V67.8586H34.1173V66.4939Z"
+        fill={stroke}
+      />
+      <path
+        d="M16.3767 67.8582H15.012V69.2229H16.3767V67.8582Z"
+        fill={stroke}
+      />
+      <path
+        d="M17.7406 67.8582H16.3759V69.2229H17.7406V67.8582Z"
+        fill={stroke}
+      />
       <path d="M19.106 67.8582H17.7413V69.2229H19.106V67.8582Z" fill={fill} />
       <path d="M20.4707 67.8582H19.106V69.2229H20.4707V67.8582Z" fill={fill} />
       <path d="M21.8354 67.8582H20.4707V69.2229H21.8354V67.8582Z" fill={fill} />
@@ -1632,10 +2477,19 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M32.7527 67.8582H31.388V69.2229H32.7527V67.8582Z" fill={fill} />
       <path d="M34.1173 67.8582H32.7526V69.2229H34.1173V67.8582Z" fill={fill} />
       <path d="M35.482 67.8582H34.1173V69.2229H35.482V67.8582Z" fill={stroke} />
-      <path d="M36.8474 67.8582H35.4827V69.2229H36.8474V67.8582Z" fill={stroke} />
+      <path
+        d="M36.8474 67.8582H35.4827V69.2229H36.8474V67.8582Z"
+        fill={stroke}
+      />
       <path d="M12.282 69.2234H10.9173V70.5881H12.282V69.2234Z" fill={stroke} />
-      <path d="M13.6474 69.2234H12.2827V70.5881H13.6474V69.2234Z" fill={stroke} />
-      <path d="M15.0121 69.2234H13.6474V70.5881H15.0121V69.2234Z" fill={stroke} />
+      <path
+        d="M13.6474 69.2234H12.2827V70.5881H13.6474V69.2234Z"
+        fill={stroke}
+      />
+      <path
+        d="M15.0121 69.2234H13.6474V70.5881H15.0121V69.2234Z"
+        fill={stroke}
+      />
       <path d="M16.3767 69.2234H15.012V70.5881H16.3767V69.2234Z" fill={fill} />
       <path d="M17.7406 69.2234H16.3759V70.5881H17.7406V69.2234Z" fill={fill} />
       <path d="M19.106 69.2234H17.7413V70.5881H19.106V69.2234Z" fill={fill} />
@@ -1652,13 +2506,28 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M34.1173 69.2234H32.7526V70.5881H34.1173V69.2234Z" fill={fill} />
       <path d="M35.482 69.2234H34.1173V70.5881H35.482V69.2234Z" fill={fill} />
       <path d="M36.8474 69.2234H35.4827V70.5881H36.8474V69.2234Z" fill={fill} />
-      <path d="M38.2121 69.2234H36.8474V70.5881H38.2121V69.2234Z" fill={stroke} />
-      <path d="M39.5767 69.2234H38.212V70.5881H39.5767V69.2234Z" fill={stroke} />
-      <path d="M40.9414 69.2234H39.5767V70.5881H40.9414V69.2234Z" fill={stroke} />
+      <path
+        d="M38.2121 69.2234H36.8474V70.5881H38.2121V69.2234Z"
+        fill={stroke}
+      />
+      <path
+        d="M39.5767 69.2234H38.212V70.5881H39.5767V69.2234Z"
+        fill={stroke}
+      />
+      <path
+        d="M40.9414 69.2234H39.5767V70.5881H40.9414V69.2234Z"
+        fill={stroke}
+      />
       <path d="M40.7059 0H38.9412V1.7647H40.7059V0Z" fill={stroke} />
-      <path d="M31.8823 1.76465H30.1176V3.52935H31.8823V1.76465Z" fill={stroke} />
+      <path
+        d="M31.8823 1.76465H30.1176V3.52935H31.8823V1.76465Z"
+        fill={stroke}
+      />
       <path d="M38.94 1.76465H37.1753V3.52935H38.94V1.76465Z" fill={stroke} />
-      <path d="M40.7059 1.76465H38.9412V3.52935H40.7059V1.76465Z" fill={stroke} />
+      <path
+        d="M40.7059 1.76465H38.9412V3.52935H40.7059V1.76465Z"
+        fill={stroke}
+      />
       <path d="M31.8824 3.5293H30.1177V5.29399H31.8824V3.5293Z" fill={stroke} />
       <path d="M33.647 3.5293H31.8823V5.29399H33.647V3.5293Z" fill={stroke} />
       <path d="M37.1764 3.5293H35.4117V5.29399H37.1764V3.5293Z" fill={stroke} />
@@ -1671,12 +2540,21 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M49.5282 3.5293H47.7635V5.29399H49.5282V3.5293Z" fill={stroke} />
       <path d="M51.2941 3.5293H49.5294V5.29399H51.2941V3.5293Z" fill={stroke} />
       <path d="M53.0588 3.5293H51.2941V5.29399H53.0588V3.5293Z" fill={stroke} />
-      <path d="M31.8823 5.29419H30.1176V7.05889H31.8823V5.29419Z" fill={stroke} />
+      <path
+        d="M31.8823 5.29419H30.1176V7.05889H31.8823V5.29419Z"
+        fill={stroke}
+      />
       <path d="M33.647 5.29419H31.8823V7.05889H33.647V5.29419Z" fill={fill} />
-      <path d="M35.4117 5.29419H33.647V7.05889H35.4117V5.29419Z" fill={stroke} />
+      <path
+        d="M35.4117 5.29419H33.647V7.05889H35.4117V5.29419Z"
+        fill={stroke}
+      />
       <path d="M37.1764 5.29419H35.4118V7.05889H37.1764V5.29419Z" fill={fill} />
       <path d="M38.94 5.29419H37.1753V7.05889H38.94V5.29419Z" fill={fill} />
-      <path d="M40.7059 5.29419H38.9412V7.05889H40.7059V5.29419Z" fill={stroke} />
+      <path
+        d="M40.7059 5.29419H38.9412V7.05889H40.7059V5.29419Z"
+        fill={stroke}
+      />
       <path d="M42.4706 5.29419H40.7059V7.05889H42.4706V5.29419Z" fill={fill} />
       <path d="M44.2353 5.29419H42.4706V7.05889H44.2353V5.29419Z" fill={fill} />
       <path d="M46 5.29419H44.2353V7.05889H46V5.29419Z" fill={fill} />
@@ -1684,12 +2562,30 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M49.5282 5.29419H47.7635V7.05889H49.5282V5.29419Z" fill={fill} />
       <path d="M51.2941 5.29419H49.5294V7.05889H51.2941V5.29419Z" fill={fill} />
       <path d="M53.0588 5.29419H51.2941V7.05889H53.0588V5.29419Z" fill={fill} />
-      <path d="M54.8235 5.29419H53.0588V7.05889H54.8235V5.29419Z" fill={stroke} />
-      <path d="M56.5894 5.29419H54.8247V7.05889H56.5894V5.29419Z" fill={stroke} />
-      <path d="M26.5882 7.05835H24.8235V8.82305H26.5882V7.05835Z" fill={stroke} />
-      <path d="M28.3529 7.05835H26.5882V8.82305H28.3529V7.05835Z" fill={stroke} />
-      <path d="M30.1165 7.05835H28.3518V8.82305H30.1165V7.05835Z" fill={stroke} />
-      <path d="M31.8823 7.05835H30.1176V8.82305H31.8823V7.05835Z" fill={stroke} />
+      <path
+        d="M54.8235 5.29419H53.0588V7.05889H54.8235V5.29419Z"
+        fill={stroke}
+      />
+      <path
+        d="M56.5894 5.29419H54.8247V7.05889H56.5894V5.29419Z"
+        fill={stroke}
+      />
+      <path
+        d="M26.5882 7.05835H24.8235V8.82305H26.5882V7.05835Z"
+        fill={stroke}
+      />
+      <path
+        d="M28.3529 7.05835H26.5882V8.82305H28.3529V7.05835Z"
+        fill={stroke}
+      />
+      <path
+        d="M30.1165 7.05835H28.3518V8.82305H30.1165V7.05835Z"
+        fill={stroke}
+      />
+      <path
+        d="M31.8823 7.05835H30.1176V8.82305H31.8823V7.05835Z"
+        fill={stroke}
+      />
       <path d="M33.647 7.05835H31.8823V8.82305H33.647V7.05835Z" fill={fill} />
       <path d="M35.4117 7.05835H33.647V8.82305H35.4117V7.05835Z" fill={fill} />
       <path d="M37.1764 7.05835H35.4118V8.82305H37.1764V7.05835Z" fill={fill} />
@@ -1704,8 +2600,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 7.05835H51.2941V8.82305H53.0588V7.05835Z" fill={fill} />
       <path d="M54.8235 7.05835H53.0588V8.82305H54.8235V7.05835Z" fill={fill} />
       <path d="M56.5894 7.05835H54.8247V8.82305H56.5894V7.05835Z" fill={fill} />
-      <path d="M58.3529 7.05835H56.5882V8.82305H58.3529V7.05835Z" fill={stroke} />
-      <path d="M28.3529 8.82349H26.5882V10.5882H28.3529V8.82349Z" fill={stroke} />
+      <path
+        d="M58.3529 7.05835H56.5882V8.82305H58.3529V7.05835Z"
+        fill={stroke}
+      />
+      <path
+        d="M28.3529 8.82349H26.5882V10.5882H28.3529V8.82349Z"
+        fill={stroke}
+      />
       <path d="M30.1165 8.82349H28.3518V10.5882H30.1165V8.82349Z" fill={fill} />
       <path d="M31.8823 8.82349H30.1176V10.5882H31.8823V8.82349Z" fill={fill} />
       <path d="M33.647 8.82349H31.8823V10.5882H33.647V8.82349Z" fill={fill} />
@@ -1723,31 +2625,76 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M54.8235 8.82349H53.0588V10.5882H54.8235V8.82349Z" fill={fill} />
       <path d="M56.5894 8.82349H54.8247V10.5882H56.5894V8.82349Z" fill={fill} />
       <path d="M58.3529 8.82349H56.5882V10.5882H58.3529V8.82349Z" fill={fill} />
-      <path d="M60.1176 8.82349H58.3529V10.5882H60.1176V8.82349Z" fill={stroke} />
-      <path d="M28.3529 10.5876H26.5882V12.3523H28.3529V10.5876Z" fill={stroke} />
-      <path d="M30.1165 10.5876H28.3518V12.3523H30.1165V10.5876Z" fill={stroke} />
-      <path d="M31.8823 10.5876H30.1176V12.3523H31.8823V10.5876Z" fill={stroke} />
+      <path
+        d="M60.1176 8.82349H58.3529V10.5882H60.1176V8.82349Z"
+        fill={stroke}
+      />
+      <path
+        d="M28.3529 10.5876H26.5882V12.3523H28.3529V10.5876Z"
+        fill={stroke}
+      />
+      <path
+        d="M30.1165 10.5876H28.3518V12.3523H30.1165V10.5876Z"
+        fill={stroke}
+      />
+      <path
+        d="M31.8823 10.5876H30.1176V12.3523H31.8823V10.5876Z"
+        fill={stroke}
+      />
       <path d="M33.647 10.5876H31.8823V12.3523H33.647V10.5876Z" fill={stroke} />
-      <path d="M35.4117 10.5876H33.647V12.3523H35.4117V10.5876Z" fill={stroke} />
-      <path d="M37.1764 10.5876H35.4118V12.3523H37.1764V10.5876Z" fill={stroke} />
+      <path
+        d="M35.4117 10.5876H33.647V12.3523H35.4117V10.5876Z"
+        fill={stroke}
+      />
+      <path
+        d="M37.1764 10.5876H35.4118V12.3523H37.1764V10.5876Z"
+        fill={stroke}
+      />
       <path d="M38.94 10.5876H37.1753V12.3523H38.94V10.5876Z" fill={fill} />
       <path d="M40.7059 10.5876H38.9412V12.3523H40.7059V10.5876Z" fill={fill} />
       <path d="M42.4706 10.5876H40.7059V12.3523H42.4706V10.5876Z" fill={fill} />
       <path d="M44.2353 10.5876H42.4706V12.3523H44.2353V10.5876Z" fill={fill} />
       <path d="M46 10.5876H44.2353V12.3523H46V10.5876Z" fill={stroke} />
-      <path d="M47.7635 10.5876H45.9988V12.3523H47.7635V10.5876Z" fill={stroke} />
-      <path d="M49.5282 10.5876H47.7635V12.3523H49.5282V10.5876Z" fill={stroke} />
-      <path d="M51.2941 10.5876H49.5294V12.3523H51.2941V10.5876Z" fill={stroke} />
-      <path d="M53.0588 10.5876H51.2941V12.3523H53.0588V10.5876Z" fill={stroke} />
+      <path
+        d="M47.7635 10.5876H45.9988V12.3523H47.7635V10.5876Z"
+        fill={stroke}
+      />
+      <path
+        d="M49.5282 10.5876H47.7635V12.3523H49.5282V10.5876Z"
+        fill={stroke}
+      />
+      <path
+        d="M51.2941 10.5876H49.5294V12.3523H51.2941V10.5876Z"
+        fill={stroke}
+      />
+      <path
+        d="M53.0588 10.5876H51.2941V12.3523H53.0588V10.5876Z"
+        fill={stroke}
+      />
       <path d="M54.8235 10.5876H53.0588V12.3523H54.8235V10.5876Z" fill={fill} />
       <path d="M56.5894 10.5876H54.8247V12.3523H56.5894V10.5876Z" fill={fill} />
       <path d="M58.3529 10.5876H56.5882V12.3523H58.3529V10.5876Z" fill={fill} />
       <path d="M60.1176 10.5876H58.3529V12.3523H60.1176V10.5876Z" fill={fill} />
-      <path d="M61.8823 10.5876H60.1176V12.3523H61.8823V10.5876Z" fill={stroke} />
-      <path d="M21.2953 12.3523H19.5306V14.117H21.2953V12.3523Z" fill={stroke} />
-      <path d="M23.0588 12.3523H21.2941V14.117H23.0588V12.3523Z" fill={stroke} />
-      <path d="M24.8235 12.3523H23.0588V14.117H24.8235V12.3523Z" fill={stroke} />
-      <path d="M28.3529 12.3523H26.5882V14.117H28.3529V12.3523Z" fill={stroke} />
+      <path
+        d="M61.8823 10.5876H60.1176V12.3523H61.8823V10.5876Z"
+        fill={stroke}
+      />
+      <path
+        d="M21.2953 12.3523H19.5306V14.117H21.2953V12.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M23.0588 12.3523H21.2941V14.117H23.0588V12.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M24.8235 12.3523H23.0588V14.117H24.8235V12.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M28.3529 12.3523H26.5882V14.117H28.3529V12.3523Z"
+        fill={stroke}
+      />
       <path d="M30.1165 12.3523H28.3518V14.117H30.1165V12.3523Z" fill={fill} />
       <path d="M31.8823 12.3523H30.1176V14.117H31.8823V12.3523Z" fill={fill} />
       <path d="M33.647 12.3523H31.8823V14.117H33.647V12.3523Z" fill={fill} />
@@ -1756,27 +2703,54 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M38.94 12.3523H37.1753V14.117H38.94V12.3523Z" fill={stroke} />
       <path d="M40.7059 12.3523H38.9412V14.117H40.7059V12.3523Z" fill={fill} />
       <path d="M42.4706 12.3523H40.7059V14.117H42.4706V12.3523Z" fill={fill} />
-      <path d="M44.2353 12.3523H42.4706V14.117H44.2353V12.3523Z" fill={stroke} />
+      <path
+        d="M44.2353 12.3523H42.4706V14.117H44.2353V12.3523Z"
+        fill={stroke}
+      />
       <path d="M46 12.3523H44.2353V14.117H46V12.3523Z" fill={fill} />
       <path d="M47.7635 12.3523H45.9988V14.117H47.7635V12.3523Z" fill={fill} />
       <path d="M49.5282 12.3523H47.7635V14.117H49.5282V12.3523Z" fill={fill} />
       <path d="M51.2941 12.3523H49.5294V14.117H51.2941V12.3523Z" fill={fill} />
       <path d="M53.0588 12.3523H51.2941V14.117H53.0588V12.3523Z" fill={fill} />
-      <path d="M54.8235 12.3523H53.0588V14.117H54.8235V12.3523Z" fill={stroke} />
+      <path
+        d="M54.8235 12.3523H53.0588V14.117H54.8235V12.3523Z"
+        fill={stroke}
+      />
       <path d="M56.5894 12.3523H54.8247V14.117H56.5894V12.3523Z" fill={fill} />
       <path d="M58.3529 12.3523H56.5882V14.117H58.3529V12.3523Z" fill={fill} />
       <path d="M60.1176 12.3523H58.3529V14.117H60.1176V12.3523Z" fill={fill} />
-      <path d="M61.8823 12.3523H60.1176V14.117H61.8823V12.3523Z" fill={stroke} />
+      <path
+        d="M61.8823 12.3523H60.1176V14.117H61.8823V12.3523Z"
+        fill={stroke}
+      />
       <path d="M65.4117 12.3523H63.647V14.117H65.4117V12.3523Z" fill={stroke} />
-      <path d="M67.1764 12.3523H65.4117V14.117H67.1764V12.3523Z" fill={stroke} />
-      <path d="M68.9411 12.3523H67.1764V14.117H68.9411V12.3523Z" fill={stroke} />
-      <path d="M70.7058 12.3523H68.9411V14.117H70.7058V12.3523Z" fill={stroke} />
-      <path d="M72.4706 12.3523H70.7059V14.117H72.4706V12.3523Z" fill={stroke} />
-      <path d="M19.5294 14.1177H17.7647V15.8824H19.5294V14.1177Z" fill={stroke} />
+      <path
+        d="M67.1764 12.3523H65.4117V14.117H67.1764V12.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M68.9411 12.3523H67.1764V14.117H68.9411V12.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M70.7058 12.3523H68.9411V14.117H70.7058V12.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M72.4706 12.3523H70.7059V14.117H72.4706V12.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M19.5294 14.1177H17.7647V15.8824H19.5294V14.1177Z"
+        fill={stroke}
+      />
       <path d="M21.2953 14.1177H19.5306V15.8824H21.2953V14.1177Z" fill={fill} />
       <path d="M23.0588 14.1177H21.2941V15.8824H23.0588V14.1177Z" fill={fill} />
       <path d="M24.8235 14.1177H23.0588V15.8824H24.8235V14.1177Z" fill={fill} />
-      <path d="M26.5882 14.1177H24.8235V15.8824H26.5882V14.1177Z" fill={stroke} />
+      <path
+        d="M26.5882 14.1177H24.8235V15.8824H26.5882V14.1177Z"
+        fill={stroke}
+      />
       <path d="M28.3529 14.1177H26.5882V15.8824H28.3529V14.1177Z" fill={fill} />
       <path d="M30.1165 14.1177H28.3518V15.8824H30.1165V14.1177Z" fill={fill} />
       <path d="M31.8823 14.1177H30.1176V15.8824H31.8823V14.1177Z" fill={fill} />
@@ -1784,8 +2758,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M35.4117 14.1177H33.647V15.8824H35.4117V14.1177Z" fill={fill} />
       <path d="M37.1764 14.1177H35.4118V15.8824H37.1764V14.1177Z" fill={fill} />
       <path d="M38.94 14.1177H37.1753V15.8824H38.94V14.1177Z" fill={fill} />
-      <path d="M40.7059 14.1177H38.9412V15.8824H40.7059V14.1177Z" fill={stroke} />
-      <path d="M42.4706 14.1177H40.7059V15.8824H42.4706V14.1177Z" fill={stroke} />
+      <path
+        d="M40.7059 14.1177H38.9412V15.8824H40.7059V14.1177Z"
+        fill={stroke}
+      />
+      <path
+        d="M42.4706 14.1177H40.7059V15.8824H42.4706V14.1177Z"
+        fill={stroke}
+      />
       <path d="M44.2353 14.1177H42.4706V15.8824H44.2353V14.1177Z" fill={fill} />
       <path d="M46 14.1177H44.2353V15.8824H46V14.1177Z" fill={fill} />
       <path d="M47.7635 14.1177H45.9988V15.8824H47.7635V14.1177Z" fill={fill} />
@@ -1793,23 +2773,44 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M51.2941 14.1177H49.5294V15.8824H51.2941V14.1177Z" fill={fill} />
       <path d="M53.0588 14.1177H51.2941V15.8824H53.0588V14.1177Z" fill={fill} />
       <path d="M54.8235 14.1177H53.0588V15.8824H54.8235V14.1177Z" fill={fill} />
-      <path d="M56.5894 14.1177H54.8247V15.8824H56.5894V14.1177Z" fill={stroke} />
+      <path
+        d="M56.5894 14.1177H54.8247V15.8824H56.5894V14.1177Z"
+        fill={stroke}
+      />
       <path d="M58.3529 14.1177H56.5882V15.8824H58.3529V14.1177Z" fill={fill} />
       <path d="M60.1176 14.1177H58.3529V15.8824H60.1176V14.1177Z" fill={fill} />
-      <path d="M61.8823 14.1177H60.1176V15.8824H61.8823V14.1177Z" fill={stroke} />
+      <path
+        d="M61.8823 14.1177H60.1176V15.8824H61.8823V14.1177Z"
+        fill={stroke}
+      />
       <path d="M63.647 14.1177H61.8823V15.8824H63.647V14.1177Z" fill={stroke} />
       <path d="M65.4117 14.1177H63.647V15.8824H65.4117V14.1177Z" fill={fill} />
       <path d="M67.1764 14.1177H65.4117V15.8824H67.1764V14.1177Z" fill={fill} />
       <path d="M68.9411 14.1177H67.1764V15.8824H68.9411V14.1177Z" fill={fill} />
       <path d="M70.7058 14.1177H68.9411V15.8824H70.7058V14.1177Z" fill={fill} />
       <path d="M72.4706 14.1177H70.7059V15.8824H72.4706V14.1177Z" fill={fill} />
-      <path d="M74.2341 14.1177H72.4694V15.8824H74.2341V14.1177Z" fill={stroke} />
+      <path
+        d="M74.2341 14.1177H72.4694V15.8824H74.2341V14.1177Z"
+        fill={stroke}
+      />
       <path d="M17.7647 15.8818H16V17.6465H17.7647V15.8818Z" fill={stroke} />
-      <path d="M19.5294 15.8818H17.7647V17.6465H19.5294V15.8818Z" fill={stroke} />
-      <path d="M21.2953 15.8818H19.5306V17.6465H21.2953V15.8818Z" fill={stroke} />
-      <path d="M23.0588 15.8818H21.2941V17.6465H23.0588V15.8818Z" fill={stroke} />
+      <path
+        d="M19.5294 15.8818H17.7647V17.6465H19.5294V15.8818Z"
+        fill={stroke}
+      />
+      <path
+        d="M21.2953 15.8818H19.5306V17.6465H21.2953V15.8818Z"
+        fill={stroke}
+      />
+      <path
+        d="M23.0588 15.8818H21.2941V17.6465H23.0588V15.8818Z"
+        fill={stroke}
+      />
       <path d="M24.8235 15.8818H23.0588V17.6465H24.8235V15.8818Z" fill={fill} />
-      <path d="M26.5882 15.8818H24.8235V17.6465H26.5882V15.8818Z" fill={stroke} />
+      <path
+        d="M26.5882 15.8818H24.8235V17.6465H26.5882V15.8818Z"
+        fill={stroke}
+      />
       <path d="M28.3529 15.8818H26.5882V17.6465H28.3529V15.8818Z" fill={fill} />
       <path d="M30.1165 15.8818H28.3518V17.6465H30.1165V15.8818Z" fill={fill} />
       <path d="M31.8823 15.8818H30.1176V17.6465H31.8823V15.8818Z" fill={fill} />
@@ -1827,23 +2828,47 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 15.8818H51.2941V17.6465H53.0588V15.8818Z" fill={fill} />
       <path d="M54.8235 15.8818H53.0588V17.6465H54.8235V15.8818Z" fill={fill} />
       <path d="M56.5894 15.8818H54.8247V17.6465H56.5894V15.8818Z" fill={fill} />
-      <path d="M58.3529 15.8818H56.5882V17.6465H58.3529V15.8818Z" fill={stroke} />
+      <path
+        d="M58.3529 15.8818H56.5882V17.6465H58.3529V15.8818Z"
+        fill={stroke}
+      />
       <path d="M60.1176 15.8818H58.3529V17.6465H60.1176V15.8818Z" fill={fill} />
       <path d="M61.8823 15.8818H60.1176V17.6465H61.8823V15.8818Z" fill={fill} />
       <path d="M63.647 15.8818H61.8823V17.6465H63.647V15.8818Z" fill={fill} />
       <path d="M65.4117 15.8818H63.647V17.6465H65.4117V15.8818Z" fill={fill} />
-      <path d="M67.1764 15.8818H65.4117V17.6465H67.1764V15.8818Z" fill={stroke} />
-      <path d="M68.9411 15.8818H67.1764V17.6465H68.9411V15.8818Z" fill={stroke} />
-      <path d="M70.7058 15.8818H68.9411V17.6465H70.7058V15.8818Z" fill={stroke} />
-      <path d="M72.4706 15.8818H70.7059V17.6465H72.4706V15.8818Z" fill={stroke} />
-      <path d="M74.2341 15.8818H72.4694V17.6465H74.2341V15.8818Z" fill={stroke} />
+      <path
+        d="M67.1764 15.8818H65.4117V17.6465H67.1764V15.8818Z"
+        fill={stroke}
+      />
+      <path
+        d="M68.9411 15.8818H67.1764V17.6465H68.9411V15.8818Z"
+        fill={stroke}
+      />
+      <path
+        d="M70.7058 15.8818H68.9411V17.6465H70.7058V15.8818Z"
+        fill={stroke}
+      />
+      <path
+        d="M72.4706 15.8818H70.7059V17.6465H72.4706V15.8818Z"
+        fill={stroke}
+      />
+      <path
+        d="M74.2341 15.8818H72.4694V17.6465H74.2341V15.8818Z"
+        fill={stroke}
+      />
       <path d="M76 15.8818H74.2353V17.6465H76V15.8818Z" fill={stroke} />
       <path d="M17.7647 17.6477H16V19.4124H17.7647V17.6477Z" fill={stroke} />
       <path d="M19.5294 17.6477H17.7647V19.4124H19.5294V17.6477Z" fill={fill} />
       <path d="M21.2953 17.6477H19.5306V19.4124H21.2953V17.6477Z" fill={fill} />
       <path d="M23.0588 17.6477H21.2941V19.4124H23.0588V17.6477Z" fill={fill} />
-      <path d="M24.8235 17.6477H23.0588V19.4124H24.8235V17.6477Z" fill={stroke} />
-      <path d="M26.5882 17.6477H24.8235V19.4124H26.5882V17.6477Z" fill={stroke} />
+      <path
+        d="M24.8235 17.6477H23.0588V19.4124H24.8235V17.6477Z"
+        fill={stroke}
+      />
+      <path
+        d="M26.5882 17.6477H24.8235V19.4124H26.5882V17.6477Z"
+        fill={stroke}
+      />
       <path d="M28.3529 17.6477H26.5882V19.4124H28.3529V17.6477Z" fill={fill} />
       <path d="M30.1165 17.6477H28.3518V19.4124H30.1165V17.6477Z" fill={fill} />
       <path d="M31.8823 17.6477H30.1176V19.4124H31.8823V17.6477Z" fill={fill} />
@@ -1861,11 +2886,17 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 17.6477H51.2941V19.4124H53.0588V17.6477Z" fill={fill} />
       <path d="M54.8235 17.6477H53.0588V19.4124H54.8235V17.6477Z" fill={fill} />
       <path d="M56.5894 17.6477H54.8247V19.4124H56.5894V17.6477Z" fill={fill} />
-      <path d="M58.3529 17.6477H56.5882V19.4124H58.3529V17.6477Z" fill={stroke} />
+      <path
+        d="M58.3529 17.6477H56.5882V19.4124H58.3529V17.6477Z"
+        fill={stroke}
+      />
       <path d="M60.1176 17.6477H58.3529V19.4124H60.1176V17.6477Z" fill={fill} />
       <path d="M61.8823 17.6477H60.1176V19.4124H61.8823V17.6477Z" fill={fill} />
       <path d="M63.647 17.6477H61.8823V19.4124H63.647V17.6477Z" fill={fill} />
-      <path d="M65.4117 17.6477H63.647V19.4124H65.4117V17.6477Z" fill={stroke} />
+      <path
+        d="M65.4117 17.6477H63.647V19.4124H65.4117V17.6477Z"
+        fill={stroke}
+      />
       <path d="M67.1764 17.6477H65.4117V19.4124H67.1764V17.6477Z" fill={fill} />
       <path d="M68.9411 17.6477H67.1764V19.4124H68.9411V17.6477Z" fill={fill} />
       <path d="M70.7058 17.6477H68.9411V19.4124H70.7058V17.6477Z" fill={fill} />
@@ -1878,7 +2909,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M23.0588 19.4124H21.2941V21.1771H23.0588V19.4124Z" fill={fill} />
       <path d="M24.8235 19.4124H23.0588V21.1771H24.8235V19.4124Z" fill={fill} />
       <path d="M26.5882 19.4124H24.8235V21.1771H26.5882V19.4124Z" fill={fill} />
-      <path d="M28.3529 19.4124H26.5882V21.1771H28.3529V19.4124Z" fill={stroke} />
+      <path
+        d="M28.3529 19.4124H26.5882V21.1771H28.3529V19.4124Z"
+        fill={stroke}
+      />
       <path d="M30.1165 19.4124H28.3518V21.1771H30.1165V19.4124Z" fill={fill} />
       <path d="M31.8823 19.4124H30.1176V21.1771H31.8823V19.4124Z" fill={fill} />
       <path d="M33.647 19.4124H31.8823V21.1771H33.647V19.4124Z" fill={fill} />
@@ -1895,48 +2929,93 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 19.4124H51.2941V21.1771H53.0588V19.4124Z" fill={fill} />
       <path d="M54.8235 19.4124H53.0588V21.1771H54.8235V19.4124Z" fill={fill} />
       <path d="M56.5894 19.4124H54.8247V21.1771H56.5894V19.4124Z" fill={fill} />
-      <path d="M58.3529 19.4124H56.5882V21.1771H58.3529V19.4124Z" fill={stroke} />
+      <path
+        d="M58.3529 19.4124H56.5882V21.1771H58.3529V19.4124Z"
+        fill={stroke}
+      />
       <path d="M60.1176 19.4124H58.3529V21.1771H60.1176V19.4124Z" fill={fill} />
       <path d="M61.8823 19.4124H60.1176V21.1771H61.8823V19.4124Z" fill={fill} />
       <path d="M63.647 19.4124H61.8823V21.1771H63.647V19.4124Z" fill={stroke} />
       <path d="M65.4117 19.4124H63.647V21.1771H65.4117V19.4124Z" fill={fill} />
       <path d="M67.1764 19.4124H65.4117V21.1771H67.1764V19.4124Z" fill={fill} />
       <path d="M68.9411 19.4124H67.1764V21.1771H68.9411V19.4124Z" fill={fill} />
-      <path d="M70.7058 19.4124H68.9411V21.1771H70.7058V19.4124Z" fill={stroke} />
-      <path d="M72.4706 19.4124H70.7059V21.1771H72.4706V19.4124Z" fill={stroke} />
+      <path
+        d="M70.7058 19.4124H68.9411V21.1771H70.7058V19.4124Z"
+        fill={stroke}
+      />
+      <path
+        d="M72.4706 19.4124H70.7059V21.1771H72.4706V19.4124Z"
+        fill={stroke}
+      />
       <path d="M74.2341 19.4124H72.4694V21.1771H74.2341V19.4124Z" fill={fill} />
       <path d="M76 19.4124H74.2353V21.1771H76V19.4124Z" fill={stroke} />
       <path d="M17.7647 21.1765H16V22.9412H17.7647V21.1765Z" fill={stroke} />
       <path d="M19.5294 21.1765H17.7647V22.9412H19.5294V21.1765Z" fill={fill} />
       <path d="M21.2953 21.1765H19.5306V22.9412H21.2953V21.1765Z" fill={fill} />
-      <path d="M23.0588 21.1765H21.2941V22.9412H23.0588V21.1765Z" fill={stroke} />
-      <path d="M24.8235 21.1765H23.0588V22.9412H24.8235V21.1765Z" fill={stroke} />
+      <path
+        d="M23.0588 21.1765H21.2941V22.9412H23.0588V21.1765Z"
+        fill={stroke}
+      />
+      <path
+        d="M24.8235 21.1765H23.0588V22.9412H24.8235V21.1765Z"
+        fill={stroke}
+      />
       <path d="M26.5882 21.1765H24.8235V22.9412H26.5882V21.1765Z" fill={fill} />
-      <path d="M28.3529 21.1765H26.5882V22.9412H28.3529V21.1765Z" fill={stroke} />
+      <path
+        d="M28.3529 21.1765H26.5882V22.9412H28.3529V21.1765Z"
+        fill={stroke}
+      />
       <path d="M30.1165 21.1765H28.3518V22.9412H30.1165V21.1765Z" fill={fill} />
-      <path d="M31.8823 21.1765H30.1176V22.9412H31.8823V21.1765Z" fill={stroke} />
+      <path
+        d="M31.8823 21.1765H30.1176V22.9412H31.8823V21.1765Z"
+        fill={stroke}
+      />
       <path d="M33.647 21.1765H31.8823V22.9412H33.647V21.1765Z" fill={stroke} />
-      <path d="M35.4117 21.1765H33.647V22.9412H35.4117V21.1765Z" fill={stroke} />
-      <path d="M37.1764 21.1765H35.4118V22.9412H37.1764V21.1765Z" fill={stroke} />
+      <path
+        d="M35.4117 21.1765H33.647V22.9412H35.4117V21.1765Z"
+        fill={stroke}
+      />
+      <path
+        d="M37.1764 21.1765H35.4118V22.9412H37.1764V21.1765Z"
+        fill={stroke}
+      />
       <path d="M38.94 21.1765H37.1753V22.9412H38.94V21.1765Z" fill={fill} />
       <path d="M40.7059 21.1765H38.9412V22.9412H40.7059V21.1765Z" fill={fill} />
       <path d="M42.4706 21.1765H40.7059V22.9412H42.4706V21.1765Z" fill={fill} />
       <path d="M44.2353 21.1765H42.4706V22.9412H44.2353V21.1765Z" fill={fill} />
       <path d="M46 21.1765H44.2353V22.9412H46V21.1765Z" fill={stroke} />
-      <path d="M47.7635 21.1765H45.9988V22.9412H47.7635V21.1765Z" fill={stroke} />
-      <path d="M49.5282 21.1765H47.7635V22.9412H49.5282V21.1765Z" fill={stroke} />
-      <path d="M51.2941 21.1765H49.5294V22.9412H51.2941V21.1765Z" fill={stroke} />
+      <path
+        d="M47.7635 21.1765H45.9988V22.9412H47.7635V21.1765Z"
+        fill={stroke}
+      />
+      <path
+        d="M49.5282 21.1765H47.7635V22.9412H49.5282V21.1765Z"
+        fill={stroke}
+      />
+      <path
+        d="M51.2941 21.1765H49.5294V22.9412H51.2941V21.1765Z"
+        fill={stroke}
+      />
       <path d="M53.0588 21.1765H51.2941V22.9412H53.0588V21.1765Z" fill={fill} />
       <path d="M54.8235 21.1765H53.0588V22.9412H54.8235V21.1765Z" fill={fill} />
       <path d="M56.5894 21.1765H54.8247V22.9412H56.5894V21.1765Z" fill={fill} />
-      <path d="M58.3529 21.1765H56.5882V22.9412H58.3529V21.1765Z" fill={stroke} />
+      <path
+        d="M58.3529 21.1765H56.5882V22.9412H58.3529V21.1765Z"
+        fill={stroke}
+      />
       <path d="M60.1176 21.1765H58.3529V22.9412H60.1176V21.1765Z" fill={fill} />
       <path d="M61.8823 21.1765H60.1176V22.9412H61.8823V21.1765Z" fill={fill} />
       <path d="M63.647 21.1765H61.8823V22.9412H63.647V21.1765Z" fill={stroke} />
       <path d="M65.4117 21.1765H63.647V22.9412H65.4117V21.1765Z" fill={fill} />
       <path d="M67.1764 21.1765H65.4117V22.9412H67.1764V21.1765Z" fill={fill} />
-      <path d="M68.9411 21.1765H67.1764V22.9412H68.9411V21.1765Z" fill={stroke} />
-      <path d="M70.7058 21.1765H68.9411V22.9412H70.7058V21.1765Z" fill={stroke} />
+      <path
+        d="M68.9411 21.1765H67.1764V22.9412H68.9411V21.1765Z"
+        fill={stroke}
+      />
+      <path
+        d="M70.7058 21.1765H68.9411V22.9412H70.7058V21.1765Z"
+        fill={stroke}
+      />
       <path d="M72.4706 21.1765H70.7059V22.9412H72.4706V21.1765Z" fill={fill} />
       <path d="M74.2341 21.1765H72.4694V22.9412H74.2341V21.1765Z" fill={fill} />
       <path d="M76 21.1765H74.2353V22.9412H76V21.1765Z" fill={stroke} />
@@ -1944,43 +3023,82 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M19.5294 22.9417H17.7647V24.7063H19.5294V22.9417Z" fill={fill} />
       <path d="M21.2953 22.9417H19.5306V24.7063H21.2953V22.9417Z" fill={fill} />
       <path d="M23.0588 22.9417H21.2941V24.7063H23.0588V22.9417Z" fill={fill} />
-      <path d="M24.8235 22.9417H23.0588V24.7063H24.8235V22.9417Z" fill={stroke} />
-      <path d="M26.5882 22.9417H24.8235V24.7063H26.5882V22.9417Z" fill={stroke} />
-      <path d="M28.3529 22.9417H26.5882V24.7063H28.3529V22.9417Z" fill={stroke} />
-      <path d="M30.1165 22.9417H28.3518V24.7063H30.1165V22.9417Z" fill={stroke} />
+      <path
+        d="M24.8235 22.9417H23.0588V24.7063H24.8235V22.9417Z"
+        fill={stroke}
+      />
+      <path
+        d="M26.5882 22.9417H24.8235V24.7063H26.5882V22.9417Z"
+        fill={stroke}
+      />
+      <path
+        d="M28.3529 22.9417H26.5882V24.7063H28.3529V22.9417Z"
+        fill={stroke}
+      />
+      <path
+        d="M30.1165 22.9417H28.3518V24.7063H30.1165V22.9417Z"
+        fill={stroke}
+      />
       <path d="M31.8823 22.9417H30.1176V24.7063H31.8823V22.9417Z" fill={fill} />
       <path d="M33.647 22.9417H31.8823V24.7063H33.647V22.9417Z" fill={stroke} />
-      <path d="M35.4117 22.9417H33.647V24.7063H35.4117V22.9417Z" fill={stroke} />
+      <path
+        d="M35.4117 22.9417H33.647V24.7063H35.4117V22.9417Z"
+        fill={stroke}
+      />
       <path d="M37.1764 22.9417H35.4118V24.7063H37.1764V22.9417Z" fill={fill} />
       <path d="M38.94 22.9417H37.1753V24.7063H38.94V22.9417Z" fill={fill} />
       <path d="M40.7059 22.9417H38.9412V24.7063H40.7059V22.9417Z" fill={fill} />
       <path d="M42.4706 22.9417H40.7059V24.7063H42.4706V22.9417Z" fill={fill} />
       <path d="M44.2353 22.9417H42.4706V24.7063H44.2353V22.9417Z" fill={fill} />
       <path d="M46 22.9417H44.2353V24.7063H46V22.9417Z" fill={fill} />
-      <path d="M47.7635 22.9417H45.9988V24.7063H47.7635V22.9417Z" fill={stroke} />
-      <path d="M49.5282 22.9417H47.7635V24.7063H49.5282V22.9417Z" fill={stroke} />
+      <path
+        d="M47.7635 22.9417H45.9988V24.7063H47.7635V22.9417Z"
+        fill={stroke}
+      />
+      <path
+        d="M49.5282 22.9417H47.7635V24.7063H49.5282V22.9417Z"
+        fill={stroke}
+      />
       <path d="M51.2941 22.9417H49.5294V24.7063H51.2941V22.9417Z" fill={fill} />
-      <path d="M53.0588 22.9417H51.2941V24.7063H53.0588V22.9417Z" fill={stroke} />
+      <path
+        d="M53.0588 22.9417H51.2941V24.7063H53.0588V22.9417Z"
+        fill={stroke}
+      />
       <path d="M54.8235 22.9417H53.0588V24.7063H54.8235V22.9417Z" fill={fill} />
       <path d="M56.5894 22.9417H54.8247V24.7063H56.5894V22.9417Z" fill={fill} />
-      <path d="M58.3529 22.9417H56.5882V24.7063H58.3529V22.9417Z" fill={stroke} />
+      <path
+        d="M58.3529 22.9417H56.5882V24.7063H58.3529V22.9417Z"
+        fill={stroke}
+      />
       <path d="M60.1176 22.9417H58.3529V24.7063H60.1176V22.9417Z" fill={fill} />
       <path d="M61.8823 22.9417H60.1176V24.7063H61.8823V22.9417Z" fill={fill} />
       <path d="M63.647 22.9417H61.8823V24.7063H63.647V22.9417Z" fill={stroke} />
       <path d="M65.4117 22.9417H63.647V24.7063H65.4117V22.9417Z" fill={fill} />
-      <path d="M67.1764 22.9417H65.4117V24.7063H67.1764V22.9417Z" fill={stroke} />
+      <path
+        d="M67.1764 22.9417H65.4117V24.7063H67.1764V22.9417Z"
+        fill={stroke}
+      />
       <path d="M68.9411 22.9417H67.1764V24.7063H68.9411V22.9417Z" fill={fill} />
       <path d="M70.7058 22.9417H68.9411V24.7063H70.7058V22.9417Z" fill={fill} />
-      <path d="M72.4706 22.9417H70.7059V24.7063H72.4706V22.9417Z" fill={stroke} />
+      <path
+        d="M72.4706 22.9417H70.7059V24.7063H72.4706V22.9417Z"
+        fill={stroke}
+      />
       <path d="M74.2341 22.9417H72.4694V24.7063H74.2341V22.9417Z" fill={fill} />
       <path d="M76 22.9417H74.2353V24.7063H76V22.9417Z" fill={stroke} />
       <path d="M17.7647 24.7058H16V26.4705H17.7647V24.7058Z" fill={stroke} />
       <path d="M19.5294 24.7058H17.7647V26.4705H19.5294V24.7058Z" fill={fill} />
       <path d="M21.2953 24.7058H19.5306V26.4705H21.2953V24.7058Z" fill={fill} />
-      <path d="M23.0588 24.7058H21.2941V26.4705H23.0588V24.7058Z" fill={stroke} />
+      <path
+        d="M23.0588 24.7058H21.2941V26.4705H23.0588V24.7058Z"
+        fill={stroke}
+      />
       <path d="M24.8235 24.7058H23.0588V26.4705H24.8235V24.7058Z" fill={fill} />
       <path d="M26.5882 24.7058H24.8235V26.4705H26.5882V24.7058Z" fill={fill} />
-      <path d="M28.3529 24.7058H26.5882V26.4705H28.3529V24.7058Z" fill={stroke} />
+      <path
+        d="M28.3529 24.7058H26.5882V26.4705H28.3529V24.7058Z"
+        fill={stroke}
+      />
       <path d="M30.1165 24.7058H28.3518V26.4705H30.1165V24.7058Z" fill={fill} />
       <path d="M31.8823 24.7058H30.1176V26.4705H31.8823V24.7058Z" fill={fill} />
       <path d="M33.647 24.7058H31.8823V26.4705H33.647V24.7058Z" fill={fill} />
@@ -1996,7 +3114,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M51.2941 24.7058H49.5294V26.4705H51.2941V24.7058Z" fill={fill} />
       <path d="M53.0588 24.7058H51.2941V26.4705H53.0588V24.7058Z" fill={fill} />
       <path d="M54.8235 24.7058H53.0588V26.4705H54.8235V24.7058Z" fill={fill} />
-      <path d="M56.5894 24.7058H54.8247V26.4705H56.5894V24.7058Z" fill={stroke} />
+      <path
+        d="M56.5894 24.7058H54.8247V26.4705H56.5894V24.7058Z"
+        fill={stroke}
+      />
       <path d="M58.3529 24.7058H56.5882V26.4705H58.3529V24.7058Z" fill={fill} />
       <path d="M60.1176 24.7058H58.3529V26.4705H60.1176V24.7058Z" fill={fill} />
       <path d="M61.8823 24.7058H60.1176V26.4705H61.8823V24.7058Z" fill={fill} />
@@ -2008,27 +3129,54 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M72.4706 24.7058H70.7059V26.4705H72.4706V24.7058Z" fill={fill} />
       <path d="M74.2341 24.7058H72.4694V26.4705H74.2341V24.7058Z" fill={fill} />
       <path d="M76 24.7058H74.2353V26.4705H76V24.7058Z" fill={stroke} />
-      <path d="M19.5293 26.4705H17.7646V28.2352H19.5293V26.4705Z" fill={stroke} />
+      <path
+        d="M19.5293 26.4705H17.7646V28.2352H19.5293V26.4705Z"
+        fill={stroke}
+      />
       <path d="M21.2952 26.4705H19.5305V28.2352H21.2952V26.4705Z" fill={fill} />
-      <path d="M23.0588 26.4705H21.2941V28.2352H23.0588V26.4705Z" fill={stroke} />
+      <path
+        d="M23.0588 26.4705H21.2941V28.2352H23.0588V26.4705Z"
+        fill={stroke}
+      />
       <path d="M24.8235 26.4705H23.0588V28.2352H24.8235V26.4705Z" fill={fill} />
       <path d="M26.5882 26.4705H24.8235V28.2352H26.5882V26.4705Z" fill={fill} />
       <path d="M28.353 26.4705H26.5883V28.2352H28.353V26.4705Z" fill={stroke} />
-      <path d="M30.1165 26.4705H28.3518V28.2352H30.1165V26.4705Z" fill={stroke} />
+      <path
+        d="M30.1165 26.4705H28.3518V28.2352H30.1165V26.4705Z"
+        fill={stroke}
+      />
       <path d="M31.8824 26.4705H30.1177V28.2352H31.8824V26.4705Z" fill={fill} />
       <path d="M33.647 26.4705H31.8823V28.2352H33.647V26.4705Z" fill={fill} />
       <path d="M35.4118 26.4705H33.6471V28.2352H35.4118V26.4705Z" fill={fill} />
-      <path d="M37.1764 26.4705H35.4117V28.2352H37.1764V26.4705Z" fill={stroke} />
+      <path
+        d="M37.1764 26.4705H35.4117V28.2352H37.1764V26.4705Z"
+        fill={stroke}
+      />
       <path d="M38.94 26.4705H37.1753V28.2352H38.94V26.4705Z" fill={stroke} />
-      <path d="M40.7059 26.4705H38.9412V28.2352H40.7059V26.4705Z" fill={stroke} />
-      <path d="M42.4705 26.4705H40.7058V28.2352H42.4705V26.4705Z" fill={stroke} />
-      <path d="M44.2353 26.4705H42.4706V28.2352H44.2353V26.4705Z" fill={stroke} />
-      <path d="M45.9999 26.4705H44.2352V28.2352H45.9999V26.4705Z" fill={stroke} />
+      <path
+        d="M40.7059 26.4705H38.9412V28.2352H40.7059V26.4705Z"
+        fill={stroke}
+      />
+      <path
+        d="M42.4705 26.4705H40.7058V28.2352H42.4705V26.4705Z"
+        fill={stroke}
+      />
+      <path
+        d="M44.2353 26.4705H42.4706V28.2352H44.2353V26.4705Z"
+        fill={stroke}
+      />
+      <path
+        d="M45.9999 26.4705H44.2352V28.2352H45.9999V26.4705Z"
+        fill={stroke}
+      />
       <path d="M47.7635 26.4705H45.9988V28.2352H47.7635V26.4705Z" fill={fill} />
       <path d="M49.5282 26.4705H47.7635V28.2352H49.5282V26.4705Z" fill={fill} />
       <path d="M51.2941 26.4705H49.5294V28.2352H51.2941V26.4705Z" fill={fill} />
       <path d="M53.0588 26.4705H51.2941V28.2352H53.0588V26.4705Z" fill={fill} />
-      <path d="M54.8235 26.4705H53.0588V28.2352H54.8235V26.4705Z" fill={stroke} />
+      <path
+        d="M54.8235 26.4705H53.0588V28.2352H54.8235V26.4705Z"
+        fill={stroke}
+      />
       <path d="M56.5894 26.4705H54.8247V28.2352H56.5894V26.4705Z" fill={fill} />
       <path d="M58.353 26.4705H56.5883V28.2352H58.353V26.4705Z" fill={fill} />
       <path d="M60.1176 26.4705H58.3529V28.2352H60.1176V26.4705Z" fill={fill} />
@@ -2036,11 +3184,17 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M63.647 26.4705H61.8823V28.2352H63.647V26.4705Z" fill={stroke} />
       <path d="M65.4117 26.4705H63.647V28.2352H65.4117V26.4705Z" fill={fill} />
       <path d="M67.1764 26.4705H65.4117V28.2352H67.1764V26.4705Z" fill={fill} />
-      <path d="M68.9411 26.4705H67.1764V28.2352H68.9411V26.4705Z" fill={stroke} />
+      <path
+        d="M68.9411 26.4705H67.1764V28.2352H68.9411V26.4705Z"
+        fill={stroke}
+      />
       <path d="M70.7059 26.4705H68.9412V28.2352H70.7059V26.4705Z" fill={fill} />
       <path d="M72.4705 26.4705H70.7058V28.2352H72.4705V26.4705Z" fill={fill} />
       <path d="M74.2341 26.4705H72.4694V28.2352H74.2341V26.4705Z" fill={fill} />
-      <path d="M75.9999 26.4705H74.2352V28.2352H75.9999V26.4705Z" fill={stroke} />
+      <path
+        d="M75.9999 26.4705H74.2352V28.2352H75.9999V26.4705Z"
+        fill={stroke}
+      />
       <path d="M19.5294 28.2354H17.7647V30H19.5294V28.2354Z" fill={stroke} />
       <path d="M21.2953 28.2354H19.5306V30H21.2953V28.2354Z" fill={fill} />
       <path d="M23.0588 28.2354H21.2941V30H23.0588V28.2354Z" fill={fill} />
@@ -2103,11 +3257,26 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M68.9411 30H67.1764V31.7647H68.9411V30Z" fill={fill} />
       <path d="M70.7058 30H68.9411V31.7647H70.7058V30Z" fill={fill} />
       <path d="M72.4706 30H70.7059V31.7647H72.4706V30Z" fill={stroke} />
-      <path d="M23.0588 31.7642H21.2941V33.5289H23.0588V31.7642Z" fill={stroke} />
-      <path d="M24.8235 31.7642H23.0588V33.5289H24.8235V31.7642Z" fill={stroke} />
-      <path d="M26.5882 31.7642H24.8235V33.5289H26.5882V31.7642Z" fill={stroke} />
-      <path d="M28.3529 31.7642H26.5882V33.5289H28.3529V31.7642Z" fill={stroke} />
-      <path d="M30.1165 31.7642H28.3518V33.5289H30.1165V31.7642Z" fill={stroke} />
+      <path
+        d="M23.0588 31.7642H21.2941V33.5289H23.0588V31.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M24.8235 31.7642H23.0588V33.5289H24.8235V31.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M26.5882 31.7642H24.8235V33.5289H26.5882V31.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M28.3529 31.7642H26.5882V33.5289H28.3529V31.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M30.1165 31.7642H28.3518V33.5289H30.1165V31.7642Z"
+        fill={stroke}
+      />
       <path d="M31.8823 31.7642H30.1176V33.5289H31.8823V31.7642Z" fill={fill} />
       <path d="M33.647 31.7642H31.8823V33.5289H33.647V31.7642Z" fill={fill} />
       <path d="M35.4117 31.7642H33.647V33.5289H35.4117V31.7642Z" fill={fill} />
@@ -2120,18 +3289,36 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M47.7635 31.7642H45.9988V33.5289H47.7635V31.7642Z" fill={fill} />
       <path d="M49.5282 31.7642H47.7635V33.5289H49.5282V31.7642Z" fill={fill} />
       <path d="M51.2941 31.7642H49.5294V33.5289H51.2941V31.7642Z" fill={fill} />
-      <path d="M53.0588 31.7642H51.2941V33.5289H53.0588V31.7642Z" fill={stroke} />
+      <path
+        d="M53.0588 31.7642H51.2941V33.5289H53.0588V31.7642Z"
+        fill={stroke}
+      />
       <path d="M54.8235 31.7642H53.0588V33.5289H54.8235V31.7642Z" fill={fill} />
       <path d="M56.5894 31.7642H54.8247V33.5289H56.5894V31.7642Z" fill={fill} />
       <path d="M58.3529 31.7642H56.5882V33.5289H58.3529V31.7642Z" fill={fill} />
       <path d="M60.1176 31.7642H58.3529V33.5289H60.1176V31.7642Z" fill={fill} />
       <path d="M61.8823 31.7642H60.1176V33.5289H61.8823V31.7642Z" fill={fill} />
       <path d="M63.647 31.7642H61.8823V33.5289H63.647V31.7642Z" fill={stroke} />
-      <path d="M65.4117 31.7642H63.647V33.5289H65.4117V31.7642Z" fill={stroke} />
-      <path d="M67.1764 31.7642H65.4117V33.5289H67.1764V31.7642Z" fill={stroke} />
-      <path d="M68.9411 31.7642H67.1764V33.5289H68.9411V31.7642Z" fill={stroke} />
-      <path d="M70.7058 31.7642H68.9411V33.5289H70.7058V31.7642Z" fill={stroke} />
-      <path d="M28.3529 33.5293H26.5882V35.294H28.3529V33.5293Z" fill={stroke} />
+      <path
+        d="M65.4117 31.7642H63.647V33.5289H65.4117V31.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M67.1764 31.7642H65.4117V33.5289H67.1764V31.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M68.9411 31.7642H67.1764V33.5289H68.9411V31.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M70.7058 31.7642H68.9411V33.5289H70.7058V31.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M28.3529 33.5293H26.5882V35.294H28.3529V33.5293Z"
+        fill={stroke}
+      />
       <path d="M30.1165 33.5293H28.3518V35.294H30.1165V33.5293Z" fill={fill} />
       <path d="M31.8823 33.5293H30.1176V35.294H31.8823V33.5293Z" fill={fill} />
       <path d="M33.647 33.5293H31.8823V35.294H33.647V33.5293Z" fill={fill} />
@@ -2146,13 +3333,19 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M49.5282 33.5293H47.7635V35.294H49.5282V33.5293Z" fill={fill} />
       <path d="M51.2941 33.5293H49.5294V35.294H51.2941V33.5293Z" fill={fill} />
       <path d="M53.0588 33.5293H51.2941V35.294H53.0588V33.5293Z" fill={fill} />
-      <path d="M54.8235 33.5293H53.0588V35.294H54.8235V33.5293Z" fill={stroke} />
+      <path
+        d="M54.8235 33.5293H53.0588V35.294H54.8235V33.5293Z"
+        fill={stroke}
+      />
       <path d="M56.5894 33.5293H54.8247V35.294H56.5894V33.5293Z" fill={fill} />
       <path d="M58.3529 33.5293H56.5882V35.294H58.3529V33.5293Z" fill={fill} />
       <path d="M60.1176 33.5293H58.3529V35.294H60.1176V33.5293Z" fill={fill} />
       <path d="M61.8823 33.5293H60.1176V35.294H61.8823V33.5293Z" fill={fill} />
       <path d="M63.647 33.5293H61.8823V35.294H63.647V33.5293Z" fill={stroke} />
-      <path d="M26.5882 35.2942H24.8235V37.0589H26.5882V35.2942Z" fill={stroke} />
+      <path
+        d="M26.5882 35.2942H24.8235V37.0589H26.5882V35.2942Z"
+        fill={stroke}
+      />
       <path d="M28.3529 35.2942H26.5882V37.0589H28.3529V35.2942Z" fill={fill} />
       <path d="M30.1165 35.2942H28.3518V37.0589H30.1165V35.2942Z" fill={fill} />
       <path d="M31.8823 35.2942H30.1176V37.0589H31.8823V35.2942Z" fill={fill} />
@@ -2169,12 +3362,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M51.2941 35.2942H49.5294V37.0589H51.2941V35.2942Z" fill={fill} />
       <path d="M53.0588 35.2942H51.2941V37.0589H53.0588V35.2942Z" fill={fill} />
       <path d="M54.8235 35.2942H53.0588V37.0589H54.8235V35.2942Z" fill={fill} />
-      <path d="M56.5894 35.2942H54.8247V37.0589H56.5894V35.2942Z" fill={stroke} />
+      <path
+        d="M56.5894 35.2942H54.8247V37.0589H56.5894V35.2942Z"
+        fill={stroke}
+      />
       <path d="M58.3529 35.2942H56.5882V37.0589H58.3529V35.2942Z" fill={fill} />
       <path d="M60.1176 35.2942H58.3529V37.0589H60.1176V35.2942Z" fill={fill} />
       <path d="M61.8823 35.2942H60.1176V37.0589H61.8823V35.2942Z" fill={fill} />
       <path d="M63.647 35.2942H61.8823V37.0589H63.647V35.2942Z" fill={stroke} />
-      <path d="M26.5882 37.0581H24.8235V38.8228H26.5882V37.0581Z" fill={stroke} />
+      <path
+        d="M26.5882 37.0581H24.8235V38.8228H26.5882V37.0581Z"
+        fill={stroke}
+      />
       <path d="M28.353 37.0581H26.5883V38.8228H28.353V37.0581Z" fill={fill} />
       <path d="M30.1165 37.0581H28.3518V38.8228H30.1165V37.0581Z" fill={fill} />
       <path d="M31.8824 37.0581H30.1177V38.8228H31.8824V37.0581Z" fill={fill} />
@@ -2191,12 +3390,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M51.2941 37.0581H49.5294V38.8228H51.2941V37.0581Z" fill={fill} />
       <path d="M53.0588 37.0581H51.2941V38.8228H53.0588V37.0581Z" fill={fill} />
       <path d="M54.8235 37.0581H53.0588V38.8228H54.8235V37.0581Z" fill={fill} />
-      <path d="M56.5894 37.0581H54.8247V38.8228H56.5894V37.0581Z" fill={stroke} />
+      <path
+        d="M56.5894 37.0581H54.8247V38.8228H56.5894V37.0581Z"
+        fill={stroke}
+      />
       <path d="M58.353 37.0581H56.5883V38.8228H58.353V37.0581Z" fill={fill} />
       <path d="M60.1176 37.0581H58.3529V38.8228H60.1176V37.0581Z" fill={fill} />
       <path d="M61.8824 37.0581H60.1177V38.8228H61.8824V37.0581Z" fill={fill} />
       <path d="M63.647 37.0581H61.8823V38.8228H63.647V37.0581Z" fill={stroke} />
-      <path d="M26.5882 38.8235H24.8235V40.5882H26.5882V38.8235Z" fill={stroke} />
+      <path
+        d="M26.5882 38.8235H24.8235V40.5882H26.5882V38.8235Z"
+        fill={stroke}
+      />
       <path d="M28.3529 38.8235H26.5882V40.5882H28.3529V38.8235Z" fill={fill} />
       <path d="M30.1165 38.8235H28.3518V40.5882H30.1165V38.8235Z" fill={fill} />
       <path d="M31.8823 38.8235H30.1176V40.5882H31.8823V38.8235Z" fill={fill} />
@@ -2214,10 +3419,19 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 38.8235H51.2941V40.5882H53.0588V38.8235Z" fill={fill} />
       <path d="M54.8235 38.8235H53.0588V40.5882H54.8235V38.8235Z" fill={fill} />
       <path d="M56.5894 38.8235H54.8247V40.5882H56.5894V38.8235Z" fill={fill} />
-      <path d="M58.3529 38.8235H56.5882V40.5882H58.3529V38.8235Z" fill={stroke} />
+      <path
+        d="M58.3529 38.8235H56.5882V40.5882H58.3529V38.8235Z"
+        fill={stroke}
+      />
       <path d="M60.1176 38.8235H58.3529V40.5882H60.1176V38.8235Z" fill={fill} />
-      <path d="M61.8823 38.8235H60.1176V40.5882H61.8823V38.8235Z" fill={stroke} />
-      <path d="M26.5882 40.5876H24.8235V42.3523H26.5882V40.5876Z" fill={stroke} />
+      <path
+        d="M61.8823 38.8235H60.1176V40.5882H61.8823V38.8235Z"
+        fill={stroke}
+      />
+      <path
+        d="M26.5882 40.5876H24.8235V42.3523H26.5882V40.5876Z"
+        fill={stroke}
+      />
       <path d="M28.3529 40.5876H26.5882V42.3523H28.3529V40.5876Z" fill={fill} />
       <path d="M30.1165 40.5876H28.3518V42.3523H30.1165V40.5876Z" fill={fill} />
       <path d="M31.8823 40.5876H30.1176V42.3523H31.8823V40.5876Z" fill={fill} />
@@ -2235,20 +3449,41 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 40.5876H51.2941V42.3523H53.0588V40.5876Z" fill={fill} />
       <path d="M54.8235 40.5876H53.0588V42.3523H54.8235V40.5876Z" fill={fill} />
       <path d="M56.5894 40.5876H54.8247V42.3523H56.5894V40.5876Z" fill={fill} />
-      <path d="M58.3529 40.5876H56.5882V42.3523H58.3529V40.5876Z" fill={stroke} />
+      <path
+        d="M58.3529 40.5876H56.5882V42.3523H58.3529V40.5876Z"
+        fill={stroke}
+      />
       <path d="M60.1176 40.5876H58.3529V42.3523H60.1176V40.5876Z" fill={fill} />
-      <path d="M61.8823 40.5876H60.1176V42.3523H61.8823V40.5876Z" fill={stroke} />
-      <path d="M26.5882 42.3523H24.8235V44.117H26.5882V42.3523Z" fill={stroke} />
+      <path
+        d="M61.8823 40.5876H60.1176V42.3523H61.8823V40.5876Z"
+        fill={stroke}
+      />
+      <path
+        d="M26.5882 42.3523H24.8235V44.117H26.5882V42.3523Z"
+        fill={stroke}
+      />
       <path d="M28.3529 42.3523H26.5882V44.117H28.3529V42.3523Z" fill={fill} />
       <path d="M30.1165 42.3523H28.3518V44.117H30.1165V42.3523Z" fill={fill} />
       <path d="M31.8823 42.3523H30.1176V44.117H31.8823V42.3523Z" fill={fill} />
       <path d="M33.647 42.3523H31.8823V44.117H33.647V42.3523Z" fill={fill} />
       <path d="M35.4117 42.3523H33.647V44.117H35.4117V42.3523Z" fill={stroke} />
-      <path d="M37.1764 42.3523H35.4118V44.117H37.1764V42.3523Z" fill={stroke} />
+      <path
+        d="M37.1764 42.3523H35.4118V44.117H37.1764V42.3523Z"
+        fill={stroke}
+      />
       <path d="M38.94 42.3523H37.1753V44.117H38.94V42.3523Z" fill={stroke} />
-      <path d="M40.7059 42.3523H38.9412V44.117H40.7059V42.3523Z" fill={stroke} />
-      <path d="M42.4706 42.3523H40.7059V44.117H42.4706V42.3523Z" fill={stroke} />
-      <path d="M44.2353 42.3523H42.4706V44.117H44.2353V42.3523Z" fill={stroke} />
+      <path
+        d="M40.7059 42.3523H38.9412V44.117H40.7059V42.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M42.4706 42.3523H40.7059V44.117H42.4706V42.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M44.2353 42.3523H42.4706V44.117H44.2353V42.3523Z"
+        fill={stroke}
+      />
       <path d="M46 42.3523H44.2353V44.117H46V42.3523Z" fill={stroke} />
       <path d="M47.7635 42.3523H45.9988V44.117H47.7635V42.3523Z" fill={fill} />
       <path d="M49.5282 42.3523H47.7635V44.117H49.5282V42.3523Z" fill={fill} />
@@ -2256,13 +3491,25 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 42.3523H51.2941V44.117H53.0588V42.3523Z" fill={fill} />
       <path d="M54.8235 42.3523H53.0588V44.117H54.8235V42.3523Z" fill={fill} />
       <path d="M56.5894 42.3523H54.8247V44.117H56.5894V42.3523Z" fill={fill} />
-      <path d="M58.3529 42.3523H56.5882V44.117H58.3529V42.3523Z" fill={stroke} />
+      <path
+        d="M58.3529 42.3523H56.5882V44.117H58.3529V42.3523Z"
+        fill={stroke}
+      />
       <path d="M60.1176 42.3523H58.3529V44.117H60.1176V42.3523Z" fill={fill} />
-      <path d="M61.8823 42.3523H60.1176V44.117H61.8823V42.3523Z" fill={stroke} />
-      <path d="M26.5882 44.1177H24.8235V45.8824H26.5882V44.1177Z" fill={stroke} />
+      <path
+        d="M61.8823 42.3523H60.1176V44.117H61.8823V42.3523Z"
+        fill={stroke}
+      />
+      <path
+        d="M26.5882 44.1177H24.8235V45.8824H26.5882V44.1177Z"
+        fill={stroke}
+      />
       <path d="M28.3529 44.1177H26.5882V45.8824H28.3529V44.1177Z" fill={fill} />
       <path d="M30.1165 44.1177H28.3518V45.8824H30.1165V44.1177Z" fill={fill} />
-      <path d="M31.8823 44.1177H30.1176V45.8824H31.8823V44.1177Z" fill={stroke} />
+      <path
+        d="M31.8823 44.1177H30.1176V45.8824H31.8823V44.1177Z"
+        fill={stroke}
+      />
       <path d="M33.647 44.1177H31.8823V45.8824H33.647V44.1177Z" fill={stroke} />
       <path d="M35.4117 44.1177H33.647V45.8824H35.4117V44.1177Z" fill={fill} />
       <path d="M37.1764 44.1177H35.4118V45.8824H37.1764V44.1177Z" fill={fill} />
@@ -2271,16 +3518,37 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M42.4706 44.1177H40.7059V45.8824H42.4706V44.1177Z" fill={fill} />
       <path d="M44.2353 44.1177H42.4706V45.8824H44.2353V44.1177Z" fill={fill} />
       <path d="M46 44.1177H44.2353V45.8824H46V44.1177Z" fill={fill} />
-      <path d="M47.7635 44.1177H45.9988V45.8824H47.7635V44.1177Z" fill={stroke} />
-      <path d="M49.5282 44.1177H47.7635V45.8824H49.5282V44.1177Z" fill={stroke} />
-      <path d="M51.2941 44.1177H49.5294V45.8824H51.2941V44.1177Z" fill={stroke} />
-      <path d="M53.0588 44.1177H51.2941V45.8824H53.0588V44.1177Z" fill={stroke} />
+      <path
+        d="M47.7635 44.1177H45.9988V45.8824H47.7635V44.1177Z"
+        fill={stroke}
+      />
+      <path
+        d="M49.5282 44.1177H47.7635V45.8824H49.5282V44.1177Z"
+        fill={stroke}
+      />
+      <path
+        d="M51.2941 44.1177H49.5294V45.8824H51.2941V44.1177Z"
+        fill={stroke}
+      />
+      <path
+        d="M53.0588 44.1177H51.2941V45.8824H53.0588V44.1177Z"
+        fill={stroke}
+      />
       <path d="M54.8235 44.1177H53.0588V45.8824H54.8235V44.1177Z" fill={fill} />
       <path d="M56.5894 44.1177H54.8247V45.8824H56.5894V44.1177Z" fill={fill} />
-      <path d="M58.3529 44.1177H56.5882V45.8824H58.3529V44.1177Z" fill={stroke} />
+      <path
+        d="M58.3529 44.1177H56.5882V45.8824H58.3529V44.1177Z"
+        fill={stroke}
+      />
       <path d="M60.1176 44.1177H58.3529V45.8824H60.1176V44.1177Z" fill={fill} />
-      <path d="M61.8823 44.1177H60.1176V45.8824H61.8823V44.1177Z" fill={stroke} />
-      <path d="M28.3529 45.8818H26.5882V47.6465H28.3529V45.8818Z" fill={stroke} />
+      <path
+        d="M61.8823 44.1177H60.1176V45.8824H61.8823V44.1177Z"
+        fill={stroke}
+      />
+      <path
+        d="M28.3529 45.8818H26.5882V47.6465H28.3529V45.8818Z"
+        fill={stroke}
+      />
       <path d="M30.1165 45.8818H28.3518V47.6465H30.1165V45.8818Z" fill={fill} />
       <path d="M31.8823 45.8818H30.1176V47.6465H31.8823V45.8818Z" fill={fill} />
       <path d="M33.647 45.8818H31.8823V47.6465H33.647V45.8818Z" fill={fill} />
@@ -2297,8 +3565,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 45.8818H51.2941V47.6465H53.0588V45.8818Z" fill={fill} />
       <path d="M54.8235 45.8818H53.0588V47.6465H54.8235V45.8818Z" fill={fill} />
       <path d="M56.5894 45.8818H54.8247V47.6465H56.5894V45.8818Z" fill={fill} />
-      <path d="M58.3529 45.8818H56.5882V47.6465H58.3529V45.8818Z" fill={stroke} />
-      <path d="M60.1176 45.8818H58.3529V47.6465H60.1176V45.8818Z" fill={stroke} />
+      <path
+        d="M58.3529 45.8818H56.5882V47.6465H58.3529V45.8818Z"
+        fill={stroke}
+      />
+      <path
+        d="M60.1176 45.8818H58.3529V47.6465H60.1176V45.8818Z"
+        fill={stroke}
+      />
       <path d="M28.3529 47.647H26.5882V49.4117H28.3529V47.647Z" fill={stroke} />
       <path d="M30.1165 47.647H28.3518V49.4117H30.1165V47.647Z" fill={fill} />
       <path d="M31.8823 47.647H30.1176V49.4117H31.8823V47.647Z" fill={fill} />
@@ -2317,7 +3591,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M54.8235 47.647H53.0588V49.4117H54.8235V47.647Z" fill={fill} />
       <path d="M56.5894 47.647H54.8247V49.4117H56.5894V47.647Z" fill={fill} />
       <path d="M58.3529 47.647H56.5882V49.4117H58.3529V47.647Z" fill={stroke} />
-      <path d="M30.1165 49.4111H28.3518V51.1758H30.1165V49.4111Z" fill={stroke} />
+      <path
+        d="M30.1165 49.4111H28.3518V51.1758H30.1165V49.4111Z"
+        fill={stroke}
+      />
       <path d="M31.8823 49.4111H30.1176V51.1758H31.8823V49.4111Z" fill={fill} />
       <path d="M33.647 49.4111H31.8823V51.1758H33.647V49.4111Z" fill={fill} />
       <path d="M35.4117 49.4111H33.647V51.1758H35.4117V49.4111Z" fill={fill} />
@@ -2332,9 +3609,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M51.2941 49.4111H49.5294V51.1758H51.2941V49.4111Z" fill={fill} />
       <path d="M53.0588 49.4111H51.2941V51.1758H53.0588V49.4111Z" fill={fill} />
       <path d="M54.8235 49.4111H53.0588V51.1758H54.8235V49.4111Z" fill={fill} />
-      <path d="M56.5894 49.4111H54.8247V51.1758H56.5894V49.4111Z" fill={stroke} />
-      <path d="M58.3529 49.4111H56.5882V51.1758H58.3529V49.4111Z" fill={stroke} />
-      <path d="M31.8823 51.1758H30.1176V52.9405H31.8823V51.1758Z" fill={stroke} />
+      <path
+        d="M56.5894 49.4111H54.8247V51.1758H56.5894V49.4111Z"
+        fill={stroke}
+      />
+      <path
+        d="M58.3529 49.4111H56.5882V51.1758H58.3529V49.4111Z"
+        fill={stroke}
+      />
+      <path
+        d="M31.8823 51.1758H30.1176V52.9405H31.8823V51.1758Z"
+        fill={stroke}
+      />
       <path d="M33.647 51.1758H31.8823V52.9405H33.647V51.1758Z" fill={fill} />
       <path d="M35.4117 51.1758H33.647V52.9405H35.4117V51.1758Z" fill={fill} />
       <path d="M37.1764 51.1758H35.4118V52.9405H37.1764V51.1758Z" fill={fill} />
@@ -2346,12 +3632,24 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M47.7635 51.1758H45.9988V52.9405H47.7635V51.1758Z" fill={fill} />
       <path d="M49.5282 51.1758H47.7635V52.9405H49.5282V51.1758Z" fill={fill} />
       <path d="M51.2941 51.1758H49.5294V52.9405H51.2941V51.1758Z" fill={fill} />
-      <path d="M53.0588 51.1758H51.2941V52.9405H53.0588V51.1758Z" fill={stroke} />
-      <path d="M54.8235 51.1758H53.0588V52.9405H54.8235V51.1758Z" fill={stroke} />
+      <path
+        d="M53.0588 51.1758H51.2941V52.9405H53.0588V51.1758Z"
+        fill={stroke}
+      />
+      <path
+        d="M54.8235 51.1758H53.0588V52.9405H54.8235V51.1758Z"
+        fill={stroke}
+      />
       <path d="M56.5894 51.1758H54.8247V52.9405H56.5894V51.1758Z" fill={fill} />
-      <path d="M58.3529 51.1758H56.5882V52.9405H58.3529V51.1758Z" fill={stroke} />
+      <path
+        d="M58.3529 51.1758H56.5882V52.9405H58.3529V51.1758Z"
+        fill={stroke}
+      />
       <path d="M33.647 52.9412H31.8823V54.7059H33.647V52.9412Z" fill={stroke} />
-      <path d="M35.4117 52.9412H33.647V54.7059H35.4117V52.9412Z" fill={stroke} />
+      <path
+        d="M35.4117 52.9412H33.647V54.7059H35.4117V52.9412Z"
+        fill={stroke}
+      />
       <path d="M37.1764 52.9412H35.4118V54.7059H37.1764V52.9412Z" fill={fill} />
       <path d="M38.94 52.9412H37.1753V54.7059H38.94V52.9412Z" fill={fill} />
       <path d="M40.7059 52.9412H38.9412V54.7059H40.7059V52.9412Z" fill={fill} />
@@ -2359,26 +3657,56 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M44.2353 52.9412H42.4706V54.7059H44.2353V52.9412Z" fill={fill} />
       <path d="M46 52.9412H44.2353V54.7059H46V52.9412Z" fill={fill} />
       <path d="M47.7635 52.9412H45.9988V54.7059H47.7635V52.9412Z" fill={fill} />
-      <path d="M49.5282 52.9412H47.7635V54.7059H49.5282V52.9412Z" fill={stroke} />
-      <path d="M51.2941 52.9412H49.5294V54.7059H51.2941V52.9412Z" fill={stroke} />
+      <path
+        d="M49.5282 52.9412H47.7635V54.7059H49.5282V52.9412Z"
+        fill={stroke}
+      />
+      <path
+        d="M51.2941 52.9412H49.5294V54.7059H51.2941V52.9412Z"
+        fill={stroke}
+      />
       <path d="M53.0588 52.9412H51.2941V54.7059H53.0588V52.9412Z" fill={fill} />
       <path d="M54.8235 52.9412H53.0588V54.7059H54.8235V52.9412Z" fill={fill} />
       <path d="M56.5894 52.9412H54.8247V54.7059H56.5894V52.9412Z" fill={fill} />
-      <path d="M58.3529 52.9412H56.5882V54.7059H58.3529V52.9412Z" fill={stroke} />
-      <path d="M37.1764 54.7058H35.4118V56.4705H37.1764V54.7058Z" fill={stroke} />
+      <path
+        d="M58.3529 52.9412H56.5882V54.7059H58.3529V52.9412Z"
+        fill={stroke}
+      />
+      <path
+        d="M37.1764 54.7058H35.4118V56.4705H37.1764V54.7058Z"
+        fill={stroke}
+      />
       <path d="M38.94 54.7058H37.1753V56.4705H38.94V54.7058Z" fill={stroke} />
-      <path d="M40.7059 54.7058H38.9412V56.4705H40.7059V54.7058Z" fill={stroke} />
-      <path d="M42.4706 54.7058H40.7059V56.4705H42.4706V54.7058Z" fill={stroke} />
-      <path d="M44.2353 54.7058H42.4706V56.4705H44.2353V54.7058Z" fill={stroke} />
+      <path
+        d="M40.7059 54.7058H38.9412V56.4705H40.7059V54.7058Z"
+        fill={stroke}
+      />
+      <path
+        d="M42.4706 54.7058H40.7059V56.4705H42.4706V54.7058Z"
+        fill={stroke}
+      />
+      <path
+        d="M44.2353 54.7058H42.4706V56.4705H44.2353V54.7058Z"
+        fill={stroke}
+      />
       <path d="M46 54.7058H44.2353V56.4705H46V54.7058Z" fill={stroke} />
-      <path d="M47.7635 54.7058H45.9988V56.4705H47.7635V54.7058Z" fill={stroke} />
+      <path
+        d="M47.7635 54.7058H45.9988V56.4705H47.7635V54.7058Z"
+        fill={stroke}
+      />
       <path d="M49.5282 54.7058H47.7635V56.4705H49.5282V54.7058Z" fill={fill} />
       <path d="M51.2941 54.7058H49.5294V56.4705H51.2941V54.7058Z" fill={fill} />
       <path d="M53.0588 54.7058H51.2941V56.4705H53.0588V54.7058Z" fill={fill} />
       <path d="M54.8235 54.7058H53.0588V56.4705H54.8235V54.7058Z" fill={fill} />
       <path d="M56.5894 54.7058H54.8247V56.4705H56.5894V54.7058Z" fill={fill} />
-      <path d="M58.3529 54.7058H56.5882V56.4705H58.3529V54.7058Z" fill={stroke} />
-      <path d="M42.4706 56.4705H40.7059V58.2352H42.4706V56.4705Z" fill={stroke} />
+      <path
+        d="M58.3529 54.7058H56.5882V56.4705H58.3529V54.7058Z"
+        fill={stroke}
+      />
+      <path
+        d="M42.4706 56.4705H40.7059V58.2352H42.4706V56.4705Z"
+        fill={stroke}
+      />
       <path d="M44.2353 56.4705H42.4706V58.2352H44.2353V56.4705Z" fill={fill} />
       <path d="M46 56.4705H44.2353V58.2352H46V56.4705Z" fill={fill} />
       <path d="M47.7635 56.4705H45.9988V58.2352H47.7635V56.4705Z" fill={fill} />
@@ -2387,7 +3715,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 56.4705H51.2941V58.2352H53.0588V56.4705Z" fill={fill} />
       <path d="M54.8235 56.4705H53.0588V58.2352H54.8235V56.4705Z" fill={fill} />
       <path d="M56.5894 56.4705H54.8247V58.2352H56.5894V56.4705Z" fill={fill} />
-      <path d="M58.3529 56.4705H56.5882V58.2352H58.3529V56.4705Z" fill={stroke} />
+      <path
+        d="M58.3529 56.4705H56.5882V58.2352H58.3529V56.4705Z"
+        fill={stroke}
+      />
       <path d="M42.4706 58.2354H40.7059V60H42.4706V58.2354Z" fill={stroke} />
       <path d="M44.2353 58.2354H42.4706V60H44.2353V58.2354Z" fill={fill} />
       <path d="M46 58.2354H44.2353V60H46V58.2354Z" fill={fill} />
@@ -2408,7 +3739,10 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M54.8235 60H53.0588V61.7647H54.8235V60Z" fill={fill} />
       <path d="M56.5894 60H54.8247V61.7647H56.5894V60Z" fill={fill} />
       <path d="M58.3529 60H56.5882V61.7647H58.3529V60Z" fill={stroke} />
-      <path d="M42.4706 61.7642H40.7059V63.5289H42.4706V61.7642Z" fill={stroke} />
+      <path
+        d="M42.4706 61.7642H40.7059V63.5289H42.4706V61.7642Z"
+        fill={stroke}
+      />
       <path d="M44.2353 61.7642H42.4706V63.5289H44.2353V61.7642Z" fill={fill} />
       <path d="M46 61.7642H44.2353V63.5289H46V61.7642Z" fill={fill} />
       <path d="M47.7635 61.7642H45.9988V63.5289H47.7635V61.7642Z" fill={fill} />
@@ -2417,8 +3751,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M53.0588 61.7642H51.2941V63.5289H53.0588V61.7642Z" fill={fill} />
       <path d="M54.8235 61.7642H53.0588V63.5289H54.8235V61.7642Z" fill={fill} />
       <path d="M56.5894 61.7642H54.8247V63.5289H56.5894V61.7642Z" fill={fill} />
-      <path d="M58.3529 61.7642H56.5882V63.5289H58.3529V61.7642Z" fill={stroke} />
-      <path d="M40.7059 63.5293H38.9412V65.294H40.7059V63.5293Z" fill={stroke} />
+      <path
+        d="M58.3529 61.7642H56.5882V63.5289H58.3529V61.7642Z"
+        fill={stroke}
+      />
+      <path
+        d="M40.7059 63.5293H38.9412V65.294H40.7059V63.5293Z"
+        fill={stroke}
+      />
       <path d="M42.4706 63.5293H40.7059V65.294H42.4706V63.5293Z" fill={fill} />
       <path d="M44.2353 63.5293H42.4706V65.294H44.2353V63.5293Z" fill={fill} />
       <path d="M46 63.5293H44.2353V65.294H46V63.5293Z" fill={fill} />
@@ -2429,8 +3769,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M54.8235 63.5293H53.0588V65.294H54.8235V63.5293Z" fill={fill} />
       <path d="M56.5894 63.5293H54.8247V65.294H56.5894V63.5293Z" fill={fill} />
       <path d="M58.3529 63.5293H56.5882V65.294H58.3529V63.5293Z" fill={fill} />
-      <path d="M60.1176 63.5293H58.3529V65.294H60.1176V63.5293Z" fill={stroke} />
-      <path d="M40.7059 65.2942H38.9412V67.0589H40.7059V65.2942Z" fill={stroke} />
+      <path
+        d="M60.1176 63.5293H58.3529V65.294H60.1176V63.5293Z"
+        fill={stroke}
+      />
+      <path
+        d="M40.7059 65.2942H38.9412V67.0589H40.7059V65.2942Z"
+        fill={stroke}
+      />
       <path d="M42.4706 65.2942H40.7059V67.0589H42.4706V65.2942Z" fill={fill} />
       <path d="M44.2353 65.2942H42.4706V67.0589H44.2353V65.2942Z" fill={fill} />
       <path d="M46 65.2942H44.2353V67.0589H46V65.2942Z" fill={fill} />
@@ -2441,8 +3787,14 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M54.8235 65.2942H53.0588V67.0589H54.8235V65.2942Z" fill={fill} />
       <path d="M56.5894 65.2942H54.8247V67.0589H56.5894V65.2942Z" fill={fill} />
       <path d="M58.3529 65.2942H56.5882V67.0589H58.3529V65.2942Z" fill={fill} />
-      <path d="M60.1176 65.2942H58.3529V67.0589H60.1176V65.2942Z" fill={stroke} />
-      <path d="M37.1764 67.0581H35.4117V68.8228H37.1764V67.0581Z" fill={stroke} />
+      <path
+        d="M60.1176 65.2942H58.3529V67.0589H60.1176V65.2942Z"
+        fill={stroke}
+      />
+      <path
+        d="M37.1764 67.0581H35.4117V68.8228H37.1764V67.0581Z"
+        fill={stroke}
+      />
       <path d="M38.94 67.0581H37.1753V68.8228H38.94V67.0581Z" fill={stroke} />
       <path d="M40.7059 67.0581H38.9412V68.8228H40.7059V67.0581Z" fill={fill} />
       <path d="M42.4705 67.0581H40.7058V68.8228H42.4705V67.0581Z" fill={fill} />
@@ -2456,11 +3808,20 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M56.5894 67.0581H54.8247V68.8228H56.5894V67.0581Z" fill={fill} />
       <path d="M58.353 67.0581H56.5883V68.8228H58.353V67.0581Z" fill={fill} />
       <path d="M60.1176 67.0581H58.3529V68.8228H60.1176V67.0581Z" fill={fill} />
-      <path d="M61.8824 67.0581H60.1177V68.8228H61.8824V67.0581Z" fill={stroke} />
+      <path
+        d="M61.8824 67.0581H60.1177V68.8228H61.8824V67.0581Z"
+        fill={stroke}
+      />
       <path d="M63.647 67.0581H61.8823V68.8228H63.647V67.0581Z" fill={stroke} />
-      <path d="M31.8823 68.8235H30.1176V70.5882H31.8823V68.8235Z" fill={stroke} />
+      <path
+        d="M31.8823 68.8235H30.1176V70.5882H31.8823V68.8235Z"
+        fill={stroke}
+      />
       <path d="M33.647 68.8235H31.8823V70.5882H33.647V68.8235Z" fill={stroke} />
-      <path d="M35.4117 68.8235H33.647V70.5882H35.4117V68.8235Z" fill={stroke} />
+      <path
+        d="M35.4117 68.8235H33.647V70.5882H35.4117V68.8235Z"
+        fill={stroke}
+      />
       <path d="M37.1764 68.8235H35.4118V70.5882H37.1764V68.8235Z" fill={fill} />
       <path d="M38.94 68.8235H37.1753V70.5882H38.94V68.8235Z" fill={fill} />
       <path d="M40.7059 68.8235H38.9412V70.5882H40.7059V68.8235Z" fill={fill} />
@@ -2477,9 +3838,18 @@ const CommunityIcon: NextPage<ResumeIconProps> = ({ fill, stroke }) => {
       <path d="M60.1176 68.8235H58.3529V70.5882H60.1176V68.8235Z" fill={fill} />
       <path d="M61.8823 68.8235H60.1176V70.5882H61.8823V68.8235Z" fill={fill} />
       <path d="M63.647 68.8235H61.8823V70.5882H63.647V68.8235Z" fill={fill} />
-      <path d="M65.4117 68.8235H63.647V70.5882H65.4117V68.8235Z" fill={stroke} />
-      <path d="M67.1764 68.8235H65.4117V70.5882H67.1764V68.8235Z" fill={stroke} />
-      <path d="M68.9411 68.8235H67.1764V70.5882H68.9411V68.8235Z" fill={stroke} />
+      <path
+        d="M65.4117 68.8235H63.647V70.5882H65.4117V68.8235Z"
+        fill={stroke}
+      />
+      <path
+        d="M67.1764 68.8235H65.4117V70.5882H67.1764V68.8235Z"
+        fill={stroke}
+      />
+      <path
+        d="M68.9411 68.8235H67.1764V70.5882H68.9411V68.8235Z"
+        fill={stroke}
+      />
     </svg>
   );
 };
