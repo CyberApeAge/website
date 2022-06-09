@@ -28,35 +28,133 @@ export const StakedHeader = styled.div`
         color: #404040;
         margin-top: 10px;
     }
+    
+    .slick-next,
+    .slick-prev {
+        top: 108.5%;
+    }
+    .slick-next {
+        right: 0;
+        text-align: left;
+        width: 49.3%;
+    }
+    .slick-prev {
+        left: 0;
+        text-align: right;
+        margin-right: 1.4%;
+        width: 49.3%;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        font-family: "Font Awesome\ 5 Free";
+        font-size: 19px;
+        color: #2a8631;
+        line-height: 1;
+        opacity: 0.75;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-weight: 900;
+    }
+    .slick-prev:before {
+        content: "\f053";
+    }
+    [dir="rtl"] .slick-prev:before {
+        content: "\f054";
+    }
+    [dir="rtl"] .slick-next {
+        left: -10px;
+        top: 70px;
+        right: auto;
+    }
+    .slick-next:before {
+        content: "\f054";
+    }
+    [dir="rtl"] .slick-next:before {
+        content: "\f053";
+    }
+    .slick-slider .slick-dots ul li {
+        width: auto;
+        height: auto;
+    }
+    .slick-slider .slick-dots li.slick-active div {
+        background: #C4C4C4
+    }
 `
 
 export const LockdownApeContainer = styled.div<CustomStylesProps>`
     width: 100%;
     max-width: ${PAGE_MAX_WIDTH};
-    height: fit-content;
     text-align: center;
     margin: 20px auto;
-    display: flex;
-
+    gap: 4rem;
     ${({customStyles}) => 
         customStyles && 
         css`
             ${customStyles}
         `
     }
+
+    .slick-next,
+    .slick-prev {
+        top: 110%;
+    }
+    .slick-next {
+        right: 0;
+        text-align: left;
+        width: 49.3%;
+    }
+    .slick-prev {
+        left: 0;
+        text-align: right;
+        margin-right: 1.4%;
+        width: 49.3%;
+    }
+    .slick-next svg {
+        transform: rotateY(180deg);
+    }
+    .slick-prev.slick-arrow:before,
+    .slick-next.slick-arrow:before
+     {
+        content: '';
+    }
+    .slick-arrow:hover {
+        svg path {
+            opacity: 0.8;
+            transition: ease-in-out 0.2s;
+        }
+    }
+
+    .slick-dots {
+        bottom: -70px;
+    }
+    .slick-dots ul li {
+        width: auto;
+        height: auto;
+    }
+    .slick-dots li div {
+        width: 11px;
+        height: 11px;
+        background: rgba(196, 196, 196, 0.25);
+    }
+    .slick-dots li.slick-active div {
+        background: #C4C4C4;
+    }
 `
-export const LockdownApeWrapper = styled(motion.div)`
+export const LockdownApeWrapper = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    // justify-content:center;
     align-items: stretch;
     gap: 4rem;
     overflow: hidden; // TODO: fix the carousel
+    padding: 10px 20px;
+    overflow-x: scroll;
 `
 export const ApeItemContainer = styled.div`
-    width: auto;
+    width: max-content;
     display: block;
-    margin: 10px 20px;
+    margin: auto;
+    // margin: 10px 20px;
 `
 export const HeroRenderWrapper = styled.div`
     width: 100%;
@@ -275,6 +373,7 @@ export const AllLockdownContainer = styled.div`
         text-transform: uppercase;
         color: #FFFFFF;
         z-index: 100;
+        position: absolute;
     }
     
     .description {
@@ -284,11 +383,20 @@ export const AllLockdownContainer = styled.div`
         text-transform: uppercase;
         color: #404040;
         z-index: 100;
+        position: absolute;
+        margin-top: 50px;
     }
 
     .shadow-ape {
         z-index: 1;
-        position: absolute;
-        bottom: 93px;
+        margin-top: 18px;
     }
+`
+
+export const TestDiv = styled.div`
+    width: 100%;
+    max-width: ${PAGE_MAX_WIDTH};
+    margin: auto;
+
+
 `

@@ -1,16 +1,18 @@
 import React, { useEffect, useState, useRef } from "react";
 import { NextPage } from "next";
 
-import Slider, { CustomArrowProps, Settings } from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
+import Slider, { CustomArrowProps, Settings, ResponsiveObject } from 'react-slick';
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css"; 
+
 
 import ApeItem from "./ApeItem";
 import WalletApeItem from "./WalletApeItem";
 import { getRandomApeIndex } from '../../utils'
 import { APE_DATA, SingleApeData } from '../../constants/cyberapeage-data'
 import { WALLECT_APES_LIST } from "./data"; 
-import ArrowDown from "./ArrowDown";
+import ArrowDown from "./Arrows/ArrowDown";
+import ArrowLeft from "./Arrows/ArrowLeft";
 import EmptyApe from './EmptyApe'
 import LockdownApeBG from "./LockdownApeBG";
 import {
@@ -20,6 +22,8 @@ import {
     WalletLockdownApeContainer,
     NoApesFoundContainer,
     AllLockdownContainer,
+
+    TestDiv
 } from './styles';
 import HorizontalSlider from "../HorizontalSlider";
 
@@ -47,63 +51,108 @@ const StakedConnected: NextPage = () => {
       setLockApeBgHeight(lockApeRef.current ? lockApeRef.current?.clientHeight : 0)
     }, []);
 
-    const SlickArrowLeft = ({ currentSlide, slideCount, ...props }:CustomArrowProps) => (
+    const SlickArrowLeft = ({...props }:CustomArrowProps) => (
         <button
           {...props}
-          className={
-            "slick-prev slick-arrow" +
-            (currentSlide === 0 ? " slick-disabled" : "")
-          }
+          className="slick-prev slick-arrow"
           aria-hidden="true"
           type="button"
         >
-          Previous
+          <ArrowLeft />
         </button>
-      );
+    );
       
-      const SlickArrowRight = ({ currentSlide, slideCount, ...props }:CustomArrowProps) => (
+    const SlickArrowRight = ({...props }:CustomArrowProps) => (
         <button
           {...props}
-          className={"slick-next slick-arrow"}
+          className="slick-next slick-arrow"
           aria-hidden="true"
           type="button"
         >
-          Next
+          <ArrowLeft />
         </button>
-      );
+    );
+
+    const AppendDots = (dots: React.ReactNode) => (
+      <div className="slick-dots">
+        <ul>
+          {dots}
+        </ul>
+      </div>
+    );
+    
+    const CustomPaging = (index: number) => (
+        <div></div>
+    )
+
+    const responsives: ResponsiveObject[] = [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 4,
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
 
     const slickSetting:Settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-    }
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        nextArrow: <SlickArrowRight />,
+        prevArrow: <SlickArrowLeft />,
+        appendDots: AppendDots,
+        initialSlide: 0,
+        responsive: responsives,
+        customPaging: CustomPaging
+    };
 
     return (
         <>
-            <StakedHeader>
+            {!isAllLockdown &&
+              <StakedHeader>
                 <p>lockdown a cyber ape to mine $cyber</p>
                 <p>click here to choose one or multiple cyber apes to stake</p>
-            </StakedHeader>
+              </StakedHeader>
+            }
+            
             <LockdownApeContainer 
               customStyles={{
-                padding: isAllLockdown ?  "0" : "20px",
+                padding: isAllLockdown ?  "0" : "40px",
                 background: 'url(./dotBg.png) no-repeat',
-                backgroundSize: `100% 380px`,
-                minHeight: '380px',
+                backgroundSize: `100% ${isAllLockdown ? '200px' : '410px'} `,
+                minHeight: `${isAllLockdown ? '200px' : '410px'}`,
               }}
               ref={lockApeRef}>
               {
                   !isAllLockdown ?
-                    <LockdownApeWrapper>
+                    <Slider {...slickSetting}>
                     {stakedApes.map((item: SingleApeData, index) => (
-                          <ApeItem
-                              key={index}
-                              token={item.token}
-                              rank={item.rank}
-                              traits={item.traits} />
-                      ))}
-                    </LockdownApeWrapper>
+                      <ApeItem
+                          key={index}
+                          token={item.token}
+                          rank={item.rank}
+                          traits={item.traits} />
+                    ))}
+                    </Slider>
                   :
                     <AllLockdownContainer>
                       <p className="title">all cyber apes underlockdown</p>
