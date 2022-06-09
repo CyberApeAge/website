@@ -116,7 +116,7 @@ const StakedConnected: NextPage = () => {
         dots: true,
         infinite: true,
         slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToScroll: 5,
         nextArrow: <SlickArrowRight />,
         prevArrow: <SlickArrowLeft />,
         appendDots: AppendDots,
