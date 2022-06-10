@@ -14,7 +14,6 @@ import { WALLECT_APES_LIST } from "./data";
 import ArrowDown from "./Arrows/ArrowDown";
 import ArrowLeft from "./Arrows/ArrowLeft";
 import EmptyApe from './EmptyApe'
-import LockdownApeBG from "./LockdownApeBG";
 import {
     StakedHeader,
     LockdownApeContainer,
@@ -22,18 +21,19 @@ import {
     WalletLockdownApeContainer,
     NoApesFoundContainer,
     AllLockdownContainer,
-
-    TestDiv
 } from './styles';
-import HorizontalSlider from "../HorizontalSlider";
+import { PublicKey } from "@solana/web3.js";
+import { useWallet } from "@solana/wallet-adapter-react";
+import { TokenData } from "../../types";
+import getWalletNfts from "../CyberApeSearch/getWalletNfts";
 
 const StakedConnected: NextPage = () => {
     const [stakedApes, setStatedApes] = useState<SingleApeData[]>([]);
     const [nothing, setNothing] = useState<boolean>(false);
-    const [isAllLockdown, setIsAllLockdown] = useState<boolean>(false);
-    const [lockApeBgHeight, setLockApeBgHeight] = useState<number>(0);
-    const [lockApeBgWidth, setLockApeBgWidth] = useState<number>(0);
-    const lockApeRef = useRef<HTMLDivElement>(null);
+    const [isAllLockdown, setIsAllLockdown] = useState<boolean>(true);
+    const { publicKey, connected } = useWallet();
+    const [isLoadingWalletNFTs, setIsLoadingWalletNFTs] = useState<boolean>(false);
+    const [walletNFTs, setWalletNFTs] = useState<TokenData[] | null>(null);
 
     useEffect(() => {
         const mockData: SingleApeData[] = [];
@@ -45,11 +45,29 @@ const StakedConnected: NextPage = () => {
         setStatedApes(mockData);
     }, []);
 
+    const getWallNFTList = async (publicKey: PublicKey) => {
+      if (isLoadingWalletNFTs) return;
+      
+      setIsLoadingWalletNFTs(true);
+
+      const curWalletNFTs: TokenData[] | null = await getWalletNfts(publicKey);
+      
+      console.log(curWalletNFTs);
+
+      if (curWalletNFTs) {
+        setWalletNFTs(curWalletNFTs);
+      }
+
+      setIsLoadingWalletNFTs(false);
+    }
+
     useEffect(() => {
-      console.log(typeof lockApeRef.current?.clientHeight)
-      setLockApeBgWidth(lockApeRef.current ? lockApeRef.current?.clientWidth : 0)
-      setLockApeBgHeight(lockApeRef.current ? lockApeRef.current?.clientHeight : 0)
-    }, []);
+      if (!connected || !publicKey) return;
+
+      console.log('wallect connected');
+
+      getWallNFTList(publicKey);
+    }, [publicKey, connected])
 
     const SlickArrowLeft = ({...props }:CustomArrowProps) => (
         <button
@@ -141,13 +159,15 @@ const StakedConnected: NextPage = () => {
                 backgroundSize: `100% ${isAllLockdown ? '200px' : '410px'} `,
                 minHeight: `${isAllLockdown ? '200px' : '410px'}`,
               }}
-              ref={lockApeRef}>
+            >
               {
                   !isAllLockdown ?
                     <Slider {...slickSetting}>
-                    {stakedApes.map((item: SingleApeData, index) => (
+                    {(!!!isLoadingWalletNFTs && walletNFTs) 
+                      && walletNFTs.map((item: TokenData, index) => (
                       <ApeItem
                           key={index}
+                          index={item.index}
                           token={item.token}
                           rank={item.rank}
                           traits={item.traits} />

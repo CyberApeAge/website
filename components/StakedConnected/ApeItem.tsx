@@ -4,13 +4,14 @@ import CyberApeRenderer from '../CyberApeRenderer'
 import { SingleApeData } from '../../constants/cyberapeage-data'
 import RarityButton from './RarityButton'
 import RankSection from './RankSection'
+import { TokenData } from "../../types";
 
 import {
     ApeItemContainer,
     HeroRenderWrapper
 } from './styles'
 
-const ApeItem: NextPage<SingleApeData> = ({ token, rank, traits }) => {
+const ApeItem: NextPage<TokenData> = ({ token, index, rank, traits }) => {
     return (
         <ApeItemContainer>
             <HeroRenderWrapper>
@@ -21,8 +22,8 @@ const ApeItem: NextPage<SingleApeData> = ({ token, rank, traits }) => {
                 />
             </HeroRenderWrapper>
             <RankSection 
-                rank={rank}
-                angle="121º"/>
+                index={index}
+                rank={rank}/>
             <RarityButton rank={rank} />
         </ApeItemContainer>
     )

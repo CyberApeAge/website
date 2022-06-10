@@ -1,11 +1,12 @@
-import { NextComponentType } from "next";
+import { NextComponentType, NextPage } from "next";
+import { ApeSizeProps } from "./types";
 
-const EmptyApe: NextComponentType = () => {
+const EmptyApe: NextPage<ApeSizeProps> = ({ widthSize, heightSize }) => {
     return (
         <>
             <svg 
-                width={160}
-                height={180} 
+                width={widthSize ? widthSize : 160}
+                height={heightSize ? heightSize : 180} 
                 viewBox="0 0 129 152" 
                 fill="none" 
                 xmlns="http://www.w3.org/2000/svg"

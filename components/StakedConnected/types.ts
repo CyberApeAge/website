@@ -2,8 +2,8 @@ import { CSSProperties, CSSObject } from "styled-components";
 import { CyberApe } from "../../types/ape-traits";
 
 export interface RankSectionProps {
+    index: string;
     rank: string;
-    angle: string;
   }
 
   export interface RarityButtonProps {
@@ -38,4 +38,9 @@ export interface CustomStylesProps {
 
 export interface ClipStepSizeProps {
   size: number;
+}
+
+export interface ApeSizeProps {
+  widthSize?: number | null;
+  heightSize?: number | null;
 }

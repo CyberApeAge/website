@@ -14,6 +14,9 @@ const getWalletNfts = (pubkey: PublicKey): Promise<TokenData[] | null> => {
 
     const response = await connection.getTokenAccountsByOwner(pubkey, {
       programId: TOKEN_PROGRAM_ID,
+    })
+    .catch((err) => {
+      console.log(err);
     });
 
     if (response) {
