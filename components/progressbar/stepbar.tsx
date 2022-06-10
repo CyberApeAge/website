@@ -6,34 +6,34 @@ import { ProgressBar, Step } from "react-step-progress-bar";
 
 const steps = [
   {
-    status: "Intializing"
+    status: "Phase 1"
   },
   {
-    status: "Sync"
+    status: "Phase 2"
   },
   {
-    status: "Compile"
+    status: "Phase 3"
   },
   {
-    status: "Copy Build"
+    status: "Phase 4"
   },
   {
-    status: "Test"
+    status: "Phase 5"
   },
   {
-    status: "Test"
+    status: "Phase 6"
   },
   {
-    status: "Test"
+    status: "Phase 7"
   },
   {
-    status: "Test"
+    status: "Phase 8"
   },
   {
-    status: "Test"
+    status: "Phase 9"
   },
   {
-    status: "Post"
+    status: "Phase 10"
   }
 ];
 const Stepbar: NextPage = () => {
