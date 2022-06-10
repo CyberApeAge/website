@@ -30,7 +30,7 @@ const CyberLockdownPage: NextPage = () => {
             isContrast
             accent="#5865F2"
           >
-            HOW DOES STAKE WORK
+            WHAT IS LOCKDOWN?
           </SignatureButton>
         </div>
         <div className="statistics-header">
