@@ -30,7 +30,7 @@ import getWalletNfts from "../CyberApeSearch/getWalletNfts";
 const StakedConnected: NextPage = () => {
     const [stakedApes, setStatedApes] = useState<SingleApeData[]>([]);
     const [nothing, setNothing] = useState<boolean>(false);
-    const [isAllLockdown, setIsAllLockdown] = useState<boolean>(true);
+    const [isAllLockdown, setIsAllLockdown] = useState<boolean>(false);
     const { publicKey, connected } = useWallet();
     const [isLoadingWalletNFTs, setIsLoadingWalletNFTs] = useState<boolean>(false);
     const [walletNFTs, setWalletNFTs] = useState<TokenData[] | null>(null);
