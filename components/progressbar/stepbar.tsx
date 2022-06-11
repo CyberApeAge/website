@@ -41,7 +41,7 @@ const Stepbar: NextPage = () => {
   const [isLoaded, setLoaded] = useState<boolean>(false);
 
   const transfer = {
-    status: "Compile" // change transfer status to progress bar
+    status: "Phase 4" // change transfer status to progress bar
   };
 
   const getStepPosition = (transferStatus: any) => {

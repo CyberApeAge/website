@@ -19,8 +19,11 @@ import {
 import { RoadmapMilestoneProps } from "./types";
 
 const BodyContainer = styled.div`
+  background: rgba(97, 97, 97, 0.08);
+  border: 2px solid #101010;
+  transform: matrix(1, 0, 0, 1, 0, 0);
   width: 40%;
-  padding: 2rem 2rem 0 2rem;
+  padding: 2.188rem 0rem 0 1.438rem;
   border: 20px solid;
   border-image: url("stair-border-roadmap.svg");
   border-image-slice: 16;
@@ -88,7 +91,7 @@ const RoadmapMilestone: NextPage<RoadmapMilestoneProps> = ({
         <BottomContainer>
           <ApeContainer>
             <CyberApeRenderer
-              isLookingRight
+              isLookingLeft
               size="150px"
               traits={{
                 ape: RANDOM_APE_TRAITS.ape,
@@ -101,9 +104,9 @@ const RoadmapMilestone: NextPage<RoadmapMilestoneProps> = ({
           </ApeContainer>
           {popupTitle != null && detailsPopup != null && (
             <SignatureButton
-              backgroundColor={"#333"}
+              backgroundColor={"#3"}
               onClick={license}
-              accent="#111"
+              accent="#11"
             >
               DETAILS
             </SignatureButton>
