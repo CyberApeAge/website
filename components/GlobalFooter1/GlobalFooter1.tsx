@@ -10,7 +10,6 @@ import { useContext } from "react";
 import MobileMenuContext from "../../contexts/MobileMenu";
 import SuperModalContext from "../../contexts/SuperModal";
 import CyberApeSearch from "../CyberApeSearch";
-import License from "../GlobalFAQ/License";
 import Link from "next/link";
 import {
   ComingSoonTitle,
@@ -25,10 +24,7 @@ import {
 import License1 from "../GlobalFAQ/License";
 
 const GlobalFooter: NextPage = () => {
-  const { closeMobileMenu } = useContext(MobileMenuContext);
-
   const { open } = useContext(SuperModalContext);
-  const { openMobileMenu } = useContext(MobileMenuContext);
 
   function openHub(): void {
     open("troop's hub", <HubComingSoon />);
@@ -55,7 +51,7 @@ const GlobalFooter: NextPage = () => {
       <BloomingContainer
         accent="#444"
         customStyles={{
-          margin: "0rem 10rem",
+          margin: "auto",
           width: "100%",
           maxWidth: PAGE_MAX_WIDTH,
           position: "relative",

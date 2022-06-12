@@ -21,6 +21,12 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import WeekDataPopup from "../components/WeekDataPopup";
 import SuperModalContext from "../contexts/SuperModal";
+import {
+  Gold,
+  Mutant,
+  Robot,
+  Black,
+} from "../components/CyberApeRenderer/Traits";
 
 const Home: NextPage<any> = () => {
   const router = useRouter();
@@ -266,7 +272,7 @@ const Home: NextPage<any> = () => {
                     <h2>1</h2>
                     <h2 className="num-gray">st</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Gold width={80} height={90} />
                     </div>
 
                     <span>
@@ -288,7 +294,7 @@ const Home: NextPage<any> = () => {
                     <h2>2</h2>
                     <h2 className="num-gray">nd</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Robot width={80} height={90} />
                     </div>
 
                     <span>
@@ -310,7 +316,7 @@ const Home: NextPage<any> = () => {
                     <h2>3</h2>
                     <h2 className="num-gray">rd</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Mutant width={80} height={90} />
                     </div>
 
                     <span>
@@ -332,7 +338,7 @@ const Home: NextPage<any> = () => {
                     <h2>4</h2>
                     <h2 className="num-gray">th</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Black width={80} height={90} />
                     </div>
 
                     <span>
@@ -354,7 +360,7 @@ const Home: NextPage<any> = () => {
                     <h2>5</h2>
                     <h2 className="num-gray">th</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Black width={80} height={90} />
                     </div>
 
                     <span>
@@ -376,7 +382,7 @@ const Home: NextPage<any> = () => {
                     <h2>6</h2>
                     <h2 className="num-gray">th</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Black width={80} height={90} />
                     </div>
 
                     <span>
@@ -398,7 +404,7 @@ const Home: NextPage<any> = () => {
                     <h2>7</h2>
                     <h2 className="num-gray">th</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Black width={80} height={90} />
                     </div>
 
                     <span>
@@ -420,7 +426,7 @@ const Home: NextPage<any> = () => {
                     <h2>8</h2>
                     <h2 className="num-gray">th</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Black width={80} height={90} />
                     </div>
 
                     <span>
@@ -442,7 +448,7 @@ const Home: NextPage<any> = () => {
                     <h2>9</h2>
                     <h2 className="num-gray">th</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Black width={80} height={90} />
                     </div>
 
                     <span>
@@ -464,7 +470,7 @@ const Home: NextPage<any> = () => {
                     <h2>10</h2>
                     <h2 className="num-gray">th</h2>
                     <div className="img-sec">
-                      <Image src="/ape2.png" width="80" height="90" />
+                      <Black width={80} height={90} />
                     </div>
 
                     <span>

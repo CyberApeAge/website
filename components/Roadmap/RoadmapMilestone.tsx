@@ -27,7 +27,7 @@ const BodyContainer = styled.div`
 `;
 
 const BackgroundBox = styled.div`
-  background: rgba(97, 97, 97, 0.15);
+  background: rgba(97, 97, 97, 0.08);
   z-index: -10;
   position: absolute;
   top: 0px;
