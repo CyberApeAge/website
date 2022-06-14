@@ -19,15 +19,14 @@ export const RoadmapContainer = styled.div`
   overflow-y: hidden;
 
   background: linear-gradient(
-    180deg,
+    #0000 5%,
     #fff ${ATIVATION_PERCENTAGE},
-    #444 ${ATIVATION_PERCENTAGE}
+    #222 ${ATIVATION_PERCENTAGE}
   );
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  
   background-size: 3px 100%;
 
   &:after {
