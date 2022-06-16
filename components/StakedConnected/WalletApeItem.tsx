@@ -19,18 +19,9 @@ const WalletApeItem: NextPage<WalletApesDataProps> = ({
         traits, timeInLockdown, totalDays, cyberProgress, rewardedSecond, totalSecond}) => {
     return (
         <WalletApeItemContainer size={10}>
-            <BloomingContainer
-                accent="#444"
-                customStyles={{
-                    width: "100%",
-                    border: "none",
-                    padding: "16px 15px",
-                    display: "grid",
-                    gap: "1rem",
-                    gridTemplateColumns: "repeat(auto-fill, 120px 32% 32% 16%)",
-                    justifyContent: "space-between"
-                  }}
-            >
+            <div className='item-container'>
+
+            
                 <CyberApeRenderer 
                     isLookingRight={false}
                     size="120px"
@@ -54,7 +45,8 @@ const WalletApeItem: NextPage<WalletApesDataProps> = ({
                         onClick= {()=>{}}
                         accent="#E42575"
                         customStyle={{
-                            width: "100%"
+                            width: "100%",
+                            padding: "0px"
                         }}>
                         release
                     </SignatureButton>
@@ -63,14 +55,14 @@ const WalletApeItem: NextPage<WalletApesDataProps> = ({
                         isContrast 
                         accent="#5865F2"
                         customStyle={{
-                            width: "100%"
+                            width: "100%",
+                            padding: "0px"
                         }}
                         >
                         claim rewards
                     </SignatureButton>
                 </div>
-
-            </BloomingContainer>
+            </div>
             
         </WalletApeItemContainer>
     )

@@ -68,7 +68,7 @@ const CyberLockdownPage: NextPage = () => {
         <ApeContainer>
         {connected ? 
           <StakedConnected />
-          : 
+          :
           <StakedNotConnect />
         }
         </ApeContainer>

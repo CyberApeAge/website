@@ -139,6 +139,16 @@ export const LockdownApeContainer = styled.div<CustomStylesProps>`
     .slick-dots li.slick-active div {
         background: #C4C4C4;
     }
+    .slick-slide:hover .apeItemContainer::before {
+        content: '';
+        background: #29292d;
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        opacity: 0.5;
+        padding: 140px 100px;
+        transition: ease-out 1.8s;
+    }
 `
 export const LockdownApeWrapper = styled.div`
     display: flex;
@@ -154,6 +164,7 @@ export const ApeItemContainer = styled.div`
     width: max-content;
     display: block;
     margin: auto;
+   
     // margin: 10px 20px;
 `
 export const HeroRenderWrapper = styled.div`
@@ -266,7 +277,7 @@ export const WalletLockdownApeContainer = styled.div`
 
 export const WalletApeItemContainer = styled.div<ClipStepSizeProps>`
     width: 100%;
-    margin-top: 26px;
+ 
     clip-path: ${({size}) => `
         polygon(0% ${size}px, ${size/2}px ${size}px, 
         ${size/2}px ${size/2}px,
@@ -286,12 +297,27 @@ export const WalletApeItemContainer = styled.div<ClipStepSizeProps>`
         ${size/2}px calc(100% - ${size/2}px),
         ${size/2}px calc(100% - ${size}px),
         0% calc(100% - ${size}px));`};
-
-        .action-container {
-            position: relative;
-            display: grid;
-            gap: 20px;
-        }
+    .item-container {
+        background: 
+            radial-gradient(circle at 1013.5px -274px, rgba(68, 68, 68, 0.6) 0%, 
+            rgba(68, 68, 68, 0.25) calc(0% + 500px)) 0% 0% no-repeat scroll border-box border-box;
+        position: relative;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        border: none;
+        padding: 16px 15px;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill,120px 32% 32% 16%);
+        justify-content: space-between;
+        margin-top: 26px;
+    }
+    .action-container {
+        position: relative;
+        display: grid;
+        gap: 20px;
+    }
 `
 
 export const ApeItemDetailPartContainer = styled.div`

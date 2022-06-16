@@ -13,7 +13,7 @@ import {
 
 const ApeItem: NextPage<TokenData> = ({ token, index, rank, traits }) => {
     return (
-        <ApeItemContainer>
+        <ApeItemContainer className='apeItemContainer'>
             <HeroRenderWrapper>
                 <CyberApeRenderer 
                     isLookingRight={false}
