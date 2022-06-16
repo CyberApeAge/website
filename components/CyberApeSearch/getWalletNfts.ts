@@ -21,13 +21,13 @@ const getWalletNfts = (pubkey: PublicKey): Promise<TokenData[] | null> => {
 
     if (response) {
       const TOKEN_LIST = response.value;
-
+      
       for (let i = 0; i < TOKEN_LIST.length; i++) {
         const TOKEN = TOKEN_LIST[i];
 
         const ACCOUNT_INFO = AccountLayout.decode(TOKEN.account.data);
         const isSingle = parseInt(ACCOUNT_INFO.amount.toString()) === 1;
-
+        
         if (!isSingle) continue;
 
         const isCyberApe = CYBERAPE_TOKEN_LIST.includes(ACCOUNT_INFO.mint.toString());

@@ -13,6 +13,7 @@ export interface RankSectionProps {
   export interface RarityBtnElemProps {
     color: CSSProperties["color"];
     size: number;
+    rare?: boolean | false;
   }
 
 export interface WalletApesDataProps {

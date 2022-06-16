@@ -21,9 +21,12 @@ const ApeItem: NextPage<TokenData> = ({ token, index, rank, traits }) => {
                     traits={traits}
                 />
             </HeroRenderWrapper>
+
             <RankSection 
                 index={index}
-                rank={rank}/>
+                rank={rank}
+            />
+
             <RarityButton rank={rank} />
         </ApeItemContainer>
     )

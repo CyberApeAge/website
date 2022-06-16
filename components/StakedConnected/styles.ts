@@ -190,25 +190,40 @@ export const RarityBtnContainer = styled.div<RarityBtnElemProps>`
     width: 100%;
     margin-top: 10px;
     padding: 0 2px 2px 0;
-    clip-path: ${({size}) => `
+    clip-path: ${({size, rare}) => rare ? `
+        polygon(0% 0%,
+            calc(100% - ${size}px) 0%,
+            calc(100% - ${size}px) ${size/2}px,
+            calc(100% - ${size/2}px) ${size/2}px,
+            calc(100% - ${size/2}px) ${size}px,
+            100% ${size}px,
+            100% 100%,
+            ${size}px 100%,
+            ${size}px calc(100% - ${size/2}px),
+            ${size/2}px calc(100% - ${size/2}px),
+            ${size/2}px calc(100% - ${size}px),
+            0% calc(100% - ${size}px));`
+    :
+    `
         polygon(0% ${size}px, ${size/2}px ${size}px, 
-        ${size/2}px ${size/2}px,
-        ${size}px ${size/2}px,
-        ${size}px 0%,
-        calc(100% - ${size}px) 0%,
-        calc(100% - ${size}px) ${size/2}px,
-        calc(100% - ${size/2}px) ${size/2}px,
-        calc(100% - ${size/2}px) ${size}px,
-        100% ${size}px,
-        100% calc(100% - ${size}px),
-        calc(100% - ${size/2}px) calc(100% - ${size}px),
-        calc(100% - ${size/2}px) calc(100% - ${size/2}px),
-        calc(100% - ${size}px) calc(100% - ${size/2}px),
-        calc(100% - ${size}px) 100%,
-        ${size}px 100%, ${size}px calc(100% - ${size/2}px),
-        ${size/2}px calc(100% - ${size/2}px),
-        ${size/2}px calc(100% - ${size}px),
-        0% calc(100% - ${size}px));`};
+            ${size/2}px ${size/2}px,
+            ${size}px ${size/2}px,
+            ${size}px 0%,
+            calc(100% - ${size}px) 0%,
+            calc(100% - ${size}px) ${size/2}px,
+            calc(100% - ${size/2}px) ${size/2}px,
+            calc(100% - ${size/2}px) ${size}px,
+            100% ${size}px,
+            100% calc(100% - ${size}px),
+            calc(100% - ${size/2}px) calc(100% - ${size}px),
+            calc(100% - ${size/2}px) calc(100% - ${size/2}px),
+            calc(100% - ${size}px) calc(100% - ${size/2}px),
+            calc(100% - ${size}px) 100%,
+            ${size}px 100%, ${size}px calc(100% - ${size/2}px),
+            ${size/2}px calc(100% - ${size/2}px),
+            ${size/2}px calc(100% - ${size}px),
+            0% calc(100% - ${size}px));
+    `};
 `
 export const RarityBtnInnerContainer = styled.div<RarityBtnElemProps>`
     display: flex;
@@ -220,25 +235,40 @@ export const RarityBtnInnerContainer = styled.div<RarityBtnElemProps>`
     background: ${({color}) => color};
     padding: 7px;
     justify-content: center;
-    clip-path: ${({size}) => `
+    clip-path: ${({size, rare}) => rare ? `
+        polygon(0% 0%,
+            calc(100% - ${size}px) 0%,
+            calc(100% - ${size}px) ${size/2}px,
+            calc(100% - ${size/2}px) ${size/2}px,
+            calc(100% - ${size/2}px) ${size}px,
+            100% ${size}px,
+            100% 100%,
+            ${size}px 100%,
+            ${size}px calc(100% - ${size/2}px),
+            ${size/2}px calc(100% - ${size/2}px),
+            ${size/2}px calc(100% - ${size}px),
+            0% calc(100% - ${size}px));`
+    :
+    `
         polygon(0% ${size}px, ${size/2}px ${size}px, 
-        ${size/2}px ${size/2}px,
-        ${size}px ${size/2}px,
-        ${size}px 0%,
-        calc(100% - ${size}px) 0%,
-        calc(100% - ${size}px) ${size/2}px,
-        calc(100% - ${size/2}px) ${size/2}px,
-        calc(100% - ${size/2}px) ${size}px,
-        100% ${size}px,
-        100% calc(100% - ${size}px),
-        calc(100% - ${size/2}px) calc(100% - ${size}px),
-        calc(100% - ${size/2}px) calc(100% - ${size/2}px),
-        calc(100% - ${size}px) calc(100% - ${size/2}px),
-        calc(100% - ${size}px) 100%,
-        ${size}px 100%, ${size}px calc(100% - ${size/2}px),
-        ${size/2}px calc(100% - ${size/2}px),
-        ${size/2}px calc(100% - ${size}px),
-        0% calc(100% - ${size}px));`};
+            ${size/2}px ${size/2}px,
+            ${size}px ${size/2}px,
+            ${size}px 0%,
+            calc(100% - ${size}px) 0%,
+            calc(100% - ${size}px) ${size/2}px,
+            calc(100% - ${size/2}px) ${size/2}px,
+            calc(100% - ${size/2}px) ${size}px,
+            100% ${size}px,
+            100% calc(100% - ${size}px),
+            calc(100% - ${size/2}px) calc(100% - ${size}px),
+            calc(100% - ${size/2}px) calc(100% - ${size/2}px),
+            calc(100% - ${size}px) calc(100% - ${size/2}px),
+            calc(100% - ${size}px) 100%,
+            ${size}px 100%, ${size}px calc(100% - ${size/2}px),
+            ${size/2}px calc(100% - ${size/2}px),
+            ${size/2}px calc(100% - ${size}px),
+            0% calc(100% - ${size}px));
+    `};
 
     & > svg {
         margin-right: 10px;

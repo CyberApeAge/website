@@ -46,7 +46,7 @@ const CyberLockdownPage: NextPage = () => {
               </div>
               <div className="data-item">
                 <p>apes in lockdown</p>
-                <p>4</p>
+                <p>{cyberAmount}</p>
               </div>
             </div>
             <div className="stake-header-img">

@@ -51,8 +51,6 @@ const StakedConnected: NextPage = () => {
       setIsLoadingWalletNFTs(true);
 
       const curWalletNFTs: TokenData[] | null = await getWalletNfts(publicKey);
-      
-      console.log(curWalletNFTs);
 
       if (curWalletNFTs) {
         setWalletNFTs(curWalletNFTs);

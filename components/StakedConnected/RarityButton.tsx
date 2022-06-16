@@ -19,37 +19,44 @@ const RarityButton: NextPage<RarityButtonProps> = ({ rank }) => {
         label: "Mythic", 
         color: "#ED2939", 
         bgColor: "#210000", 
-        icon: <Diamonds.Mythic /> };
+        icon: <Diamonds.Mythic />,
+        rare: false
+      };
     if (rank < 333) 
       return { 
         label: "Legendary", 
         color: "#FF8101", 
         bgColor: "#211100", 
-        icon: <Diamonds.Legendary />};
+        icon: <Diamonds.Legendary />,
+        rare: false};
     if (rank < 666) 
       return { 
         label: "Epic", 
         color: "#9A07F6", 
         bgColor: "#140120", 
-        icon: <Diamonds.Epic />};
+        icon: <Diamonds.Epic />,
+        rare: false};
     if (rank < 1333) 
       return { 
         label: "Rare", 
         color: "#00B3FF", 
         bgColor: "#001721", 
-        icon: <Diamonds.Rare />};
+        icon: <Diamonds.Rare />,
+        rare: true};
     if (rank < 2333) 
       return { 
         label: "Uncommon", 
         color: "#20D58A", 
         bgColor: "#041C12", 
-        icon: <Diamonds.Uncommon />};
+        icon: <Diamonds.Uncommon />,
+        rare: true};
     if (rank < 3333) 
       return { 
         label: "Common", 
         color: "#949494", 
         bgColor: "#131313", 
-        icon: <Diamonds.Common />};
+        icon: <Diamonds.Common />,
+        rare: true};
   };
 
   useEffect(() => {
@@ -58,9 +65,17 @@ const RarityButton: NextPage<RarityButtonProps> = ({ rank }) => {
 
   return (
     rarityData &&
-    <RarityBtnContainer color={rarityData.color} size={6}>
-      <RarityBtnInnerContainer color={rarityData.bgColor} size={6}>
+    <RarityBtnContainer 
+      color={rarityData.color}
+      size={6}
+      rare={rarityData.rare}>
+
+      <RarityBtnInnerContainer 
+        color={rarityData.bgColor} 
+        size={6} 
+        rare={rarityData.rare}>
         {rarityData.icon}
+        
         <RarityBtnElem
           color={rarityData.color}
           size={0}
