@@ -176,7 +176,7 @@ const StakedConnected: NextPage = () => {
                   :
                     <AllLockdownContainer>
                       <p className="title">all cyber apes underlockdown</p>
-                      <p className="description">$cyber minting initiated...</p>
+                      <p className="description">$cyber mining initiated...</p>
                       <div className="shadow-ape">
                         <EmptyApe />
                       </div>
