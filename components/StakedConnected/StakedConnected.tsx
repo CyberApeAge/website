@@ -152,7 +152,7 @@ const StakedConnected: NextPage = () => {
             
             <LockdownApeContainer 
               customStyles={{
-                padding: isAllLockdown ?  "0" : "40px",
+                padding: isAllLockdown ?  "0" : "20px 40px",
                 background: 'url(./dotBg.png) no-repeat',
                 backgroundSize: `100% ${isAllLockdown ? '200px' : '410px'} `,
                 minHeight: `${isAllLockdown ? '200px' : '410px'}`,

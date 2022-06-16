@@ -96,7 +96,7 @@ export const LockdownApeContainer = styled.div<CustomStylesProps>`
 
     .slick-next,
     .slick-prev {
-        top: 110%;
+        top: 105%;
     }
     .slick-next {
         right: 0;
@@ -125,7 +125,7 @@ export const LockdownApeContainer = styled.div<CustomStylesProps>`
     }
 
     .slick-dots {
-        bottom: -70px;
+        bottom: -55px;
     }
     .slick-dots ul li {
         width: auto;
@@ -139,15 +139,19 @@ export const LockdownApeContainer = styled.div<CustomStylesProps>`
     .slick-dots li.slick-active div {
         background: #C4C4C4;
     }
-    .slick-slide:hover .apeItemContainer::before {
-        content: '';
+    
+    .slick-slide {
+        padding: 20px 0;
+        cursor: pointer;
+    }
+    .slick-slide:hover {
         background: #29292d;
         display: block;
-        position: absolute;
         z-index: 9999;
         opacity: 0.5;
-        padding: 140px 100px;
-        transition: ease-out 1.8s;
+        -webkit-transition: ease-out 1.8s;
+        transition: ease-out 0.3s;
+     
     }
 `
 export const LockdownApeWrapper = styled.div`
