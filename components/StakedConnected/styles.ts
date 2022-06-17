@@ -96,7 +96,7 @@ export const LockdownApeContainer = styled.div<CustomStylesProps>`
 
     .slick-next,
     .slick-prev {
-        top: 105%;
+        top: 110%;
     }
     .slick-next {
         right: 0;
@@ -123,9 +123,8 @@ export const LockdownApeContainer = styled.div<CustomStylesProps>`
             transition: ease-in-out 0.2s;
         }
     }
-
     .slick-dots {
-        bottom: -55px;
+        bottom: -70px;
     }
     .slick-dots ul li {
         width: auto;
@@ -139,20 +138,18 @@ export const LockdownApeContainer = styled.div<CustomStylesProps>`
     .slick-dots li.slick-active div {
         background: #C4C4C4;
     }
-    
     .slick-slide {
-        padding: 20px 0;
+        // padding: 20px 0;
         cursor: pointer;
     }
-    .slick-slide:hover {
+    /* .slick-slide:hover {
         background: #29292d;
         display: block;
         z-index: 9999;
         opacity: 0.5;
         -webkit-transition: ease-out 1.8s;
         transition: ease-out 0.3s;
-     
-    }
+    } */
 `
 export const LockdownApeWrapper = styled.div`
     display: flex;
@@ -174,10 +171,22 @@ export const ApeItemContainer = styled.div`
 export const HeroRenderWrapper = styled.div`
     width: 100%;
     position: relative;
-    clip-path: polygon(0% 5%, 2.5% 5%, 2.5% 2.5%, 5% 2.5%, 5% 0%,
-        95% 0%, 95% 2.5%, 97.5% 2.5%, 97.5% 5%, 100% 5%,
-        100% 95%, 97.5% 95%, 97.5% 97.5%, 95% 97.5%, 95% 100%,
-        5% 100%, 5% 97.5%, 2.5% 97.5%, 2.5% 95%, 0% 95%);
+    clip-path: polygon(
+        0% 6%, 2% 6%, 2% 4%, 4% 4%, 4% 2%, 6% 2%, 6% 0%,
+        94% 0%, 94% 2%, 96% 2%, 96% 4%, 98% 4%, 98% 6%, 100% 6%,
+        100% 94%, 98% 94%, 98% 96%, 96% 96%, 96% 98%, 94% 98%, 94% 100%,
+        6% 100%, 6% 98%, 4% 98%, 4% 96%, 2% 96%, 2% 94%, 0% 94%);
+    
+    &:hover {
+        opacity: 0.3;
+        // filter: blur(2.2px);
+        transition: ease-in-out 0.35s;
+        /* clip-path: polygon(
+            0% 6%, 2% 6%, 2% 4%, 4% 4%, 4% 2%, 6% 2%, 6% 0%,
+            94% 0%, 94% 2%, 96% 2%, 96% 4%, 98% 4%, 98% 6%, 100% 6%,
+            100% 94%, 98% 94%, 98% 96%, 96% 96%, 96% 98%, 94% 98%, 94% 100%,
+            6% 100%, 6% 98%, 4% 98%, 4% 96%, 2% 96%, 2% 94%, 0% 94%); */
+    }
 `
 
 export const RankSectionDiv = styled.div`
