@@ -1,13 +1,10 @@
 import { NextPage } from "next/types";
-import { PAGE_MAX_WIDTH } from "../../constants";
-import BloomingContainer from "../BloomingContainer";
 import CyberApeRenderer from "../CyberApeRenderer";
 import DiscordIcon from "../DiscordIcon";
 import TwitterIcon from "../TwitterIcon";
 import HubComingSoon from "../GlobalHeader/HubComingSoon";
 import GlobalFAQ from "../GlobalFAQ/GlobalFAQ";
 import { useContext } from "react";
-import MobileMenuContext from "../../contexts/MobileMenu";
 import SuperModalContext from "../../contexts/SuperModal";
 import CyberApeSearch from "../CyberApeSearch";
 import Link from "next/link";
@@ -22,6 +19,31 @@ import {
   Twitter,
 } from "./styles";
 import License1 from "../GlobalFAQ/License";
+import styled from "styled-components";
+
+const FooterContainer = styled.div`
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  border: 20px solid;
+  border-image: url("stair-border-grey.svg");
+  border-image-slice: 16;
+
+  margin: 5rem auto;
+  width: 100%;
+  max-width: 1280px;
+  position: relative;
+  zindex: 1;
+  padding: 3rem;
+`;
+
+const BackgroundDiv = styled.div`
+  background: #1c1b1c80;
+  z-index: -10;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+`;
 
 const GlobalFooter: NextPage = () => {
   const { open } = useContext(SuperModalContext);
@@ -48,18 +70,8 @@ const GlobalFooter: NextPage = () => {
 
   return (
     <GlobalFooterContainer>
-      <BloomingContainer
-        accent="#444"
-        customStyles={{
-          margin: "auto",
-          width: "100%",
-          maxWidth: PAGE_MAX_WIDTH,
-          position: "relative",
-          zIndex: 1,
-          padding: "3rem",
-          border: "none",
-        }}
-      >
+      <FooterContainer>
+        <BackgroundDiv />
         <LinksRowContainer>
           <LinksColumn>
             <h1>TRAVEL AROUND</h1>
@@ -112,7 +124,7 @@ const GlobalFooter: NextPage = () => {
             }}
           />
         </CyberApeRendererWrapper>
-      </BloomingContainer>
+      </FooterContainer>
     </GlobalFooterContainer>
   );
 };
