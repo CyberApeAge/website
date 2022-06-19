@@ -294,7 +294,7 @@ const Home: NextPage<any> = () => {
                     <h2>2</h2>
                     <h2 className="num-gray">nd</h2>
                     <div className="img-sec">
-                      <Robot width={80} height={90} />
+                      <Mutant width={80} height={90} />
                     </div>
 
                     <span>
