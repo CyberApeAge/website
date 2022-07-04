@@ -107,7 +107,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               icon={<SolanaIcon fill="#ACE9BD" stroke="#ACE9BD" />}
               title="huge earnings for holders"
               accent="#ACE9BD"
-              description="Owning a Cyber Ape grants you the access to the prize pool to earn SOL and $CYBER. To this day we’ve gotten x amount of sol. and x amount of ape.."
+              description="Owning a Cyber Ape grants you the access to the prize pool to earn SOL and $CYBER. To this day we’ve given out 2000+ Solana ($300k+) from our 2950SOL mint. We carried out 5 games, combining revenue share from multiple weeks with no games into the most recent game. After 3 months of building games and mint + revenue sharing, airdropped your minted ape multiple times over."
               pipeOrigin="right"
             />
             <ResumeItem
@@ -115,8 +115,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               icon={<ApeIcon fill="#FF9E9E" stroke="#FF8A8A" />}
               title="CYBER LOCKDOWN ⬩ ASTRAL BEAKERS"
               accent="#FF9E9E"
-              description="Cyber Age metaverse is not an easy place to live in. Apes that want to be highly rewarded take shortcuts and end up in Cyber Lockdown. Juggle life behind bars and earn $CYBER.
-              You should also know that a group of brave Apes once stumbled upon a lake in the astral realm and brought back a strange liquid, take a sip and see its effects on your Cyber Apes. take note it doesn't come cheap"
+              description="Cyber Age metaverse is not an easy place to live in. Apes that want to be highly rewarded take shortcuts and end up in Cyber Lockdown. Juggle life behind bars and earn $CYBER. You should also know that a group of brave Apes once stumbled upon a lake in the astral realm and brought back a strange liquid, take a sip and see its effects on your Cyber Apes. Take note it doesn't come cheap at the Bazar. "
               pipeOrigin="left"
             />
             <ResumeItem
