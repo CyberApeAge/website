@@ -7,8 +7,10 @@ import TwitterIcon from "../TwitterIcon";
 import HubComingSoon from "../GlobalHeader/HubComingSoon";
 import GlobalFAQ from "../GlobalFAQ/GlobalFAQ";
 import { useContext } from "react";
+import MobileMenuContext from "../../contexts/MobileMenu";
 import SuperModalContext from "../../contexts/SuperModal";
 import CyberApeSearch from "../CyberApeSearch";
+import License from "../GlobalFAQ/License";
 import Link from "next/link";
 import {
   ComingSoonTitle,
@@ -21,34 +23,12 @@ import {
   Twitter,
 } from "./styles";
 import License1 from "../GlobalFAQ/License";
-import styled from "styled-components";
-
-const FooterContainer = styled.div`
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  border: 20px solid;
-  border-image: url("stair-border-grey.svg");
-  border-image-slice: 16;
-
-  margin: 5rem auto;
-  width: 100%;
-  max-width: 1280px;
-  position: relative;
-  zindex: 1;
-  padding: 3rem;
-`;
-
-const BackgroundDiv = styled.div`
-  background: #1c1b1c80;
-  z-index: -10;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-`;
 
 const GlobalFooter: NextPage = () => {
+  const { closeMobileMenu } = useContext(MobileMenuContext);
+
   const { open } = useContext(SuperModalContext);
+  const { openMobileMenu } = useContext(MobileMenuContext);
 
   function openHub(): void {
     open("troop's hub", <HubComingSoon />);
@@ -71,8 +51,18 @@ const GlobalFooter: NextPage = () => {
   }
   return (
     <GlobalFooterContainer>
-      <FooterContainer>
-        <BackgroundDiv />
+      <BloomingContainer
+        accent="#444"
+        customStyles={{
+          margin: "5rem auto",
+          width: "100%",
+          maxWidth: PAGE_MAX_WIDTH,
+          position: "relative",
+          zIndex: 1,
+          padding: "3rem",
+          border: "none",
+        }}
+      >
         <LinksRowContainer>
           <LinksColumn>
             <h1>TRAVEL AROUND</h1>
@@ -125,7 +115,7 @@ const GlobalFooter: NextPage = () => {
             }}
           />
         </CyberApeRendererWrapper>
-      </FooterContainer>
+      </BloomingContainer>
     </GlobalFooterContainer>
   );
 };
