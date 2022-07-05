@@ -104,9 +104,9 @@ const RoadmapMilestone: NextPage<RoadmapMilestoneProps> = ({
           </ApeContainer>
           {popupTitle != null && detailsPopup != null && (
             <SignatureButton
-              backgroundColor={"#3"}
+              backgroundColor={"#1"}
               onClick={license}
-              accent="#11"
+              accent="#1"
             >
               DETAILS
             </SignatureButton>
