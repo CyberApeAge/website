@@ -38,11 +38,11 @@ const CyberLockdownPage: NextPage = () => {
             <div className="data-part">
               <div className="data-item">
                 <p>total $cyber accumulated</p>
-                <p>0</p>
+                <p>123125.012</p>
               </div>
               <div className="data-item">
                 <p>total time in lockdown</p>
-                <p>00:00:00</p>
+                <p>12321/12:23:13</p>
               </div>
               <div className="data-item">
                 <p>apes in lockdown</p>

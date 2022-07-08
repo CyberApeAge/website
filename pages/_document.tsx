@@ -53,6 +53,7 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {/* <Script src="/bg.js" strategy="lazyOnload" /> */}
         </body>
       </Html>
     );

@@ -16,17 +16,17 @@ export const RoadmapContainer = styled.div`
   position: relative;
   z-index: 1;
 
+  overflow-y: hidden;
+
   background: linear-gradient(
-    180deg,
-    #000 0%,
+    #0000 5%,
     #fff ${ATIVATION_PERCENTAGE},
-    #444 ${ATIVATION_PERCENTAGE}
+    #222 ${ATIVATION_PERCENTAGE}
   );
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-
   background-size: 3px 100%;
 
   &:after {
@@ -127,7 +127,7 @@ export const RoadmapMilestoneDesc = styled.p`
 `;
 
 export const RoadmapMilestoneDateWrapper = styled.div`
-  width: 40%;
+  width: calc(50% - 53px);
 `;
 
 export const RoadmapMilestoneDate = styled.h3`
