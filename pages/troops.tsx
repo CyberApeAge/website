@@ -43,7 +43,7 @@ const Home: NextPage<any> = () => {
   const onWeekClick = () => {
     open("week data", <WeekDataPopup />);
   };
-
+  
   return (
     <>
       <HeadMetadata />
@@ -51,6 +51,7 @@ const Home: NextPage<any> = () => {
 
       <PageTopSpacer />
       <WelcomeHeader1>
+        
         <div className="divw">
           <div className="flexdiv">
             <div className="div-item">
@@ -68,7 +69,7 @@ const Home: NextPage<any> = () => {
           </div>
           <div className="flexdiv">
             <div className="flex1">
-              <p>how can I win $ape</p>AnnouncementBox
+              <p>how can I win $ape</p>
             </div>
             <SignatureButton
               onClick={() => console.log("gg")}
@@ -100,10 +101,11 @@ const Home: NextPage<any> = () => {
             <div className="midle">
               <div className="cut-div purple" onClick={onClickLockdown}>
                 <Image
-                  src="/Vector.png"
-                  width="250"
-                  height="130"
+                  src="/cyberlockdown-ape.svg"
+                  width="200"
+                  height="160"
                   alt="A blue ape"
+                  
                 />
                 <div className="content-cut">
                   <h2>CYBER LOCKDOWN </h2>
@@ -135,24 +137,24 @@ const Home: NextPage<any> = () => {
             <BloomingContainer
               accent="#000000"
               customStyles={{
-                width: "70%",
+                width: "37%",
                 padding: "2rem 2rem 0 0",
                 border: "none",
               }}
             >
               <h2>GENERAL STATS</h2>
-              <p>Last updated 01 June 00:00:00</p>
+              <p>last updated 24 january 12:00:00</p>
             </BloomingContainer>
             <BloomingContainer
               accent="#000000"
               customStyles={{
-                width: "100%",
+                width: "60%",
                 padding: "2rem 2rem 0 0",
                 border: "none",
               }}
             >
               <h2>LEADERBOARD FROM MAP 5</h2>
-              <p>Last updated 01 June 00:00:00</p>
+              <p>last updated 24 january 12:00:00</p>
             </BloomingContainer>
           </div>
         </ShopItemsWrapper>
@@ -160,41 +162,40 @@ const Home: NextPage<any> = () => {
         <WelcomeHeader2>
           <div className="flexitems">
             <div className="flexitems11">
-              <div>
-                <BloomingContainer
-                  accent="#444"
-                  customStyles={{
-                    width: "100%",
-                    marginRight: "50px",
-                    padding: "1rem 1rem 0 1rem",
-                    border: "none",
-                  }}
-                >
-                  <div className="flexitem4">
-                    <div className="info-spread">
-                      <h3>holders spread</h3>
-                      <div>
-                        <Image src="/Vector1.png" width="10" height="10" />
-                        <span> +3.68%</span>
-                      </div>
-
-                      <h1>1,468</h1>
+              <BloomingContainer
+                accent="#444"
+                customStyles={{
+                  width: "100%",
+                  marginRight: "50px",
+                  padding: "1rem 1rem 0 2rem",
+                  border: "none",
+                }}
+              >
+                <div className="flexitem4">
+                  <div className="info-spread">
+                    <h3>holders spread</h3>
+                    <div>
+                      <Image src="/Vector1.png" width="10" height="10" />
+                      <span> +3.68%</span>
                     </div>
-                    <div className="info-net">
-                      <div>
-                        <Image src="/net1.png" width="100" height="50" />
-                      </div>
+
+                    <h1>1,468</h1>
+                  </div>
+                  <div className="info-net">
+                    <div>
+                      <Image src="/net1.png" width="100" height="50" />
                     </div>
                   </div>
-                </BloomingContainer>
-              </div>
+                </div>
+              </BloomingContainer>
+
               <div>
                 <BloomingContainer
                   accent="#444"
                   customStyles={{
                     width: "100%",
                     marginRight: "50px",
-                    padding: "1rem 1rem 0 1rem",
+                    padding: "1rem 1rem 0 2rem",
                     border: "none",
                   }}
                 >
@@ -222,7 +223,7 @@ const Home: NextPage<any> = () => {
                   customStyles={{
                     width: "100%",
                     marginRight: "50px",
-                    padding: "1rem 1rem 0 1rem",
+                    padding: "1rem 1rem 0 2rem",
                     border: "none",
                   }}
                 >
@@ -263,229 +264,217 @@ const Home: NextPage<any> = () => {
                 </SignatureButton>
               </div>
             </div>
-
-            <div>
-              <div className="apsec">
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>1</h2>
-                    <h2 className="num-gray">st</h2>
-                    <div className="img-sec">
-                      <Gold width={80} height={90} />
-                    </div>
-
-                    <span>
+              
+            <div className="apsec">
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>1</h2>
+                  <h2 className="num-gray">st</h2>
+                  <div className="img-sec">
+                    <Gold width={80} height={90} />
+                  </div>
+                  <span>
                       <p className="white-badge">Millen</p>
                       <p className="blue-badge">@Milan0o</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>2m 9s</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+2 SOL</p>
-                  </div>
+                  </span>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>2</h2>
-                    <h2 className="num-gray">nd</h2>
-                    <div className="img-sec">
-                      <Robot width={80} height={90} />
-                    </div>
+                <div className="flexitems2">
+                  <p>2m 9s</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+2 SOL</p>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>2</h2>
+                  <h2 className="num-gray">nd</h2>
+                  <div className="img-sec">
+                    <Robot width={80} height={90} />
+                  </div>
+                  <span>
+                    <p className="white-badge">Millen</p>
+                    <p className="blue-badge">@Milan0o</p>
+                  </span>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>2</h2>
+                  <h2 className="num-gray">nd</h2>
+                  <div className="img-sec">
+                    <Mutant width={80} height={90} />
+                  </div>
+                  <span>
+                    <p className="white-badge">Zhxr</p>
+                    <p className="blue-badge">@Zhxrax</p>
+                  </span>
+                </div>
+                <div className="flexitems2">
+                  <p>2m 33s</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+1 SOL</p>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>4</h2>
+                  <h2 className="num-gray">th</h2>
+                  <div className="img-sec">
+                    <Black width={80} height={90} />
+                  </div>
 
-                    <span>
-                      <p className="white-badge">Zhxr</p>
-                      <p className="blue-badge">@Zhxrax</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>2m 16s</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+1.5 SOL</p>
-                  </div>
+                  <span>
+                    <p className="white-badge">TomKev</p>
+                    <p className="blue-badge">@tomkev300</p>
+                  </span>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>3</h2>
-                    <h2 className="num-gray">rd</h2>
-                    <div className="img-sec">
-                      <Mutant width={80} height={90} />
-                    </div>
+                <div className="flexitems2">
+                  <p>2m 54s</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+0.5 SOL</p>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>5</h2>
+                  <h2 className="num-gray">th</h2>
+                  <div className="img-sec">
+                    <Black width={80} height={90} />
+                  </div>
 
-                    <span>
-                      <p className="white-badge">Kiz</p>
-                      <p className="blue-badge">@KizHowarth</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>2m 33s</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+1 SOL</p>
-                  </div>
+                  <span>
+                    <p className="white-badge">Joshi</p>
+                    <p className="blue-badge">@CryptoJoshi93</p>
+                  </span>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>4</h2>
-                    <h2 className="num-gray">th</h2>
-                    <div className="img-sec">
-                      <Black width={80} height={90} />
-                    </div>
+                <div className="flexitems2">
+                  <p>3m 25s</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+0.5 SOL</p>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>6</h2>
+                  <h2 className="num-gray">th</h2>
+                  <div className="img-sec">
+                    <Black width={80} height={90} />
+                  </div>
 
-                    <span>
-                      <p className="white-badge">TomKev</p>
-                      <p className="blue-badge">@tomkev300</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>2m 54s</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+0.5 SOL</p>
-                  </div>
+                  <span>
+                    <p className="white-badge">YitakFong</p>
+                    <p className="blue-badge">@YitakFong</p>
+                  </span>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>5</h2>
-                    <h2 className="num-gray">th</h2>
-                    <div className="img-sec">
-                      <Black width={80} height={90} />
-                    </div>
+                <div className="flexitems2">
+                  <p>3m 58s</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+0.5 SOL</p>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>7</h2>
+                  <h2 className="num-gray">th</h2>
+                  <div className="img-sec">
+                    <Black width={80} height={90} />
+                  </div>
 
-                    <span>
-                      <p className="white-badge">Joshi</p>
-                      <p className="blue-badge">@CryptoJoshi93</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>3m 25s</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+0.5 SOL</p>
-                  </div>
+                  <span>
+                    <p className="white-badge">Xummer</p>
+                    <p className="blue-badge">@xummer666</p>
+                  </span>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>6</h2>
-                    <h2 className="num-gray">th</h2>
-                    <div className="img-sec">
-                      <Black width={80} height={90} />
-                    </div>
+                <div className="flexitems2">
+                  <p>4m 17s</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+0.5 SOL</p>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>8</h2>
+                  <h2 className="num-gray">th</h2>
+                  <div className="img-sec">
+                    <Black width={80} height={90} />
+                  </div>
 
-                    <span>
-                      <p className="white-badge">YitakFong</p>
-                      <p className="blue-badge">@YitakFong</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>3m 58s</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+0.5 SOL</p>
-                  </div>
+                  <span>
+                    <p className="white-badge">Packbulver</p>
+                    <p className="blue-badge">@Packbulver</p>
+                  </span>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>7</h2>
-                    <h2 className="num-gray">th</h2>
-                    <div className="img-sec">
-                      <Black width={80} height={90} />
-                    </div>
+                <div className="flexitems2">
+                  <p>4m 40s</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+0.5 SOL</p>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>9</h2>
+                  <h2 className="num-gray">th</h2>
+                  <div className="img-sec">
+                    <Black width={80} height={90} />
+                  </div>
 
-                    <span>
-                      <p className="white-badge">Xummer</p>
-                      <p className="blue-badge">@xummer666</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>4m 17s</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+0.5 SOL</p>
-                  </div>
+                  <span>
+                    <p className="white-badge">BigHang</p>
+                    <p className="blue-badge">@BigHang</p>
+                  </span>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>8</h2>
-                    <h2 className="num-gray">th</h2>
-                    <div className="img-sec">
-                      <Black width={80} height={90} />
-                    </div>
+                <div className="flexitems2">
+                  <p>A long time</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+0.5 SOL</p>
+                </div>
+              </div>
+              {/* list item end */}
+              {/* list item start */}
+              <div className="flexitem1">
+                <div className="flexitems2">
+                  <h2>10</h2>
+                  <h2 className="num-gray">th</h2>
+                  <div className="img-sec">
+                    <Black width={80} height={90} />
+                  </div>
 
-                    <span>
-                      <p className="white-badge">Packbulver</p>
-                      <p className="blue-badge">@Packbulver</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>4m 40s</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+0.5 SOL</p>
-                  </div>
+                  <span>
+                    <p className="white-badge">LilianWong</p>
+                    <p className="blue-badge">@LilianWong</p>
+                  </span>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>9</h2>
-                    <h2 className="num-gray">th</h2>
-                    <div className="img-sec">
-                      <Black width={80} height={90} />
-                    </div>
-
-                    <span>
-                      <p className="white-badge">BigHang</p>
-                      <p className="blue-badge">@BigHang</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>A long time</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+0.5 SOL</p>
-                  </div>
+                <div className="flexitems2">
+                  <p>A long time</p>
                 </div>
-                {/* list item end */}
-                {/* list item start */}
-                <div className="flexitem1">
-                  <div className="flexitems2">
-                    <h2>10</h2>
-                    <h2 className="num-gray">th</h2>
-                    <div className="img-sec">
-                      <Black width={80} height={90} />
-                    </div>
-
-                    <span>
-                      <p className="white-badge">LilianWong</p>
-                      <p className="blue-badge">@LilianWong</p>
-                    </span>
-                  </div>
-                  <div className="flexitems2">
-                    <p>A long time</p>
-                  </div>
-                  <div className="flexitems2">
-                    <p>+0.5 SOL</p>
-                  </div>
+                <div className="flexitems2">
+                  <p>+0.5 SOL</p>
                 </div>
-                {/* list item end */}
               </div>
             </div>
           </div>

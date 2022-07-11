@@ -3,6 +3,7 @@ import { NextPage } from "next/types";
 import "react-step-progress-bar/styles.css";
 
 import { ProgressBar, Step } from "react-step-progress-bar";
+import { calcAxisDelta } from 'framer-motion/types/projection/geometry/delta-calc';
 
 const steps = [
   {
@@ -34,6 +35,9 @@ const steps = [
   },
   {
     status: "Phase 10"
+  },
+  {
+    status: "Phase 11"
   }
 ];
 const Stepbar: NextPage = () => {
@@ -56,7 +60,7 @@ const Stepbar: NextPage = () => {
   return (
     <div style={{ margin: 45 }}>
       <ProgressBar
-        width={1000}
+        width={1280 - 100 - 13 * 2}
         height={7}
         percent={
           100 *
@@ -69,6 +73,7 @@ const Stepbar: NextPage = () => {
             <Step key={index}
               // position={100 * (index / arr.length)}
               transition="scale"
+              // eslint-disable-next-line react/no-children-prop
               children={({ accomplished }) => (
                 <div
                   style={{

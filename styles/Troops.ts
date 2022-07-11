@@ -61,33 +61,32 @@ export const WelcomeHeader1 = styled.div`
       background-position: 135% 0%;
     }
   }
-.divw{
-  width: 73%;
-  padding-right: 20px;
-  
 
-}
+  .divw{
+    width: 100%;
+    max-width: ${PAGE_MAX_WIDTH};
+    // padding-right: 20px;
+  }
 
-.flexdiv{
-  justify-content: space-between;
-  margin-left:30px;
+  .flexdiv {
+    justify-content: space-between;
+    // margin-left:30px;
   
-  .flex1{
-    margin-top:15px ;
-    margin-right:30px;
-    font-size: 19px;
-    color:black;
-  } 
+    .flex1 {
+      margin-top:15px ;
+      margin-right:30px;
+      font-size: 19px;
+      color:black;
+    } 
   
-  .div-item{
-    margin-right:50px;
+    .div-item {
+      margin-right:50px;
+    }
+  
+    display: flex;
   }
   
-  display: flex;
-}
- 
-}
-  > div {
+  & > div {
     width: 100%;
     max-width: ${PAGE_MAX_WIDTH};
     display: flex;
@@ -135,7 +134,6 @@ export const WelcomeHeader2 = styled.div`
       position: absolute;
       width: 100px;
       height: 8px;
-      background: red;
       z-index: 1;
       right: -50px;
       top: 45px;
@@ -152,11 +150,11 @@ export const WelcomeHeader2 = styled.div`
 
     .cut-div {
       display: flex;
-      width: 700px;
+      width: 37%;
       height: 200px;
       position: relative;
       padding-top: 30px;
-      padding-left: 5px;
+      // padding-left: 5px;
       z-index: 0;
 
       h2 {
@@ -228,7 +226,7 @@ export const WelcomeHeader2 = styled.div`
       display: flex;
       flex-direction: column;
       margin-left: 20px;
-      width: 300px;
+      width: 25%;
       background-image: linear-gradient(
         45deg,
         transparent 2%,
@@ -251,7 +249,7 @@ export const WelcomeHeader2 = styled.div`
       .slider-cut {
         display: flex;
         justify-content: space-between;
-        padding: 0 20px 30px 20px;
+        padding: 0 20px 15px 20px;
 
         .arrow-slider {
           color: white;
@@ -292,18 +290,19 @@ export const WelcomeHeader2 = styled.div`
     }
   }
   .flexitems {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: start;
     .apsec {
-      padding-left: 30px;
+      width: 63%;
+      // padding-left: 30px;
     }
     .flexitem1 {
+      padding: 0 3%;
       margin-bottom: 20px;
-      padding-right: 10px;
       display: grid;
-      grid-template-columns: 5fr 2fr 1fr;
+      grid-template-columns: 50% 25% 25%;
       position: relative;
       z-index: 0;
       background-image: linear-gradient(
@@ -332,9 +331,9 @@ export const WelcomeHeader2 = styled.div`
 
     .flexitems11 {
       display: grid;
-      padding-right: 7rem;
-      grid-template-row: 1fr 1fr;
+      padding-right: 2rem;
       grid-gap: 15px;
+      width: 37%;
     }
     .flexitems2 {
       display: flex;
@@ -342,6 +341,13 @@ export const WelcomeHeader2 = styled.div`
       margin-left: 10px;
       height: 65px;
 
+      &:nth-child(2) {
+        justify-content: center;
+      }
+
+      &:nth-child(3) {
+        justify-content: end;
+      }
       .num-gray {
         color: rgba(255, 255, 255, 0.35);
         margin-right: 10px;
@@ -426,6 +432,8 @@ export const WelcomeHeader2 = styled.div`
         font-size: 20px;
         font-weight: 400;
         color: rgba(255, 255, 255, 0.35);
+        line-height: 20px;
+        text-transform: uppercase;
       }
       h1 {
         margin-top: 2rem;
@@ -438,7 +446,7 @@ export const WelcomeHeader2 = styled.div`
 `;
 
 export const ShopItemsWrapper = styled.div`
-  width: 90%;
+  width: 100%;
   max-width: ${PAGE_MAX_WIDTH};
 
   justify-content: center;
@@ -446,7 +454,7 @@ export const ShopItemsWrapper = styled.div`
   margin: 0rem auto;
   .event-sec {
     display: flex;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 
     h2 {
       font-weight: 400;
@@ -455,6 +463,10 @@ export const ShopItemsWrapper = styled.div`
     }
     p {
       color: rgba(255, 255, 255, 0.35);
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 21px;
+      text-transform: uppercase;
     }
   }
 
