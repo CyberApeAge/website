@@ -1,6 +1,5 @@
 import { NextPage } from "next/types";
 import { PAGE_MAX_WIDTH } from "../../constants";
-import BloomingContainer from "../BloomingContainer";
 import CyberApeRenderer from "../CyberApeRenderer";
 import DiscordIcon from "../DiscordIcon";
 import TwitterIcon from "../TwitterIcon";
@@ -21,29 +20,17 @@ import {
   LinksRowContainer,
   SocialsRow,
   Twitter,
+  FooterCableLeft,
+  FooterCableRight,
+  FooterContainer
 } from "./styles";
 import License1 from "../GlobalFAQ/License";
 
 const GlobalFooter: NextPage = () => {
-  const { closeMobileMenu } = useContext(MobileMenuContext);
-
   const { open } = useContext(SuperModalContext);
-  const { openMobileMenu } = useContext(MobileMenuContext);
 
   function openHub(): void {
     open("troop's hub", <HubComingSoon />);
-  }
-
-  function openShop(): void {
-    open("troop's shop", <ComingSoonTitle>Coming Soon</ComingSoonTitle>);
-  }
-
-  function globalfaq(): void {
-    open("troop's explorer", <GlobalFAQ />);
-  }
-
-  function openExplorer(): void {
-    open("troop's explorer", <CyberApeSearch />);
   }
 
   function license(): void {
@@ -52,18 +39,13 @@ const GlobalFooter: NextPage = () => {
 
   return (
     <GlobalFooterContainer>
-      <BloomingContainer
-        accent="#444"
-        customStyles={{
-          margin: "0 auto",
-          width: "100%",
-          maxWidth: PAGE_MAX_WIDTH,
-          position: "relative",
-          zIndex: 1,
-          padding: "3rem",
-          border: "none",
-        }}
-      >
+      <FooterCableLeft />
+      <FooterCableRight />
+      
+      <FooterContainer>
+        <p className="title">still wondering around?</p>
+        <p className="summary">check out our discord server and let us know what&apos;s boggling your mind</p>
+
         <LinksRowContainer>
           <LinksColumn>
             <h1>TRAVEL AROUND</h1>
@@ -73,33 +55,34 @@ const GlobalFooter: NextPage = () => {
               <a>SHOP</a>
             </Link>
             <Link href={"/GlobalFAQ1"}>FAQ</Link>
-            <a onClick={openExplorer}>EXPLORER</a>
           </LinksColumn>
+
           <LinksColumn>
             <h1>DOCUMENTATION</h1>
             <a href="#">WHITEPAPER</a>
             <a onClick={license}>LICENSE OF AGREEMENT</a>
+            <a href="#">PRIVACY POLICY</a>
           </LinksColumn>
           <LinksColumn>
             <h1>SOCIALS</h1>
             <SocialsRow>
-              <Twitter
-                href="https://twitter.com/CyberApeAge"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <TwitterIcon />
-                CYBERAPEAGE
-              </Twitter>
-
               <Discord
                 href="https://discord.gg/cyberapeage"
                 target="_blank"
                 rel="noreferrer"
               >
-                <DiscordIcon />
                 discord
               </Discord>
+              <a href="#">INSTAGRAM</a>
+              <Twitter
+                href="https://twitter.com/CyberApeAge"
+                target="_blank"
+                rel="noreferrer"
+              >
+                TWITTER
+              </Twitter>
+
+              
             </SocialsRow>
           </LinksColumn>
         </LinksRowContainer>
@@ -107,7 +90,7 @@ const GlobalFooter: NextPage = () => {
         <CyberApeRendererWrapper>
           <CyberApeRenderer
             size="325px"
-            traits={{
+            traits= {{
               ape: "Brown",
               head: "Crown",
               ears: "Nothing",
@@ -116,7 +99,9 @@ const GlobalFooter: NextPage = () => {
             }}
           />
         </CyberApeRendererWrapper>
-      </BloomingContainer>
+      </FooterContainer>
+      
+      
     </GlobalFooterContainer>
   );
 };

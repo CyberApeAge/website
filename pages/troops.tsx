@@ -105,7 +105,6 @@ const Home: NextPage<any> = () => {
                   width="200"
                   height="160"
                   alt="A blue ape"
-                  
                 />
                 <div className="content-cut">
                   <h2>CYBER LOCKDOWN </h2>
