@@ -123,7 +123,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               icon={<KeyIcon fill="#FEFFDB" stroke="#FDFFB2" />}
               title="a key to the REAL metaverse"
               accent="#FDFFB2"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet lucskaksdkfdk)^@&s, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
               pipeOrigin="right"
             />
             <ResumeItem

@@ -1,19 +1,26 @@
 import styled from "styled-components";
 import { PAGE_MAX_WIDTH } from "../constants";
 
+const headerFontSize = `(50 / 1920) * 100vw`;
+const emptyHeight = 145;
+const headerPaddingX = `(22 / 1920) * 100vw`;
+
 export const MainContainer = styled.div`
   width: 100%;
-  /* min-height: calc((1100 / 1920) * 100vw); */
+  min-height: calc(100vh - 150px - 94px);
   margin: 0 auto;
+  background-image: url(/wordart.png);
+  background-size: cover;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/wordart.png);
-  background-size: cover;
+  justify-content: space-between;
+  overflow: auto;
 `;
 
 export const EmptyContainer = styled.div`
-  height: 150px;
+  height: ${emptyHeight}px;
 `;
 
 export const BottomContainer = styled.div`
@@ -23,30 +30,32 @@ export const BottomContainer = styled.div`
 export const DefaultHeaderContainer = styled.div`
   width: 100%;
   margin: 0 auto;
-  padding: calc((22 / 1920) * 100vw) 0;
+  padding: 22px 0;
   text-align: center;
-  font-size: calc((50 / 1920) * 100vw);
+  font-size: 50px;
+  line-height: 50px;
   text-transform: uppercase;
   color: #ffffff;
   background: linear-gradient(89.56deg, #71bace 29.57%, #5fad67 82.94%);
 `;
 
 export const FusionChamberStart = styled.div`
-    width: calc((482 / 1920) * 100vw);
-    height: calc((728 / 1920) * 100vw);
-    background-image: url(/fusionchamber/fusioncamber-start.png);
+    width: inherit;
+    height: calc(100vh - 150px - 94px);
+    background-image: url(/fusionchamber/chamber.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     justify-content: center;
     display: flex;
 `;
 
 export const FusionChamberStartButton = styled.div`
     cursor: pointer;
-    width: calc((145 / 1920) * 100vw);
-    height: calc((108 / 1920) * 100vw);
-    margin-top: calc((550 / 1920) * 100vw);
-    background-image: url(/fusionchamber/startbutton.png);
+    width: 156px;
+    height: 129px;
+    margin-top: calc(80vh - 150px - 94px);
+    background-image: url(/fusionchamber/startbutton.svg);
     background-size: cover;
 
   /* transition: all 0.3s ease-in-out; */
