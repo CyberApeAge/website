@@ -1,16 +1,17 @@
 import styled from "styled-components";
 import { PAGE_MAX_WIDTH } from "../constants";
 
-const headerFontSize = `(50 / 1920) * 100vw`;
-const emptyHeight = 145;
+const headerH = `94px`;
+const emptyH = `150px`;
+const containerH = `calc(100vh - ${emptyH} - ${headerH})`;
 const headerPaddingX = `(22 / 1920) * 100vw`;
 
 export const MainContainer = styled.div`
   width: 100%;
-  min-height: calc(100vh - 150px - 94px);
+  min-height: ${containerH};
   margin: 0 auto;
   background-image: url(/wordart.png);
-  background-size: cover;
+  background-size: 100vw ${containerH};
 
   display: flex;
   flex-direction: column;
@@ -20,7 +21,7 @@ export const MainContainer = styled.div`
 `;
 
 export const EmptyContainer = styled.div`
-  height: ${emptyHeight}px;
+  height: ${emptyH};
 `;
 
 export const BottomContainer = styled.div`
@@ -41,7 +42,7 @@ export const DefaultHeaderContainer = styled.div`
 
 export const FusionChamberStart = styled.div`
     width: inherit;
-    height: calc(100vh - 150px - 94px);
+    height: ${containerH};
     background-image: url(/fusionchamber/chamber.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -54,7 +55,7 @@ export const FusionChamberStartButton = styled.div`
     cursor: pointer;
     width: 156px;
     height: 129px;
-    margin-top: calc(80vh - 150px - 94px);
+    margin-top: calc(80vh - ${emptyH} - ${headerH});
     background-image: url(/fusionchamber/startbutton.svg);
     background-size: cover;
 
@@ -66,22 +67,19 @@ export const FusionChamberStartButton = styled.div`
 `;
 
 export const FusionChamberEditArea = styled.div`
+  min-height: ${containerH};
   position: relative;
-
   background-color: #000;
   width: 100%;
-
-  margin-top: 10px;
-  padding: 0;
-
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 `;
 
 export const FusionChamberBoxArea = styled.div`
-  width: calc((575.06 / 1920) * 100vw);
-  height: calc((1271 / 1920) * 100vw);
+  width: inherit;
+  height: ${containerH};
 
   position: relative;
 
