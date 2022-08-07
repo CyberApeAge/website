@@ -53,7 +53,7 @@ const GlobalFooter: NextPage = () => {
   return (
     <GlobalFooterContainer>
       <BloomingContainer
-        accent="#444"
+        accent="#000"
         customStyles={{
           margin: "0 auto",
           width: "100%",

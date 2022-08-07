@@ -7,7 +7,7 @@ const Roadmap: NextPage = () => {
   return (
     <RoadmapContainer>
       <RoadmapMilestone
-        title="BIRTH OF THE CYBER APE AGE"
+        title="KASA APE AGE"
         description="Developing 52 unique pixel art traits, start of development of Cyber Ape Age experience. Community development begins."
         date="PHASE 1"
       />
@@ -28,6 +28,12 @@ const Roadmap: NextPage = () => {
         title="CYBER LOCKDOWN"
         description="Rolling out regular P2E games in thesandbox metaverse"
         date="PHASE 4"
+      />
+      <RoadmapMilestone
+        buttonLinkUrl="/"
+        title="BLAH BLAH"
+        description="Rolling out regular P2E games in thesandbox metaverse"
+        date="PHASE 5"
       />
     </RoadmapContainer>
   );
