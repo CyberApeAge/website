@@ -12,25 +12,25 @@ const Roadmap: NextPage = () => {
         date="PHASE 1"
       />
       <RoadmapMilestone
-        buttonLinkUrl="/"
+        //buttonLinkUrl="/"
         title="CORRUPTION DAY"
         description="A massive data corruption occurs on the Solana blockchain and Cyber Apes break into it's ecosystem. Giving birth to the new Cyber Ape Age"
         date="PHASE 2"
       />
       <RoadmapMilestone
-        buttonLinkUrl="/"
+        //buttonLinkUrl="/"
         title="Let the games commence"
         description="Rolling out regular P2E games in thesandbox metaverse"
         date="PHASE 3"
       />
       <RoadmapMilestone
-        buttonLinkUrl="/"
+        //buttonLinkUrl="/"
         title="CYBER LOCKDOWN"
         description="Rolling out regular P2E games in thesandbox metaverse"
         date="PHASE 4"
       />
       <RoadmapMilestone
-        buttonLinkUrl="/"
+        //buttonLinkUrl="/"
         title="BLAH BLAH"
         description="Rolling out regular P2E games in thesandbox metaverse"
         date="PHASE 5"
