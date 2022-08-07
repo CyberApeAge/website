@@ -99,7 +99,7 @@ const RoadmapMilestone: NextPage<RoadmapMilestoneProps> = ({
         <BottomContainer>
           <ApeContainer>
             <CyberApeRenderer
-              isLookingLeft
+              //isLookingLeft
               size="150px"
               traits={{
                 ape: RANDOM_APE_TRAITS.ape,
