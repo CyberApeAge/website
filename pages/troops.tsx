@@ -625,14 +625,10 @@ const Home: NextPage<any> = () => {
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">Thanks again @CyberApeAge</span> 🤝
-                   Never sold one! 
-
-                   Next Step: buy more @CyberApeAge</span> & waiting for @degen_invest mint 🔮
-                </p>
+                  <span className="color">Thanks again @CyberApeAge</span> 🤝 Never sold one! Next Step: buy more CyberApeAge </span> & waiting for degen_invest</span> mint 🔮
                 <p>
                   <span className="color">
-                    
+                  @CyberApeAge @degen_invest
                   </span>
                 </p>{" "}
               </BloomingContainer>
@@ -684,7 +680,7 @@ const Home: NextPage<any> = () => {
                 </div>
                 <p>
                   <span className="color">@CyberApeAge</span> remains unmatched when it comes to 
-                   rewards for holders!! Another week another #SolanaAirdrop</span> !! That's crazy thank you so much #CyberApeAge #OOGAOOGA
+                   rewards for holders!! Another week another #SolanaAirdrop !! That's crazy thank you so much #CyberApeAge #OOGAOOGA
 
                    2.5 SOL ($102)  Airdropped this week! Fellow Cyber Apes, show your gains!!! #SolanaNFTs #Airdrop #CAA
                 </p>
@@ -713,7 +709,7 @@ const Home: NextPage<any> = () => {
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">Legit the best WL giveaways in any server. Just a chill environment with a team that's building and giving away some SOL in the meantime.
+                  Legit the best WL giveaways in any server. Just a chill environment with a team that's building and giving away some SOL in the meantime.
                 </p>
                 <p>
                   <span className="color">
