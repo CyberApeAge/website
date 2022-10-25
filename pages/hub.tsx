@@ -23,7 +23,7 @@ const Home: NextPage<any> = ({ shopItems }) => {
             style={{ maxHeight: "3rem", marginLeft: "auto", marginTop: "1rem" }}
           >
             <SignatureButton onClick={() => {}} isContrast accent="#5865F2">
-              HOW DOES STAKE WORK
+              HOW DOES LOCKDOWN WORK?
             </SignatureButton>
           </div>
         }

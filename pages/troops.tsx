@@ -33,11 +33,11 @@ const Home: NextPage<any> = () => {
   const { open } = useContext(SuperModalContext);
 
   const onClickLockdown = () => {
-    router.push("/cyberlockdown");
+    /* router.push("/cyberlockdown");  */
   };
 
   const onClickAstral = () => {
-    router.push("/fusionchamber");
+    /* router.push("/fusionchamber");  */
   };
 
   const onWeekClick = () => {
@@ -76,7 +76,7 @@ const Home: NextPage<any> = () => {
               isContrast
               accent="#5865F2"
             >
-              claim $APE airdrop (240)
+              claim $APE airdrop (OFF)
             </SignatureButton>
           </div>
         </div>
@@ -91,7 +91,7 @@ const Home: NextPage<any> = () => {
         </ShopContainer>
         <ShopContainer>
           <div className="week" onClick={onWeekClick}>
-            <h2>Week 4</h2>
+            <h2>Game 5</h2>
             <p>CLICK FOR MORE INFO</p>
           </div>
         </ShopContainer>
@@ -142,7 +142,7 @@ const Home: NextPage<any> = () => {
               }}
             >
               <h2>GENERAL STATS</h2>
-              <p>last updated 24 january 12:00:00</p>
+              <p>last updated 24th October 12:00:00</p>
             </BloomingContainer>
             <BloomingContainer
               accent="#000000"
@@ -153,7 +153,7 @@ const Home: NextPage<any> = () => {
               }}
             >
               <h2>LEADERBOARD FROM MAP 5</h2>
-              <p>last updated 24 january 12:00:00</p>
+              <p>last updated 24th October 12:00:00</p>
             </BloomingContainer>
           </div>
         </ShopItemsWrapper>
@@ -172,13 +172,13 @@ const Home: NextPage<any> = () => {
               >
                 <div className="flexitem4">
                   <div className="info-spread">
-                    <h3>holders spread</h3>
+                    <h3>Holders</h3>
                     <div>
                       <Image src="/Vector1.png" width="10" height="10" />
-                      <span> +3.68%</span>
+                      <span> +3.6%</span>
                     </div>
 
-                    <h1>1,468</h1>
+                    <h1>1,075</h1>
                   </div>
                   <div className="info-net">
                     <div>
@@ -200,13 +200,13 @@ const Home: NextPage<any> = () => {
                 >
                   <div className="flexitem4">
                     <div className="info-spread">
-                      <h3>holders spread</h3>
+                      <h3>Listed Apes</h3>
                       <div>
                         <Image src="/Vector2.png" width="10" height="10" />
-                        <span> +1,500</span>
+                        <span> -22</span>
                       </div>
 
-                      <h1>423</h1>
+                      <h1>178</h1>
                     </div>
                     <div className="info-net">
                       <div>
@@ -228,13 +228,13 @@ const Home: NextPage<any> = () => {
                 >
                   <div className="flexitem4">
                     <div className="info-spread">
-                      <h3>holders spread</h3>
+                      <h3>TOTAL VOLUME</h3>
                       <div>
                         <Image src="/Vector1.png" width="10" height="10" />
-                        <span> +1,500</span>
+                        <span> </span>
                       </div>
 
-                      <h1>1.10</h1>
+                      <h1>19.5k</h1>
                     </div>
                     <div className="info-net">
                       <div>
@@ -249,7 +249,7 @@ const Home: NextPage<any> = () => {
                 <h2>WANT MORE STATS?</h2>
                 <div className="dis-content">
                   <p>
-                    Tell us what stats you want to view in our discord server.{" "}
+                    Tell us what statistics you want to view in our discord server.{" "}
                   </p>
                 </div>
                 <SignatureButton
@@ -299,7 +299,13 @@ const Home: NextPage<any> = () => {
                     <p className="blue-badge">@Milan0o</p>
                   </span>
                 </div>
-              </div>
+                <div className="flexitems2">
+                  <p>2m 23s</p>
+                </div>
+                <div className="flexitems2">
+                  <p>+1.5 SOL</p>
+                </div>
+              </div> 
               {/* list item end */}
               {/* list item start */}
               <div className="flexitem1">
@@ -502,19 +508,16 @@ const Home: NextPage<any> = () => {
                 <div className="flexbox">
                   <div className="flex1">
                     <Image src="/Union.png" width="15%" height="10%" />
-                    <p>@joaomendoncaaa</p>
+                    <p>@linkleo8888</p>
                   </div>
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">@CyberApeAge</span> What is this? Did
-                  I just get my second batch of SOL in less than a month? Almost
-                  5 SOL already... Keep sleeping on this project guys! The more
-                  you sleep the bigger share for me :)
+                  <span className="color">@CyberApeAge</span> rock on…
                 </p>
                 <p>
                   <span className="color">
-                    #OOGAOOGA #CYBERAPEAGE #earnings
+                    #CYBERAPEAGE
                   </span>
                 </p>{" "}
               </BloomingContainer>
@@ -538,14 +541,12 @@ const Home: NextPage<any> = () => {
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">@CyberApeAge</span> What is this? Did
-                  I just get my second batch of SOL in less than a month? Almost
-                  5 SOL already... Keep sleeping on this project guys! The more
-                  you sleep the bigger share for me :)
+                  <span className="color">bro you already know! OOGA! </span>
+                  🐵🍌
                 </p>
                 <p>
                   <span className="color">
-                    #OOGAOOGA #CYBERAPEAGE #earnings
+                    #OOGAOOGA
                   </span>
                 </p>{" "}
               </BloomingContainer>
@@ -564,19 +565,16 @@ const Home: NextPage<any> = () => {
                 <div className="flexbox">
                   <div className="flex1">
                     <Image src="/Union.png" width="15%" height="10%" />
-                    <p>@joaomendoncaaa</p>
+                    <p>@BYEBYEBR</p>
                   </div>
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">@CyberApeAge</span> What is this? Did
-                  I just get my second batch of SOL in less than a month? Almost
-                  5 SOL already... Keep sleeping on this project guys! The more
-                  you sleep the bigger share for me :)
+                  <span className="color">There is a reason we have not posted on twitter, but have in discord. </span>
                 </p>
                 <p>
                   <span className="color">
-                    #OOGAOOGA #CYBERAPEAGE #earnings
+                    
                   </span>
                 </p>{" "}
               </BloomingContainer>
@@ -594,19 +592,16 @@ const Home: NextPage<any> = () => {
                 <div className="flexbox">
                   <div className="flex1">
                     <Image src="/Union.png" width="15%" height="10%" />
-                    <p>@joaomendoncaaa</p>
+                    <p>@MetaKasa</p>
                   </div>
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">@CyberApeAge</span> What is this? Did
-                  I just get my second batch of SOL in less than a month? Almost
-                  5 SOL already... Keep sleeping on this project guys! The more
-                  you sleep the bigger share for me :)
+                  <span className="color">Are you Bullish on @CyberApeAge</span>? WEN 100?
                 </p>
                 <p>
                   <span className="color">
-                    #OOGAOOGA #CYBERAPEAGE #earnings
+                    #OOGAOOGA #CAA
                   </span>
                 </p>{" "}
               </BloomingContainer>
@@ -625,19 +620,19 @@ const Home: NextPage<any> = () => {
                 <div className="flexbox">
                   <div className="flex1">
                     <Image src="/Union.png" width="15%" height="10%" />
-                    <p>@joaomendoncaaa</p>
+                    <p>@Denizaray</p>
                   </div>
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">@CyberApeAge</span> What is this? Did
-                  I just get my second batch of SOL in less than a month? Almost
-                  5 SOL already... Keep sleeping on this project guys! The more
-                  you sleep the bigger share for me :)
+                  <span className="color">Thanks again @CyberApeAge</span> 🤝
+                   Never sold one! 
+
+                   Next Step: buy more @CyberApeAge</span> & waiting for @degen_invest mint 🔮
                 </p>
                 <p>
                   <span className="color">
-                    #OOGAOOGA #CYBERAPEAGE #earnings
+                    
                   </span>
                 </p>{" "}
               </BloomingContainer>
@@ -656,15 +651,42 @@ const Home: NextPage<any> = () => {
                 <div className="flexbox">
                   <div className="flex1">
                     <Image src="/Union.png" width="15%" height="10%" />
-                    <p>@joaomendoncaaa</p>
+                    <p>@ArGen2mNFT</p>
                   </div>
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">@CyberApeAge</span> What is this? Did
-                  I just get my second batch of SOL in less than a month? Almost
-                  5 SOL already... Keep sleeping on this project guys! The more
-                  you sleep the bigger share for me :)
+                  <span className="color">@CyberApeAge</span> OOGA?
+                </p>
+                <p>
+                  <span className="color">
+                    #OOGAOOGA
+                  </span>
+                </p>{" "}
+              </BloomingContainer>
+              <BloomingContainer
+                accent="#444"
+                customStyles={{
+                  width: "110%",
+                  height: "110%",
+                  padding: "1rem 1rem 0 1rem",
+                  border: "none",
+                  borderBottomLeftRadius: 12,
+                  borderTopRightRadius: 12,
+                }}
+              >
+                <div className="flexbox">
+                  <div className="flex1">
+                    <Image src="/Union.png" width="15%" height="10%" />
+                    <p>@MetaKasa</p>
+                  </div>
+                  <div className="flex1"></div>
+                </div>
+                <p>
+                  <span className="color">@CyberApeAge</span> remains unmatched when it comes to 
+                   rewards for holders!! Another week another #SolanaAirdrop</span> !! That's crazy thank you so much #CyberApeAge #OOGAOOGA
+
+                   2.5 SOL ($102)  Airdropped this week! Fellow Cyber Apes, show your gains!!! #SolanaNFTs #Airdrop #CAA
                 </p>
                 <p>
                   <span className="color">
@@ -686,49 +708,16 @@ const Home: NextPage<any> = () => {
                 <div className="flexbox">
                   <div className="flex1">
                     <Image src="/Union.png" width="15%" height="10%" />
-                    <p>@joaomendoncaaa</p>
+                    <p>@KK_NFT11</p>
                   </div>
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">@CyberApeAge</span> What is this? Did
-                  I just get my second batch of SOL in less than a month? Almost
-                  5 SOL already... Keep sleeping on this project guys! The more
-                  you sleep the bigger share for me :)
+                  <span className="color">Legit the best WL giveaways in any server. Just a chill environment with a team that's building and giving away some SOL in the meantime.
                 </p>
                 <p>
                   <span className="color">
-                    #OOGAOOGA #CYBERAPEAGE #earnings
-                  </span>
-                </p>{" "}
-              </BloomingContainer>
-              <BloomingContainer
-                accent="#444"
-                customStyles={{
-                  width: "110%",
-                  height: "110%",
-                  padding: "1rem 1rem 0 1rem",
-                  border: "none",
-                  borderBottomLeftRadius: 12,
-                  borderTopRightRadius: 12,
-                }}
-              >
-                <div className="flexbox">
-                  <div className="flex1">
-                    <Image src="/Union.png" width="15%" height="10%" />
-                    <p>@joaomendoncaaa</p>
-                  </div>
-                  <div className="flex1"></div>
-                </div>
-                <p>
-                  <span className="color">@CyberApeAge</span> What is this? Did
-                  I just get my second batch of SOL in less than a month? Almost
-                  5 SOL already... Keep sleeping on this project guys! The more
-                  you sleep the bigger share for me :)
-                </p>
-                <p>
-                  <span className="color">
-                    #OOGAOOGA #CYBERAPEAGE #earnings
+                    #Earnings
                   </span>
                 </p>{" "}
               </BloomingContainer>
