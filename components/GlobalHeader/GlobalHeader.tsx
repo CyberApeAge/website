@@ -64,7 +64,7 @@ const GlobalHeader: NextPage = () => {
       <GlobalHeaderContentWrapper>
         <LeftArea>
           <Logo href="/">
-            CYBERAPEAGE <LogoFlag>BETA</LogoFlag>
+            CYBERAPEAGE <LogoFlag></LogoFlag>
           </Logo>
         </LeftArea>
         <RightArea>

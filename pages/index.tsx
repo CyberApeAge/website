@@ -123,7 +123,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               icon={<KeyIcon fill="#FEFFDB" stroke="#FDFFB2" />}
               title="a key to the REAL metaverse"
               accent="#FDFFB2"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet lucskaksdkfdk)^@&s, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+              description="When the SANDBOX game fully launches Cyber Ape Age will be on forefront of the hype. Our highly intricate maps can be used on our LAND and the designs can be rented out to other LAND owners if they please. Whatever the scenario CAA is fully set to lead innovation and utility."
               pipeOrigin="right"
             />
             <ResumeItem
@@ -131,7 +131,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               icon={<CommunityIcon fill="#92F2FF" stroke="#5DCFFF" />}
               title="hiGH-OCTANE MOTILE COMMUNITY"
               accent="#5DCFFF"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+              description="A community of diamond hands, truly. With an average hold of greater than 180 days for 80% of wallets is remarkable and shows the attitude of the community. Our holders are highly active during out DAO games. Make sure to stop by and earn from SOL."
               pipeOrigin="left"
             />
           </ResumeItems>
@@ -141,7 +141,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
           <main>
             <SectionHeader
               title="play on thesandbox™ metaverse"
-              description="Cyber Ape Age owns land on THESANBOX metaverse. Test your skills in fast paced competitive events to earn SOL. Check troop apos's hub for information about every week's event."
+              description="Cyber Ape Age has created 5 fully playable maps within the SANDBOX metaverse. Through our partnerships we have some of the best games available on the game maker, as seen by the official rankings of the maps after their respective Game Jam and through ourtest your skills in fast paced competitive events to earn SOL. Check troop apos's hub for information about every week's event. Hone your skills in fast-paced competitive maps to earn SOL (70% of mint funds distributed). Check Troop's hub for information about every game event."
             />
             <div>
               <SignatureButton onClick={() => {}} isContrast accent="#5865F2">
@@ -149,7 +149,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
               </SignatureButton>
               <SignatureButton
                 onClick={() => {
-                  window.location.href = "https://discord.gg/cyberapeage";
+                  window.location.href = "https://discord.gg/cCcvdG5WFy";
                 }}
                 accent="#5865F2"
               >
@@ -162,13 +162,13 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
 
         <RoadmapSection>
           <SectionHeader title="what does the future behold?" />
-          <Roadmap />
+          <Roadmap /> 
         </RoadmapSection>
 
         <TeamSection>
           <SectionHeader
             title="MEET THE TEAM"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim."
+            description="A team of highly skilled game developers, traders and artists. Placing in top rankings during official speedruns and winning prizes from offical SANDBOX Game Jams. "
           />
           <HorizontalSlider hasControls>
             <TeamCardsWrapper>

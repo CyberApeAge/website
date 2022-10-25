@@ -6,14 +6,14 @@ import TwitterIcon from "../TwitterIcon";
 const CyberApeRenderer: NextPage = () => {
   return (
     <Container>
-      <Title>July 2022</Title>
+      <Title>2022</Title>
       <SocialsWrapper>
         <Twitter href="https://twitter.com/CyberApeAge" target="_blank" rel="noreferrer">
           <TwitterIcon />
-          CYBERAPEAGE
+          CYBER APE AGE
         </Twitter>
 
-        <Discord href="https://discord.gg/cCcvdG5WFy" target="_blank" rel="noreferrer">
+        <Discord href="https://discord.gg/ugath9Vw6n" target="_blank" rel="noreferrer">
           <DiscordIcon />
           discord
         </Discord>
