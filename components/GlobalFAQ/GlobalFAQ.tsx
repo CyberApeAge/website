@@ -31,29 +31,44 @@ const GlobalFAQ: NextPage = () => {
         "SOL through DAO games: 0.2 SOL, 0.3 SOL, 0.5 SOL depending on the amount of apes you own. Alpha on airdrops within crypto, bullish tokens, 1-on-1 project analysis for any project you ask, high hit-rate SOL calls from BR (NFA, however with 1000s of hours of experience).",
     },
     {
-      question: "Where can we purchase Cyber Apes?",
+      question: "Where can I purchase Cyber Apes?",
       answer:
-        "Magic Eden, Solanart + aggregators.",
+        "https://magiceden.io/marketplace/cyber_ape_age",
     },
     {
       question: "After I fuse two or more apes, how this will affect my role in CAA? Will fused apes count for more than one?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.",
+        "Yes there will be special roles based on how many animated apes you have, with subroles for 2-3 apes fused in the chamber. You will earn a multiplied rewards for all pieces with monetary value based on how many apes you have.",
     },
     {
       question: "Will a fused ape make more $APE/day? and if so, do different traits or rarities will also play a factor?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.",
+        "Yes, a fused ape with make more $APE daily - specics can be read within our whitepaper.",
     },
     {
-      question: "After fusion, can I revert my ape / apes back?",
+      question: "After fusion, can I revert my ape/apes back?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.",
+        "No, the ape you select as your main ape will be used as the main host, other apes will be burned permenantly.",
     },
     {
       question: "After fusion, can I change any traits again?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.",
+        "If you buy new apes with new traits and have earned the required ingredients, you can fuse to new traits and burn the ape that is not your main pick.",
+    },
+    {
+      question: "Can I speed up the fusion timer spending SOL or $APE?",
+      answer:
+        "Unfortunately, you cannot speed up the process.",
+    },
+    {
+      question: "Will there be special roles for fused apes and maybe special rewards for those roles?",
+      answer:
+        "Yes there will be special roles based on how many animated apes you have, with subroles for 2-3 apes fused in the chamber.",
+    },
+    {
+      question: "During fusion time, will my apes continue to generate / be stacked for $APE (while they are inside the fusion chamber)?",
+      answer:
+        "No, your apes will not generate $APE, instead you will be rewarded with a premium multiplier on your staking based on how many apes you burnt.",
     },
   ];
 
