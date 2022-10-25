@@ -43,7 +43,7 @@ const Home: NextPage<any> = () => {
   const onWeekClick = () => {
     open("week data", <WeekDataPopup />);
   };
-  
+
   return (
     <>
       <HeadMetadata />
@@ -51,7 +51,7 @@ const Home: NextPage<any> = () => {
 
       <PageTopSpacer />
       <WelcomeHeader1>
-        
+
         <div className="divw">
           <div className="flexdiv">
             <div className="div-item">
@@ -263,7 +263,7 @@ const Home: NextPage<any> = () => {
                 </SignatureButton>
               </div>
             </div>
-              
+
             <div className="apsec">
               {/* list item start */}
               <div className="flexitem1">
@@ -305,7 +305,7 @@ const Home: NextPage<any> = () => {
                 <div className="flexitems2">
                   <p>+1.5 SOL</p>
                 </div>
-              </div> 
+              </div>
               {/* list item end */}
               {/* list item start */}
               <div className="flexitem1">
@@ -574,7 +574,7 @@ const Home: NextPage<any> = () => {
                 </p>
                 <p>
                   <span className="color">
-                    
+
                   </span>
                 </p>{" "}
               </BloomingContainer>
@@ -625,7 +625,8 @@ const Home: NextPage<any> = () => {
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">Thanks again @CyberApeAge</span> 🤝 Never sold one! Next Step: buy more CyberApeAge </span> & waiting for degen_invest</span> mint 🔮
+                  <span className="color">Thanks again @CyberApeAge</span> 🤝 Never sold one! Next Step: buy more CyberApeAge & waiting for degen_invest mint 🔮
+                </p>
                 <p>
                   <span className="color">
                   @CyberApeAge @degen_invest
@@ -679,14 +680,14 @@ const Home: NextPage<any> = () => {
                   <div className="flex1"></div>
                 </div>
                 <p>
-                  <span className="color">@CyberApeAge</span> remains unmatched when it comes to 
+                  <span className="color">@CyberApeAge</span> remains unmatched when it comes to
                    rewards for holders!! Another week another #SolanaAirdrop !! That's crazy thank you so much #CyberApeAge #OOGAOOGA
 
                    2.5 SOL ($102)  Airdropped this week! Fellow Cyber Apes, show your gains!!! #SolanaNFTs #Airdrop #CAA
                 </p>
                 <p>
                   <span className="color">
-                    #OOGAOOGA #CYBERAPEAGE #earnings
+                    
                   </span>
                 </p>{" "}
               </BloomingContainer>
