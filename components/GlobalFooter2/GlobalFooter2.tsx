@@ -61,7 +61,7 @@ const GlobalFooter: NextPage = () => {
             <h1>DOCUMENTATION</h1>
             <a href="#">WHITEPAPER</a>
             <a onClick={license}>LICENSE OF AGREEMENT</a>
-            <a href="#">PRIVACY POLICY</a>
+            <a onClick={license}>PRIVACY POLICY</a>
           </LinksColumn>
           <LinksColumn>
             <h1>SOCIALS</h1>

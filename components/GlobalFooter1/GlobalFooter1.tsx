@@ -77,7 +77,7 @@ const GlobalFooter: NextPage = () => {
           </LinksColumn>
           <LinksColumn>
             <h1>DOCUMENTATION</h1>
-            <a href="#">WHITEPAPER</a>
+            <a href="https://cyber-ape.gitbook.io/whitepaper/">WHITEPAPER</a>
             <a onClick={license}>LICENSE OF AGREEMENT</a>
           </LinksColumn>
           <LinksColumn>
