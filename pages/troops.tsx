@@ -681,7 +681,7 @@ const Home: NextPage<any> = () => {
                 </div>
                 <p>
                   <span className="color">@CyberApeAge</span> remains unmatched when it comes to
-                   rewards for holders!! Another week another #SolanaAirdrop !! That's crazy thank you so much #CyberApeAge #OOGAOOGA
+                   rewards for holders!! Another week another <span className="color">#SolanaAirdrop</span>!! That's crazy thank you so much <span className="color">#CyberApeAge</span> #OOGAOOGA
 
                    2.5 SOL ($102)  Airdropped this week! Fellow Cyber Apes, show your gains!!! #SolanaNFTs #Airdrop #CAA
                 </p>
