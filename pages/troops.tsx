@@ -536,7 +536,7 @@ const Home: NextPage<any> = () => {
                 <div className="flexbox">
                   <div className="flex1">
                     <Image src="/Union.png" width="15%" height="10%" />
-                    <p>@joaomendoncaaa</p>
+                    <p>@linkleo8888</p>
                   </div>
                   <div className="flex1"></div>
                 </div>
