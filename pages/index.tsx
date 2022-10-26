@@ -48,7 +48,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
     window.open("https://magiceden.io/marketplace/cyber_ape_age", "_blank");
   }
   function openHub(): void {
-    window.open("https://www.cyberapeage.io/troops", "_blank");
+    window.open("troops");
   }
   function checkForApeData() {
     const COOKIE_SEARCH_KEY = "CYBERAPE_SEARCH_IDENTIFIER";
