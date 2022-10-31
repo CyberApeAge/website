@@ -37,7 +37,7 @@ const Home: NextPage<any> = () => {
   };
 
   const onClickAstral = () => {
-    /* router.push("/fusionchamber");  */
+    router.push("/fusionchamber");  
   };
 
   const onWeekClick = () => {
