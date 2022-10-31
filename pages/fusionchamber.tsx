@@ -45,7 +45,6 @@ const AstralBreakersPage: NextPage = () => {
         {step == 3 && <FusionChamberProcessComponent toNext={() => goTo(4)} />}
         {step == 4 && <FusionChamberDoneComponent toNext={() => goTo(5)} />}
       </HomeContainer>
-      
     </>
   );
 };

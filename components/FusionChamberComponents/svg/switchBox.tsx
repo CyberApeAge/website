@@ -2,13 +2,19 @@ import React, { useState } from "react";
 
 interface Props {
   className: string;
+  calcTotal: any;
 }
 
-export const SwitchBox: React.FC<Props> = ({ className }) => {
+export const SwitchBox: React.FC<Props> = ({ className, calcTotal }) => {
   const [on, setOn] = useState(false);
 
   return (
-    <div onClick={() => setOn(!on)}>
+    <div
+      onClick={() => {
+        setOn(!on);
+        calcTotal(2 * Number(!on) - 1);
+      }}
+    >
       {on == true ? (
         <svg viewBox="0 0 162 330" fill="none" className={className}>
           <rect
