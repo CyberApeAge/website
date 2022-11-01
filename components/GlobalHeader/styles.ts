@@ -4,7 +4,7 @@ import { IContainer, SocialsAnchorInterface } from "./types";
 
 export const GlobalHeaderContainer = styled.header<IContainer>`
   width: 100%;
-  height: ${(props) => (props.hasScrolled ? "80px" : "150px")};
+  height: ${(props) => (props.hasScrolled ? "80px" : "130px")};
 
   position: fixed;
   top: 0;

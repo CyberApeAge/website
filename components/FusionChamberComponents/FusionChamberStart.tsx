@@ -3,6 +3,8 @@ import {
   MainContainer,
   FusionChamberStart,
   FusionChamberStartButton,
+  FusionChamberStartLeftButton,
+  FusionChamberStartRightButton,
 } from "../../styles/FusionChamber";
 import Script from "next/script";
 
@@ -16,7 +18,9 @@ const FusionChamberStartComponent: React.FC<Props> = ({ toNext }) => {
       {/* <div className="wordart" data-wordart-src="" /> */}
       <MainContainer>
         <FusionChamberStart>
+          <FusionChamberStartLeftButton />
           <FusionChamberStartButton onClick={() => toNext()} />
+          <FusionChamberStartRightButton />
         </FusionChamberStart>
       </MainContainer>
       {/* <Script id="stripe-js" src="/bg.js" /> */}
