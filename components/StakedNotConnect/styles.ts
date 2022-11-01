@@ -12,6 +12,7 @@ export const Container = styled.div<CustomStylesProps>`
     align-items: center;
     justify-content: center;
     margin: auto;
+
     ${({customStyles}) => 
         customStyles && 
         css`

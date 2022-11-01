@@ -9,10 +9,8 @@ const StakedNotConnectFusion = () => {
       customStyles={{
         background: "url(./fusionchamber/subtract.png) no-repeat",
         // border: "2px dashed #333",
-        backgroundSize: `90% 735px`,
+        backgroundSize: `600px 735px`,
         minHeight: "735px",
-        marginRight:'0px',
-        marginTop:'5px;'
       }}
     >
       <Summary>

@@ -13,8 +13,8 @@ export const Container = styled.div<CustomStylesProps>`
     justify-content: center;
     /* margin: 65px 300px 150px 80px; */
     /* border-radius: 3%; */
-    margin-top: 60px;
-    margin-right: 330px;
+    margin-top: 2px;
+    margin-right: 0px;
     @media screen and (max-width:1600px){
         margin-right: 100px;
     }
@@ -37,6 +37,7 @@ export const Title = styled.p`
 `
 
 export const Summary = styled.p`
+    width: 100%;
     font-size: 32px;
     line-height: 32px;
     text-align: center;
@@ -44,7 +45,7 @@ export const Summary = styled.p`
     color: #404040;
     position: absolute;
     margin-top: -70px;
-    margin-right: 70px;
+    margin-right: 385px;
     z-index: 100;
-    padding-left: 0px;
+    padding-left: 300px;
 `
