@@ -107,6 +107,11 @@ export const FusionChamberEditArea = styled.div`
     flex-wrap:wrap;
     margin-top:40px;
   }
+  @media screen and (min-width:1920px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const FusionChamberBoxArea = styled.div`

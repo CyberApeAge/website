@@ -32,10 +32,10 @@ const FusionChamberSelectComponent: React.FC<Props> = ({ toNext, toBack }) => {
           <FusionMonkey className="monkey" />
           <FusionStart className="start" onClick={() => toNext()} />
         </FusionChamberBoxArea>
-        <CardSelectArea>
+        {/* <CardSelectArea>
           <StakedNotConnectFusion/>
-        </CardSelectArea>
-        {/* <NFTSelectBox /> */}
+        </CardSelectArea> */}
+        <NFTSelectBox />
         <BackButton onClick={() => toBack()}>&lt; back</BackButton>
       </FusionChamberEditArea>
     </ChamberProvider>
