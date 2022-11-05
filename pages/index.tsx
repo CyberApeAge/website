@@ -141,7 +141,7 @@ const Home: NextPage<HomeProps> = ({ twitterData }) => {
           <main>
             <SectionHeader
               title="play on thesandbox™ metaverse"
-              description="Cyber Ape Age has created 5 fully playable maps within the SANDBOX metaverse. Through our partnerships we have some of the best games available on the game maker, as seen by the official rankings of the maps after their respective Game Jam and through ourtest your skills in fast paced competitive events to earn SOL. Check troop apos's hub for information about every week's event. Hone your skills in fast-paced competitive maps to earn SOL (70% of mint funds distributed). Check Troop's hub for information about every game event."
+              description="Cyber Ape Age has created 5 fully playable maps within the SANDBOX metaverse. Through our partnerships we have some of the best games available on the game maker, as seen by official map rankings after respective Game Jam's. Hone your skills in fast-paced competitive maps to earn SOL (70% of mint funds distributed). Check Troop's hub for information about every game event."
             />
             <div>
               <SignatureButton onClick={() => {}} isContrast accent="#5865F2">
