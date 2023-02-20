@@ -31,9 +31,15 @@ const Roadmap: NextPage = () => {
       />
       <RoadmapMilestone
         //buttonLinkUrl="/"
+        title="⍱◬"
+        description="Development of scalable long-term monetary utility with life time access to Cyber Apes. Integration for: $SOL, $DUST, $SAND, $HADES, $SAMO, $SPX500."
+        date="PHASE 5"
+      />
+      <RoadmapMilestone
+        //buttonLinkUrl="/"
         title="[REDACTED]"
         description="Cybera... SCYTALE... Portals... X.E.M.B.A... Ani..."
-        date="PHASE 5"
+        date="PHASE 6"
       />
     </RoadmapContainer>
   );
