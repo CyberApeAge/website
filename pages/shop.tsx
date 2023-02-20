@@ -21,7 +21,7 @@ const Home: NextPage<any> = ({ shopItems }) => {
             <h1>WELCOME TO TROOP&apos;S BAZAR!</h1>
             <p>
               Cyber Apes come here to do their shopping. This bazar sells goods from Cyber Ape
-              Age&apos;s ecosystem in change of $APE and $CYBER. Look around and buy/sell items as
+              Age&apos;s ecosystem in exchange for $APE and $USDC. Look around and buy items as
               you please.
             </p>
           </div>
