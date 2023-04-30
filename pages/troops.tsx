@@ -33,7 +33,7 @@ const Home: NextPage<any> = () => {
   const { open } = useContext(SuperModalContext);
 
   const onClickLockdown = () => {
-    /* router.push("/cyberlockdown");  */
+    router.push("/cyberlockdown");  
   };
 
   const onClickAstral = () => {
